@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>CoverPEAMakeup</key>
+		<string>CoverPEAMakeup0</string>
+		<key>TitleNamePEAMakeup</key>
+		<string>Soft Pink Romance</string>
+		<key>BriefPEAMakeup</key>
+		<string>Design a soft, romantic pink makeup.</string>
+		<key>partyPicsPEA</key>
+		<string>partyPicsPEA0</string>
+		<key>partyTitlePEA</key>
+		<string>Pink Petal</string>
+		<key>partyDetailPEA</key>
+		<string>The pink-infused makeup gives a delightful and pleasing look, enhancing one&apos;s charm and bringing a sense of happiness.</string>
+		<key>partyHeaderlPEA</key>
+		<string>partyPicsPEA0</string>
+		<key>partyUsernamerlPEA</key>
+		<string>Neao</string>
+	</dict>
+	<dict>
+		<key>CoverPEAMakeup</key>
+		<string>CoverPEAMakeup1</string>
+		<key>TitleNamePEAMakeup</key>
+		<string>Pink Power</string>
+		<key>BriefPEAMakeup</key>
+		<string>Make a bold and vibrant pink style.</string>
+		<key>partyPicsPEA</key>
+		<string>partyPicsPEA1</string>
+		<key>partyTitlePEA</key>
+		<string>Pink Glamor</string>
+		<key>partyDetailPEA</key>
+		<string>&quot;A makeup that is rich in pink elements, 
+creating a soft and charming effect, making
+the wearer look both sweet and attractive.&quot;</string>
+		<key>partyHeaderlPEA</key>
+		<string>partyPicsPEA1</string>
+		<key>partyUsernamerlPEA</key>
+		<string>Aiden</string>
+	</dict>
+	<dict>
+		<key>CoverPEAMakeup</key>
+		<string>CoverPEAMakeup2</string>
+		<key>TitleNamePEAMakeup</key>
+		<string>Pink Fantasy</string>
+		<key>BriefPEAMakeup</key>
+		<string>Build a unique pink look inspired by fantasies.</string>
+		<key>partyPicsPEA</key>
+		<string></string>
+		<key>partyTitlePEA</key>
+		<string></string>
+		<key>partyDetailPEA</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>CoverPEAMakeup</key>
+		<string>CoverPEAMakeup3</string>
+		<key>TitleNamePEAMakeup</key>
+		<string>Pink Elegance</string>
+		<key>BriefPEAMakeup</key>
+		<string>Craft an elegant pink makeup for formal events.</string>
+		<key>partyPicsPEA</key>
+		<string></string>
+		<key>partyTitlePEA</key>
+		<string></string>
+		<key>partyDetailPEA</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>CoverPEAMakeup</key>
+		<string>CoverPEAMakeup4</string>
+		<key>TitleNamePEAMakeup</key>
+		<string>Cute Pink</string>
+		<key>BriefPEAMakeup</key>
+		<string>Create an adorable and charming pink look.</string>
+		<key>partyPicsPEA</key>
+		<string></string>
+		<key>partyTitlePEA</key>
+		<string></string>
+		<key>partyDetailPEA</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>CoverPEAMakeup</key>
+		<string>CoverPEAMakeup5</string>
+		<key>TitleNamePEAMakeup</key>
+		<string>Pink Smoky</string>
+		<key>BriefPEAMakeup</key>
+		<string>Add a pink twist to the smoky eye.</string>
+		<key>partyPicsPEA</key>
+		<string></string>
+		<key>partyTitlePEA</key>
+		<string></string>
+		<key>partyDetailPEA</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

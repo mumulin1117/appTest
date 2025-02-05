@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PEAUPcsiaHemrChallengnng" customModule="PinkEarMawekeup" customModuleProvider="target">
+            <connections>
+                <outlet property="aishingPEA" destination="ioP-Pa-5RR" id="3y2-KE-DMX"/>
+                <outlet property="classicyTyupClickPEA" destination="Rri-qD-RMV" id="vUr-Gu-cd8"/>
+                <outlet property="foryouTyupClickPEA" destination="ml6-un-fYl" id="KWV-70-LyM"/>
+                <outlet property="genieTyupClickPEA" destination="C0i-MF-9XQ" id="Niy-yl-23T"/>
+                <outlet property="homeChangeViewPEA" destination="Uh7-n7-UEv" id="p2C-i9-iFa"/>
+                <outlet property="lightmakTyupClickPEA" destination="wA7-AN-F1T" id="onq-ME-Lk7"/>
+                <outlet property="pouplarTyupClickPEA" destination="Wih-8d-7Tg" id="7TZ-9K-hcJ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="440" height="956"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homePEAbg" translatesAutoresizingMaskIntoConstraints="NO" id="L4C-pX-MKm">
+                    <rect key="frame" x="0.0" y="0.0" width="440" height="956"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homecenterPEAbg" translatesAutoresizingMaskIntoConstraints="NO" id="54W-Gz-ePU">
+                    <rect key="frame" x="0.0" y="122" width="440" height="722"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5px-Gw-EST">
+                    <rect key="frame" x="12" y="728" width="89" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="gmZ-DL-nSc"/>
+                        <constraint firstAttribute="width" constant="89" id="lTw-J4-Gh0"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" backgroundImage="PinkPuPEAblish"/>
+                    <connections>
+                        <action selector="realiesrChangePEA:" destination="-1" eventType="touchUpInside" id="Nz4-vE-atm"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PcsiaTITLE" translatesAutoresizingMaskIntoConstraints="NO" id="yhf-f3-LYt">
+                    <rect key="frame" x="262" y="62" width="162" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="162" id="J9L-5U-tC0"/>
+                        <constraint firstAttribute="height" constant="60" id="NPC-1r-YGM"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ioP-Pa-5RR">
+                    <rect key="frame" x="12" y="815" width="416" height="95"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="95" id="vSc-4e-yAe"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" backgroundImage="homeAIPEAbg"/>
+                    <connections>
+                        <action selector="AiAvatoretNowingjumpPEA:" destination="-1" eventType="touchUpInside" id="o7O-Qq-SQj"/>
+                    </connections>
+                </button>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Uh7-n7-UEv">
+                    <rect key="frame" x="107" y="177" width="333" height="600"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="smC-IH-gFl">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wih-8d-7Tg">
+                    <rect key="frame" x="20" y="247" width="98" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="98" id="7Y2-jC-rmz"/>
+                        <constraint firstAttribute="height" constant="40" id="fvD-jU-llJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Popular">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <state key="selected" backgroundImage="pickdBghomeFEA"/>
+                    <connections>
+                        <action selector="changeHomeMakingupStyleTouchPEA:" destination="-1" eventType="touchUpInside" id="WOn-Wf-iNy"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1000" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ml6-un-fYl">
+                    <rect key="frame" x="20" y="197" width="98" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="1d8-cl-dcZ"/>
+                        <constraint firstAttribute="width" constant="98" id="Z3k-ph-zqf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="For you">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <state key="selected" backgroundImage="pickdBghomeFEA"/>
+                    <connections>
+                        <action selector="changeHomeMakingupStyleTouchPEA:" destination="-1" eventType="touchUpInside" id="2LC-D9-wan"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rri-qD-RMV">
+                    <rect key="frame" x="20" y="397" width="98" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="CgV-Iw-lq8"/>
+                        <constraint firstAttribute="width" constant="98" id="kef-I8-0Ol"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Classy">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <state key="selected" backgroundImage="pickdBghomeFEA"/>
+                    <connections>
+                        <action selector="changeHomeMakingupStyleTouchPEA:" destination="-1" eventType="touchUpInside" id="qb9-95-r0F"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1003" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wA7-AN-F1T">
+                    <rect key="frame" x="20" y="347" width="98" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="98" id="Lhm-ei-Frl"/>
+                        <constraint firstAttribute="height" constant="40" id="eGw-6U-Q28"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Light makeup">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <state key="selected" backgroundImage="pickdBghomeFEA"/>
+                    <connections>
+                        <action selector="changeHomeMakingupStyleTouchPEA:" destination="-1" eventType="touchUpInside" id="Rdk-JT-GAf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0i-MF-9XQ">
+                    <rect key="frame" x="20" y="297" width="98" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Cew-y5-BTh"/>
+                        <constraint firstAttribute="width" constant="98" id="sj6-B5-ogU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Genie">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <state key="selected" backgroundImage="pickdBghomeFEA"/>
+                    <connections>
+                        <action selector="changeHomeMakingupStyleTouchPEA:" destination="-1" eventType="touchUpInside" id="JEu-bv-iUh"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="54W-Gz-ePU" firstAttribute="top" secondItem="ml6-un-fYl" secondAttribute="top" constant="-75" id="1Yr-Vr-0CY"/>
+                <constraint firstItem="ioP-Pa-5RR" firstAttribute="top" secondItem="54W-Gz-ePU" secondAttribute="bottom" constant="-29" id="2bm-Qi-Ne0"/>
+                <constraint firstItem="ioP-Pa-5RR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="12" id="4tf-aX-ERq"/>
+                <constraint firstItem="ml6-un-fYl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="98H-tS-kT6"/>
+                <constraint firstAttribute="bottom" secondItem="L4C-pX-MKm" secondAttribute="bottom" id="Ato-mx-dJm"/>
+                <constraint firstItem="54W-Gz-ePU" firstAttribute="top" secondItem="yhf-f3-LYt" secondAttribute="bottom" id="HJW-8G-bKJ"/>
+                <constraint firstItem="L4C-pX-MKm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Kb8-pn-1wM"/>
+                <constraint firstItem="Uh7-n7-UEv" firstAttribute="bottom" secondItem="54W-Gz-ePU" secondAttribute="bottom" constant="-67" id="KpC-8v-nYV"/>
+                <constraint firstItem="L4C-pX-MKm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="LIH-JO-q3I"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="yhf-f3-LYt" secondAttribute="trailing" constant="16" id="OoB-gQ-nJq"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="ioP-Pa-5RR" secondAttribute="bottom" constant="12" id="PTp-wL-zOd"/>
+                <constraint firstItem="Rri-qD-RMV" firstAttribute="leading" secondItem="wA7-AN-F1T" secondAttribute="leading" id="QIm-hi-gdF"/>
+                <constraint firstItem="Wih-8d-7Tg" firstAttribute="leading" secondItem="ml6-un-fYl" secondAttribute="leading" id="XBf-hN-iDV"/>
+                <constraint firstItem="C0i-MF-9XQ" firstAttribute="leading" secondItem="Wih-8d-7Tg" secondAttribute="leading" id="Yv0-qc-CkJ"/>
+                <constraint firstItem="54W-Gz-ePU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="b3e-ZO-SkI"/>
+                <constraint firstItem="Wih-8d-7Tg" firstAttribute="top" secondItem="ml6-un-fYl" secondAttribute="bottom" constant="10" id="bqP-Xg-fM0"/>
+                <constraint firstItem="Rri-qD-RMV" firstAttribute="top" secondItem="wA7-AN-F1T" secondAttribute="bottom" constant="10" id="eIO-lr-y86"/>
+                <constraint firstItem="Uh7-n7-UEv" firstAttribute="leading" secondItem="ml6-un-fYl" secondAttribute="trailing" constant="-11" id="egP-nK-iNA"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Uh7-n7-UEv" secondAttribute="trailing" id="fDY-qY-o3W"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="54W-Gz-ePU" secondAttribute="trailing" id="gI2-Ll-YIW"/>
+                <constraint firstItem="5px-Gw-EST" firstAttribute="bottom" secondItem="54W-Gz-ePU" secondAttribute="bottom" constant="-80" id="pdA-pY-ofu"/>
+                <constraint firstItem="yhf-f3-LYt" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="q8R-7r-y9N"/>
+                <constraint firstItem="wA7-AN-F1T" firstAttribute="leading" secondItem="C0i-MF-9XQ" secondAttribute="leading" id="ryu-PR-ZBq"/>
+                <constraint firstItem="Uh7-n7-UEv" firstAttribute="top" secondItem="54W-Gz-ePU" secondAttribute="top" constant="55" id="uMI-Ps-NB9"/>
+                <constraint firstItem="54W-Gz-ePU" firstAttribute="leading" secondItem="5px-Gw-EST" secondAttribute="leading" constant="-12" id="uOL-ew-gJB"/>
+                <constraint firstItem="L4C-pX-MKm" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="uca-k3-pkV"/>
+                <constraint firstItem="C0i-MF-9XQ" firstAttribute="top" secondItem="Wih-8d-7Tg" secondAttribute="bottom" constant="10" id="vOb-C2-sLZ"/>
+                <constraint firstItem="wA7-AN-F1T" firstAttribute="top" secondItem="C0i-MF-9XQ" secondAttribute="bottom" constant="10" id="vy4-6D-th0"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ioP-Pa-5RR" secondAttribute="trailing" constant="12" id="wo3-YU-DCx"/>
+            </constraints>
+            <point key="canvasLocation" x="66.818181818181827" y="20.0836820083682"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="PcsiaTITLE" width="162" height="60"/>
+        <image name="PinkPuPEAblish" width="91" height="38"/>
+        <image name="homeAIPEAbg" width="350" height="95"/>
+        <image name="homePEAbg" width="375" height="812"/>
+        <image name="homecenterPEAbg" width="375" height="520"/>
+        <image name="pickdBghomeFEA" width="98" height="40"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PEAELUAChallengnng" customModule="PinkEarMawekeup" customModuleProvider="target">
+            <connections>
+                <outlet property="eluaPEATItleView" destination="QCe-On-HEo" id="DVQ-jQ-VSF"/>
+                <outlet property="texfViewPEA" destination="OJl-qX-Qng" id="rnO-bE-wcz"/>
+                <outlet property="userAViewPEA" destination="q5Y-qK-ShW" id="qAy-Jo-IK1"/>
+                <outlet property="userPriViewPEA" destination="ixk-KS-vWY" id="5X9-Fh-sB9"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lwT-8i-psT">
+                    <rect key="frame" x="24" y="107" width="345" height="641"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" ELUA for Pcsia" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QCe-On-HEo">
+                            <rect key="frame" x="102.00000000000001" y="27" width="141.33333333333337" height="24"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OJl-qX-Qng">
+                            <rect key="frame" x="19" y="66" width="307" height="482"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <string key="text">1. Agreement Acceptance
+﻿
+By installing and using the Pcsia application ("App"), you ("User") agree to be bound by the terms and conditions of this End User License Agreement ("Agreement"). If you do not agree to these terms, do not use the App.
+﻿
+2. License Grant
+﻿
+The App is licensed to you for personal, non-commercial use only. You may not copy, modify, distribute, sell, or lease any part of the App, nor may you reverse engineer or attempt to extract the source code of the App.
+﻿
+3. Content and Challenges
+﻿
+Users may publish and participate in pink makeup challenges. By doing so, you grant Pcsia a non-exclusive, royalty-free license to use, display, and distribute your content within the App. You are responsible for ensuring that your content complies with all applicable laws and regulations.
+﻿
+4. Personalized Avatar and Nickname
+﻿
+You may create a personalized avatar and nickname within the App. You are responsible for ensuring that your avatar and nickname do not violate any third-party rights or contain offensive or inappropriate content.
+﻿
+5. Termination
+﻿
+Pcsia may terminate this Agreement and your access to the App at any time for any reason, including but not limited to breach of this Agreement. Upon termination, you must cease all use of the App.
+﻿
+6. Governing Law
+﻿
+This Agreement is governed by the laws of [Country/Region], without regard to its conflict of law principles.</string>
+                            <color key="textColor" red="0.70196078431372544" green="0.70196078431372544" blue="0.70196078431372544" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C1r-oJ-FAd">
+                            <rect key="frame" x="216" y="574" width="90" height="42"/>
+                            <color key="backgroundColor" red="1" green="0.3411764705882353" blue="0.64313725490196072" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="90" id="5IY-mV-D5l"/>
+                                <constraint firstAttribute="height" constant="42" id="YBx-ZZ-k6l"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="I agree"/>
+                            <connections>
+                                <action selector="PeaAgreeBattle:" destination="-1" eventType="touchUpInside" id="jb8-jQ-C8E"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYL-Bg-J3S">
+                            <rect key="frame" x="39" y="574" width="90" height="42"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="42" id="Mif-Vq-V5M"/>
+                                <constraint firstAttribute="width" constant="90" id="eau-5v-Znm"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Cancle">
+                                <color key="titleColor" red="1" green="0.3411764706" blue="0.64313725489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="PeaCancelBattle:" destination="-1" eventType="touchUpInside" id="9bV-lu-8DX"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="C1r-oJ-FAd" secondAttribute="trailing" constant="39" id="30g-Jb-uF0"/>
+                        <constraint firstItem="QCe-On-HEo" firstAttribute="centerX" secondItem="lwT-8i-psT" secondAttribute="centerX" id="4ee-ns-uFh"/>
+                        <constraint firstItem="cYL-Bg-J3S" firstAttribute="leading" secondItem="lwT-8i-psT" secondAttribute="leading" constant="39" id="KQf-Ne-blN"/>
+                        <constraint firstAttribute="trailing" secondItem="OJl-qX-Qng" secondAttribute="trailing" constant="19" id="SJ5-cG-50h"/>
+                        <constraint firstItem="QCe-On-HEo" firstAttribute="top" secondItem="lwT-8i-psT" secondAttribute="top" constant="27" id="UBR-El-ymX"/>
+                        <constraint firstItem="cYL-Bg-J3S" firstAttribute="centerY" secondItem="C1r-oJ-FAd" secondAttribute="centerY" id="VJu-25-EH0"/>
+                        <constraint firstAttribute="bottom" secondItem="C1r-oJ-FAd" secondAttribute="bottom" constant="25" id="VkZ-Sa-egG"/>
+                        <constraint firstItem="C1r-oJ-FAd" firstAttribute="top" secondItem="OJl-qX-Qng" secondAttribute="bottom" constant="26" id="XsV-hh-dUK"/>
+                        <constraint firstItem="OJl-qX-Qng" firstAttribute="leading" secondItem="lwT-8i-psT" secondAttribute="leading" constant="19" id="lfM-RP-Ap0"/>
+                        <constraint firstItem="OJl-qX-Qng" firstAttribute="top" secondItem="QCe-On-HEo" secondAttribute="bottom" constant="15" id="udu-p5-BQ1"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ixk-KS-vWY">
+                    <rect key="frame" x="38" y="782" width="128" height="30"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Lrv-20-50c"/>
+                        <constraint firstAttribute="width" constant="128" id="PHH-Il-tbp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Privacy service">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="PeaPriserBattle:" destination="-1" eventType="touchUpInside" id="EwJ-14-FkF"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q5Y-qK-ShW">
+                    <rect key="frame" x="235" y="776" width="120" height="42"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="5PS-e6-id1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="User Agreement">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="userAPriserBattle:" destination="-1" eventType="touchUpInside" id="N7x-Zq-SlY"/>
+                    </connections>
+                </button>
+                <searchBar hidden="YES" userInteractionEnabled="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="WVI-zw-yCX">
+                    <rect key="frame" x="18" y="25" width="259" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Z1u-om-UOw"/>
+                        <constraint firstAttribute="width" constant="259" id="ds9-EU-QRU"/>
+                    </constraints>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+                <progressView hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="kgd-YV-i9x">
+                    <rect key="frame" x="18" y="121" width="259" height="4"/>
+                    <color key="backgroundColor" red="1" green="0.3411764706" blue="0.64313725489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </progressView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.72119472789115646" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="kgd-YV-i9x" firstAttribute="trailing" secondItem="WVI-zw-yCX" secondAttribute="trailing" id="7d9-zJ-j3A"/>
+                <constraint firstItem="lwT-8i-psT" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="48" id="8P9-Es-ylG"/>
+                <constraint firstItem="kgd-YV-i9x" firstAttribute="top" secondItem="WVI-zw-yCX" secondAttribute="bottom" constant="52" id="FcU-Ja-7Bx"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="lwT-8i-psT" secondAttribute="bottom" constant="70" id="SLp-dw-yw9"/>
+                <constraint firstItem="lwT-8i-psT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="SlI-Ci-ZIw"/>
+                <constraint firstItem="kgd-YV-i9x" firstAttribute="leading" secondItem="WVI-zw-yCX" secondAttribute="leading" id="b7v-VQ-ylA"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="q5Y-qK-ShW" secondAttribute="trailing" constant="38" id="bCG-Gc-s3q"/>
+                <constraint firstItem="q5Y-qK-ShW" firstAttribute="height" secondItem="ixk-KS-vWY" secondAttribute="height" multiplier="1.4" id="ckn-XJ-qLj"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="lwT-8i-psT" secondAttribute="trailing" constant="24" id="dtb-Rb-EAT"/>
+                <constraint firstItem="WVI-zw-yCX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="18" id="fxA-En-APw"/>
+                <constraint firstItem="kgd-YV-i9x" firstAttribute="top" secondItem="WVI-zw-yCX" secondAttribute="bottom" constant="52" id="gSg-3T-Tod"/>
+                <constraint firstItem="WVI-zw-yCX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="25" id="kNK-VB-mlj"/>
+                <constraint firstItem="ixk-KS-vWY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="38" id="pFS-Z1-Feh"/>
+                <constraint firstItem="q5Y-qK-ShW" firstAttribute="centerY" secondItem="ixk-KS-vWY" secondAttribute="centerY" id="q85-Lw-Z8z"/>
+                <constraint firstItem="kgd-YV-i9x" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="18" id="uMm-WX-hZk"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="ixk-KS-vWY" secondAttribute="bottom" constant="6" id="zKX-Cr-WtI"/>
+            </constraints>
+            <point key="canvasLocation" x="58.778625954198468" y="20.422535211267608"/>
+        </view>
+    </objects>
+</document>

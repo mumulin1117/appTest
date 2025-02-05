@@ -1,0 +1,87 @@
+PODS:
+  - Alamofire (5.10.0)
+  - CDAlertView (0.11.0)
+  - FBAEMKit (17.4.0):
+    - FBSDKCoreKit_Basics (= 17.4.0)
+  - FBSDKCoreKit (17.4.0):
+    - FBAEMKit (= 17.4.0)
+    - FBSDKCoreKit_Basics (= 17.4.0)
+  - FBSDKCoreKit_Basics (17.4.0)
+  - IQKeyboardManager (6.5.19)
+  - JXBanner (0.3.6):
+    - JXBanner/Banner (= 0.3.6)
+    - JXBanner/PageControl (= 0.3.6)
+  - JXBanner/Banner (0.3.6):
+    - JXBanner/Banner/API (= 0.3.6)
+    - JXBanner/Banner/Banner (= 0.3.6)
+    - JXBanner/Banner/Cell (= 0.3.6)
+    - JXBanner/Banner/Common (= 0.3.6)
+    - JXBanner/Banner/Transform (= 0.3.6)
+  - JXBanner/Banner/API (0.3.6):
+    - JXBanner/Banner/Cell
+    - JXBanner/PageControl
+  - JXBanner/Banner/Banner (0.3.6):
+    - JXBanner/Banner/API
+    - JXBanner/Banner/Common
+    - JXBanner/Banner/Transform
+  - JXBanner/Banner/Cell (0.3.6)
+  - JXBanner/Banner/Common (0.3.6)
+  - JXBanner/Banner/Transform (0.3.6):
+    - JXBanner/Banner/API
+  - JXBanner/PageControl (0.3.6):
+    - JXPageControl
+  - JXPageControl (0.1.5):
+    - JXPageControl/Common (= 0.1.5)
+    - JXPageControl/Jump (= 0.1.5)
+    - JXPageControl/Transform (= 0.1.5)
+  - JXPageControl/Common (0.1.5)
+  - JXPageControl/Jump (0.1.5):
+    - JXPageControl/Common
+  - JXPageControl/Transform (0.1.5):
+    - JXPageControl/Common
+  - SnapKit (5.7.1)
+  - SVProgressHUD (2.3.1):
+    - SVProgressHUD/Core (= 2.3.1)
+  - SVProgressHUD/Core (2.3.1)
+  - SwiftyStoreKit (0.16.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - CDAlertView
+  - FBSDKCoreKit
+  - IQKeyboardManager
+  - JXBanner
+  - SnapKit
+  - SVProgressHUD
+  - SwiftyStoreKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CDAlertView
+    - FBAEMKit
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - IQKeyboardManager
+    - JXBanner
+    - JXPageControl
+    - SnapKit
+    - SVProgressHUD
+    - SwiftyStoreKit
+
+SPEC CHECKSUMS:
+  Alamofire: cd0b98508df05796dd2ff278f3bb055a631b5390
+  CDAlertView: cd6624e857c85ad14560e2cd23d7eb25b983b590
+  FBAEMKit: 58cb5f302cdd715a56d4c1d0dfdd2e423ac1421a
+  FBSDKCoreKit: 94d7461d0cecf441b1ba7c41acfff41daa8ccd41
+  FBSDKCoreKit_Basics: 151b43db8b834d3f0e02f95d36a44ffd36265e45
+  IQKeyboardManager: c8665b3396bd0b79402b4c573eac345a31c7d485
+  JXBanner: 348dbef856e786494cbf30fb45d6b84826f2d3c5
+  JXPageControl: e9487b39e2e58fc17790833214f3b8e935bef98b
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
+  SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
+
+PODFILE CHECKSUM: a18c2d285d7c7895617ab074327527dfcc7f7779
+
+COCOAPODS: 1.16.2

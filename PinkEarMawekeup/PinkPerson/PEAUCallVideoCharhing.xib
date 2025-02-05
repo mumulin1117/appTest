@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PEAUCallVideoCharhing" customModule="PinkEarMawekeup" customModuleProvider="target">
+            <connections>
+                <outlet property="hisAvorterPEA" destination="lJn-V3-hNY" id="WG1-bx-5Y9"/>
+                <outlet property="minHolderVoewPEA" destination="nzX-pL-gTf" id="OKQ-Eg-cuL"/>
+                <outlet property="seeingnamePEAlbl" destination="tOq-cO-fKb" id="lYY-Sy-Wfd"/>
+                <outlet property="view" destination="IIh-cX-5dS" id="hf0-N8-Knx"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="IIh-cX-5dS">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lJn-V3-hNY">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HHHHH" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tOq-cO-fKb">
+                    <rect key="frame" x="162" y="34" width="51" height="16"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="1000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L1e-9I-brz">
+                    <rect key="frame" x="282.5" y="570" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="Y5g-fX-mso"/>
+                        <constraint firstAttribute="height" constant="60" id="aL6-CY-905"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="PEAHangde"/>
+                    <connections>
+                        <action selector="nopermissstionPERA:" destination="-1" eventType="touchUpInside" id="BLe-ra-Igp"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydY-pO-CnE">
+                    <rect key="frame" x="112.5" y="570" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="RQa-tM-KeE"/>
+                        <constraint firstAttribute="height" constant="60" id="lPn-uP-Qqu"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="PEAvoiceclode"/>
+                    <connections>
+                        <action selector="nopermissstionPERA:" destination="-1" eventType="touchUpInside" id="2DL-a1-CZh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Np8-s7-2wA">
+                    <rect key="frame" x="32.5" y="570" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="BEd-xG-d4I"/>
+                        <constraint firstAttribute="height" constant="60" id="Pnx-VL-Tk9"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="PEAswitchode"/>
+                    <connections>
+                        <action selector="nopermissstionPERA:" destination="-1" eventType="touchUpInside" id="2RC-AH-hB8"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sbt-mg-2Ri">
+                    <rect key="frame" x="12" y="30" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="24" id="AKm-pE-7i8"/>
+                        <constraint firstAttribute="height" constant="24" id="pir-wu-gR2"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="PEAwahiteback"/>
+                    <connections>
+                        <action selector="backPagePEAchn:" destination="-1" eventType="touchUpInside" id="32T-Ng-txT"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TrP-3g-07G">
+                    <rect key="frame" x="339" y="30" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="24" id="dGa-eh-MKG"/>
+                        <constraint firstAttribute="height" constant="24" id="fgp-tZ-5eI"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="PEAreopport"/>
+                    <connections>
+                        <action selector="reporthangePagePEAchn:" destination="-1" eventType="touchUpInside" id="QG2-Ik-0Ln"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kpO-wO-R1R">
+                    <rect key="frame" x="202.5" y="570" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="YLt-rT-mjo"/>
+                        <constraint firstAttribute="height" constant="60" id="e4O-7P-tqn"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="PEAvideoclode"/>
+                    <connections>
+                        <action selector="nopermissstionPERA:" destination="-1" eventType="touchUpInside" id="2yW-ul-EeG"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nzX-pL-gTf">
+                    <rect key="frame" x="227" y="90" width="136" height="168"/>
+                    <color key="backgroundColor" red="1" green="0.3411764706" blue="0.64313725489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="136" id="9nn-Qs-C4I"/>
+                        <constraint firstAttribute="height" constant="168" id="HgI-we-tmn"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connecting...." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qBT-ts-p1U">
+                    <rect key="frame" x="141" y="514" width="93" height="16"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <searchBar hidden="YES" userInteractionEnabled="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Gih-uK-czk">
+                    <rect key="frame" x="58" y="311" width="259" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="de5-9d-7Ks"/>
+                        <constraint firstAttribute="width" constant="259" id="ghP-DK-DxK"/>
+                    </constraints>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="i0N-pm-7pL"/>
+                    </connections>
+                </searchBar>
+                <progressView hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="9SK-Bu-rD0">
+                    <rect key="frame" x="58" y="407" width="259" height="4"/>
+                    <color key="backgroundColor" red="1" green="0.3411764706" blue="0.64313725489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </progressView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Y10-za-NsH"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Y10-za-NsH" firstAttribute="bottom" secondItem="Np8-s7-2wA" secondAttribute="bottom" constant="37" id="07b-as-zj5"/>
+                <constraint firstItem="9SK-Bu-rD0" firstAttribute="top" secondItem="Gih-uK-czk" secondAttribute="bottom" constant="52" id="DFX-tj-1er"/>
+                <constraint firstItem="Y10-za-NsH" firstAttribute="trailing" secondItem="TrP-3g-07G" secondAttribute="trailing" constant="12" id="F55-kX-oNP"/>
+                <constraint firstItem="tOq-cO-fKb" firstAttribute="centerX" secondItem="IIh-cX-5dS" secondAttribute="centerX" id="GPh-FT-E4R"/>
+                <constraint firstItem="kpO-wO-R1R" firstAttribute="bottom" secondItem="Np8-s7-2wA" secondAttribute="bottom" id="JmK-m5-B73"/>
+                <constraint firstItem="qBT-ts-p1U" firstAttribute="centerX" secondItem="IIh-cX-5dS" secondAttribute="centerX" id="Mgf-nh-koE"/>
+                <constraint firstItem="lJn-V3-hNY" firstAttribute="bottom" secondItem="IIh-cX-5dS" secondAttribute="bottom" id="NHn-Uc-Ymb"/>
+                <constraint firstItem="L1e-9I-brz" firstAttribute="bottom" secondItem="Np8-s7-2wA" secondAttribute="bottom" id="PtM-wf-QWN"/>
+                <constraint firstItem="lJn-V3-hNY" firstAttribute="top" secondItem="IIh-cX-5dS" secondAttribute="top" id="QWc-a0-Cj7"/>
+                <constraint firstItem="tOq-cO-fKb" firstAttribute="centerY" secondItem="Sbt-mg-2Ri" secondAttribute="centerY" id="Rsu-3Z-XHH"/>
+                <constraint firstItem="lJn-V3-hNY" firstAttribute="trailing" secondItem="Y10-za-NsH" secondAttribute="trailing" id="Tcm-C2-6if"/>
+                <constraint firstItem="kpO-wO-R1R" firstAttribute="leading" secondItem="ydY-pO-CnE" secondAttribute="trailing" constant="30" id="U0B-83-LwV"/>
+                <constraint firstItem="TrP-3g-07G" firstAttribute="centerY" secondItem="Sbt-mg-2Ri" secondAttribute="centerY" id="WCu-5H-8Ew"/>
+                <constraint firstItem="Sbt-mg-2Ri" firstAttribute="leading" secondItem="Y10-za-NsH" secondAttribute="leading" constant="12" id="a1Y-ev-Gxp"/>
+                <constraint firstItem="ydY-pO-CnE" firstAttribute="bottom" secondItem="Np8-s7-2wA" secondAttribute="bottom" id="dPE-37-uSC"/>
+                <constraint firstItem="Sbt-mg-2Ri" firstAttribute="top" secondItem="Y10-za-NsH" secondAttribute="top" constant="10" id="eoh-b4-pnj"/>
+                <constraint firstItem="Y10-za-NsH" firstAttribute="trailing" secondItem="nzX-pL-gTf" secondAttribute="trailing" constant="12" id="fIp-sa-1mZ"/>
+                <constraint firstAttribute="centerX" secondItem="ydY-pO-CnE" secondAttribute="trailing" constant="15" id="gu5-ha-as4"/>
+                <constraint firstItem="9SK-Bu-rD0" firstAttribute="trailing" secondItem="Gih-uK-czk" secondAttribute="trailing" id="nMH-cB-V8N"/>
+                <constraint firstItem="nzX-pL-gTf" firstAttribute="top" secondItem="TrP-3g-07G" secondAttribute="bottom" constant="36" id="qBF-4C-uIb"/>
+                <constraint firstItem="L1e-9I-brz" firstAttribute="leading" secondItem="kpO-wO-R1R" secondAttribute="trailing" constant="20" id="qdO-dT-WwM"/>
+                <constraint firstItem="Gih-uK-czk" firstAttribute="top" secondItem="nzX-pL-gTf" secondAttribute="bottom" constant="53" id="qfG-W2-col"/>
+                <constraint firstItem="9SK-Bu-rD0" firstAttribute="leading" secondItem="Gih-uK-czk" secondAttribute="leading" id="u6q-lb-8Cu"/>
+                <constraint firstItem="ydY-pO-CnE" firstAttribute="leading" secondItem="Np8-s7-2wA" secondAttribute="trailing" constant="20" id="yq9-eK-4PH"/>
+                <constraint firstItem="Gih-uK-czk" firstAttribute="centerX" secondItem="IIh-cX-5dS" secondAttribute="centerX" id="z5G-4z-wcl"/>
+                <constraint firstItem="lJn-V3-hNY" firstAttribute="leading" secondItem="Y10-za-NsH" secondAttribute="leading" id="zQ3-mB-ri8"/>
+                <constraint firstItem="ydY-pO-CnE" firstAttribute="top" secondItem="qBT-ts-p1U" secondAttribute="bottom" constant="40" id="zbF-oB-nTw"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="-26.53673163418291"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="PEAHangde" width="60" height="60"/>
+        <image name="PEAreopport" width="24" height="24"/>
+        <image name="PEAswitchode" width="60" height="60"/>
+        <image name="PEAvideoclode" width="60" height="60"/>
+        <image name="PEAvoiceclode" width="60" height="60"/>
+        <image name="PEAwahiteback" width="24" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

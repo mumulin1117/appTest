@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb1163906758410614</string>
+			</array>
+		</dict>
+	</array>
+	<key>FacebookAdvertiserIDCollectionEnabled
+</key>
+	<true/>
+	<key>FacebookAppID</key>
+	<string>1163906758410614</string>
+	<key>FacebookAutoLogAppEventsEnabled</key>
+	<true/>
+	<key>FacebookClientToken</key>
+	<string>b7a6005253d551cea34c941a49712c86</string>
+	<key>FacebookDisplayName</key>
+	<string>Pcsia</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>alipay</string>
+		<string>wechat</string>
+		<string>fb</string>
+		<string>instagram</string>
+		<string>twitter</string>
+		<string>tiktok</string>
+		<string>tweetie</string>
+		<string>mqq</string>
+		<string>comgooglemaps</string>
+		<string>whatsapp</string>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+</dict>
+</plist>
