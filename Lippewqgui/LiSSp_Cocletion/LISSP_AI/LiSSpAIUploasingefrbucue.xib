@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LiSSpAIUploasingefrbucue" customModule="Lippewqgui" customModuleProvider="target">
+            <connections>
+                <outlet property="ChokenSSIP" destination="lcm-XF-KWh" id="cJ3-dg-SlT"/>
+                <outlet property="sureaddINgLIPSS" destination="FLz-Ic-MSy" id="P0c-x4-2kv"/>
+                <outlet property="takeColIconLIPSS" destination="aCX-LY-u5r" id="841-TV-iEd"/>
+                <outlet property="view" destination="jXQ-qs-9bY" id="W6i-ii-fsz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="jXQ-qs-9bY">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SSip_AIBG" translatesAutoresizingMaskIntoConstraints="NO" id="VPs-3e-HMA">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FLz-Ic-MSy">
+                    <rect key="frame" x="94.666666666666686" y="734" width="204" height="54"/>
+                    <color key="backgroundColor" red="0.91764705879999997" green="0.1647058824" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="204" id="3Up-Is-ttQ"/>
+                        <constraint firstAttribute="height" constant="54" id="tJV-qn-uy2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Upload"/>
+                    <connections>
+                        <action selector="surestareAiUpload:" destination="-1" eventType="touchUpInside" id="rtV-NI-58P"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lcm-XF-KWh">
+                    <rect key="frame" x="17" y="63" width="28" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="8D3-R8-hxR"/>
+                        <constraint firstAttribute="width" constant="28" id="Smb-ZA-och"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="LiSSpback"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aCX-LY-u5r">
+                    <rect key="frame" x="25" y="307" width="343" height="367"/>
+                    <color key="backgroundColor" systemColor="systemGray4Color"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="geginTakePost"/>
+                    <connections>
+                        <action selector="stakwingToArtsee:" destination="-1" eventType="touchUpInside" id="Xvp-nq-5s6"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jingliangupimg_g" translatesAutoresizingMaskIntoConstraints="NO" id="mfB-Gd-frb">
+                    <rect key="frame" x="0.0" y="95" width="393" height="146"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="146" id="vHB-HO-8fe"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Upload the photo of your collection" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rSj-7k-VJk">
+                    <rect key="frame" x="113" y="178.66666666666666" width="240" height="38.333333333333343"/>
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="bJQ-g8-eNf"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="VPs-3e-HMA" secondAttribute="bottom" id="09y-pm-cxp"/>
+                <constraint firstItem="FLz-Ic-MSy" firstAttribute="top" secondItem="aCX-LY-u5r" secondAttribute="bottom" constant="60" id="4MQ-Bf-Qcc"/>
+                <constraint firstItem="bJQ-g8-eNf" firstAttribute="bottom" secondItem="FLz-Ic-MSy" secondAttribute="bottom" constant="30" id="7KW-UF-MG3"/>
+                <constraint firstItem="VPs-3e-HMA" firstAttribute="top" secondItem="jXQ-qs-9bY" secondAttribute="top" id="L7d-Jq-JXf"/>
+                <constraint firstItem="lcm-XF-KWh" firstAttribute="leading" secondItem="bJQ-g8-eNf" secondAttribute="leading" constant="17" id="LH6-Go-qky"/>
+                <constraint firstItem="aCX-LY-u5r" firstAttribute="leading" secondItem="bJQ-g8-eNf" secondAttribute="leading" constant="25" id="MN3-00-paY"/>
+                <constraint firstItem="lcm-XF-KWh" firstAttribute="top" secondItem="bJQ-g8-eNf" secondAttribute="top" constant="4" id="S7B-Lo-qcC"/>
+                <constraint firstItem="VPs-3e-HMA" firstAttribute="leading" secondItem="bJQ-g8-eNf" secondAttribute="leading" id="Uom-h8-oyp"/>
+                <constraint firstItem="bJQ-g8-eNf" firstAttribute="trailing" secondItem="aCX-LY-u5r" secondAttribute="trailing" constant="25" id="ViW-qZ-BmK"/>
+                <constraint firstItem="rSj-7k-VJk" firstAttribute="leading" secondItem="bJQ-g8-eNf" secondAttribute="leading" constant="113" id="aMm-5E-wiA"/>
+                <constraint firstItem="mfB-Gd-frb" firstAttribute="leading" secondItem="bJQ-g8-eNf" secondAttribute="leading" id="dSS-Kj-G7W"/>
+                <constraint firstItem="aCX-LY-u5r" firstAttribute="top" secondItem="mfB-Gd-frb" secondAttribute="bottom" constant="66" id="kP4-7F-ilI"/>
+                <constraint firstItem="rSj-7k-VJk" firstAttribute="bottom" secondItem="mfB-Gd-frb" secondAttribute="bottom" constant="-24" id="kbB-p2-4RG"/>
+                <constraint firstItem="VPs-3e-HMA" firstAttribute="trailing" secondItem="bJQ-g8-eNf" secondAttribute="trailing" id="kcB-sH-sVF"/>
+                <constraint firstItem="bJQ-g8-eNf" firstAttribute="trailing" secondItem="rSj-7k-VJk" secondAttribute="trailing" constant="40" id="n1j-b8-udY"/>
+                <constraint firstItem="bJQ-g8-eNf" firstAttribute="trailing" secondItem="mfB-Gd-frb" secondAttribute="trailing" id="rx6-Gz-so7"/>
+                <constraint firstItem="mfB-Gd-frb" firstAttribute="top" secondItem="lcm-XF-KWh" secondAttribute="bottom" constant="4" id="tRq-tp-2QU"/>
+                <constraint firstItem="FLz-Ic-MSy" firstAttribute="centerX" secondItem="jXQ-qs-9bY" secondAttribute="centerX" id="tia-gz-pUy"/>
+            </constraints>
+            <point key="canvasLocation" x="139.69465648854961" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LiSSpback" width="28" height="28"/>
+        <image name="SSip_AIBG" width="375" height="812"/>
+        <image name="geginTakePost" width="88" height="88"/>
+        <image name="jingliangupimg_g" width="375" height="146"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A3247698-2FF1-4580-B8AB-E53C00003345"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EE1012DB-AF25-43ED-90DF-26555924A4FD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Lippewqgui/LiSSpBucueTruber.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1114"
+            endingLineNumber = "1114"
+            landmarkName = "huaaaayIkanalyLisp()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EE1012DB-AF25-43ED-90DF-26555924A4FD - dbadccf168f78c77"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Lippewqgui.LiSSpBucueTruber.huaaaayIkanalyLisp() -&gt; ()"
+                  moduleName = "Lippewqgui.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Documents/Lippa/Lippewqgui/LiSSpBucueTruber.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1114"
+                  endingLineNumber = "1114">
+               </Location>
+               <Location
+                  uuid = "EE1012DB-AF25-43ED-90DF-26555924A4FD - 85d2b8d271fed694"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, Swift.Error&gt;) -&gt; () in Lippewqgui.LiSSpBucueTruber.huaaaayIkanalyLisp() -&gt; ()"
+                  moduleName = "Lippewqgui.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Documents/Lippa/Lippewqgui/LiSSpBucueTruber.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1115"
+                  endingLineNumber = "1115">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

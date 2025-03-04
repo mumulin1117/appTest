@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LiSSpPostColtomrbucue" customModule="Lippewqgui" customModuleProvider="target">
+            <connections>
+                <outlet property="ChokenSSIP" destination="Q6C-mc-dE2" id="eud-ea-Wkq"/>
+                <outlet property="sedescribitTextView" destination="NWn-pq-8cy" id="S6B-rN-9Vl"/>
+                <outlet property="sureaddINgLIPSS" destination="iQl-2B-nnr" id="d5s-hp-mvV"/>
+                <outlet property="takeColIconLIPSS" destination="N9v-OZ-ncQ" id="CIk-XM-Zc2"/>
+                <outlet property="view" destination="kNf-dz-14T" id="cbi-bX-AKA"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="kNf-dz-14T">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lipssbg" translatesAutoresizingMaskIntoConstraints="NO" id="2fb-Sf-3ev">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Upload your Collection" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OpL-cb-7jE">
+                    <rect key="frame" x="108.00000000000001" y="66.666666666666671" width="177.33333333333337" height="21"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iQl-2B-nnr">
+                    <rect key="frame" x="94.666666666666686" y="734" width="204" height="54"/>
+                    <color key="backgroundColor" red="0.91764705879999997" green="0.1647058824" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="0zT-LZ-vj5"/>
+                        <constraint firstAttribute="width" constant="204" id="rjR-5S-PdC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="ADD"/>
+                    <connections>
+                        <action selector="surestareAiUpload:" destination="-1" eventType="touchUpInside" id="jWF-cq-eaQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q6C-mc-dE2">
+                    <rect key="frame" x="17" y="63" width="28" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="oTS-Rm-fpO"/>
+                        <constraint firstAttribute="width" constant="28" id="ubZ-YH-xlR"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="LiSSpback"/>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Describ it:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NWn-pq-8cy">
+                    <rect key="frame" x="24" y="327" width="345" height="383"/>
+                    <color key="backgroundColor" red="0.035294117647058823" green="0.26666666666666666" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9v-OZ-ncQ">
+                    <rect key="frame" x="124.66666666666669" y="129" width="144" height="174"/>
+                    <color key="backgroundColor" systemColor="systemGray4Color"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="144" id="GMd-Xd-fBU"/>
+                        <constraint firstAttribute="height" constant="174" id="nxi-06-dYF"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="geginTakePost"/>
+                    <connections>
+                        <action selector="stakwingToArtsee:" destination="-1" eventType="touchUpInside" id="Pvs-9O-pFc"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="dz6-uB-uaD"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="N9v-OZ-ncQ" firstAttribute="top" secondItem="Q6C-mc-dE2" secondAttribute="bottom" constant="38" id="1pU-sE-yfS"/>
+                <constraint firstItem="2fb-Sf-3ev" firstAttribute="leading" secondItem="dz6-uB-uaD" secondAttribute="leading" id="5dX-dm-1ak"/>
+                <constraint firstItem="iQl-2B-nnr" firstAttribute="centerX" secondItem="kNf-dz-14T" secondAttribute="centerX" id="6UI-ev-KyL"/>
+                <constraint firstItem="NWn-pq-8cy" firstAttribute="top" secondItem="N9v-OZ-ncQ" secondAttribute="bottom" constant="24" id="9C1-IK-Aau"/>
+                <constraint firstItem="OpL-cb-7jE" firstAttribute="centerX" secondItem="kNf-dz-14T" secondAttribute="centerX" id="Nu8-UG-2Re"/>
+                <constraint firstItem="2fb-Sf-3ev" firstAttribute="trailing" secondItem="dz6-uB-uaD" secondAttribute="trailing" id="XDZ-v7-BIM"/>
+                <constraint firstItem="NWn-pq-8cy" firstAttribute="leading" secondItem="dz6-uB-uaD" secondAttribute="leading" constant="24" id="dQN-7y-VCC"/>
+                <constraint firstItem="OpL-cb-7jE" firstAttribute="centerY" secondItem="Q6C-mc-dE2" secondAttribute="centerY" id="dfz-k4-G2Q"/>
+                <constraint firstItem="2fb-Sf-3ev" firstAttribute="top" secondItem="kNf-dz-14T" secondAttribute="top" id="gd1-1o-Cti"/>
+                <constraint firstItem="Q6C-mc-dE2" firstAttribute="leading" secondItem="dz6-uB-uaD" secondAttribute="leading" constant="17" id="jIv-Ny-HR9"/>
+                <constraint firstItem="Q6C-mc-dE2" firstAttribute="top" secondItem="dz6-uB-uaD" secondAttribute="top" constant="4" id="qSx-f9-Q9T"/>
+                <constraint firstItem="dz6-uB-uaD" firstAttribute="trailing" secondItem="NWn-pq-8cy" secondAttribute="trailing" constant="24" id="sFr-pw-DtG"/>
+                <constraint firstAttribute="bottom" secondItem="2fb-Sf-3ev" secondAttribute="bottom" id="sTs-nS-vrN"/>
+                <constraint firstItem="N9v-OZ-ncQ" firstAttribute="centerX" secondItem="kNf-dz-14T" secondAttribute="centerX" id="tBS-Yi-Sbr"/>
+                <constraint firstItem="dz6-uB-uaD" firstAttribute="bottom" secondItem="iQl-2B-nnr" secondAttribute="bottom" constant="30" id="u6e-6N-DYB"/>
+                <constraint firstItem="iQl-2B-nnr" firstAttribute="top" secondItem="NWn-pq-8cy" secondAttribute="bottom" constant="24" id="vCZ-39-hAE"/>
+            </constraints>
+            <point key="canvasLocation" x="139.69465648854961" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LiSSpback" width="28" height="28"/>
+        <image name="geginTakePost" width="88" height="88"/>
+        <image name="lipssbg" width="375" height="812"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
