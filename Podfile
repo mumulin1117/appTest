@@ -1,19 +1,20 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'Lippewqgui' do
+target 'derSooberbder' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for Lippewqgui
-
+  # Pods for derSooberbder
 pod 'SnapKit'
-pod 'SwiftMessages'
 pod 'IQKeyboardManager'
-pod 'FBSDKCoreKit'
 pod 'SwiftyStoreKit'
-pod 'Alamofire'
 
+pod 'Toast-Swift'
+pod 'NVActivityIndicatorView'
+pod "Pastel"
+pod 'FBSDKCoreKit'
+pod 'Alamofire'
 end
 post_install do |installer_representation|
 installer_representation.pods_project.targets.each do |target|

@@ -99,7 +99,7 @@ public final class DataStreamRequest: Request, @unchecked Sendable {
         /// Handler for any `HTTPURLResponse`s received.
         var httpResponseHandler: (queue: DispatchQueue,
                                   handler: @Sendable (_ response: HTTPURLResponse,
-                                                      _ completionHandler: @escaping @Sendable (ResponseDisposition) -> Void) -> Void)?
+                                                      _ completionHandler: @Sendable @escaping (ResponseDisposition) -> Void) -> Void)?
     }
 
     let streamMutableState = Protected(StreamMutableState())
@@ -168,7 +168,7 @@ public final class DataStreamRequest: Request, @unchecked Sendable {
         }
     }
 
-    func didReceiveResponse(_ response: HTTPURLResponse, completionHandler: @escaping @Sendable (URLSession.ResponseDisposition) -> Void) {
+    func didReceiveResponse(_ response: HTTPURLResponse, completionHandler: @Sendable @escaping (URLSession.ResponseDisposition) -> Void) {
         streamMutableState.read { dataMutableState in
             guard let httpResponseHandler = dataMutableState.httpResponseHandler else {
                 underlyingQueue.async { completionHandler(.allow) }
@@ -199,7 +199,7 @@ public final class DataStreamRequest: Request, @unchecked Sendable {
     /// - Returns:              The `DataStreamRequest`.
     @discardableResult
     public func validate(_ validation: @escaping Validation) -> Self {
-        let validator: @Sendable () -> Void = { [unowned self] in
+        let validator: () -> Void = { [unowned self] in
             guard error == nil, let response else { return }
 
             let result = validation(request, response)
@@ -258,8 +258,8 @@ public final class DataStreamRequest: Request, @unchecked Sendable {
     @discardableResult
     public func onHTTPResponse(
         on queue: DispatchQueue = .main,
-        perform handler: @escaping @Sendable (_ response: HTTPURLResponse,
-                                              _ completionHandler: @escaping @Sendable (ResponseDisposition) -> Void) -> Void
+        perform handler: @Sendable @escaping (_ response: HTTPURLResponse,
+                                              _ completionHandler: @Sendable @escaping (ResponseDisposition) -> Void) -> Void
     ) -> Self {
         streamMutableState.write { mutableState in
             mutableState.httpResponseHandler = (queue, handler)
@@ -278,7 +278,7 @@ public final class DataStreamRequest: Request, @unchecked Sendable {
     @preconcurrency
     @discardableResult
     public func onHTTPResponse(on queue: DispatchQueue = .main,
-                               perform handler: @escaping @Sendable (HTTPURLResponse) -> Void) -> Self {
+                               perform handler: @Sendable @escaping (HTTPURLResponse) -> Void) -> Self {
         onHTTPResponse(on: queue) { response, completionHandler in
             handler(response)
             completionHandler(.allow)

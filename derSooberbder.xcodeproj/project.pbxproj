@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047218922D7008080028B44D /* DSORlaiunchFairyTale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047218912D7008080028B44D /* DSORlaiunchFairyTale.swift */; };
+		0478A19C2D32020F00468CF3 /* DSORAiChatFailrTale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478A19A2D32020F00468CF3 /* DSORAiChatFailrTale.swift */; };
+		0478A19D2D32020F00468CF3 /* DSORAiChatFailrTale.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0478A19B2D32020F00468CF3 /* DSORAiChatFailrTale.xib */; };
+		0478A1A02D3205A300468CF3 /* DSORAiPayAlertFailrTale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478A19E2D3205A300468CF3 /* DSORAiPayAlertFailrTale.swift */; };
+		0478A1A12D3205A300468CF3 /* DSORAiPayAlertFailrTale.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0478A19F2D3205A300468CF3 /* DSORAiPayAlertFailrTale.xib */; };
+		0478A1A32D3209D200468CF3 /* DSORAiChetinCev.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478A1A22D3209D200468CF3 /* DSORAiChetinCev.swift */; };
+		0478A1A62D320C2A00468CF3 /* DSORMesglistCevFairyTale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478A1A52D320C2A00468CF3 /* DSORMesglistCevFairyTale.swift */; };
+		0478A1A92D320C4D00468CF3 /* DSORMesgTompCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478A1A72D320C4D00468CF3 /* DSORMesgTompCell.swift */; };
+		0478A1AD2D320CFC00468CF3 /* DSORMesgChalisCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478A1AB2D320CFC00468CF3 /* DSORMesgChalisCell.swift */; };
+		0478A1AE2D320CFC00468CF3 /* DSORMesgChalisCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0478A1AC2D320CFC00468CF3 /* DSORMesgChalisCell.xib */; };
+		0478A1B12D320EAF00468CF3 /* DSORChatuserFairtale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478A1AF2D320EAF00468CF3 /* DSORChatuserFairtale.swift */; };
+		0478A1B22D320EAF00468CF3 /* DSORChatuserFairtale.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0478A1B02D320EAF00468CF3 /* DSORChatuserFairtale.xib */; };
+		0478A1B52D3210D700468CF3 /* DSORVVedroserFairtale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478A1B32D3210D700468CF3 /* DSORVVedroserFairtale.swift */; };
+		0478A1B62D3210D700468CF3 /* DSORVVedroserFairtale.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0478A1B42D3210D700468CF3 /* DSORVVedroserFairtale.xib */; };
+		0478A1B92D32176600468CF3 /* DSORUderCentwrrFairtale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478A1B72D32176600468CF3 /* DSORUderCentwrrFairtale.swift */; };
+		0478A1BA2D32176600468CF3 /* DSORUderCentwrrFairtale.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0478A1B82D32176600468CF3 /* DSORUderCentwrrFairtale.xib */; };
+		0478A1BE2D321D4900468CF3 /* DSORMecetrtwrrFairtale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478A1BC2D321D4900468CF3 /* DSORMecetrtwrrFairtale.swift */; };
+		0478A1BF2D321D4900468CF3 /* DSORMecetrtwrrFairtale.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0478A1BD2D321D4900468CF3 /* DSORMecetrtwrrFairtale.xib */; };
+		0478A1C22D323C2800468CF3 /* DSORChangerrFairtale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478A1C02D323C2800468CF3 /* DSORChangerrFairtale.swift */; };
+		0478A1C32D323C2800468CF3 /* DSORChangerrFairtale.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0478A1C12D323C2800468CF3 /* DSORChangerrFairtale.xib */; };
+		0478A1C62D323FFF00468CF3 /* DSORSwertirrFairtale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478A1C42D323FFF00468CF3 /* DSORSwertirrFairtale.swift */; };
+		0478A1C72D323FFF00468CF3 /* DSORSwertirrFairtale.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0478A1C52D323FFF00468CF3 /* DSORSwertirrFairtale.xib */; };
+		0478A1CC2D32443800468CF3 /* DSORLusterrtirrFairtale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478A1CA2D32443800468CF3 /* DSORLusterrtirrFairtale.swift */; };
+		0478A1CD2D32443800468CF3 /* DSORLusterrtirrFairtale.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0478A1CB2D32443800468CF3 /* DSORLusterrtirrFairtale.xib */; };
+		0478A1D02D3245C900468CF3 /* DSORPiiiertirrFairtale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478A1CE2D3245C900468CF3 /* DSORPiiiertirrFairtale.swift */; };
+		0478A1D12D3245C900468CF3 /* DSORPiiiertirrFairtale.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0478A1CF2D3245C900468CF3 /* DSORPiiiertirrFairtale.xib */; };
+		0478A1D42D32482C00468CF3 /* DSORPiiiertiewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478A1D22D32482C00468CF3 /* DSORPiiiertiewCell.swift */; };
+		0478A1D52D32482C00468CF3 /* DSORPiiiertiewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0478A1D32D32482C00468CF3 /* DSORPiiiertiewCell.xib */; };
+		0478A1D72D324D0300468CF3 /* DSORPujertLoafmuiner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478A1D62D324D0300468CF3 /* DSORPujertLoafmuiner.swift */; };
+		0478A1D92D324F6A00468CF3 /* DSORCreatRobot.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0478A1D82D324F6A00468CF3 /* DSORCreatRobot.plist */; };
+		0478A1DB2D32650800468CF3 /* DSORHomeoomTopr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478A1DA2D32650800468CF3 /* DSORHomeoomTopr.swift */; };
+		04AB9B5A2D30B3D300F427AD /* DSORAiPickFairyTale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB9B582D30B3D300F427AD /* DSORAiPickFairyTale.swift */; };
+		04AB9B5B2D30B3D300F427AD /* DSORAiPickFairyTale.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AB9B592D30B3D300F427AD /* DSORAiPickFairyTale.xib */; };
+		04AB9B5E2D30BD9500F427AD /* DSORAiCreateFairyTale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB9B5C2D30BD9500F427AD /* DSORAiCreateFairyTale.swift */; };
+		04AB9B5F2D30BD9500F427AD /* DSORAiCreateFairyTale.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AB9B5D2D30BD9500F427AD /* DSORAiCreateFairyTale.xib */; };
+		04AB9B622D30C67200F427AD /* DSORSureAIMonryCreateFairyTale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB9B602D30C67200F427AD /* DSORSureAIMonryCreateFairyTale.swift */; };
+		04AB9B632D30C67200F427AD /* DSORSureAIMonryCreateFairyTale.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AB9B612D30C67200F427AD /* DSORSureAIMonryCreateFairyTale.xib */; };
+		04AB9B662D30C9DD00F427AD /* DSORHeaderAICreateFairyTale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB9B642D30C9DD00F427AD /* DSORHeaderAICreateFairyTale.swift */; };
+		04AB9B672D30C9DD00F427AD /* DSORHeaderAICreateFairyTale.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AB9B652D30C9DD00F427AD /* DSORHeaderAICreateFairyTale.xib */; };
+		04AB9B6A2D30CBD500F427AD /* DSORHeaderAIResultCreateFairyTale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB9B682D30CBD500F427AD /* DSORHeaderAIResultCreateFairyTale.swift */; };
+		04AB9B6B2D30CBD500F427AD /* DSORHeaderAIResultCreateFairyTale.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AB9B692D30CBD500F427AD /* DSORHeaderAIResultCreateFairyTale.xib */; };
+		04AB9B6F2D30CD5800F427AD /* DSORDiscoverFairyTale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB9B6D2D30CD5800F427AD /* DSORDiscoverFairyTale.swift */; };
+		04AB9B772D31050900F427AD /* DSORDiscoverRecentCel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB9B762D31050900F427AD /* DSORDiscoverRecentCel.swift */; };
+		04AB9B7A2D31053600F427AD /* DSORDiscoveVerticalAiCel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB9B782D31053600F427AD /* DSORDiscoveVerticalAiCel.swift */; };
+		04AB9B7B2D31053600F427AD /* DSORDiscoveVerticalAiCel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AB9B792D31053600F427AD /* DSORDiscoveVerticalAiCel.xib */; };
+		04AB9B7E2D3109EE00F427AD /* DSORREportBotFailetale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB9B7C2D3109EE00F427AD /* DSORREportBotFailetale.swift */; };
+		04AB9B7F2D3109EE00F427AD /* DSORREportBotFailetale.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AB9B7D2D3109EE00F427AD /* DSORREportBotFailetale.xib */; };
+		04AB9B822D310CFC00F427AD /* DSORREportUsertFailetale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB9B802D310CFC00F427AD /* DSORREportUsertFailetale.swift */; };
+		04AB9B832D310CFC00F427AD /* DSORREportUsertFailetale.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AB9B812D310CFC00F427AD /* DSORREportUsertFailetale.xib */; };
+		04E543802D2F69FD006184BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E543762D2F69FD006184BC /* AppDelegate.swift */; };
+		04E543832D2F69FD006184BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E543772D2F69FD006184BC /* Assets.xcassets */; };
+		04E543852D2F69FD006184BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E5437A2D2F69FD006184BC /* LaunchScreen.storyboard */; };
+		04E543892D2F73CB006184BC /* DSORDoorfairyTale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E543872D2F73CB006184BC /* DSORDoorfairyTale.swift */; };
+		04E5438A2D2F73CB006184BC /* DSORDoorfairyTale.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E543882D2F73CB006184BC /* DSORDoorfairyTale.xib */; };
+		04E5438E2D2F7403006184BC /* DSORStadDoorfairyTale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5438C2D2F7403006184BC /* DSORStadDoorfairyTale.swift */; };
+		04E5438F2D2F7403006184BC /* DSORStadDoorfairyTale.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E5438D2D2F7403006184BC /* DSORStadDoorfairyTale.xib */; };
+		04E543922D2F7416006184BC /* DSORKeyforDoorfairyTale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E543902D2F7416006184BC /* DSORKeyforDoorfairyTale.swift */; };
+		04E543932D2F7416006184BC /* DSORKeyforDoorfairyTale.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E543912D2F7416006184BC /* DSORKeyforDoorfairyTale.xib */; };
+		04E543962D2FA4F4006184BC /* DSORContainerfairyTale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E543942D2FA4F4006184BC /* DSORContainerfairyTale.swift */; };
+		04E543972D2FA4F4006184BC /* DSORContainerfairyTale.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E543952D2FA4F4006184BC /* DSORContainerfairyTale.xib */; };
+		04E5439B2D2FA865006184BC /* DSORHpmerrfairyTale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E543992D2FA865006184BC /* DSORHpmerrfairyTale.swift */; };
+		04E5439C2D2FA865006184BC /* DSORHpmerrfairyTale.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E5439A2D2FA865006184BC /* DSORHpmerrfairyTale.xib */; };
+		04E5439F2D2FBA12006184BC /* DSORRoomerUserChaffairyTale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5439D2D2FBA12006184BC /* DSORRoomerUserChaffairyTale.swift */; };
+		04E543A02D2FBA12006184BC /* DSORRoomerUserChaffairyTale.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E5439E2D2FBA12006184BC /* DSORRoomerUserChaffairyTale.xib */; };
+		04E543A32D2FC1EB006184BC /* DSORExporeOtherChaffairyTale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E543A12D2FC1EB006184BC /* DSORExporeOtherChaffairyTale.swift */; };
+		04E543A42D2FC1EB006184BC /* DSORExporeOtherChaffairyTale.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E543A22D2FC1EB006184BC /* DSORExporeOtherChaffairyTale.xib */; };
+		04E833772D34AC6700EF6AC5 /* DSORChangethemFairyTale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E833752D34AC6700EF6AC5 /* DSORChangethemFairyTale.swift */; };
+		04E833782D34AC6700EF6AC5 /* DSORChangethemFairyTale.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E833762D34AC6700EF6AC5 /* DSORChangethemFairyTale.xib */; };
+		04E8337B2D3655EF00EF6AC5 /* DSORCubertrelationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E833792D3655EF00EF6AC5 /* DSORCubertrelationCell.swift */; };
+		04E8337C2D3655EF00EF6AC5 /* DSORCubertrelationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E8337A2D3655EF00EF6AC5 /* DSORCubertrelationCell.xib */; };
+		F5FC44AFCAB4726C0B97D232 /* Pods_derSooberbder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4830407D0D3407680AFD5EF /* Pods_derSooberbder.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0465C20B2D77F9B20040B698 /* derSooberbder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = derSooberbder.entitlements; sourceTree = "<group>"; };
+		047218912D7008080028B44D /* DSORlaiunchFairyTale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORlaiunchFairyTale.swift; sourceTree = "<group>"; };
+		0478A19A2D32020F00468CF3 /* DSORAiChatFailrTale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORAiChatFailrTale.swift; sourceTree = "<group>"; };
+		0478A19B2D32020F00468CF3 /* DSORAiChatFailrTale.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORAiChatFailrTale.xib; sourceTree = "<group>"; };
+		0478A19E2D3205A300468CF3 /* DSORAiPayAlertFailrTale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORAiPayAlertFailrTale.swift; sourceTree = "<group>"; };
+		0478A19F2D3205A300468CF3 /* DSORAiPayAlertFailrTale.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORAiPayAlertFailrTale.xib; sourceTree = "<group>"; };
+		0478A1A22D3209D200468CF3 /* DSORAiChetinCev.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORAiChetinCev.swift; sourceTree = "<group>"; };
+		0478A1A52D320C2A00468CF3 /* DSORMesglistCevFairyTale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORMesglistCevFairyTale.swift; sourceTree = "<group>"; };
+		0478A1A72D320C4D00468CF3 /* DSORMesgTompCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORMesgTompCell.swift; sourceTree = "<group>"; };
+		0478A1AB2D320CFC00468CF3 /* DSORMesgChalisCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORMesgChalisCell.swift; sourceTree = "<group>"; };
+		0478A1AC2D320CFC00468CF3 /* DSORMesgChalisCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORMesgChalisCell.xib; sourceTree = "<group>"; };
+		0478A1AF2D320EAF00468CF3 /* DSORChatuserFairtale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORChatuserFairtale.swift; sourceTree = "<group>"; };
+		0478A1B02D320EAF00468CF3 /* DSORChatuserFairtale.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORChatuserFairtale.xib; sourceTree = "<group>"; };
+		0478A1B32D3210D700468CF3 /* DSORVVedroserFairtale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORVVedroserFairtale.swift; sourceTree = "<group>"; };
+		0478A1B42D3210D700468CF3 /* DSORVVedroserFairtale.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORVVedroserFairtale.xib; sourceTree = "<group>"; };
+		0478A1B72D32176600468CF3 /* DSORUderCentwrrFairtale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORUderCentwrrFairtale.swift; sourceTree = "<group>"; };
+		0478A1B82D32176600468CF3 /* DSORUderCentwrrFairtale.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORUderCentwrrFairtale.xib; sourceTree = "<group>"; };
+		0478A1BC2D321D4900468CF3 /* DSORMecetrtwrrFairtale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORMecetrtwrrFairtale.swift; sourceTree = "<group>"; };
+		0478A1BD2D321D4900468CF3 /* DSORMecetrtwrrFairtale.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORMecetrtwrrFairtale.xib; sourceTree = "<group>"; };
+		0478A1C02D323C2800468CF3 /* DSORChangerrFairtale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORChangerrFairtale.swift; sourceTree = "<group>"; };
+		0478A1C12D323C2800468CF3 /* DSORChangerrFairtale.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORChangerrFairtale.xib; sourceTree = "<group>"; };
+		0478A1C42D323FFF00468CF3 /* DSORSwertirrFairtale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORSwertirrFairtale.swift; sourceTree = "<group>"; };
+		0478A1C52D323FFF00468CF3 /* DSORSwertirrFairtale.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORSwertirrFairtale.xib; sourceTree = "<group>"; };
+		0478A1CA2D32443800468CF3 /* DSORLusterrtirrFairtale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORLusterrtirrFairtale.swift; sourceTree = "<group>"; };
+		0478A1CB2D32443800468CF3 /* DSORLusterrtirrFairtale.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORLusterrtirrFairtale.xib; sourceTree = "<group>"; };
+		0478A1CE2D3245C900468CF3 /* DSORPiiiertirrFairtale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORPiiiertirrFairtale.swift; sourceTree = "<group>"; };
+		0478A1CF2D3245C900468CF3 /* DSORPiiiertirrFairtale.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORPiiiertirrFairtale.xib; sourceTree = "<group>"; };
+		0478A1D22D32482C00468CF3 /* DSORPiiiertiewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORPiiiertiewCell.swift; sourceTree = "<group>"; };
+		0478A1D32D32482C00468CF3 /* DSORPiiiertiewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORPiiiertiewCell.xib; sourceTree = "<group>"; };
+		0478A1D62D324D0300468CF3 /* DSORPujertLoafmuiner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORPujertLoafmuiner.swift; sourceTree = "<group>"; };
+		0478A1D82D324F6A00468CF3 /* DSORCreatRobot.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DSORCreatRobot.plist; sourceTree = "<group>"; };
+		0478A1DA2D32650800468CF3 /* DSORHomeoomTopr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORHomeoomTopr.swift; sourceTree = "<group>"; };
+		04AB9B582D30B3D300F427AD /* DSORAiPickFairyTale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORAiPickFairyTale.swift; sourceTree = "<group>"; };
+		04AB9B592D30B3D300F427AD /* DSORAiPickFairyTale.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORAiPickFairyTale.xib; sourceTree = "<group>"; };
+		04AB9B5C2D30BD9500F427AD /* DSORAiCreateFairyTale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORAiCreateFairyTale.swift; sourceTree = "<group>"; };
+		04AB9B5D2D30BD9500F427AD /* DSORAiCreateFairyTale.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORAiCreateFairyTale.xib; sourceTree = "<group>"; };
+		04AB9B602D30C67200F427AD /* DSORSureAIMonryCreateFairyTale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORSureAIMonryCreateFairyTale.swift; sourceTree = "<group>"; };
+		04AB9B612D30C67200F427AD /* DSORSureAIMonryCreateFairyTale.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORSureAIMonryCreateFairyTale.xib; sourceTree = "<group>"; };
+		04AB9B642D30C9DD00F427AD /* DSORHeaderAICreateFairyTale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORHeaderAICreateFairyTale.swift; sourceTree = "<group>"; };
+		04AB9B652D30C9DD00F427AD /* DSORHeaderAICreateFairyTale.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORHeaderAICreateFairyTale.xib; sourceTree = "<group>"; };
+		04AB9B682D30CBD500F427AD /* DSORHeaderAIResultCreateFairyTale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORHeaderAIResultCreateFairyTale.swift; sourceTree = "<group>"; };
+		04AB9B692D30CBD500F427AD /* DSORHeaderAIResultCreateFairyTale.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORHeaderAIResultCreateFairyTale.xib; sourceTree = "<group>"; };
+		04AB9B6D2D30CD5800F427AD /* DSORDiscoverFairyTale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORDiscoverFairyTale.swift; sourceTree = "<group>"; };
+		04AB9B762D31050900F427AD /* DSORDiscoverRecentCel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORDiscoverRecentCel.swift; sourceTree = "<group>"; };
+		04AB9B782D31053600F427AD /* DSORDiscoveVerticalAiCel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORDiscoveVerticalAiCel.swift; sourceTree = "<group>"; };
+		04AB9B792D31053600F427AD /* DSORDiscoveVerticalAiCel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORDiscoveVerticalAiCel.xib; sourceTree = "<group>"; };
+		04AB9B7C2D3109EE00F427AD /* DSORREportBotFailetale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORREportBotFailetale.swift; sourceTree = "<group>"; };
+		04AB9B7D2D3109EE00F427AD /* DSORREportBotFailetale.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORREportBotFailetale.xib; sourceTree = "<group>"; };
+		04AB9B802D310CFC00F427AD /* DSORREportUsertFailetale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORREportUsertFailetale.swift; sourceTree = "<group>"; };
+		04AB9B812D310CFC00F427AD /* DSORREportUsertFailetale.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORREportUsertFailetale.xib; sourceTree = "<group>"; };
+		04E5435E2D2F69F2006184BC /* derSooberbder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = derSooberbder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E543762D2F69FD006184BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04E543772D2F69FD006184BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E543782D2F69FD006184BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E543792D2F69FD006184BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04E543872D2F73CB006184BC /* DSORDoorfairyTale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORDoorfairyTale.swift; sourceTree = "<group>"; };
+		04E543882D2F73CB006184BC /* DSORDoorfairyTale.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORDoorfairyTale.xib; sourceTree = "<group>"; };
+		04E5438C2D2F7403006184BC /* DSORStadDoorfairyTale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORStadDoorfairyTale.swift; sourceTree = "<group>"; };
+		04E5438D2D2F7403006184BC /* DSORStadDoorfairyTale.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORStadDoorfairyTale.xib; sourceTree = "<group>"; };
+		04E543902D2F7416006184BC /* DSORKeyforDoorfairyTale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORKeyforDoorfairyTale.swift; sourceTree = "<group>"; };
+		04E543912D2F7416006184BC /* DSORKeyforDoorfairyTale.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORKeyforDoorfairyTale.xib; sourceTree = "<group>"; };
+		04E543942D2FA4F4006184BC /* DSORContainerfairyTale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORContainerfairyTale.swift; sourceTree = "<group>"; };
+		04E543952D2FA4F4006184BC /* DSORContainerfairyTale.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORContainerfairyTale.xib; sourceTree = "<group>"; };
+		04E543992D2FA865006184BC /* DSORHpmerrfairyTale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORHpmerrfairyTale.swift; sourceTree = "<group>"; };
+		04E5439A2D2FA865006184BC /* DSORHpmerrfairyTale.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORHpmerrfairyTale.xib; sourceTree = "<group>"; };
+		04E5439D2D2FBA12006184BC /* DSORRoomerUserChaffairyTale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORRoomerUserChaffairyTale.swift; sourceTree = "<group>"; };
+		04E5439E2D2FBA12006184BC /* DSORRoomerUserChaffairyTale.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORRoomerUserChaffairyTale.xib; sourceTree = "<group>"; };
+		04E543A12D2FC1EB006184BC /* DSORExporeOtherChaffairyTale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORExporeOtherChaffairyTale.swift; sourceTree = "<group>"; };
+		04E543A22D2FC1EB006184BC /* DSORExporeOtherChaffairyTale.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORExporeOtherChaffairyTale.xib; sourceTree = "<group>"; };
+		04E833752D34AC6700EF6AC5 /* DSORChangethemFairyTale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORChangethemFairyTale.swift; sourceTree = "<group>"; };
+		04E833762D34AC6700EF6AC5 /* DSORChangethemFairyTale.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORChangethemFairyTale.xib; sourceTree = "<group>"; };
+		04E833792D3655EF00EF6AC5 /* DSORCubertrelationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORCubertrelationCell.swift; sourceTree = "<group>"; };
+		04E8337A2D3655EF00EF6AC5 /* DSORCubertrelationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORCubertrelationCell.xib; sourceTree = "<group>"; };
+		B2894FC40F244195DE8C4834 /* Pods-derSooberbder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-derSooberbder.debug.xcconfig"; path = "Target Support Files/Pods-derSooberbder/Pods-derSooberbder.debug.xcconfig"; sourceTree = "<group>"; };
+		D4830407D0D3407680AFD5EF /* Pods_derSooberbder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_derSooberbder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E772632BBF9B62A27AB56E90 /* Pods-derSooberbder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-derSooberbder.release.xcconfig"; path = "Target Support Files/Pods-derSooberbder/Pods-derSooberbder.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E5435B2D2F69F2006184BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FC44AFCAB4726C0B97D232 /* Pods_derSooberbder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0478A1A42D320C0000468CF3 /* DSOR_mesg */ = {
+			isa = PBXGroup;
+			children = (
+				0478A1A52D320C2A00468CF3 /* DSORMesglistCevFairyTale.swift */,
+				0478A1A72D320C4D00468CF3 /* DSORMesgTompCell.swift */,
+				0478A1AB2D320CFC00468CF3 /* DSORMesgChalisCell.swift */,
+				0478A1AC2D320CFC00468CF3 /* DSORMesgChalisCell.xib */,
+				0478A1AF2D320EAF00468CF3 /* DSORChatuserFairtale.swift */,
+				0478A1B02D320EAF00468CF3 /* DSORChatuserFairtale.xib */,
+				0478A1B32D3210D700468CF3 /* DSORVVedroserFairtale.swift */,
+				0478A1B42D3210D700468CF3 /* DSORVVedroserFairtale.xib */,
+				0478A1B72D32176600468CF3 /* DSORUderCentwrrFairtale.swift */,
+				0478A1B82D32176600468CF3 /* DSORUderCentwrrFairtale.xib */,
+			);
+			path = DSOR_mesg;
+			sourceTree = "<group>";
+		};
+		0478A1BB2D321D3600468CF3 /* DSOR_Us */ = {
+			isa = PBXGroup;
+			children = (
+				0478A1BC2D321D4900468CF3 /* DSORMecetrtwrrFairtale.swift */,
+				0478A1BD2D321D4900468CF3 /* DSORMecetrtwrrFairtale.xib */,
+				0478A1C02D323C2800468CF3 /* DSORChangerrFairtale.swift */,
+				0478A1C12D323C2800468CF3 /* DSORChangerrFairtale.xib */,
+				0478A1C42D323FFF00468CF3 /* DSORSwertirrFairtale.swift */,
+				0478A1C52D323FFF00468CF3 /* DSORSwertirrFairtale.xib */,
+				0478A1CA2D32443800468CF3 /* DSORLusterrtirrFairtale.swift */,
+				0478A1CB2D32443800468CF3 /* DSORLusterrtirrFairtale.xib */,
+				04E833792D3655EF00EF6AC5 /* DSORCubertrelationCell.swift */,
+				04E8337A2D3655EF00EF6AC5 /* DSORCubertrelationCell.xib */,
+			);
+			path = DSOR_Us;
+			sourceTree = "<group>";
+		};
+		04AB9B572D30B3AA00F427AD /* DSOR_AI */ = {
+			isa = PBXGroup;
+			children = (
+				04AB9B582D30B3D300F427AD /* DSORAiPickFairyTale.swift */,
+				04AB9B592D30B3D300F427AD /* DSORAiPickFairyTale.xib */,
+				04AB9B5C2D30BD9500F427AD /* DSORAiCreateFairyTale.swift */,
+				04AB9B5D2D30BD9500F427AD /* DSORAiCreateFairyTale.xib */,
+				04AB9B602D30C67200F427AD /* DSORSureAIMonryCreateFairyTale.swift */,
+				04AB9B612D30C67200F427AD /* DSORSureAIMonryCreateFairyTale.xib */,
+				04AB9B642D30C9DD00F427AD /* DSORHeaderAICreateFairyTale.swift */,
+				04AB9B652D30C9DD00F427AD /* DSORHeaderAICreateFairyTale.xib */,
+				04AB9B682D30CBD500F427AD /* DSORHeaderAIResultCreateFairyTale.swift */,
+				04AB9B692D30CBD500F427AD /* DSORHeaderAIResultCreateFairyTale.xib */,
+			);
+			path = DSOR_AI;
+			sourceTree = "<group>";
+		};
+		04AB9B6C2D30CD3400F427AD /* DSOR_Discover */ = {
+			isa = PBXGroup;
+			children = (
+				04AB9B752D3104C600F427AD /* DSOR_view */,
+				04AB9B6D2D30CD5800F427AD /* DSORDiscoverFairyTale.swift */,
+				0478A19A2D32020F00468CF3 /* DSORAiChatFailrTale.swift */,
+				0478A19B2D32020F00468CF3 /* DSORAiChatFailrTale.xib */,
+				0478A19E2D3205A300468CF3 /* DSORAiPayAlertFailrTale.swift */,
+				0478A19F2D3205A300468CF3 /* DSORAiPayAlertFailrTale.xib */,
+			);
+			path = DSOR_Discover;
+			sourceTree = "<group>";
+		};
+		04AB9B752D3104C600F427AD /* DSOR_view */ = {
+			isa = PBXGroup;
+			children = (
+				04AB9B762D31050900F427AD /* DSORDiscoverRecentCel.swift */,
+				04AB9B782D31053600F427AD /* DSORDiscoveVerticalAiCel.swift */,
+				04AB9B792D31053600F427AD /* DSORDiscoveVerticalAiCel.xib */,
+				0478A1A22D3209D200468CF3 /* DSORAiChetinCev.swift */,
+			);
+			path = DSOR_view;
+			sourceTree = "<group>";
+		};
+		04E543552D2F69F1006184BC = {
+			isa = PBXGroup;
+			children = (
+				04E5437F2D2F69FD006184BC /* derSooberbder */,
+				04E5435F2D2F69F2006184BC /* Products */,
+				2D58588049C4D75F537B9DA2 /* Pods */,
+				C2B0B9A146B5A019505D251F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04E5435F2D2F69F2006184BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E5435E2D2F69F2006184BC /* derSooberbder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E5437F2D2F69FD006184BC /* derSooberbder */ = {
+			isa = PBXGroup;
+			children = (
+				0465C20B2D77F9B20040B698 /* derSooberbder.entitlements */,
+				0478A1BB2D321D3600468CF3 /* DSOR_Us */,
+				0478A1A42D320C0000468CF3 /* DSOR_mesg */,
+				04AB9B6C2D30CD3400F427AD /* DSOR_Discover */,
+				04AB9B572D30B3AA00F427AD /* DSOR_AI */,
+				04E543982D2FA7E6006184BC /* DSOR_Hpme */,
+				04E5438B2D2F73D4006184BC /* DSOR_Door */,
+				04E543762D2F69FD006184BC /* AppDelegate.swift */,
+				04E543772D2F69FD006184BC /* Assets.xcassets */,
+				04E543782D2F69FD006184BC /* Info.plist */,
+				04E5437A2D2F69FD006184BC /* LaunchScreen.storyboard */,
+				04E543942D2FA4F4006184BC /* DSORContainerfairyTale.swift */,
+				04E543952D2FA4F4006184BC /* DSORContainerfairyTale.xib */,
+				047218912D7008080028B44D /* DSORlaiunchFairyTale.swift */,
+			);
+			path = derSooberbder;
+			sourceTree = "<group>";
+		};
+		04E5438B2D2F73D4006184BC /* DSOR_Door */ = {
+			isa = PBXGroup;
+			children = (
+				04E543872D2F73CB006184BC /* DSORDoorfairyTale.swift */,
+				04E543882D2F73CB006184BC /* DSORDoorfairyTale.xib */,
+				04E5438C2D2F7403006184BC /* DSORStadDoorfairyTale.swift */,
+				04E5438D2D2F7403006184BC /* DSORStadDoorfairyTale.xib */,
+				04E543902D2F7416006184BC /* DSORKeyforDoorfairyTale.swift */,
+				04E543912D2F7416006184BC /* DSORKeyforDoorfairyTale.xib */,
+				04AB9B7C2D3109EE00F427AD /* DSORREportBotFailetale.swift */,
+				04AB9B7D2D3109EE00F427AD /* DSORREportBotFailetale.xib */,
+				04AB9B802D310CFC00F427AD /* DSORREportUsertFailetale.swift */,
+				04AB9B812D310CFC00F427AD /* DSORREportUsertFailetale.xib */,
+				0478A1CE2D3245C900468CF3 /* DSORPiiiertirrFairtale.swift */,
+				0478A1CF2D3245C900468CF3 /* DSORPiiiertirrFairtale.xib */,
+				0478A1D22D32482C00468CF3 /* DSORPiiiertiewCell.swift */,
+				0478A1D32D32482C00468CF3 /* DSORPiiiertiewCell.xib */,
+				0478A1D62D324D0300468CF3 /* DSORPujertLoafmuiner.swift */,
+				0478A1D82D324F6A00468CF3 /* DSORCreatRobot.plist */,
+			);
+			path = DSOR_Door;
+			sourceTree = "<group>";
+		};
+		04E543982D2FA7E6006184BC /* DSOR_Hpme */ = {
+			isa = PBXGroup;
+			children = (
+				04E543992D2FA865006184BC /* DSORHpmerrfairyTale.swift */,
+				04E5439A2D2FA865006184BC /* DSORHpmerrfairyTale.xib */,
+				04E5439D2D2FBA12006184BC /* DSORRoomerUserChaffairyTale.swift */,
+				04E5439E2D2FBA12006184BC /* DSORRoomerUserChaffairyTale.xib */,
+				04E543A12D2FC1EB006184BC /* DSORExporeOtherChaffairyTale.swift */,
+				04E543A22D2FC1EB006184BC /* DSORExporeOtherChaffairyTale.xib */,
+				0478A1DA2D32650800468CF3 /* DSORHomeoomTopr.swift */,
+				04E833752D34AC6700EF6AC5 /* DSORChangethemFairyTale.swift */,
+				04E833762D34AC6700EF6AC5 /* DSORChangethemFairyTale.xib */,
+			);
+			path = DSOR_Hpme;
+			sourceTree = "<group>";
+		};
+		2D58588049C4D75F537B9DA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2894FC40F244195DE8C4834 /* Pods-derSooberbder.debug.xcconfig */,
+				E772632BBF9B62A27AB56E90 /* Pods-derSooberbder.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C2B0B9A146B5A019505D251F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4830407D0D3407680AFD5EF /* Pods_derSooberbder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E5435D2D2F69F2006184BC /* derSooberbder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E543712D2F69F3006184BC /* Build configuration list for PBXNativeTarget "derSooberbder" */;
+			buildPhases = (
+				E842EBFCC86255DD9B4D71B5 /* [CP] Check Pods Manifest.lock */,
+				04E5435A2D2F69F2006184BC /* Sources */,
+				04E5435B2D2F69F2006184BC /* Frameworks */,
+				04E5435C2D2F69F2006184BC /* Resources */,
+				A331F4FCBF78F2A041C1F99D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = derSooberbder;
+			productName = derSooberbder;
+			productReference = 04E5435E2D2F69F2006184BC /* derSooberbder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E543562D2F69F1006184BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = DSOR;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					04E5435D2D2F69F2006184BC = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 04E543592D2F69F1006184BC /* Build configuration list for PBXProject "derSooberbder" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E543552D2F69F1006184BC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 04E5435F2D2F69F2006184BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E5435D2D2F69F2006184BC /* derSooberbder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E5435C2D2F69F2006184BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0478A1BA2D32176600468CF3 /* DSORUderCentwrrFairtale.xib in Resources */,
+				0478A1CD2D32443800468CF3 /* DSORLusterrtirrFairtale.xib in Resources */,
+				0478A1D12D3245C900468CF3 /* DSORPiiiertirrFairtale.xib in Resources */,
+				04E543932D2F7416006184BC /* DSORKeyforDoorfairyTale.xib in Resources */,
+				0478A1BF2D321D4900468CF3 /* DSORMecetrtwrrFairtale.xib in Resources */,
+				04E543972D2FA4F4006184BC /* DSORContainerfairyTale.xib in Resources */,
+				04E8337C2D3655EF00EF6AC5 /* DSORCubertrelationCell.xib in Resources */,
+				04AB9B672D30C9DD00F427AD /* DSORHeaderAICreateFairyTale.xib in Resources */,
+				0478A1AE2D320CFC00468CF3 /* DSORMesgChalisCell.xib in Resources */,
+				04E543832D2F69FD006184BC /* Assets.xcassets in Resources */,
+				04AB9B7B2D31053600F427AD /* DSORDiscoveVerticalAiCel.xib in Resources */,
+				0478A1C32D323C2800468CF3 /* DSORChangerrFairtale.xib in Resources */,
+				04AB9B5F2D30BD9500F427AD /* DSORAiCreateFairyTale.xib in Resources */,
+				0478A1A12D3205A300468CF3 /* DSORAiPayAlertFailrTale.xib in Resources */,
+				04AB9B6B2D30CBD500F427AD /* DSORHeaderAIResultCreateFairyTale.xib in Resources */,
+				04E5439C2D2FA865006184BC /* DSORHpmerrfairyTale.xib in Resources */,
+				0478A1B22D320EAF00468CF3 /* DSORChatuserFairtale.xib in Resources */,
+				04E543A02D2FBA12006184BC /* DSORRoomerUserChaffairyTale.xib in Resources */,
+				04E543852D2F69FD006184BC /* LaunchScreen.storyboard in Resources */,
+				04AB9B5B2D30B3D300F427AD /* DSORAiPickFairyTale.xib in Resources */,
+				0478A1D92D324F6A00468CF3 /* DSORCreatRobot.plist in Resources */,
+				0478A1B62D3210D700468CF3 /* DSORVVedroserFairtale.xib in Resources */,
+				04AB9B7F2D3109EE00F427AD /* DSORREportBotFailetale.xib in Resources */,
+				04E543A42D2FC1EB006184BC /* DSORExporeOtherChaffairyTale.xib in Resources */,
+				04E833782D34AC6700EF6AC5 /* DSORChangethemFairyTale.xib in Resources */,
+				04E5438A2D2F73CB006184BC /* DSORDoorfairyTale.xib in Resources */,
+				0478A1D52D32482C00468CF3 /* DSORPiiiertiewCell.xib in Resources */,
+				0478A1C72D323FFF00468CF3 /* DSORSwertirrFairtale.xib in Resources */,
+				0478A19D2D32020F00468CF3 /* DSORAiChatFailrTale.xib in Resources */,
+				04AB9B832D310CFC00F427AD /* DSORREportUsertFailetale.xib in Resources */,
+				04AB9B632D30C67200F427AD /* DSORSureAIMonryCreateFairyTale.xib in Resources */,
+				04E5438F2D2F7403006184BC /* DSORStadDoorfairyTale.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A331F4FCBF78F2A041C1F99D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-derSooberbder/Pods-derSooberbder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-derSooberbder/Pods-derSooberbder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-derSooberbder/Pods-derSooberbder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E842EBFCC86255DD9B4D71B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-derSooberbder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E5435A2D2F69F2006184BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0478A1B12D320EAF00468CF3 /* DSORChatuserFairtale.swift in Sources */,
+				0478A1A32D3209D200468CF3 /* DSORAiChetinCev.swift in Sources */,
+				04E543802D2F69FD006184BC /* AppDelegate.swift in Sources */,
+				04AB9B622D30C67200F427AD /* DSORSureAIMonryCreateFairyTale.swift in Sources */,
+				0478A19C2D32020F00468CF3 /* DSORAiChatFailrTale.swift in Sources */,
+				04AB9B5E2D30BD9500F427AD /* DSORAiCreateFairyTale.swift in Sources */,
+				0478A1BE2D321D4900468CF3 /* DSORMecetrtwrrFairtale.swift in Sources */,
+				0478A1B92D32176600468CF3 /* DSORUderCentwrrFairtale.swift in Sources */,
+				0478A1A02D3205A300468CF3 /* DSORAiPayAlertFailrTale.swift in Sources */,
+				04E543A32D2FC1EB006184BC /* DSORExporeOtherChaffairyTale.swift in Sources */,
+				04AB9B6F2D30CD5800F427AD /* DSORDiscoverFairyTale.swift in Sources */,
+				04E543962D2FA4F4006184BC /* DSORContainerfairyTale.swift in Sources */,
+				0478A1D42D32482C00468CF3 /* DSORPiiiertiewCell.swift in Sources */,
+				0478A1B52D3210D700468CF3 /* DSORVVedroserFairtale.swift in Sources */,
+				04AB9B7A2D31053600F427AD /* DSORDiscoveVerticalAiCel.swift in Sources */,
+				04E543922D2F7416006184BC /* DSORKeyforDoorfairyTale.swift in Sources */,
+				0478A1A92D320C4D00468CF3 /* DSORMesgTompCell.swift in Sources */,
+				04AB9B6A2D30CBD500F427AD /* DSORHeaderAIResultCreateFairyTale.swift in Sources */,
+				04E5439B2D2FA865006184BC /* DSORHpmerrfairyTale.swift in Sources */,
+				04AB9B772D31050900F427AD /* DSORDiscoverRecentCel.swift in Sources */,
+				04E8337B2D3655EF00EF6AC5 /* DSORCubertrelationCell.swift in Sources */,
+				04AB9B7E2D3109EE00F427AD /* DSORREportBotFailetale.swift in Sources */,
+				0478A1D72D324D0300468CF3 /* DSORPujertLoafmuiner.swift in Sources */,
+				04AB9B5A2D30B3D300F427AD /* DSORAiPickFairyTale.swift in Sources */,
+				04AB9B822D310CFC00F427AD /* DSORREportUsertFailetale.swift in Sources */,
+				04AB9B662D30C9DD00F427AD /* DSORHeaderAICreateFairyTale.swift in Sources */,
+				047218922D7008080028B44D /* DSORlaiunchFairyTale.swift in Sources */,
+				0478A1AD2D320CFC00468CF3 /* DSORMesgChalisCell.swift in Sources */,
+				0478A1DB2D32650800468CF3 /* DSORHomeoomTopr.swift in Sources */,
+				0478A1C22D323C2800468CF3 /* DSORChangerrFairtale.swift in Sources */,
+				04E5438E2D2F7403006184BC /* DSORStadDoorfairyTale.swift in Sources */,
+				04E833772D34AC6700EF6AC5 /* DSORChangethemFairyTale.swift in Sources */,
+				0478A1D02D3245C900468CF3 /* DSORPiiiertirrFairtale.swift in Sources */,
+				04E543892D2F73CB006184BC /* DSORDoorfairyTale.swift in Sources */,
+				0478A1C62D323FFF00468CF3 /* DSORSwertirrFairtale.swift in Sources */,
+				0478A1A62D320C2A00468CF3 /* DSORMesglistCevFairyTale.swift in Sources */,
+				0478A1CC2D32443800468CF3 /* DSORLusterrtirrFairtale.swift in Sources */,
+				04E5439F2D2FBA12006184BC /* DSORRoomerUserChaffairyTale.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04E5437A2D2F69FD006184BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E543792D2F69FD006184BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04E543722D2F69F3006184BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2894FC40F244195DE8C4834 /* Pods-derSooberbder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = derSooberbder/derSooberbder.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = derSooberbder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Hayki;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Upload your user profile picture and make audio and video calls. Hayki needs access to your camera permissions";
+				INFOPLIST_KEY_NSLocationUsageDescription = "To use the iCloud camera's location feature, Hayki needs access to your geographic location permission";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Hayki needs location permissions to make use of the iCloud camera's location functionalities.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To provide you with a smooth audio and video calling experience, Hayki needs access to your microphone.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Upload the created robot avatar, the app needs access to your photo album permission";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zww.app.cn.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04E543732D2F69F3006184BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E772632BBF9B62A27AB56E90 /* Pods-derSooberbder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = derSooberbder/derSooberbder.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = derSooberbder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Hayki;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Upload your user profile picture and make audio and video calls. Hayki needs access to your camera permissions";
+				INFOPLIST_KEY_NSLocationUsageDescription = "To use the iCloud camera's location feature, Hayki needs access to your geographic location permission";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Hayki needs location permissions to make use of the iCloud camera's location functionalities.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To provide you with a smooth audio and video calling experience, Hayki needs access to your microphone.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Upload the created robot avatar, the app needs access to your photo album permission";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zww.app.cn.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		04E543742D2F69F3006184BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04E543752D2F69F3006184BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E543592D2F69F1006184BC /* Build configuration list for PBXProject "derSooberbder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E543742D2F69F3006184BC /* Debug */,
+				04E543752D2F69F3006184BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E543712D2F69F3006184BC /* Build configuration list for PBXNativeTarget "derSooberbder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E543722D2F69F3006184BC /* Debug */,
+				04E543732D2F69F3006184BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04E543562D2F69F1006184BC /* Project object */;
+}

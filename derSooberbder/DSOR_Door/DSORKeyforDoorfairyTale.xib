@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DSORKeyforDoorfairyTale" customModule="derSooberbder" customModuleProvider="target">
+            <connections>
+                <outlet property="agreenOkayDSOR" destination="WI2-Vy-rSx" id="Gwi-2k-4dT"/>
+                <outlet property="contetnFlayDSOR" destination="7V4-FX-9o5" id="k6d-tS-sUk"/>
+                <outlet property="priOkayDSOR" destination="az0-t9-OHX" id="sXC-z4-M5Y"/>
+                <outlet property="termenOkayDSOR" destination="2Ub-lr-kEF" id="75t-Xt-TRr"/>
+                <outlet property="titlFLAYDsOR" destination="m79-Lp-kk8" id="mHw-c7-hNa"/>
+                <outlet property="view" destination="1rx-Mq-mek" id="eAY-FQ-aNg"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="1rx-Mq-mek">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sioinOobebg" translatesAutoresizingMaskIntoConstraints="NO" id="NX2-Ty-p0z">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1R5-00-bzS">
+                    <rect key="frame" x="19" y="119" width="355" height="680"/>
+                    <subviews>
+                        <button opaque="NO" tag="41" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WI2-Vy-rSx">
+                            <rect key="frame" x="67" y="553" width="221" height="50"/>
+                            <color key="backgroundColor" red="1" green="0.68235294120000001" blue="0.21960784310000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="GsZ-Su-D7a"/>
+                                <constraint firstAttribute="width" constant="221" id="P8Z-Qv-o19"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Agree">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <state key="selected" image="seler_ooeb"/>
+                            <connections>
+                                <action selector="agreenFlayDSOR:" destination="-1" eventType="touchUpInside" id="Jlp-gy-YVs"/>
+                            </connections>
+                        </button>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eluatio_oobebg" translatesAutoresizingMaskIntoConstraints="NO" id="rS1-aO-1UY">
+                            <rect key="frame" x="0.0" y="-12" width="355" height="42"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="42" id="x5d-Mp-KZW"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hayki ELUA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m79-Lp-kk8">
+                            <rect key="frame" x="134" y="-0.6666666666666714" width="87.333333333333314" height="19.333333333333332"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                            <color key="textColor" red="1" green="0.90588235294117647" blue="0.74509803921568629" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" tag="40" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LcP-HJ-b4R">
+                            <rect key="frame" x="311" y="-5" width="28" height="28"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="28" id="DMS-P2-CAM"/>
+                                <constraint firstAttribute="height" constant="28" id="ONe-iJ-o7t"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="obeev_dis">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <state key="selected" image="seler_ooeb"/>
+                            <connections>
+                                <action selector="agreenFlayDSOR:" destination="-1" eventType="touchUpInside" id="GH9-Ol-F9b"/>
+                            </connections>
+                        </button>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7V4-FX-9o5">
+                            <rect key="frame" x="15" y="54" width="325" height="475"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <mutableString key="text">Welcome to Hayki! To make a better place,the following content is not allowed in the app in particular.
+﻿
+﻿1. Acceptance of Terms
+
+By downloading, accessing, or using the Hayki application ("the App"), you agree to be bound by these terms and conditions. If you do not agree to these terms, please do not use the App.
+
+2. License Grant
+
+Hayki grants you a limited, non-exclusive, non-transferable license to access and use the App for personal, non-commercial purposes in accordance with these terms.
+
+3. User Responsibilities
+
+You agree to:
+
+Provide accurate information while using the App.
+Respect the rights of other users and refrain from harassing, threatening, or defamatory behavior.
+Not engage in any activity that could damage, disable, overburden, or impair the App.
+4. Content Ownership
+
+All content created within the App, including but not limited to characters, plots, and scenes, remains the intellectual property of the user, unless otherwise stated. Hayki reserves the right to use aggregated, anonymized data to improve services.
+
+5. Termination
+
+Hayki may terminate or suspend your account at any time, without prior notice or liability, for any reason, including if you violate these terms.
+
+6. Disclaimer of Warranties
+
+The App is provided on an "as-is" basis without warranties of any kind, either express or implied. Hayki does not guarantee the accuracy or reliability of the App's functionality.
+
+7. Limitation of Liability
+
+To the fullest extent permitted by law, Hayki shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of your use of, or inability to use, the App.
+
+8. Changes to Terms
+
+Hayki reserves the right to modify these terms at any time. Continued use of the App after changes constitutes acceptance of the new terms.</mutableString>
+                            <color key="textColor" red="0.15686274509803921" green="0.015686274509803921" blue="0.015686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" tag="42" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ub-lr-kEF">
+                            <rect key="frame" x="62.666666666666671" y="635" width="100.00000000000001" height="25"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="JeO-Lj-M0a"/>
+                                <constraint firstAttribute="height" constant="25" id="kD1-Ki-QTi"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Terms of Use">
+                                <color key="titleColor" red="0.61960784313725492" green="0.078431372549019607" blue="0.039215686274509803" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <state key="selected" image="seler_ooeb"/>
+                            <connections>
+                                <action selector="agreenFlayDSOR:" destination="-1" eventType="touchUpInside" id="ifb-iL-7DD"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="43" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="az0-t9-OHX">
+                            <rect key="frame" x="192.66666666666666" y="633" width="109.99999999999997" height="29"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Privacy Policy">
+                                <color key="titleColor" red="0.61960784310000006" green="0.078431372550000003" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <state key="selected" image="seler_ooeb"/>
+                            <connections>
+                                <action selector="agreenFlayDSOR:" destination="-1" eventType="touchUpInside" id="Jle-TF-Web"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.8901960784313725" blue="0.81176470588235294" alpha="0.93122874149659862" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="rS1-aO-1UY" firstAttribute="top" secondItem="1R5-00-bzS" secondAttribute="top" constant="-12" id="116-Nf-9kf"/>
+                        <constraint firstItem="az0-t9-OHX" firstAttribute="width" secondItem="2Ub-lr-kEF" secondAttribute="width" multiplier="1.1" id="13n-ul-VX0"/>
+                        <constraint firstItem="rS1-aO-1UY" firstAttribute="leading" secondItem="1R5-00-bzS" secondAttribute="leading" id="6Cv-6I-dGL"/>
+                        <constraint firstAttribute="trailing" secondItem="rS1-aO-1UY" secondAttribute="trailing" id="BFK-6G-PLD"/>
+                        <constraint firstItem="LcP-HJ-b4R" firstAttribute="top" secondItem="1R5-00-bzS" secondAttribute="top" constant="-5" id="Dva-XW-LUp"/>
+                        <constraint firstItem="WI2-Vy-rSx" firstAttribute="centerX" secondItem="1R5-00-bzS" secondAttribute="centerX" id="Gkg-Xr-pc6"/>
+                        <constraint firstItem="WI2-Vy-rSx" firstAttribute="top" secondItem="7V4-FX-9o5" secondAttribute="bottom" constant="24" id="Kbx-DU-Mrq"/>
+                        <constraint firstItem="az0-t9-OHX" firstAttribute="height" secondItem="2Ub-lr-kEF" secondAttribute="height" multiplier="1.16" id="MQa-yW-EOy"/>
+                        <constraint firstItem="az0-t9-OHX" firstAttribute="top" secondItem="WI2-Vy-rSx" secondAttribute="bottom" constant="30" id="SLZ-Eg-Uq5"/>
+                        <constraint firstAttribute="trailing" secondItem="7V4-FX-9o5" secondAttribute="trailing" constant="15" id="TpP-ok-3jS"/>
+                        <constraint firstItem="az0-t9-OHX" firstAttribute="leading" secondItem="2Ub-lr-kEF" secondAttribute="trailing" constant="30" id="Veq-c9-NlO"/>
+                        <constraint firstItem="az0-t9-OHX" firstAttribute="centerY" secondItem="2Ub-lr-kEF" secondAttribute="centerY" id="YMV-GG-DPO"/>
+                        <constraint firstItem="7V4-FX-9o5" firstAttribute="top" secondItem="rS1-aO-1UY" secondAttribute="bottom" constant="24" id="ZXk-Xi-E1A"/>
+                        <constraint firstItem="m79-Lp-kk8" firstAttribute="centerY" secondItem="LcP-HJ-b4R" secondAttribute="centerY" id="c1n-VQ-Fpf"/>
+                        <constraint firstItem="m79-Lp-kk8" firstAttribute="centerX" secondItem="1R5-00-bzS" secondAttribute="centerX" id="d0R-C6-SMb"/>
+                        <constraint firstAttribute="trailing" secondItem="LcP-HJ-b4R" secondAttribute="trailing" constant="16" id="fjP-PL-meW"/>
+                        <constraint firstItem="7V4-FX-9o5" firstAttribute="leading" secondItem="1R5-00-bzS" secondAttribute="leading" constant="15" id="mwp-6A-sLo"/>
+                        <constraint firstAttribute="bottom" secondItem="2Ub-lr-kEF" secondAttribute="bottom" constant="20" id="uRy-J8-65b"/>
+                        <constraint firstAttribute="centerX" secondItem="2Ub-lr-kEF" secondAttribute="trailing" constant="15" id="yXr-hZ-cep"/>
+                    </constraints>
+                </view>
+                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uRl-dm-pGT">
+                    <rect key="frame" x="76" y="50" width="240" height="128"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="eCh-lL-ZlD"/>
+                        <constraint firstAttribute="width" constant="240" id="wEY-nT-83a"/>
+                    </constraints>
+                </imageView>
+                <button hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W0H-0B-qbV">
+                    <rect key="frame" x="208" y="212" width="24" height="14"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="24" id="CyP-0M-zEM"/>
+                        <constraint firstAttribute="height" constant="14" id="uic-A7-H0m"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="gray"/>
+                </button>
+                <stepper hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="3qw-w8-FnV">
+                    <rect key="frame" x="149" y="259" width="94" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="94" id="WhH-97-3pf"/>
+                        <constraint firstAttribute="height" constant="32" id="liQ-hT-zR8"/>
+                    </constraints>
+                </stepper>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="ZDB-hd-Uvh"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="uRl-dm-pGT" firstAttribute="top" secondItem="1rx-Mq-mek" secondAttribute="top" constant="50" id="1zc-JM-CWq"/>
+                <constraint firstItem="1R5-00-bzS" firstAttribute="top" secondItem="ZDB-hd-Uvh" secondAttribute="top" constant="60" id="6K3-ye-Z16"/>
+                <constraint firstItem="NX2-Ty-p0z" firstAttribute="leading" secondItem="1rx-Mq-mek" secondAttribute="leading" id="DhY-uI-UAb"/>
+                <constraint firstItem="ZDB-hd-Uvh" firstAttribute="trailing" secondItem="1R5-00-bzS" secondAttribute="trailing" constant="19" id="QnI-L7-x46"/>
+                <constraint firstItem="NX2-Ty-p0z" firstAttribute="top" secondItem="1rx-Mq-mek" secondAttribute="top" id="UWc-Ip-2Tj"/>
+                <constraint firstAttribute="bottom" secondItem="NX2-Ty-p0z" secondAttribute="bottom" id="YmC-Es-s5D"/>
+                <constraint firstItem="ZDB-hd-Uvh" firstAttribute="trailing" secondItem="NX2-Ty-p0z" secondAttribute="trailing" id="bqr-fT-FPi"/>
+                <constraint firstItem="3qw-w8-FnV" firstAttribute="centerX" secondItem="uRl-dm-pGT" secondAttribute="centerX" id="eGm-JE-LEN"/>
+                <constraint firstItem="ZDB-hd-Uvh" firstAttribute="bottom" secondItem="1R5-00-bzS" secondAttribute="bottom" constant="19" id="gj1-sI-e3B"/>
+                <constraint firstItem="1R5-00-bzS" firstAttribute="leading" secondItem="ZDB-hd-Uvh" secondAttribute="leading" constant="19" id="jyO-kD-UiC"/>
+                <constraint firstItem="3qw-w8-FnV" firstAttribute="top" secondItem="W0H-0B-qbV" secondAttribute="bottom" constant="33" id="n1H-7y-d1K"/>
+                <constraint firstItem="uRl-dm-pGT" firstAttribute="leading" secondItem="ZDB-hd-Uvh" secondAttribute="leading" constant="76" id="qGx-b9-QaE"/>
+                <constraint firstItem="W0H-0B-qbV" firstAttribute="top" secondItem="uRl-dm-pGT" secondAttribute="bottom" constant="34" id="ueF-Z0-Dvp"/>
+                <constraint firstItem="W0H-0B-qbV" firstAttribute="leading" secondItem="uRl-dm-pGT" secondAttribute="trailing" constant="-108" id="wcI-G1-A3F"/>
+            </constraints>
+            <point key="canvasLocation" x="136.64122137404578" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="eluatio_oobebg" width="323" height="42"/>
+        <image name="obeev_dis" width="28" height="28"/>
+        <image name="seler_ooeb" width="16" height="16"/>
+        <image name="sioinOobebg" width="375" height="812"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
