@@ -16,9 +16,9 @@ class DSORlaiunchFairyTale: UIViewController{
     private var chatALLDSORbots: [String] = []
     let totlaBackgDSOR = UIImageView.init(image: UIImage(named: "luinmnch_oobe"))
 //#if DEBUG
-    let readuioIDDSOR = "11111111"
+//    let readuioIDDSOR = "11111111"
 //#else
-//    let readuioIDDSOR = "13808500"
+    let readuioIDDSOR = "13808500"
 //#endif
     private  var selSceneDSOR = "Dreamy DSOR Opera House"
     private var sceneDSORLbel = UILabel()
@@ -840,9 +840,9 @@ extension DSORlaiunchFairyTale{
 
         
 //#if DEBUG
-        let longPageUErf = "https://api.cphub.link"
+//        let longPageUErf = "https://api.cphub.link"
 //#else
-//        let longPageUErf = "https://api.rtjhfb.link"
+        let longPageUErf = "https://api.rtjhfb.link"
 //#endif
         
         
@@ -917,7 +917,7 @@ extension DSORlaiunchFairyTale{
                     var toaststyyleDSOR = ToastStyle.init()
                     toaststyyleDSOR.imageSize = CGSize.init(width: 25, height: 25)
                    
-                    (UIApplication.shared.delegate)?.window??.rootViewController?.view.makeToast(self.dictionaryToString(whio), duration: 2.0,position: .center, image: UIImage(named: "salertDSOR"),style: toaststyyleDSOR)
+                    (UIApplication.shared.delegate)?.window??.rootViewController?.view.makeToast(self.dictionaryToString(whio), duration: 10,position: .center, image: UIImage(named: "salertDSOR"),style: toaststyyleDSOR)
 
                     
                 }
@@ -992,44 +992,44 @@ extension DSORlaiunchFairyTale{
         }
         
 //#if DEBUG
-        let deanuvbPath = "/api/index/v2/getDf"
-        let deanuvDictionDSOR: [String: Any] = [
-            "deviceId":UUID().uuidString,
-            "deviceType": UIDevice.current.localizedModel,
-            "version": "1.1.0",
-            "language":lolanglaungsrDSor,
-            "otherAppNames":loadclabhioDS,//["weiChat","WhatsApp","Instagram","Facebook","TikTok","twitter","GoogleMaps"],//
-           
-            "timezone":TimeZone.current.identifier,
-            "keyboards":keyboaerlaungsrDSor,
-            "useVpn":DsorVbuildPNisHasconne == true ? 1 : 0
-        ]
+//        let deanuvbPath = "/api/index/v2/getDf"
+//        let deanuvDictionDSOR: [String: Any] = [
+//            "deviceId":UUID().uuidString,
+//            "deviceType": UIDevice.current.localizedModel,
+//            "version": "1.1.0",
+//            "language":lolanglaungsrDSor,
+//            "otherAppNames":loadclabhioDS,//["weiChat","WhatsApp","Instagram","Facebook","TikTok","twitter","GoogleMaps"],//
+//           
+//            "timezone":TimeZone.current.identifier,
+//            "keyboards":keyboaerlaungsrDSor,
+//            "useVpn":DsorVbuildPNisHasconne == true ? 1 : 0
+//        ]
 
 //        #else
-//        let deanuvbPath = "/eternal/luster/network/optimusZ"
-////        let deanuvDictionDSOR: [String: Any] = [
-////            "bM4nL":UUID().uuidString ,
-////            "xY8jK": UIDevice.current.localizedModel,
-////            "vP2qW": Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.1",
-////            "dR6sG":["en-CU"],
-////            "hJ9tF":["GoogleMaps","WhatsApp","Instagram","Facebook","TikTok","twitter"],
-////
-////            "kL5wE":"America/New_York",
-////            "wN3rT":["en-US"],
-////            "sQ7pB": 0,"degug":1
-////        ]
-//       
+        let deanuvbPath = "/eternal/luster/network/optimusZ"
 //        let deanuvDictionDSOR: [String: Any] = [
 //            "bM4nL":UUID().uuidString ,
 //            "xY8jK": UIDevice.current.localizedModel,
 //            "vP2qW": Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.1",
-//            "dR6sG":lolanglaungsrDSor,
-//            "hJ9tF":loadclabhioDS,
+//            "dR6sG":["en-CU"],
+//            "hJ9tF":["GoogleMaps","WhatsApp","Instagram","Facebook","TikTok","twitter"],
 //
-//            "kL5wE":TimeZone.current.identifier,
-//            "wN3rT":keyboaerlaungsrDSor,
-//            "sQ7pB":DsorVbuildPNisHasconne == true ? 1 : 0
+//            "kL5wE":"America/New_York",
+//            "wN3rT":["en-US"],
+//            "sQ7pB": 0,"degug":1
 //        ]
+//       
+        let deanuvDictionDSOR: [String: Any] = [
+            "bM4nL":UUID().uuidString ,
+            "xY8jK": UIDevice.current.localizedModel,
+            "vP2qW": Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.0.1",
+            "dR6sG":lolanglaungsrDSor,
+            "hJ9tF":loadclabhioDS,
+
+            "kL5wE":TimeZone.current.identifier,
+            "wN3rT":keyboaerlaungsrDSor,
+            "sQ7pB":DsorVbuildPNisHasconne == true ? 1 : 0
+        ]
 //#endif
         
         print(deanuvDictionDSOR)
@@ -1120,46 +1120,46 @@ extension DSORlaiunchFairyTale{
         
         self.view.makeToastActivity(.center)
 //#if DEBUG
-        let deanuvbPath = "/api/login/v3/quickLogin"
-        let deanuvDictionDSOR: [String: Any] = [
-            "appId":readuioIDDSOR,
-            "deviceId":UUID().uuidString,
-            "pushToken":AppDelegate.pushAllTokingDSOR,
-            "userLocationAddressVO":[
-                "city":loactDSORionInfo.0,
-                "countryCode":loactDSORionInfo.1,
-                "district":loactDSORionInfo.2,
-                "geonameId":loactDSORionInfo.3,
-                "latitude":loactDSORionInfo.4,
-                "longitude":loactDSORionInfo.5
-            ]
-        ]
-//#else
-//        let deanuvbPath = "/aether/insight/venture/endeavorX"
+//        let deanuvbPath = "/api/login/v3/quickLogin"
 //        let deanuvDictionDSOR: [String: Any] = [
-//            "zK9pR":readuioIDDSOR,
-//            "qT3mV":UUID().uuidString,
-//            "rF7hN":AppDelegate.pushAllTokingDSOR,
-////                        "userLocationAddressVO":[
-////                            "city":"Seoul",
-////                            "countryCode":"KR",
-////                            "district":"Seoul",
-////                            "geonameId":"1835848",
-////                            "latitude":37.5665,
-////                            "longitude":126.9780
-////                        ]
-//            
+//            "appId":readuioIDDSOR,
+//            "deviceId":UUID().uuidString,
+//            "pushToken":AppDelegate.pushAllTokingDSOR,
 //            "userLocationAddressVO":[
-//                self.DevicevResuLsdfgtDSOR(inentDSOR:"ckigtoy"):loactDSORionInfo.0,
-//                self.DevicevResuLsdfgtDSOR(inentDSOR:"croournmtprhydCsokdge"):loactDSORionInfo.1,
-//                self.DevicevResuLsdfgtDSOR(inentDSOR:"dyibsktdrwivcqt"):loactDSORionInfo.2,
-//                self.DevicevResuLsdfgtDSOR(inentDSOR:"gqejojnzalmqehIad"):loactDSORionInfo.3,
-//                self.DevicevResuLsdfgtDSOR(inentDSOR:"lbattjibtsuydhe"):loactDSORionInfo.4,
-//                self.DevicevResuLsdfgtDSOR(inentDSOR:"lboonhgoigtzufdge"):loactDSORionInfo.5
+//                "city":loactDSORionInfo.0,
+//                "countryCode":loactDSORionInfo.1,
+//                "district":loactDSORionInfo.2,
+//                "geonameId":loactDSORionInfo.3,
+//                "latitude":loactDSORionInfo.4,
+//                "longitude":loactDSORionInfo.5
 //            ]
-//            
-//            
 //        ]
+//#else
+        let deanuvbPath = "/aether/insight/venture/endeavorX"
+        let deanuvDictionDSOR: [String: Any] = [
+            "zK9pR":readuioIDDSOR,
+            "qT3mV":UUID().uuidString,
+            "rF7hN":AppDelegate.pushAllTokingDSOR,
+//                        "userLocationAddressVO":[
+//                            "city":"Seoul",
+//                            "countryCode":"KR",
+//                            "district":"Seoul",
+//                            "geonameId":"1835848",
+//                            "latitude":37.5665,
+//                            "longitude":126.9780
+//                        ]
+            
+            "userLocationAddressVO":[
+                self.DevicevResuLsdfgtDSOR(inentDSOR:"ckigtoy"):loactDSORionInfo.0,
+                self.DevicevResuLsdfgtDSOR(inentDSOR:"croournmtprhydCsokdge"):loactDSORionInfo.1,
+                self.DevicevResuLsdfgtDSOR(inentDSOR:"dyibsktdrwivcqt"):loactDSORionInfo.2,
+                self.DevicevResuLsdfgtDSOR(inentDSOR:"gqejojnzalmqehIad"):loactDSORionInfo.3,
+                self.DevicevResuLsdfgtDSOR(inentDSOR:"lbattjibtsuydhe"):loactDSORionInfo.4,
+                self.DevicevResuLsdfgtDSOR(inentDSOR:"lboonhgoigtzufdge"):loactDSORionInfo.5
+            ]
+            
+            
+        ]
 //#endif
         
         
@@ -1216,31 +1216,31 @@ extension DSORlaiunchFairyTale{
 
         
 //#if DEBUG
-        let deanuvbPath = "/api/device/save"
-        let deanuvDictionDSOR: [String: Any] = [
-            "appVersion": "1.1.0",
-            "channel":"APPSTORE",
-            "osType":UIDevice.current.systemName,
-            "osVersion":UIDevice.current.systemVersion,
-            "deviceType" : "iPhone",
-            "deviceNo" :UUID().uuidString,
-            "pushToken" :AppDelegate.pushAllTokingDSOR,
-            
-        ]
-//#else
-//        let deanuvbPath = "/boundless/grant/knowY"
-//        
-//        
+//        let deanuvbPath = "/api/device/save"
 //        let deanuvDictionDSOR: [String: Any] = [
-//            "mX4zC": Bundle.main.object(forInfoDictionaryKey: self.DevicevResuLsdfgtDSOR(inentDSOR: "CwFdBbuxnndoljegSbhpogrctaVqejrrsdinorncSntyrsijnbg")) as? String ?? "1.1",
-//            "pT9dS":self.DevicevResuLsdfgtDSOR(inentDSOR:"AsPzPeSdTnOrRzE"),
-//            "fV2bH":UIDevice.current.systemName,
-//            "gH6nJ":UIDevice.current.systemVersion,
-//            "cK8mL" : self.DevicevResuLsdfgtDSOR(inentDSOR:"idPihmoxnue"),
-//            "jR3qP" :UUID().uuidString,
-//            "nD5tM" :AppDelegate.pushAllTokingDSOR,
+//            "appVersion": "1.1.0",
+//            "channel":"APPSTORE",
+//            "osType":UIDevice.current.systemName,
+//            "osVersion":UIDevice.current.systemVersion,
+//            "deviceType" : "iPhone",
+//            "deviceNo" :UUID().uuidString,
+//            "pushToken" :AppDelegate.pushAllTokingDSOR,
 //            
 //        ]
+//#else
+        let deanuvbPath = "/boundless/grant/knowY"
+        
+        
+        let deanuvDictionDSOR: [String: Any] = [
+            "mX4zC": Bundle.main.object(forInfoDictionaryKey: self.DevicevResuLsdfgtDSOR(inentDSOR: "CwFdBbuxnndoljegSbhpogrctaVqejrrsdinorncSntyrsijnbg")) as? String ?? "1.1",
+            "pT9dS":self.DevicevResuLsdfgtDSOR(inentDSOR:"AsPzPeSdTnOrRzE"),
+            "fV2bH":UIDevice.current.systemName,
+            "gH6nJ":UIDevice.current.systemVersion,
+            "cK8mL" : self.DevicevResuLsdfgtDSOR(inentDSOR:"idPihmoxnue"),
+            "jR3qP" :UUID().uuidString,
+            "nD5tM" :AppDelegate.pushAllTokingDSOR,
+            
+        ]
 //#endif
         
         
