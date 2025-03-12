@@ -35,10 +35,6 @@
 @protocol FBSDKAppEventParametersExtracting;
 @protocol FBSDKMACARuleMatching;
 @protocol FBSDKEventsProcessing;
-@protocol FBSDKTransactionObserving;
-@protocol FBSDKIAPFailedTransactionLoggingCreating;
-@protocol FBSDKIAPDedupeProcessing;
-@protocol FBSDKIAPTransactionCaching;
 #if !TARGET_OS_TV
 @protocol FBSDKEventProcessing;
 @protocol FBSDKMetadataIndexing;
@@ -79,17 +75,11 @@ NS_SWIFT_NAME(_AppEventsConfiguring)
                           internalUtility:(id<FBSDKInternalUtility>)internalUtility
                              capiReporter:(id<FBSDKCAPIReporter>)capiReporter
                      protectedModeManager:(id<FBSDKAppEventsParameterProcessing>)protectedModeManager
-                      bannedParamsManager:(id<FBSDKMACARuleMatching>)bannedParamsManager
-               stdParamEnforcementManager:(id<FBSDKMACARuleMatching>)stdParamEnforcementManager
                   macaRuleMatchingManager:(id<FBSDKMACARuleMatching>)macaRuleMatchingManager
                    blocklistEventsManager:(nonnull id<FBSDKEventsProcessing>)blocklistEventsManager
                    redactedEventsManager:(nonnull id<FBSDKEventsProcessing>)redactedEventsManager
                   sensitiveParamsManager:(nonnull id<FBSDKAppEventsParameterProcessing>)sensitiveParamsManager
-                      transactionObserver:(nonnull id<FBSDKTransactionObserving>)transactionObserver
-          failedTransactionLoggingFactory:(nonnull id<FBSDKIAPFailedTransactionLoggingCreating>)failedTransactionLoggingFactory
-                       iapDedupeProcessor:(nonnull id<FBSDKIAPDedupeProcessing>)iapDedupeProcessor
-                      iapTransactionCache:(nonnull id<FBSDKIAPTransactionCaching>)iapTransactionCache
-NS_SWIFT_NAME(configure(gateKeeperManager:appEventsConfigurationProvider:serverConfigurationProvider:graphRequestFactory:featureChecker:primaryDataStore:logger:settings:paymentObserver:timeSpentRecorder:appEventsStateStore:eventDeactivationParameterProcessor:restrictiveDataFilterParameterProcessor:atePublisherFactory:appEventsStateProvider:advertiserIDProvider:userDataStore:appEventsUtility:internalUtility:capiReporter:protectedModeManager:bannedParamsManager:stdParamEnforcementManager:macaRuleMatchingManager:blocklistEventsManager:redactedEventsManager:sensitiveParamsManager:transactionObserver:failedTransactionLoggingFactory:iapDedupeProcessor:iapTransactionCache:));
+NS_SWIFT_NAME(configure(gateKeeperManager:appEventsConfigurationProvider:serverConfigurationProvider:graphRequestFactory:featureChecker:primaryDataStore:logger:settings:paymentObserver:timeSpentRecorder:appEventsStateStore:eventDeactivationParameterProcessor:restrictiveDataFilterParameterProcessor:atePublisherFactory:appEventsStateProvider:advertiserIDProvider:userDataStore:appEventsUtility:internalUtility:capiReporter:protectedModeManager:macaRuleMatchingManager:blocklistEventsManager:redactedEventsManager:sensitiveParamsManager:));
 
 #if !TARGET_OS_TV
 
