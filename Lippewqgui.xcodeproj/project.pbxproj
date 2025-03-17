@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042D1C432D5B1F5C00854E10 /* LiSSpEditFrBucue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D1C412D5B1F5C00854E10 /* LiSSpEditFrBucue.swift */; };
+		042D1C442D5B1F5C00854E10 /* LiSSpEditFrBucue.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042D1C422D5B1F5C00854E10 /* LiSSpEditFrBucue.xib */; };
+		042D1C462D5B292300854E10 /* SSIPUjgun.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042D1C452D5B292300854E10 /* SSIPUjgun.plist */; };
+		042D1C492D5DC07300854E10 /* LiSSpSeeingPOsecell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D1C472D5DC07300854E10 /* LiSSpSeeingPOsecell.swift */; };
+		042D1C4A2D5DC07300854E10 /* LiSSpSeeingPOsecell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042D1C482D5DC07300854E10 /* LiSSpSeeingPOsecell.xib */; };
+		047218962D7057760028B44D /* LiSSpBucueTruber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047218952D7057760028B44D /* LiSSpBucueTruber.swift */; };
+		04CD3FB02D59928F001D403C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD3FAA2D59928F001D403C /* AppDelegate.swift */; };
+		04CD3FB12D59928F001D403C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CD3FAB2D59928F001D403C /* Assets.xcassets */; };
+		04CD3FB32D59928F001D403C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CD3FAE2D59928F001D403C /* LaunchScreen.storyboard */; };
+		04CD3FB62D5998C3001D403C /* LipSigggneSnmingertips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD3FB42D5998C3001D403C /* LipSigggneSnmingertips.swift */; };
+		04CD3FB72D5998C3001D403C /* LipSigggneSnmingertips.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CD3FB52D5998C3001D403C /* LipSigggneSnmingertips.xib */; };
+		04CD3FBB2D59AE20001D403C /* LiSSpBArBootomrbucue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD3FBA2D59AE20001D403C /* LiSSpBArBootomrbucue.swift */; };
+		04CD3FCB2D59D9DF001D403C /* LiSSpHomeBootomrbucue.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CD3FCA2D59D9DF001D403C /* LiSSpHomeBootomrbucue.xib */; };
+		04CD3FCC2D59D9DF001D403C /* LiSSpHomeBootomrbucue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD3FC92D59D9DF001D403C /* LiSSpHomeBootomrbucue.swift */; };
+		04CD3FCF2D59D9F1001D403C /* LiSSpDynamicBootomrbucue.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CD3FCE2D59D9F1001D403C /* LiSSpDynamicBootomrbucue.xib */; };
+		04CD3FD02D59D9F1001D403C /* LiSSpDynamicBootomrbucue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD3FCD2D59D9F1001D403C /* LiSSpDynamicBootomrbucue.swift */; };
+		04CD3FD32D59DA03001D403C /* LiSSpMeaddgeBootomrbucue.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CD3FD22D59DA03001D403C /* LiSSpMeaddgeBootomrbucue.xib */; };
+		04CD3FD42D59DA03001D403C /* LiSSpMeaddgeBootomrbucue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD3FD12D59DA03001D403C /* LiSSpMeaddgeBootomrbucue.swift */; };
+		04CD3FD72D59DA11001D403C /* LiSSpMeBootomrbucue.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CD3FD62D59DA11001D403C /* LiSSpMeBootomrbucue.xib */; };
+		04CD3FD82D59DA11001D403C /* LiSSpMeBootomrbucue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD3FD52D59DA11001D403C /* LiSSpMeBootomrbucue.swift */; };
+		04CD3FDB2D59E0E6001D403C /* LiSSpELUABootomrbucue.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CD3FDA2D59E0E6001D403C /* LiSSpELUABootomrbucue.xib */; };
+		04CD3FDC2D59E0E6001D403C /* LiSSpELUABootomrbucue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD3FD92D59E0E6001D403C /* LiSSpELUABootomrbucue.swift */; };
+		04CD3FDF2D59F577001D403C /* LiSSpEnterDetailBootomrbucue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD3FDD2D59F577001D403C /* LiSSpEnterDetailBootomrbucue.swift */; };
+		04CD3FE02D59F577001D403C /* LiSSpEnterDetailBootomrbucue.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CD3FDE2D59F577001D403C /* LiSSpEnterDetailBootomrbucue.xib */; };
+		04CD3FE32D59F8AF001D403C /* LiSSpPostColtomrbucue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD3FE12D59F8AF001D403C /* LiSSpPostColtomrbucue.swift */; };
+		04CD3FE42D59F8AF001D403C /* LiSSpPostColtomrbucue.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CD3FE22D59F8AF001D403C /* LiSSpPostColtomrbucue.xib */; };
+		04CD3FE82D59FC0F001D403C /* LiSSpAIBriefrbucue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD3FE62D59FC0F001D403C /* LiSSpAIBriefrbucue.swift */; };
+		04CD3FE92D59FC0F001D403C /* LiSSpAIBriefrbucue.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CD3FE72D59FC0F001D403C /* LiSSpAIBriefrbucue.xib */; };
+		04CD3FEC2D59FE58001D403C /* LiSSpAIUploasingefrbucue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD3FEA2D59FE58001D403C /* LiSSpAIUploasingefrbucue.swift */; };
+		04CD3FED2D59FE58001D403C /* LiSSpAIUploasingefrbucue.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CD3FEB2D59FE58001D403C /* LiSSpAIUploasingefrbucue.xib */; };
+		04CD3FF02D5A0008001D403C /* LiSSpAIResuiltingsingefrbucue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD3FEE2D5A0008001D403C /* LiSSpAIResuiltingsingefrbucue.swift */; };
+		04CD3FF12D5A0008001D403C /* LiSSpAIResuiltingsingefrbucue.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CD3FEF2D5A0008001D403C /* LiSSpAIResuiltingsingefrbucue.xib */; };
+		04CD3FF42D5A0361001D403C /* LiSSpCommwnentsingefrbucue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD3FF22D5A0361001D403C /* LiSSpCommwnentsingefrbucue.swift */; };
+		04CD3FF52D5A0361001D403C /* LiSSpCommwnentsingefrbucue.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CD3FF32D5A0361001D403C /* LiSSpCommwnentsingefrbucue.xib */; };
+		04CD3FF82D5A0372001D403C /* LiSSpTieZIngefrbucue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD3FF62D5A0372001D403C /* LiSSpTieZIngefrbucue.swift */; };
+		04CD3FF92D5A0372001D403C /* LiSSpTieZIngefrbucue.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CD3FF72D5A0372001D403C /* LiSSpTieZIngefrbucue.xib */; };
+		04CD3FFC2D5A03AD001D403C /* LiSSpTieZIPostfrbucue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD3FFA2D5A03AD001D403C /* LiSSpTieZIPostfrbucue.swift */; };
+		04CD3FFD2D5A03AD001D403C /* LiSSpTieZIPostfrbucue.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CD3FFB2D5A03AD001D403C /* LiSSpTieZIPostfrbucue.xib */; };
+		04CD40002D5A03CD001D403C /* LiSSpSearcZIPostfrbucue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD3FFE2D5A03CD001D403C /* LiSSpSearcZIPostfrbucue.swift */; };
+		04CD40012D5A03CD001D403C /* LiSSpSearcZIPostfrbucue.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CD3FFF2D5A03CD001D403C /* LiSSpSearcZIPostfrbucue.xib */; };
+		04CD40042D5AE9E0001D403C /* LiSSpPersionlistPostfrbucue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD40022D5AE9E0001D403C /* LiSSpPersionlistPostfrbucue.swift */; };
+		04CD40052D5AE9E0001D403C /* LiSSpPersionlistPostfrbucue.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CD40032D5AE9E0001D403C /* LiSSpPersionlistPostfrbucue.xib */; };
+		04CD40082D5AEA19001D403C /* LiSSpChatstfrbucue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD40062D5AEA19001D403C /* LiSSpChatstfrbucue.swift */; };
+		04CD40092D5AEA19001D403C /* LiSSpChatstfrbucue.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CD40072D5AEA19001D403C /* LiSSpChatstfrbucue.xib */; };
+		04CD400C2D5AEA37001D403C /* LiSSpChatVideostfrbucue.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CD400B2D5AEA37001D403C /* LiSSpChatVideostfrbucue.xib */; };
+		04CD400D2D5AEA37001D403C /* LiSSpChatVideostfrbucue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD400A2D5AEA37001D403C /* LiSSpChatVideostfrbucue.swift */; };
+		04CD40102D5AF70C001D403C /* LiSSpPesoncenstfrbucue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD400E2D5AF70C001D403C /* LiSSpPesoncenstfrbucue.swift */; };
+		04CD40112D5AF70C001D403C /* LiSSpPesoncenstfrbucue.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CD400F2D5AF70C001D403C /* LiSSpPesoncenstfrbucue.xib */; };
+		04D695322D5B18D8004A38E5 /* LiSSpItmeringBucue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D695302D5B18D8004A38E5 /* LiSSpItmeringBucue.swift */; };
+		04D695332D5B18D8004A38E5 /* LiSSpItmeringBucue.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D695312D5B18D8004A38E5 /* LiSSpItmeringBucue.xib */; };
+		04D695362D5B1A72004A38E5 /* LiSSpWallwnetBucue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D695342D5B1A72004A38E5 /* LiSSpWallwnetBucue.swift */; };
+		04D695372D5B1A72004A38E5 /* LiSSpWallwnetBucue.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D695352D5B1A72004A38E5 /* LiSSpWallwnetBucue.xib */; };
+		04D6953A2D5B1D4F004A38E5 /* LiSSpWallwnetvierell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D695382D5B1D4F004A38E5 /* LiSSpWallwnetvierell.swift */; };
+		04D6953B2D5B1D4F004A38E5 /* LiSSpWallwnetvierell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D695392D5B1D4F004A38E5 /* LiSSpWallwnetvierell.xib */; };
+		04E083132D5DE8CB00A8FD1A /* LiSSpmeassgrLifarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E083122D5DE8CB00A8FD1A /* LiSSpmeassgrLifarCell.swift */; };
+		04E0832D2D632A1B00A8FD1A /* LiSSTagwCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0832B2D632A1B00A8FD1A /* LiSSTagwCell.swift */; };
+		C5A91C6F2A45D122E1C52895 /* Pods_Lippewqgui.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C8844666650FA56509B7B4F /* Pods_Lippewqgui.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		042D1C412D5B1F5C00854E10 /* LiSSpEditFrBucue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSSpEditFrBucue.swift; sourceTree = "<group>"; };
+		042D1C422D5B1F5C00854E10 /* LiSSpEditFrBucue.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiSSpEditFrBucue.xib; sourceTree = "<group>"; };
+		042D1C452D5B292300854E10 /* SSIPUjgun.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SSIPUjgun.plist; sourceTree = "<group>"; };
+		042D1C472D5DC07300854E10 /* LiSSpSeeingPOsecell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSSpSeeingPOsecell.swift; sourceTree = "<group>"; };
+		042D1C482D5DC07300854E10 /* LiSSpSeeingPOsecell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiSSpSeeingPOsecell.xib; sourceTree = "<group>"; };
+		0465C20A2D76F37F0040B698 /* Lippewqgui.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lippewqgui.entitlements; sourceTree = "<group>"; };
+		047218952D7057760028B44D /* LiSSpBucueTruber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSSpBucueTruber.swift; sourceTree = "<group>"; };
+		04CD3F922D599265001D403C /* Lippewqgui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lippewqgui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CD3FAA2D59928F001D403C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04CD3FAB2D59928F001D403C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04CD3FAC2D59928F001D403C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CD3FAD2D59928F001D403C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04CD3FB42D5998C3001D403C /* LipSigggneSnmingertips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LipSigggneSnmingertips.swift; sourceTree = "<group>"; };
+		04CD3FB52D5998C3001D403C /* LipSigggneSnmingertips.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LipSigggneSnmingertips.xib; sourceTree = "<group>"; };
+		04CD3FBA2D59AE20001D403C /* LiSSpBArBootomrbucue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSSpBArBootomrbucue.swift; sourceTree = "<group>"; };
+		04CD3FC92D59D9DF001D403C /* LiSSpHomeBootomrbucue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSSpHomeBootomrbucue.swift; sourceTree = "<group>"; };
+		04CD3FCA2D59D9DF001D403C /* LiSSpHomeBootomrbucue.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiSSpHomeBootomrbucue.xib; sourceTree = "<group>"; };
+		04CD3FCD2D59D9F1001D403C /* LiSSpDynamicBootomrbucue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSSpDynamicBootomrbucue.swift; sourceTree = "<group>"; };
+		04CD3FCE2D59D9F1001D403C /* LiSSpDynamicBootomrbucue.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiSSpDynamicBootomrbucue.xib; sourceTree = "<group>"; };
+		04CD3FD12D59DA03001D403C /* LiSSpMeaddgeBootomrbucue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSSpMeaddgeBootomrbucue.swift; sourceTree = "<group>"; };
+		04CD3FD22D59DA03001D403C /* LiSSpMeaddgeBootomrbucue.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiSSpMeaddgeBootomrbucue.xib; sourceTree = "<group>"; };
+		04CD3FD52D59DA11001D403C /* LiSSpMeBootomrbucue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSSpMeBootomrbucue.swift; sourceTree = "<group>"; };
+		04CD3FD62D59DA11001D403C /* LiSSpMeBootomrbucue.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiSSpMeBootomrbucue.xib; sourceTree = "<group>"; };
+		04CD3FD92D59E0E6001D403C /* LiSSpELUABootomrbucue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSSpELUABootomrbucue.swift; sourceTree = "<group>"; };
+		04CD3FDA2D59E0E6001D403C /* LiSSpELUABootomrbucue.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiSSpELUABootomrbucue.xib; sourceTree = "<group>"; };
+		04CD3FDD2D59F577001D403C /* LiSSpEnterDetailBootomrbucue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSSpEnterDetailBootomrbucue.swift; sourceTree = "<group>"; };
+		04CD3FDE2D59F577001D403C /* LiSSpEnterDetailBootomrbucue.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiSSpEnterDetailBootomrbucue.xib; sourceTree = "<group>"; };
+		04CD3FE12D59F8AF001D403C /* LiSSpPostColtomrbucue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSSpPostColtomrbucue.swift; sourceTree = "<group>"; };
+		04CD3FE22D59F8AF001D403C /* LiSSpPostColtomrbucue.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiSSpPostColtomrbucue.xib; sourceTree = "<group>"; };
+		04CD3FE62D59FC0F001D403C /* LiSSpAIBriefrbucue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSSpAIBriefrbucue.swift; sourceTree = "<group>"; };
+		04CD3FE72D59FC0F001D403C /* LiSSpAIBriefrbucue.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiSSpAIBriefrbucue.xib; sourceTree = "<group>"; };
+		04CD3FEA2D59FE58001D403C /* LiSSpAIUploasingefrbucue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSSpAIUploasingefrbucue.swift; sourceTree = "<group>"; };
+		04CD3FEB2D59FE58001D403C /* LiSSpAIUploasingefrbucue.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiSSpAIUploasingefrbucue.xib; sourceTree = "<group>"; };
+		04CD3FEE2D5A0008001D403C /* LiSSpAIResuiltingsingefrbucue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSSpAIResuiltingsingefrbucue.swift; sourceTree = "<group>"; };
+		04CD3FEF2D5A0008001D403C /* LiSSpAIResuiltingsingefrbucue.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiSSpAIResuiltingsingefrbucue.xib; sourceTree = "<group>"; };
+		04CD3FF22D5A0361001D403C /* LiSSpCommwnentsingefrbucue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSSpCommwnentsingefrbucue.swift; sourceTree = "<group>"; };
+		04CD3FF32D5A0361001D403C /* LiSSpCommwnentsingefrbucue.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiSSpCommwnentsingefrbucue.xib; sourceTree = "<group>"; };
+		04CD3FF62D5A0372001D403C /* LiSSpTieZIngefrbucue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSSpTieZIngefrbucue.swift; sourceTree = "<group>"; };
+		04CD3FF72D5A0372001D403C /* LiSSpTieZIngefrbucue.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiSSpTieZIngefrbucue.xib; sourceTree = "<group>"; };
+		04CD3FFA2D5A03AD001D403C /* LiSSpTieZIPostfrbucue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSSpTieZIPostfrbucue.swift; sourceTree = "<group>"; };
+		04CD3FFB2D5A03AD001D403C /* LiSSpTieZIPostfrbucue.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiSSpTieZIPostfrbucue.xib; sourceTree = "<group>"; };
+		04CD3FFE2D5A03CD001D403C /* LiSSpSearcZIPostfrbucue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSSpSearcZIPostfrbucue.swift; sourceTree = "<group>"; };
+		04CD3FFF2D5A03CD001D403C /* LiSSpSearcZIPostfrbucue.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiSSpSearcZIPostfrbucue.xib; sourceTree = "<group>"; };
+		04CD40022D5AE9E0001D403C /* LiSSpPersionlistPostfrbucue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSSpPersionlistPostfrbucue.swift; sourceTree = "<group>"; };
+		04CD40032D5AE9E0001D403C /* LiSSpPersionlistPostfrbucue.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiSSpPersionlistPostfrbucue.xib; sourceTree = "<group>"; };
+		04CD40062D5AEA19001D403C /* LiSSpChatstfrbucue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSSpChatstfrbucue.swift; sourceTree = "<group>"; };
+		04CD40072D5AEA19001D403C /* LiSSpChatstfrbucue.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiSSpChatstfrbucue.xib; sourceTree = "<group>"; };
+		04CD400A2D5AEA37001D403C /* LiSSpChatVideostfrbucue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSSpChatVideostfrbucue.swift; sourceTree = "<group>"; };
+		04CD400B2D5AEA37001D403C /* LiSSpChatVideostfrbucue.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiSSpChatVideostfrbucue.xib; sourceTree = "<group>"; };
+		04CD400E2D5AF70C001D403C /* LiSSpPesoncenstfrbucue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSSpPesoncenstfrbucue.swift; sourceTree = "<group>"; };
+		04CD400F2D5AF70C001D403C /* LiSSpPesoncenstfrbucue.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiSSpPesoncenstfrbucue.xib; sourceTree = "<group>"; };
+		04D695302D5B18D8004A38E5 /* LiSSpItmeringBucue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSSpItmeringBucue.swift; sourceTree = "<group>"; };
+		04D695312D5B18D8004A38E5 /* LiSSpItmeringBucue.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiSSpItmeringBucue.xib; sourceTree = "<group>"; };
+		04D695342D5B1A72004A38E5 /* LiSSpWallwnetBucue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSSpWallwnetBucue.swift; sourceTree = "<group>"; };
+		04D695352D5B1A72004A38E5 /* LiSSpWallwnetBucue.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiSSpWallwnetBucue.xib; sourceTree = "<group>"; };
+		04D695382D5B1D4F004A38E5 /* LiSSpWallwnetvierell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSSpWallwnetvierell.swift; sourceTree = "<group>"; };
+		04D695392D5B1D4F004A38E5 /* LiSSpWallwnetvierell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiSSpWallwnetvierell.xib; sourceTree = "<group>"; };
+		04E083122D5DE8CB00A8FD1A /* LiSSpmeassgrLifarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSSpmeassgrLifarCell.swift; sourceTree = "<group>"; };
+		04E0832B2D632A1B00A8FD1A /* LiSSTagwCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSSTagwCell.swift; sourceTree = "<group>"; };
+		061EB7F6F7AF2F70F5981D64 /* Pods-Lippewqgui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lippewqgui.release.xcconfig"; path = "Target Support Files/Pods-Lippewqgui/Pods-Lippewqgui.release.xcconfig"; sourceTree = "<group>"; };
+		6C8844666650FA56509B7B4F /* Pods_Lippewqgui.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lippewqgui.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92EADF3B99FDD32D50637B8B /* Pods-Lippewqgui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lippewqgui.debug.xcconfig"; path = "Target Support Files/Pods-Lippewqgui/Pods-Lippewqgui.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04CD3F8F2D599265001D403C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A91C6F2A45D122E1C52895 /* Pods_Lippewqgui.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04CD3F892D599265001D403C = {
+			isa = PBXGroup;
+			children = (
+				04CD3FAF2D59928F001D403C /* Lippewqgui */,
+				04CD3F932D599265001D403C /* Products */,
+				3933552498704FA60F50BBF9 /* Pods */,
+				1BBF17B8AF78302A15FFA88E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04CD3F932D599265001D403C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CD3F922D599265001D403C /* Lippewqgui.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04CD3FAF2D59928F001D403C /* Lippewqgui */ = {
+			isa = PBXGroup;
+			children = (
+				0465C20A2D76F37F0040B698 /* Lippewqgui.entitlements */,
+				04CD3FBC2D59C752001D403C /* LiSSp_Cocletion */,
+				04CD3FBD2D59C762001D403C /* LiSSp_Dym */,
+				04CD3FC02D59C76E001D403C /* LiSSp_message */,
+				04CD3FC42D59C77A001D403C /* LiSSp_Me */,
+				04CD3FAA2D59928F001D403C /* AppDelegate.swift */,
+				04CD3FAB2D59928F001D403C /* Assets.xcassets */,
+				04CD3FAC2D59928F001D403C /* Info.plist */,
+				04CD3FAE2D59928F001D403C /* LaunchScreen.storyboard */,
+				04CD3FD92D59E0E6001D403C /* LiSSpELUABootomrbucue.swift */,
+				04CD3FDA2D59E0E6001D403C /* LiSSpELUABootomrbucue.xib */,
+				04CD3FB42D5998C3001D403C /* LipSigggneSnmingertips.swift */,
+				04CD3FB52D5998C3001D403C /* LipSigggneSnmingertips.xib */,
+				04CD3FBA2D59AE20001D403C /* LiSSpBArBootomrbucue.swift */,
+				047218952D7057760028B44D /* LiSSpBucueTruber.swift */,
+				042D1C452D5B292300854E10 /* SSIPUjgun.plist */,
+			);
+			path = Lippewqgui;
+			sourceTree = "<group>";
+		};
+		04CD3FBC2D59C752001D403C /* LiSSp_Cocletion */ = {
+			isa = PBXGroup;
+			children = (
+				04CD3FE52D59FBF8001D403C /* LISSP_AI */,
+				04CD3FC92D59D9DF001D403C /* LiSSpHomeBootomrbucue.swift */,
+				04CD3FCA2D59D9DF001D403C /* LiSSpHomeBootomrbucue.xib */,
+				04CD3FDD2D59F577001D403C /* LiSSpEnterDetailBootomrbucue.swift */,
+				04CD3FDE2D59F577001D403C /* LiSSpEnterDetailBootomrbucue.xib */,
+				04CD3FE12D59F8AF001D403C /* LiSSpPostColtomrbucue.swift */,
+				04CD3FE22D59F8AF001D403C /* LiSSpPostColtomrbucue.xib */,
+			);
+			path = LiSSp_Cocletion;
+			sourceTree = "<group>";
+		};
+		04CD3FBD2D59C762001D403C /* LiSSp_Dym */ = {
+			isa = PBXGroup;
+			children = (
+				04CD3FCD2D59D9F1001D403C /* LiSSpDynamicBootomrbucue.swift */,
+				04CD3FCE2D59D9F1001D403C /* LiSSpDynamicBootomrbucue.xib */,
+				04CD3FF22D5A0361001D403C /* LiSSpCommwnentsingefrbucue.swift */,
+				04CD3FF32D5A0361001D403C /* LiSSpCommwnentsingefrbucue.xib */,
+				04CD3FF62D5A0372001D403C /* LiSSpTieZIngefrbucue.swift */,
+				04CD3FF72D5A0372001D403C /* LiSSpTieZIngefrbucue.xib */,
+				04CD3FFA2D5A03AD001D403C /* LiSSpTieZIPostfrbucue.swift */,
+				04CD3FFB2D5A03AD001D403C /* LiSSpTieZIPostfrbucue.xib */,
+				04CD3FFE2D5A03CD001D403C /* LiSSpSearcZIPostfrbucue.swift */,
+				04CD3FFF2D5A03CD001D403C /* LiSSpSearcZIPostfrbucue.xib */,
+				042D1C472D5DC07300854E10 /* LiSSpSeeingPOsecell.swift */,
+				042D1C482D5DC07300854E10 /* LiSSpSeeingPOsecell.xib */,
+			);
+			path = LiSSp_Dym;
+			sourceTree = "<group>";
+		};
+		04CD3FC02D59C76E001D403C /* LiSSp_message */ = {
+			isa = PBXGroup;
+			children = (
+				04CD3FD12D59DA03001D403C /* LiSSpMeaddgeBootomrbucue.swift */,
+				04CD3FD22D59DA03001D403C /* LiSSpMeaddgeBootomrbucue.xib */,
+				04CD40022D5AE9E0001D403C /* LiSSpPersionlistPostfrbucue.swift */,
+				04CD40032D5AE9E0001D403C /* LiSSpPersionlistPostfrbucue.xib */,
+				04CD40062D5AEA19001D403C /* LiSSpChatstfrbucue.swift */,
+				04CD40072D5AEA19001D403C /* LiSSpChatstfrbucue.xib */,
+				04E0832B2D632A1B00A8FD1A /* LiSSTagwCell.swift */,
+				04CD400A2D5AEA37001D403C /* LiSSpChatVideostfrbucue.swift */,
+				04CD400B2D5AEA37001D403C /* LiSSpChatVideostfrbucue.xib */,
+				04E083122D5DE8CB00A8FD1A /* LiSSpmeassgrLifarCell.swift */,
+			);
+			path = LiSSp_message;
+			sourceTree = "<group>";
+		};
+		04CD3FC42D59C77A001D403C /* LiSSp_Me */ = {
+			isa = PBXGroup;
+			children = (
+				04CD3FD52D59DA11001D403C /* LiSSpMeBootomrbucue.swift */,
+				04CD3FD62D59DA11001D403C /* LiSSpMeBootomrbucue.xib */,
+				04CD400E2D5AF70C001D403C /* LiSSpPesoncenstfrbucue.swift */,
+				04CD400F2D5AF70C001D403C /* LiSSpPesoncenstfrbucue.xib */,
+				04D695302D5B18D8004A38E5 /* LiSSpItmeringBucue.swift */,
+				04D695312D5B18D8004A38E5 /* LiSSpItmeringBucue.xib */,
+				04D695342D5B1A72004A38E5 /* LiSSpWallwnetBucue.swift */,
+				04D695352D5B1A72004A38E5 /* LiSSpWallwnetBucue.xib */,
+				04D695382D5B1D4F004A38E5 /* LiSSpWallwnetvierell.swift */,
+				04D695392D5B1D4F004A38E5 /* LiSSpWallwnetvierell.xib */,
+				042D1C412D5B1F5C00854E10 /* LiSSpEditFrBucue.swift */,
+				042D1C422D5B1F5C00854E10 /* LiSSpEditFrBucue.xib */,
+			);
+			path = LiSSp_Me;
+			sourceTree = "<group>";
+		};
+		04CD3FE52D59FBF8001D403C /* LISSP_AI */ = {
+			isa = PBXGroup;
+			children = (
+				04CD3FE62D59FC0F001D403C /* LiSSpAIBriefrbucue.swift */,
+				04CD3FE72D59FC0F001D403C /* LiSSpAIBriefrbucue.xib */,
+				04CD3FEA2D59FE58001D403C /* LiSSpAIUploasingefrbucue.swift */,
+				04CD3FEB2D59FE58001D403C /* LiSSpAIUploasingefrbucue.xib */,
+				04CD3FEE2D5A0008001D403C /* LiSSpAIResuiltingsingefrbucue.swift */,
+				04CD3FEF2D5A0008001D403C /* LiSSpAIResuiltingsingefrbucue.xib */,
+			);
+			path = LISSP_AI;
+			sourceTree = "<group>";
+		};
+		1BBF17B8AF78302A15FFA88E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C8844666650FA56509B7B4F /* Pods_Lippewqgui.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3933552498704FA60F50BBF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92EADF3B99FDD32D50637B8B /* Pods-Lippewqgui.debug.xcconfig */,
+				061EB7F6F7AF2F70F5981D64 /* Pods-Lippewqgui.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04CD3F912D599265001D403C /* Lippewqgui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CD3FA52D599266001D403C /* Build configuration list for PBXNativeTarget "Lippewqgui" */;
+			buildPhases = (
+				C409F9678D9F513DF7689D04 /* [CP] Check Pods Manifest.lock */,
+				04CD3F8E2D599265001D403C /* Sources */,
+				04CD3F8F2D599265001D403C /* Frameworks */,
+				04CD3F902D599265001D403C /* Resources */,
+				085AC314B3A18B8C075D0F78 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lippewqgui;
+			productName = Lippewqgui;
+			productReference = 04CD3F922D599265001D403C /* Lippewqgui.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04CD3F8A2D599265001D403C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = LiSSp;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					04CD3F912D599265001D403C = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 04CD3F8D2D599265001D403C /* Build configuration list for PBXProject "Lippewqgui" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04CD3F892D599265001D403C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 04CD3F932D599265001D403C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04CD3F912D599265001D403C /* Lippewqgui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04CD3F902D599265001D403C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CD3FF52D5A0361001D403C /* LiSSpCommwnentsingefrbucue.xib in Resources */,
+				042D1C462D5B292300854E10 /* SSIPUjgun.plist in Resources */,
+				04D695332D5B18D8004A38E5 /* LiSSpItmeringBucue.xib in Resources */,
+				04CD40092D5AEA19001D403C /* LiSSpChatstfrbucue.xib in Resources */,
+				042D1C442D5B1F5C00854E10 /* LiSSpEditFrBucue.xib in Resources */,
+				04D695372D5B1A72004A38E5 /* LiSSpWallwnetBucue.xib in Resources */,
+				04CD3FCB2D59D9DF001D403C /* LiSSpHomeBootomrbucue.xib in Resources */,
+				04CD3FE02D59F577001D403C /* LiSSpEnterDetailBootomrbucue.xib in Resources */,
+				04CD3FD32D59DA03001D403C /* LiSSpMeaddgeBootomrbucue.xib in Resources */,
+				04CD3FE92D59FC0F001D403C /* LiSSpAIBriefrbucue.xib in Resources */,
+				04CD40012D5A03CD001D403C /* LiSSpSearcZIPostfrbucue.xib in Resources */,
+				04CD3FDB2D59E0E6001D403C /* LiSSpELUABootomrbucue.xib in Resources */,
+				04CD3FED2D59FE58001D403C /* LiSSpAIUploasingefrbucue.xib in Resources */,
+				04CD400C2D5AEA37001D403C /* LiSSpChatVideostfrbucue.xib in Resources */,
+				04CD3FB12D59928F001D403C /* Assets.xcassets in Resources */,
+				04D6953B2D5B1D4F004A38E5 /* LiSSpWallwnetvierell.xib in Resources */,
+				042D1C4A2D5DC07300854E10 /* LiSSpSeeingPOsecell.xib in Resources */,
+				04CD40052D5AE9E0001D403C /* LiSSpPersionlistPostfrbucue.xib in Resources */,
+				04CD3FD72D59DA11001D403C /* LiSSpMeBootomrbucue.xib in Resources */,
+				04CD3FF12D5A0008001D403C /* LiSSpAIResuiltingsingefrbucue.xib in Resources */,
+				04CD3FB32D59928F001D403C /* LaunchScreen.storyboard in Resources */,
+				04CD3FE42D59F8AF001D403C /* LiSSpPostColtomrbucue.xib in Resources */,
+				04CD40112D5AF70C001D403C /* LiSSpPesoncenstfrbucue.xib in Resources */,
+				04CD3FFD2D5A03AD001D403C /* LiSSpTieZIPostfrbucue.xib in Resources */,
+				04CD3FB72D5998C3001D403C /* LipSigggneSnmingertips.xib in Resources */,
+				04CD3FCF2D59D9F1001D403C /* LiSSpDynamicBootomrbucue.xib in Resources */,
+				04CD3FF92D5A0372001D403C /* LiSSpTieZIngefrbucue.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		085AC314B3A18B8C075D0F78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lippewqgui/Pods-Lippewqgui-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lippewqgui/Pods-Lippewqgui-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lippewqgui/Pods-Lippewqgui-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C409F9678D9F513DF7689D04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lippewqgui-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04CD3F8E2D599265001D403C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CD3FF42D5A0361001D403C /* LiSSpCommwnentsingefrbucue.swift in Sources */,
+				047218962D7057760028B44D /* LiSSpBucueTruber.swift in Sources */,
+				04CD3FEC2D59FE58001D403C /* LiSSpAIUploasingefrbucue.swift in Sources */,
+				04CD3FD42D59DA03001D403C /* LiSSpMeaddgeBootomrbucue.swift in Sources */,
+				04CD3FDF2D59F577001D403C /* LiSSpEnterDetailBootomrbucue.swift in Sources */,
+				04CD3FE82D59FC0F001D403C /* LiSSpAIBriefrbucue.swift in Sources */,
+				04CD40082D5AEA19001D403C /* LiSSpChatstfrbucue.swift in Sources */,
+				04CD3FCC2D59D9DF001D403C /* LiSSpHomeBootomrbucue.swift in Sources */,
+				04CD3FB02D59928F001D403C /* AppDelegate.swift in Sources */,
+				04CD3FE32D59F8AF001D403C /* LiSSpPostColtomrbucue.swift in Sources */,
+				04E0832D2D632A1B00A8FD1A /* LiSSTagwCell.swift in Sources */,
+				04CD3FB62D5998C3001D403C /* LipSigggneSnmingertips.swift in Sources */,
+				04CD3FBB2D59AE20001D403C /* LiSSpBArBootomrbucue.swift in Sources */,
+				042D1C492D5DC07300854E10 /* LiSSpSeeingPOsecell.swift in Sources */,
+				04CD3FF82D5A0372001D403C /* LiSSpTieZIngefrbucue.swift in Sources */,
+				04CD400D2D5AEA37001D403C /* LiSSpChatVideostfrbucue.swift in Sources */,
+				04CD40042D5AE9E0001D403C /* LiSSpPersionlistPostfrbucue.swift in Sources */,
+				04CD40002D5A03CD001D403C /* LiSSpSearcZIPostfrbucue.swift in Sources */,
+				04D695362D5B1A72004A38E5 /* LiSSpWallwnetBucue.swift in Sources */,
+				04CD3FD02D59D9F1001D403C /* LiSSpDynamicBootomrbucue.swift in Sources */,
+				04CD3FF02D5A0008001D403C /* LiSSpAIResuiltingsingefrbucue.swift in Sources */,
+				04D6953A2D5B1D4F004A38E5 /* LiSSpWallwnetvierell.swift in Sources */,
+				04E083132D5DE8CB00A8FD1A /* LiSSpmeassgrLifarCell.swift in Sources */,
+				04CD40102D5AF70C001D403C /* LiSSpPesoncenstfrbucue.swift in Sources */,
+				04CD3FD82D59DA11001D403C /* LiSSpMeBootomrbucue.swift in Sources */,
+				04CD3FFC2D5A03AD001D403C /* LiSSpTieZIPostfrbucue.swift in Sources */,
+				04CD3FDC2D59E0E6001D403C /* LiSSpELUABootomrbucue.swift in Sources */,
+				042D1C432D5B1F5C00854E10 /* LiSSpEditFrBucue.swift in Sources */,
+				04D695322D5B18D8004A38E5 /* LiSSpItmeringBucue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04CD3FAE2D59928F001D403C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CD3FAD2D59928F001D403C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04CD3FA62D599266001D403C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92EADF3B99FDD32D50637B8B /* Pods-Lippewqgui.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lippewqgui/Lippewqgui.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lippewqgui/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Lippa;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Lippa requests access to your camera so that you can take photos to upload your profile picture and transmit video during audio and video calls. ";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To make use of the iCloud camera's location functionalities,Lippa needs location permissions";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Lippa request access to your microphone to enable audio and video calls";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Lippa request access to your photo album to allow you to upload dynamic images and photos of your collectibles.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zww.app.cn.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04CD3FA72D599266001D403C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 061EB7F6F7AF2F70F5981D64 /* Pods-Lippewqgui.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lippewqgui/Lippewqgui.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lippewqgui/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Lippa;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Lippa requests access to your camera so that you can take photos to upload your profile picture and transmit video during audio and video calls. ";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To make use of the iCloud camera's location functionalities,Lippa needs location permissions";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Lippa request access to your microphone to enable audio and video calls";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Lippa request access to your photo album to allow you to upload dynamic images and photos of your collectibles.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zww.app.cn.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		04CD3FA82D599266001D403C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04CD3FA92D599266001D403C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04CD3F8D2D599265001D403C /* Build configuration list for PBXProject "Lippewqgui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CD3FA82D599266001D403C /* Debug */,
+				04CD3FA92D599266001D403C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CD3FA52D599266001D403C /* Build configuration list for PBXNativeTarget "Lippewqgui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CD3FA62D599266001D403C /* Debug */,
+				04CD3FA72D599266001D403C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04CD3F8A2D599265001D403C /* Project object */;
+}

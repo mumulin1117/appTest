@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LiSSpMeaddgeBootomrbucue" customModule="Lippewqgui" customModuleProvider="target">
+            <connections>
+                <outlet property="activVieSSIP" destination="rEI-sF-lwS" id="BNb-fH-tga"/>
+                <outlet property="nomesagtipSSIP" destination="JW1-1s-tQe" id="MH8-F2-4YA"/>
+                <outlet property="notifationViewSSIP" destination="ezb-xI-yDS" id="OSB-fR-Ofl"/>
+                <outlet property="relationlistSSIP" destination="Bbf-64-3T9" id="jUT-vF-K1E"/>
+                <outlet property="view" destination="WRA-Sv-2rB" id="uBj-ke-epa"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="WRA-Sv-2rB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LiSSp_detailIte_bigbg" translatesAutoresizingMaskIntoConstraints="NO" id="nFm-X1-scz">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SSSipcircle_mmes" translatesAutoresizingMaskIntoConstraints="NO" id="ip8-7d-gdo">
+                    <rect key="frame" x="0.0" y="59" width="136" height="96"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="96" id="rx4-RV-Sap"/>
+                        <constraint firstAttribute="width" constant="136" id="uEz-ge-yht"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bbf-64-3T9">
+                    <rect key="frame" x="343" y="90" width="34" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="8yW-9i-7Hj"/>
+                        <constraint firstAttribute="width" constant="34" id="kgX-Ve-Xy8"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="listSSIPfans"/>
+                    <connections>
+                        <action selector="fanceToSIPP:" destination="-1" eventType="touchUpInside" id="cJd-vi-LAS"/>
+                    </connections>
+                </button>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="rEI-sF-lwS">
+                    <rect key="frame" x="20" y="218" width="373" height="65"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65" id="IUq-VE-ZCU"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="6JI-BC-NYB">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="ezb-xI-yDS">
+                    <rect key="frame" x="12" y="315" width="369" height="503"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="AoB-ga-X14">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Active Collectors" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PG9-2H-zwu">
+                    <rect key="frame" x="20" y="177" width="133" height="21"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Message Yet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JW1-1s-tQe">
+                    <rect key="frame" x="133.66666666666666" y="543" width="125.99999999999997" height="21"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Vjl-N5-nGT"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Vjl-N5-nGT" firstAttribute="trailing" secondItem="Bbf-64-3T9" secondAttribute="trailing" constant="16" id="41h-zO-TVH"/>
+                <constraint firstItem="PG9-2H-zwu" firstAttribute="leading" secondItem="Vjl-N5-nGT" secondAttribute="leading" constant="20" id="8qm-ak-rOz"/>
+                <constraint firstItem="ip8-7d-gdo" firstAttribute="top" secondItem="Vjl-N5-nGT" secondAttribute="top" id="I22-I6-Xfp"/>
+                <constraint firstAttribute="bottom" secondItem="nFm-X1-scz" secondAttribute="bottom" id="ML4-Fa-1rI"/>
+                <constraint firstItem="Vjl-N5-nGT" firstAttribute="trailing" secondItem="ezb-xI-yDS" secondAttribute="trailing" constant="12" id="Sf9-v3-FaD"/>
+                <constraint firstItem="PG9-2H-zwu" firstAttribute="top" secondItem="ip8-7d-gdo" secondAttribute="bottom" constant="22" id="VwO-gL-pRr"/>
+                <constraint firstItem="ezb-xI-yDS" firstAttribute="top" secondItem="rEI-sF-lwS" secondAttribute="bottom" constant="32" id="W6M-gO-UM6"/>
+                <constraint firstItem="rEI-sF-lwS" firstAttribute="top" secondItem="PG9-2H-zwu" secondAttribute="bottom" constant="20" id="Ztl-ub-jPN"/>
+                <constraint firstItem="nFm-X1-scz" firstAttribute="leading" secondItem="Vjl-N5-nGT" secondAttribute="leading" id="fE1-6Y-MFy"/>
+                <constraint firstItem="rEI-sF-lwS" firstAttribute="trailing" secondItem="Vjl-N5-nGT" secondAttribute="trailing" id="fxc-KM-qlk"/>
+                <constraint firstItem="Bbf-64-3T9" firstAttribute="centerY" secondItem="ip8-7d-gdo" secondAttribute="centerY" id="iC7-WW-ApC"/>
+                <constraint firstItem="ezb-xI-yDS" firstAttribute="leading" secondItem="Vjl-N5-nGT" secondAttribute="leading" constant="12" id="j92-1t-VvM"/>
+                <constraint firstItem="nFm-X1-scz" firstAttribute="top" secondItem="WRA-Sv-2rB" secondAttribute="top" id="ktZ-cz-GJE"/>
+                <constraint firstItem="Vjl-N5-nGT" firstAttribute="trailing" secondItem="Bbf-64-3T9" secondAttribute="trailing" constant="16" id="ma3-Su-YZh"/>
+                <constraint firstItem="JW1-1s-tQe" firstAttribute="centerX" secondItem="WRA-Sv-2rB" secondAttribute="centerX" id="oda-bf-KVb"/>
+                <constraint firstItem="nFm-X1-scz" firstAttribute="trailing" secondItem="Vjl-N5-nGT" secondAttribute="trailing" id="pS9-yy-Qus"/>
+                <constraint firstItem="ip8-7d-gdo" firstAttribute="leading" secondItem="Vjl-N5-nGT" secondAttribute="leading" id="pv8-NV-z32"/>
+                <constraint firstItem="JW1-1s-tQe" firstAttribute="top" secondItem="rEI-sF-lwS" secondAttribute="bottom" constant="260" id="rx1-Mh-CfU"/>
+                <constraint firstItem="rEI-sF-lwS" firstAttribute="leading" secondItem="PG9-2H-zwu" secondAttribute="leading" id="s9K-XB-2Ca"/>
+                <constraint firstItem="Vjl-N5-nGT" firstAttribute="bottom" secondItem="ezb-xI-yDS" secondAttribute="bottom" id="zEi-tx-hGo"/>
+            </constraints>
+            <point key="canvasLocation" x="139.69465648854961" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LiSSp_detailIte_bigbg" width="375" height="812"/>
+        <image name="SSSipcircle_mmes" width="136" height="96"/>
+        <image name="listSSIPfans" width="34" height="34"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
