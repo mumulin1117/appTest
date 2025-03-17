@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DSORContainerfairyTale" customModule="derSooberbder" customModuleProvider="target">
+            <connections>
+                <outlet property="ColDSORBannerView" destination="5zd-Fg-SS2" id="u5b-6h-OoG"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="5zd-Fg-SS2">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="A1w-CO-xc9">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h87-Ud-SiP">
+                    <rect key="frame" x="8" y="484" width="84" height="68"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="84" id="gxw-6V-nMb"/>
+                        <constraint firstAttribute="height" constant="68" id="i97-eU-inI"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="oobe_message"/>
+                    <state key="selected" image="oobe_message_Select"/>
+                    <connections>
+                        <action selector="banneerscrollIveDSOR:" destination="-1" eventType="touchUpInside" id="GXz-rk-hd3"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="6" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Zk-C8-QW6">
+                    <rect key="frame" x="8" y="316" width="84" height="68"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="68" id="35t-8A-Lma"/>
+                        <constraint firstAttribute="width" constant="84" id="9NN-aA-5mA"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="oobe_home"/>
+                    <state key="selected" image="oobe_home_Select"/>
+                    <connections>
+                        <action selector="banneerscrollIveDSOR:" destination="-1" eventType="touchUpInside" id="apM-8P-sOn"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lYh-5z-hD6">
+                    <rect key="frame" x="8" y="400" width="84" height="68"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="68" id="622-lV-cEu"/>
+                        <constraint firstAttribute="width" constant="84" id="Uu8-d2-yVi"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="oobe_discover"/>
+                    <state key="selected" image="oobe_discover_Select"/>
+                    <connections>
+                        <action selector="banneerscrollIveDSOR:" destination="-1" eventType="touchUpInside" id="RWD-qd-JfU"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OTL-kD-x3Q">
+                    <rect key="frame" x="8" y="568" width="84" height="68"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="68" id="HIL-Vj-MME"/>
+                        <constraint firstAttribute="width" constant="84" id="Q7p-lf-GrB"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="oobe_mine"/>
+                    <state key="selected" image="oobe_mine_Select"/>
+                    <connections>
+                        <action selector="banneerscrollIveDSOR:" destination="-1" eventType="touchUpInside" id="xXG-Fl-FBs"/>
+                    </connections>
+                </button>
+                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="H32-mR-gX9">
+                    <rect key="frame" x="53" y="100" width="240" height="128"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="PkC-ms-PwJ"/>
+                        <constraint firstAttribute="height" constant="128" id="lNb-ut-E0K"/>
+                    </constraints>
+                </imageView>
+                <button hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcD-g9-iFB">
+                    <rect key="frame" x="185" y="262" width="24" height="14"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="14" id="Df5-ez-Jzo"/>
+                        <constraint firstAttribute="width" constant="24" id="Kk2-ha-f17"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="gray"/>
+                </button>
+                <stepper hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="8hc-3A-2or">
+                    <rect key="frame" x="126" y="309" width="94" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="94" id="3EG-r2-AcG"/>
+                        <constraint firstAttribute="height" constant="32" id="8JE-SC-ykL"/>
+                    </constraints>
+                </stepper>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="lYh-5z-hD6" firstAttribute="top" secondItem="2Zk-C8-QW6" secondAttribute="bottom" constant="16" id="9Dv-Wh-W83"/>
+                <constraint firstItem="mcD-g9-iFB" firstAttribute="leading" secondItem="H32-mR-gX9" secondAttribute="trailing" constant="-108" id="9e8-Pw-HHU"/>
+                <constraint firstItem="H32-mR-gX9" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="41" id="Aof-Dg-PJS"/>
+                <constraint firstItem="8hc-3A-2or" firstAttribute="top" secondItem="mcD-g9-iFB" secondAttribute="bottom" constant="33" id="Bhw-UL-zRU"/>
+                <constraint firstItem="5zd-Fg-SS2" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="FDE-AP-880"/>
+                <constraint firstItem="8hc-3A-2or" firstAttribute="centerX" secondItem="H32-mR-gX9" secondAttribute="centerX" id="LU8-h0-OJJ"/>
+                <constraint firstItem="2Zk-C8-QW6" firstAttribute="leading" secondItem="lYh-5z-hD6" secondAttribute="leading" id="Lr6-f0-sfG"/>
+                <constraint firstItem="H32-mR-gX9" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="53" id="OA8-AB-HFw"/>
+                <constraint firstItem="5zd-Fg-SS2" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="Obe-GW-KuF"/>
+                <constraint firstItem="5zd-Fg-SS2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="PFI-Jc-roL"/>
+                <constraint firstItem="mcD-g9-iFB" firstAttribute="top" secondItem="H32-mR-gX9" secondAttribute="bottom" constant="34" id="QO3-aB-APh"/>
+                <constraint firstItem="OTL-kD-x3Q" firstAttribute="top" secondItem="h87-Ud-SiP" secondAttribute="bottom" constant="16" id="Quh-oH-7n2"/>
+                <constraint firstItem="lYh-5z-hD6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="StR-fG-1Hs"/>
+                <constraint firstItem="OTL-kD-x3Q" firstAttribute="leading" secondItem="h87-Ud-SiP" secondAttribute="leading" id="ZMt-HJ-xba"/>
+                <constraint firstAttribute="centerY" secondItem="lYh-5z-hD6" secondAttribute="bottom" constant="-42" id="Zmo-Hv-P64"/>
+                <constraint firstAttribute="bottom" secondItem="5zd-Fg-SS2" secondAttribute="bottom" id="duo-Wc-J45"/>
+                <constraint firstItem="h87-Ud-SiP" firstAttribute="top" secondItem="lYh-5z-hD6" secondAttribute="bottom" constant="16" id="jr5-Sv-VEw"/>
+                <constraint firstItem="h87-Ud-SiP" firstAttribute="leading" secondItem="lYh-5z-hD6" secondAttribute="leading" id="oyl-AG-7uA"/>
+            </constraints>
+            <point key="canvasLocation" x="139.69465648854961" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="oobe_discover" width="84" height="68"/>
+        <image name="oobe_discover_Select" width="84" height="68"/>
+        <image name="oobe_home" width="84" height="68"/>
+        <image name="oobe_home_Select" width="84" height="68"/>
+        <image name="oobe_message" width="84" height="68"/>
+        <image name="oobe_message_Select" width="84" height="68"/>
+        <image name="oobe_mine" width="84" height="68"/>
+        <image name="oobe_mine_Select" width="84" height="68"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

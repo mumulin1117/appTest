@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DSORHeaderAICreateFairyTale" customModule="derSooberbder" customModuleProvider="target">
+            <connections>
+                <outlet property="AIINfoSure" destination="Afo-u6-62q" id="6BT-zg-8SU"/>
+                <outlet property="enterDesctribtionDSOR" destination="6zc-jv-pOU" id="uOe-4V-i5E"/>
+                <outlet property="view" destination="5Mg-4O-a1O" id="D4t-WV-7qW"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="5Mg-4O-a1O">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="setinaibgDS" translatesAutoresizingMaskIntoConstraints="NO" id="5xe-Ko-pY8">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qYj-ur-juz">
+                    <rect key="frame" x="0.0" y="59" width="56" height="50"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="MOy-Da-8wR"/>
+                        <constraint firstAttribute="width" constant="56" id="yBy-8b-U19"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="obeev_back">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <state key="selected" image="seler_ooeb"/>
+                    <connections>
+                        <action selector="awaythisRoolmDSOR:" destination="-1" eventType="touchUpInside" id="MnU-3e-gzm"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="contetndSerDSOR" translatesAutoresizingMaskIntoConstraints="NO" id="g0o-6l-34a">
+                    <rect key="frame" x="23" y="125" width="347" height="172"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="172" id="XUY-Ib-0AE"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Afo-u6-62q">
+                    <rect key="frame" x="86" y="733" width="221" height="50"/>
+                    <color key="backgroundColor" red="1" green="0.68235294120000001" blue="0.21960784310000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="221" id="UtR-Ii-OaQ"/>
+                        <constraint firstAttribute="height" constant="50" id="XtA-aH-eK1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Next">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <state key="selected" image="seler_ooeb"/>
+                    <connections>
+                        <action selector="surenetcTransportDSOR:" destination="-1" eventType="touchUpInside" id="Qrv-qZ-zHJ"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qingxinwhiterw" translatesAutoresizingMaskIntoConstraints="NO" id="QQ6-nt-1vw">
+                    <rect key="frame" x="245" y="59" width="148" height="176"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="148" id="n6w-DF-VzR"/>
+                        <constraint firstAttribute="height" constant="176" id="xXK-Tf-1kW"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AI Art Genie" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="epa-Tf-fWX">
+                    <rect key="frame" x="150" y="74" width="93" height="20"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nPl-rW-EqF">
+                    <rect key="frame" x="24" y="309" width="345" height="392"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Please enter" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6zc-jv-pOU">
+                            <rect key="frame" x="24" y="24" width="297" height="344"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <color key="textColor" systemColor="labelColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="0.84343112239999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="6zc-jv-pOU" secondAttribute="bottom" constant="24" id="7nr-Mz-nmL"/>
+                        <constraint firstAttribute="trailing" secondItem="6zc-jv-pOU" secondAttribute="trailing" constant="24" id="pKz-V7-u2H"/>
+                        <constraint firstItem="6zc-jv-pOU" firstAttribute="leading" secondItem="nPl-rW-EqF" secondAttribute="leading" constant="24" id="txy-SQ-c4B"/>
+                        <constraint firstItem="6zc-jv-pOU" firstAttribute="top" secondItem="nPl-rW-EqF" secondAttribute="top" constant="24" id="zfm-bj-7If"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="BMW-VB-FHZ"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="5xe-Ko-pY8" firstAttribute="leading" secondItem="BMW-VB-FHZ" secondAttribute="leading" id="1A3-LD-V4n"/>
+                <constraint firstItem="QQ6-nt-1vw" firstAttribute="trailing" secondItem="BMW-VB-FHZ" secondAttribute="trailing" id="6st-tH-1Qd"/>
+                <constraint firstItem="epa-Tf-fWX" firstAttribute="centerY" secondItem="qYj-ur-juz" secondAttribute="centerY" id="76o-SG-pvW"/>
+                <constraint firstItem="nPl-rW-EqF" firstAttribute="leading" secondItem="BMW-VB-FHZ" secondAttribute="leading" constant="24" id="8BI-Gs-4BY"/>
+                <constraint firstItem="g0o-6l-34a" firstAttribute="leading" secondItem="BMW-VB-FHZ" secondAttribute="leading" constant="23" id="Bni-nw-hCb"/>
+                <constraint firstItem="BMW-VB-FHZ" firstAttribute="trailing" secondItem="g0o-6l-34a" secondAttribute="trailing" constant="23" id="CXf-j8-6bf"/>
+                <constraint firstItem="Afo-u6-62q" firstAttribute="top" secondItem="nPl-rW-EqF" secondAttribute="bottom" constant="32" id="LYF-Ml-d3X"/>
+                <constraint firstItem="qYj-ur-juz" firstAttribute="leading" secondItem="BMW-VB-FHZ" secondAttribute="leading" id="LeW-qL-j0E"/>
+                <constraint firstAttribute="bottom" secondItem="5xe-Ko-pY8" secondAttribute="bottom" id="OsQ-9m-l9w"/>
+                <constraint firstItem="5xe-Ko-pY8" firstAttribute="trailing" secondItem="BMW-VB-FHZ" secondAttribute="trailing" id="Tds-RZ-5VL"/>
+                <constraint firstItem="BMW-VB-FHZ" firstAttribute="trailing" secondItem="nPl-rW-EqF" secondAttribute="trailing" constant="24" id="YBm-ME-36d"/>
+                <constraint firstItem="BMW-VB-FHZ" firstAttribute="bottom" secondItem="Afo-u6-62q" secondAttribute="bottom" constant="35" id="ZXg-Qo-wHI"/>
+                <constraint firstItem="qYj-ur-juz" firstAttribute="top" secondItem="BMW-VB-FHZ" secondAttribute="top" id="ZhW-eT-xPV"/>
+                <constraint firstItem="Afo-u6-62q" firstAttribute="centerX" secondItem="5Mg-4O-a1O" secondAttribute="centerX" id="apy-ql-QGg"/>
+                <constraint firstItem="QQ6-nt-1vw" firstAttribute="top" secondItem="qYj-ur-juz" secondAttribute="top" id="bQc-B4-C1b"/>
+                <constraint firstItem="g0o-6l-34a" firstAttribute="centerX" secondItem="5Mg-4O-a1O" secondAttribute="centerX" id="eKv-JV-JvF"/>
+                <constraint firstItem="epa-Tf-fWX" firstAttribute="centerX" secondItem="5Mg-4O-a1O" secondAttribute="centerX" id="fs0-5G-lMV"/>
+                <constraint firstItem="nPl-rW-EqF" firstAttribute="top" secondItem="g0o-6l-34a" secondAttribute="bottom" constant="12" id="mR5-Ty-i4Y"/>
+                <constraint firstItem="g0o-6l-34a" firstAttribute="top" secondItem="qYj-ur-juz" secondAttribute="bottom" constant="16" id="wbz-Kv-bhg"/>
+                <constraint firstItem="5xe-Ko-pY8" firstAttribute="top" secondItem="5Mg-4O-a1O" secondAttribute="top" id="wmb-KB-xzc"/>
+            </constraints>
+            <point key="canvasLocation" x="139.69465648854961" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="contetndSerDSOR" width="327" height="172"/>
+        <image name="obeev_back" width="56" height="50"/>
+        <image name="qingxinwhiterw" width="148" height="176"/>
+        <image name="seler_ooeb" width="16" height="16"/>
+        <image name="setinaibgDS" width="375" height="812"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DSORREportUsertFailetale" customModule="derSooberbder" customModuleProvider="target">
+            <connections>
+                <outlet property="inuputeDSOR" destination="7rG-wg-E1h" id="AOD-cw-qYb"/>
+                <outlet property="reportingTItlewDSOR" destination="RZV-uM-WaW" id="ZSU-Aj-aBj"/>
+                <outlet property="saobaDSOR" destination="OaZ-xW-pMa" id="gcM-5v-BzO"/>
+                <outlet property="view" destination="aBR-vs-l2R" id="Kiq-JV-f7U"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="aBR-vs-l2R">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h91-pk-6vq">
+                    <rect key="frame" x="19" y="119" width="355" height="680"/>
+                    <subviews>
+                        <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wtO-TN-ZTm">
+                            <rect key="frame" x="63" y="-47" width="240" height="128"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="240" id="Fqz-AG-5uw"/>
+                                <constraint firstAttribute="height" constant="128" id="Z3h-f4-unL"/>
+                            </constraints>
+                        </imageView>
+                        <button hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="va1-Y8-Zbl">
+                            <rect key="frame" x="195" y="115" width="24" height="14"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="14" id="3qv-ya-frt"/>
+                                <constraint firstAttribute="width" constant="24" id="Eg5-cf-ccf"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="gray"/>
+                        </button>
+                        <stepper hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="k28-B6-Rg6">
+                            <rect key="frame" x="136" y="162" width="94" height="32"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="32" id="aId-TS-Wcg"/>
+                                <constraint firstAttribute="width" constant="94" id="iWV-FS-Lzn"/>
+                            </constraints>
+                        </stepper>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OaZ-xW-pMa">
+                            <rect key="frame" x="67" y="602" width="221" height="50"/>
+                            <color key="backgroundColor" red="1" green="0.68235294120000001" blue="0.21960784310000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="S6D-bE-Gcg"/>
+                                <constraint firstAttribute="width" constant="221" id="nxL-2F-PGi"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="16"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Submit Report">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <state key="selected" image="seler_ooeb"/>
+                            <connections>
+                                <action selector="submiterDSOR:" destination="-1" eventType="touchUpInside" id="zVK-LV-fth"/>
+                            </connections>
+                        </button>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eluatio_oobebg" translatesAutoresizingMaskIntoConstraints="NO" id="1Wg-7L-mnA">
+                            <rect key="frame" x="0.0" y="-12" width="355" height="42"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="42" id="UBo-WL-Cwd"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report User" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RZV-uM-WaW">
+                            <rect key="frame" x="132" y="-0.6666666666666714" width="91" height="19.333333333333332"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                            <color key="textColor" red="1" green="0.90588235289999997" blue="0.74509803919999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NuS-K8-crj">
+                            <rect key="frame" x="311" y="-5" width="28" height="28"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="28" id="ZMP-3R-zx8"/>
+                                <constraint firstAttribute="width" constant="28" id="iHr-aE-VVs"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="obeev_dis">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <state key="selected" image="seler_ooeb"/>
+                            <connections>
+                                <action selector="awaythisRoolmDSOR:" destination="-1" eventType="touchUpInside" id="Jti-Dm-UhJ"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please select the reason for reporting:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xze-ow-TTg">
+                            <rect key="frame" x="16" y="46" width="323" height="45.666666666666657"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                            <color key="textColor" red="0.15686274510000001" green="0.015686274510000001" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sm7-25-DI3">
+                            <rect key="frame" x="16" y="116.66666666666666" width="121" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="121" id="JoS-dr-qBk"/>
+                                <constraint firstAttribute="height" constant="21" id="Kfq-VY-sRC"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="  Harassment" image="repotyDS_Unch">
+                                <color key="titleColor" red="0.15686274510000001" green="0.015686274510000001" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <state key="selected" image="seler_ooeb"/>
+                            <connections>
+                                <action selector="surereasoneg:" destination="-1" eventType="touchUpInside" id="pLx-oE-Tlg"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZDp-1h-OKa">
+                            <rect key="frame" x="16" y="159.66666666666669" width="213" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="bYu-dD-0rt"/>
+                                <constraint firstAttribute="width" constant="213" id="kyI-Wi-cwQ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="  Inappropriate language" image="repotyDS_Unch">
+                                <color key="titleColor" red="0.15686274510000001" green="0.015686274510000001" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <state key="selected" image="seler_ooeb"/>
+                            <connections>
+                                <action selector="surereasoneg:" destination="-1" eventType="touchUpInside" id="LMN-S8-r3B"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mX7-IO-O9D">
+                            <rect key="frame" x="16" y="202.66666666666669" width="233" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="233" id="EtQ-q2-2f7"/>
+                                <constraint firstAttribute="height" constant="21" id="HmY-ck-xpU"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="  Spam or false information" image="repotyDS_Unch">
+                                <color key="titleColor" red="0.15686274510000001" green="0.015686274510000001" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <state key="selected" image="seler_ooeb"/>
+                            <connections>
+                                <action selector="surereasoneg:" destination="-1" eventType="touchUpInside" id="xRV-Mn-hJX"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UZs-bm-YPm">
+                            <rect key="frame" x="16" y="245.66666666666669" width="74" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="2y5-Of-WLB"/>
+                                <constraint firstAttribute="width" constant="74" id="95L-Sv-B5X"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="  Other" image="repotyDS_Unch">
+                                <color key="titleColor" red="0.15686274510000001" green="0.015686274510000001" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <state key="selected" image="seler_ooeb"/>
+                            <connections>
+                                <action selector="surereasoneg:" destination="-1" eventType="touchUpInside" id="Fzg-Op-zdl"/>
+                            </connections>
+                        </button>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Enter your reason here..." translatesAutoresizingMaskIntoConstraints="NO" id="7rG-wg-E1h">
+                            <rect key="frame" x="40" y="282.66666666666674" width="275" height="287.33333333333326"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <color key="textColor" systemColor="labelColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.89019607840000003" blue="0.81176470590000005" alpha="0.93122874150000001" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="OaZ-xW-pMa" firstAttribute="top" secondItem="7rG-wg-E1h" secondAttribute="bottom" constant="32" id="0K1-si-lXt"/>
+                        <constraint firstItem="ZDp-1h-OKa" firstAttribute="leading" secondItem="sm7-25-DI3" secondAttribute="leading" id="2IA-ew-8pl"/>
+                        <constraint firstItem="1Wg-7L-mnA" firstAttribute="leading" secondItem="h91-pk-6vq" secondAttribute="leading" id="4K0-s2-SB5"/>
+                        <constraint firstAttribute="bottom" secondItem="OaZ-xW-pMa" secondAttribute="bottom" constant="28" id="4Lh-Rl-SN9"/>
+                        <constraint firstAttribute="trailing" secondItem="1Wg-7L-mnA" secondAttribute="trailing" id="7p5-vo-Vvc"/>
+                        <constraint firstItem="va1-Y8-Zbl" firstAttribute="top" secondItem="wtO-TN-ZTm" secondAttribute="bottom" constant="34" id="8rw-YN-eaZ"/>
+                        <constraint firstItem="wtO-TN-ZTm" firstAttribute="top" secondItem="h91-pk-6vq" secondAttribute="top" constant="-47" id="BcL-Mw-EAp"/>
+                        <constraint firstItem="OaZ-xW-pMa" firstAttribute="centerX" secondItem="h91-pk-6vq" secondAttribute="centerX" id="Bft-yI-5dQ"/>
+                        <constraint firstAttribute="trailing" secondItem="NuS-K8-crj" secondAttribute="trailing" constant="16" id="CLY-gM-LLB"/>
+                        <constraint firstItem="mX7-IO-O9D" firstAttribute="leading" secondItem="sm7-25-DI3" secondAttribute="leading" id="IYA-BO-Sxr"/>
+                        <constraint firstAttribute="trailing" secondItem="Xze-ow-TTg" secondAttribute="trailing" constant="16" id="Kda-W0-ifq"/>
+                        <constraint firstItem="Xze-ow-TTg" firstAttribute="leading" secondItem="h91-pk-6vq" secondAttribute="leading" constant="16" id="M4u-Ti-0eH"/>
+                        <constraint firstItem="RZV-uM-WaW" firstAttribute="centerX" secondItem="h91-pk-6vq" secondAttribute="centerX" id="P0I-6v-TII"/>
+                        <constraint firstItem="mX7-IO-O9D" firstAttribute="top" secondItem="ZDp-1h-OKa" secondAttribute="bottom" constant="22" id="Q0e-f8-3td"/>
+                        <constraint firstItem="UZs-bm-YPm" firstAttribute="top" secondItem="mX7-IO-O9D" secondAttribute="bottom" constant="22" id="Wnm-57-36p"/>
+                        <constraint firstAttribute="trailing" secondItem="7rG-wg-E1h" secondAttribute="trailing" constant="40" id="ZWf-W7-IGa"/>
+                        <constraint firstItem="7rG-wg-E1h" firstAttribute="leading" secondItem="h91-pk-6vq" secondAttribute="leading" constant="40" id="aMt-Xp-u6N"/>
+                        <constraint firstItem="UZs-bm-YPm" firstAttribute="leading" secondItem="sm7-25-DI3" secondAttribute="leading" id="aOO-Qq-VLD"/>
+                        <constraint firstItem="RZV-uM-WaW" firstAttribute="centerY" secondItem="NuS-K8-crj" secondAttribute="centerY" id="b0j-t9-NR9"/>
+                        <constraint firstItem="1Wg-7L-mnA" firstAttribute="top" secondItem="h91-pk-6vq" secondAttribute="top" constant="-12" id="bCR-Yp-Edp"/>
+                        <constraint firstItem="Xze-ow-TTg" firstAttribute="top" secondItem="1Wg-7L-mnA" secondAttribute="bottom" constant="16" id="f7Z-Gm-qmT"/>
+                        <constraint firstItem="ZDp-1h-OKa" firstAttribute="top" secondItem="sm7-25-DI3" secondAttribute="bottom" constant="22" id="gau-0J-YCo"/>
+                        <constraint firstItem="k28-B6-Rg6" firstAttribute="centerX" secondItem="wtO-TN-ZTm" secondAttribute="centerX" id="hfO-r4-jtp"/>
+                        <constraint firstItem="k28-B6-Rg6" firstAttribute="top" secondItem="va1-Y8-Zbl" secondAttribute="bottom" constant="33" id="pJc-9o-wvB"/>
+                        <constraint firstItem="wtO-TN-ZTm" firstAttribute="leading" secondItem="h91-pk-6vq" secondAttribute="leading" constant="63" id="sIh-ne-KOK"/>
+                        <constraint firstItem="va1-Y8-Zbl" firstAttribute="leading" secondItem="wtO-TN-ZTm" secondAttribute="trailing" constant="-108" id="sgb-Mx-vNf"/>
+                        <constraint firstItem="sm7-25-DI3" firstAttribute="leading" secondItem="Xze-ow-TTg" secondAttribute="leading" id="teu-Q0-fAR"/>
+                        <constraint firstItem="NuS-K8-crj" firstAttribute="top" secondItem="h91-pk-6vq" secondAttribute="top" constant="-5" id="tkk-f8-l6X"/>
+                        <constraint firstItem="7rG-wg-E1h" firstAttribute="top" secondItem="UZs-bm-YPm" secondAttribute="bottom" constant="16" id="uul-e3-SsF"/>
+                        <constraint firstItem="sm7-25-DI3" firstAttribute="top" secondItem="Xze-ow-TTg" secondAttribute="bottom" constant="25" id="yMY-Xb-BSM"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="178-SQ-opV"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="h91-pk-6vq" firstAttribute="leading" secondItem="178-SQ-opV" secondAttribute="leading" constant="19" id="U0J-k5-J8U"/>
+                <constraint firstItem="h91-pk-6vq" firstAttribute="top" secondItem="178-SQ-opV" secondAttribute="top" constant="60" id="Xzx-ah-4sA"/>
+                <constraint firstItem="178-SQ-opV" firstAttribute="trailing" secondItem="h91-pk-6vq" secondAttribute="trailing" constant="19" id="iZs-Hk-ukS"/>
+                <constraint firstItem="178-SQ-opV" firstAttribute="bottom" secondItem="h91-pk-6vq" secondAttribute="bottom" constant="19" id="sc4-fL-irH"/>
+            </constraints>
+            <point key="canvasLocation" x="136.64122137404578" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="eluatio_oobebg" width="323" height="42"/>
+        <image name="obeev_dis" width="28" height="28"/>
+        <image name="repotyDS_Unch" width="20" height="20"/>
+        <image name="seler_ooeb" width="16" height="16"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

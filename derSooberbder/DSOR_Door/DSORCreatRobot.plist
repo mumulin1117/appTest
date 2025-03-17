@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>DSOR_Type</key>
+		<string>Characterisation</string>
+		<key>DSOR_Nlme</key>
+		<string>CharacterForger</string>
+		<key>DSOR_poctu</key>
+		<string>dosrBot0</string>
+		<key>DSOR_borif</key>
+		<string>Generate unique and vivid fairy tale opera characters with rich personalities and backstories, like forging a brave dwarf with a hidden past in a magical land.</string>
+	</dict>
+	<dict>
+		<key>DSOR_Type</key>
+		<string>Art Appreciation</string>
+		<key>DSOR_Nlme</key>
+		<string>ArtAppraiser</string>
+		<key>DSOR_poctu</key>
+		<string>dosrBot3</string>
+		<key>DSOR_borif</key>
+		<string>Evaluate and analyze the artistic elements of fairy tale operas, appraising the use of color and symbolism in a Sleeping Beauty production.</string>
+	</dict>
+	<dict>
+		<key>DSOR_Type</key>
+		<string>Art Appreciation</string>
+		<key>DSOR_Nlme</key>
+		<string>AestheticAnalyst</string>
+		<key>DSOR_poctu</key>
+		<string>dosrBot4</string>
+		<key>DSOR_borif</key>
+		<string>Provide in-depth aesthetic analysis, analyzing how the stage design of Hansel and Gretel creates a spooky atmosphere.</string>
+	</dict>
+	<dict>
+		<key>DSOR_Type</key>
+		<string>Characterisation</string>
+		<key>DSOR_Nlme</key>
+		<string>PersonaBuilder</string>
+		<key>DSOR_poctu</key>
+		<string>dosrBot2</string>
+		<key>DSOR_borif</key>
+		<string>Construct complex personas for fairy tale operas, building a kind-hearted witch who uses her powers for good, contrary to stereotypes.</string>
+	</dict>
+	<dict>
+		<key>DSOR_Type</key>
+		<string>Art Appreciation</string>
+		<key>DSOR_Nlme</key>
+		<string>StyleInterpreter</string>
+		<key>DSOR_poctu</key>
+		<string>dosrBot5</string>
+		<key>DSOR_borif</key>
+		<string>Interpret the artistic styles of different fairy tale operas, interpreting the Baroque influences in a production of The Magic Flute.</string>
+	</dict>
+	<dict>
+		<key>DSOR_Type</key>
+		<string>Characterisation</string>
+		<key>DSOR_Nlme</key>
+		<string>RoleSculptor</string>
+		<key>DSOR_poctu</key>
+		<string>dosrBot1</string>
+		<key>DSOR_borif</key>
+		<string>Shape characters by molding their physical traits, emotions, and motives, sculpting a cunning fox character who outwits others in the enchanted forest.</string>
+	</dict>
+</array>
+</plist>
