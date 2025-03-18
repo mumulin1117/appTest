@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LiSSpELUABootomrbucue" customModule="Lippewqgui" customModuleProvider="target">
+            <connections>
+                <outlet property="cancekSSIP" destination="Sbb-dB-iL3" id="SpX-mW-jK0"/>
+                <outlet property="contentSSIPview" destination="IiC-Cx-EwI" id="371-Yx-KQr"/>
+                <outlet property="eluaSSIPtiitle" destination="vAK-LD-W9B" id="r0r-KH-W3q"/>
+                <outlet property="haodeSSIP" destination="Gn5-5X-5yM" id="IiF-g5-JXj"/>
+                <outlet property="pppirpSSIP" destination="A2V-qi-MBs" id="Bb3-Ge-K7J"/>
+                <outlet property="teeermSSIP" destination="8MC-MH-4oo" id="vku-6l-z4F"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lippa ELUA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vAK-LD-W9B">
+                    <rect key="frame" x="151.66666666666666" y="83" width="90" height="21"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                    <color key="textColor" red="0.91764705879999997" green="0.1647058824" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IiC-Cx-EwI">
+                    <rect key="frame" x="20" y="124" width="353" height="510"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <string key="text">Effective Date: [2025-02-25]
+
+1. Acceptance of Terms
+
+By downloading, installing, or using the Lippa app (“App”), you agree to comply with and be bound by this EULA. If you do not agree to these terms, please do not use the App.
+
+2. License Grant
+
+Lippa grants you a limited, non-exclusive, non-transferable license to use the App for personal and non-commercial purposes only.
+
+3. User Responsibilities
+
+You are responsible for maintaining the confidentiality of your account information.
+You agree to use the App in compliance with all applicable laws and regulations.
+You may not modify, reverse engineer, or distribute the App without prior written permission from Lippa.
+4. Termination
+
+Lippa reserves the right to terminate or suspend your access to the App at any time, without notice, for conduct that violates this EULA or is harmful to other users, Lippa, or third parties.
+
+5. Disclaimers
+
+The App is provided on an "as-is" basis without warranties of any kind. Lippa does not guarantee the accuracy or reliability of appraisal reports or user-generated content.
+
+6. Limitation of Liability
+
+To the fullest extent permitted by law, Lippa shall not be liable for any direct, indirect, incidental, or consequential damages arising out of or related to your use of the App.
+
+7. Modifications
+
+Lippa reserves the right to modify this EULA at any time. Your continued use of the App following any changes constitutes acceptance of those changes.
+
+8. Governing Law
+
+This EULA shall be governed by the laws of [insert jurisdiction].</string>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8MC-MH-4oo">
+                    <rect key="frame" x="30" y="641" width="113" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="113" id="7CQ-Sl-6HH"/>
+                        <constraint firstAttribute="height" constant="35" id="WoZ-H6-CaG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Terms of Use">
+                        <color key="titleColor" red="0.91764705879999997" green="0.1647058824" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A2V-qi-MBs">
+                    <rect key="frame" x="250" y="641" width="113" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="113" id="42s-rA-kxl"/>
+                        <constraint firstAttribute="height" constant="35" id="GVy-DU-r86"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Privacy Policy">
+                        <color key="titleColor" red="0.91764705879999997" green="0.1647058824" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gn5-5X-5yM">
+                    <rect key="frame" x="94.666666666666686" y="708" width="204" height="52"/>
+                    <color key="backgroundColor" red="0.91764705879999997" green="0.1647058824" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="204" id="Ibl-EL-BIT"/>
+                        <constraint firstAttribute="height" constant="52" id="dH4-wn-Cur"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Agree">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sbb-dB-iL3">
+                    <rect key="frame" x="140" y="768" width="113" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="pIO-Y6-sYk"/>
+                        <constraint firstAttribute="width" constant="113" id="rKr-nW-g94"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Cancel">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.070588235294117646" green="0.074509803921568626" blue="0.082352941176470587" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="IiC-Cx-EwI" firstAttribute="top" secondItem="vAK-LD-W9B" secondAttribute="bottom" constant="20" id="5aX-hJ-Wro"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="A2V-qi-MBs" secondAttribute="trailing" constant="30" id="EWd-Sq-Urq"/>
+                <constraint firstItem="A2V-qi-MBs" firstAttribute="centerY" secondItem="8MC-MH-4oo" secondAttribute="centerY" id="I2z-Kv-vKV"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Sbb-dB-iL3" secondAttribute="bottom" constant="15" id="Jaq-MW-EXB"/>
+                <constraint firstItem="Gn5-5X-5yM" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="OIZ-Sq-8uG"/>
+                <constraint firstItem="IiC-Cx-EwI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="ZuV-Tb-lFr"/>
+                <constraint firstItem="8MC-MH-4oo" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="ZyH-he-8Df"/>
+                <constraint firstItem="Sbb-dB-iL3" firstAttribute="top" secondItem="Gn5-5X-5yM" secondAttribute="bottom" constant="8" id="cFb-h5-HKa"/>
+                <constraint firstItem="vAK-LD-W9B" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="g8r-MA-2bQ"/>
+                <constraint firstItem="8MC-MH-4oo" firstAttribute="top" secondItem="IiC-Cx-EwI" secondAttribute="bottom" constant="7" id="hJ3-96-ZQn"/>
+                <constraint firstItem="vAK-LD-W9B" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="24" id="lBh-nX-I88"/>
+                <constraint firstItem="Gn5-5X-5yM" firstAttribute="top" secondItem="8MC-MH-4oo" secondAttribute="bottom" constant="32" id="lib-Di-HzJ"/>
+                <constraint firstItem="Sbb-dB-iL3" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="nSk-LQ-42D"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="IiC-Cx-EwI" secondAttribute="trailing" constant="20" id="odl-cM-bma"/>
+            </constraints>
+            <point key="canvasLocation" x="139.69465648854961" y="20.422535211267608"/>
+        </view>
+    </objects>
+</document>

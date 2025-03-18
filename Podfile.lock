@@ -1,5 +1,5 @@
 PODS:
-  - Alamofire (5.10.0)
+  - Alamofire (5.10.2)
   - FBAEMKit (18.0.0):
     - FBSDKCoreKit_Basics (= 18.0.0)
   - FBSDKCoreKit (18.0.0):
@@ -7,23 +7,19 @@ PODS:
     - FBSDKCoreKit_Basics (= 18.0.0)
   - FBSDKCoreKit_Basics (18.0.0)
   - IQKeyboardManager (6.5.19)
-  - NVActivityIndicatorView (5.2.0):
-    - NVActivityIndicatorView/Base (= 5.2.0)
-  - NVActivityIndicatorView/Base (5.2.0)
-  - Pastel (0.6.0)
   - SnapKit (5.7.1)
+  - SwiftMessages (10.0.1):
+    - SwiftMessages/App (= 10.0.1)
+  - SwiftMessages/App (10.0.1)
   - SwiftyStoreKit (0.16.1)
-  - Toast-Swift (5.1.1)
 
 DEPENDENCIES:
   - Alamofire
   - FBSDKCoreKit
   - IQKeyboardManager
-  - NVActivityIndicatorView
-  - Pastel
   - SnapKit
+  - SwiftMessages
   - SwiftyStoreKit
-  - Toast-Swift
 
 SPEC REPOS:
   trunk:
@@ -32,24 +28,20 @@ SPEC REPOS:
     - FBSDKCoreKit
     - FBSDKCoreKit_Basics
     - IQKeyboardManager
-    - NVActivityIndicatorView
-    - Pastel
     - SnapKit
+    - SwiftMessages
     - SwiftyStoreKit
-    - Toast-Swift
 
 SPEC CHECKSUMS:
-  Alamofire: cd0b98508df05796dd2ff278f3bb055a631b5390
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
   FBAEMKit: e34530df538b8eb8aeb53c35867715ba6c63ef0c
   FBSDKCoreKit: d3f479a69127acebb1c6aad91c1a33907bcf6c2f
   FBSDKCoreKit_Basics: 017b6dc2a1862024815a8229e75661e627ac1e29
   IQKeyboardManager: c8665b3396bd0b79402b4c573eac345a31c7d485
-  NVActivityIndicatorView: fe52a6a68664c2df8991d7d9e3d86d8d19453c53
-  Pastel: 814f081efbe2859c37e65ee44f396e6e5be88619
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  SwiftMessages: 759b4a0bf5c3a116a0d7e8a34b098ba83c458625
   SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
-  Toast-Swift: 7a03a532afe3a560d4044bc7c237e2864d295173
 
-PODFILE CHECKSUM: ddfb6c4b4a906a5e1aae1897e7e97f80d802d151
+PODFILE CHECKSUM: ca69223ff2a85153ddfb172064a8debc160f1a71
 
 COCOAPODS: 1.16.2
