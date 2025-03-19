@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ToyeFirstLoginViewController" customModule="Toye" customModuleProvider="target">
+            <connections>
+                <outlet property="LoginTyPrompt" destination="DkB-bf-QnF" id="V9b-Wn-lIp"/>
+                <outlet property="toyeBoxButton" destination="ead-5b-zL0" id="AGT-L4-wzh"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LoginBacktyground" translatesAutoresizingMaskIntoConstraints="NO" id="tLK-4V-BNF">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logiToyeIcon" translatesAutoresizingMaskIntoConstraints="NO" id="HQe-LY-5v8">
+                    <rect key="frame" x="169.66666666666666" y="422.66666666666669" width="54" height="90.000000000000057"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By continuing , you agree to our Terms of Service and Privacy Policy" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DkB-bf-QnF">
+                    <rect key="frame" x="57" y="769.33333333333337" width="316" height="28.666666666666629"/>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ead-5b-zL0">
+                    <rect key="frame" x="33" y="770.33333333333337" width="16" height="16"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" backgroundImage="loginTyAgree"/>
+                    <state key="selected" backgroundImage="loginTyAgreeSe"/>
+                    <connections>
+                        <action selector="firloginTySelect:" destination="-1" eventType="touchUpInside" id="7bq-GZ-QK4"/>
+                    </connections>
+                </button>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WWB-cu-tIX">
+                    <rect key="frame" x="34" y="602.66666666666663" width="325" height="56"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="EKi-az-QeT"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="16"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Login with Email">
+                        <color key="titleColor" red="0.90980392156862744" green="0.32941176470588235" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="28"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="toLoginWithYeEmail:" destination="-1" eventType="touchUpInside" id="Xcs-cN-lWg"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ErN-Cm-IlO">
+                    <rect key="frame" x="91" y="678.66666666666663" width="211" height="28.666666666666629"/>
+                    <string key="text">If no account
+ one will be auto-created for you. </string>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loignTyRight" translatesAutoresizingMaskIntoConstraints="NO" id="CPg-4W-L2n">
+                    <rect key="frame" x="357" y="99" width="16" height="16"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EULA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YQM-ZH-cDW">
+                    <rect key="frame" x="317" y="99.666666666666671" width="35" height="15"/>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rw2-wh-w9r">
+                    <rect key="frame" x="317" y="87" width="56" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="gNy-oG-nUz"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <connections>
+                        <action selector="needShowAgreement:" destination="-1" eventType="touchUpInside" id="g3e-m6-hPo"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="YQM-ZH-cDW" firstAttribute="centerY" secondItem="CPg-4W-L2n" secondAttribute="centerY" id="1fR-aZ-PAW"/>
+                <constraint firstItem="Rw2-wh-w9r" firstAttribute="leading" secondItem="YQM-ZH-cDW" secondAttribute="leading" id="43M-DP-VhE"/>
+                <constraint firstItem="ErN-Cm-IlO" firstAttribute="top" secondItem="WWB-cu-tIX" secondAttribute="bottom" constant="20" id="4Nc-AW-b9l"/>
+                <constraint firstItem="Rw2-wh-w9r" firstAttribute="centerY" secondItem="YQM-ZH-cDW" secondAttribute="centerY" id="8yd-lQ-Yko"/>
+                <constraint firstItem="ead-5b-zL0" firstAttribute="top" secondItem="DkB-bf-QnF" secondAttribute="top" constant="1" id="DyL-Pg-Uvc"/>
+                <constraint firstItem="WWB-cu-tIX" firstAttribute="top" secondItem="HQe-LY-5v8" secondAttribute="bottom" constant="90" id="Egv-Z5-rjJ"/>
+                <constraint firstItem="CPg-4W-L2n" firstAttribute="leading" secondItem="YQM-ZH-cDW" secondAttribute="trailing" constant="5" id="FgL-fe-CeI"/>
+                <constraint firstAttribute="trailing" secondItem="DkB-bf-QnF" secondAttribute="trailing" constant="20" id="LZW-zu-gP2"/>
+                <constraint firstItem="DkB-bf-QnF" firstAttribute="top" secondItem="ErN-Cm-IlO" secondAttribute="bottom" constant="62" id="P7W-fE-fK3"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="WWB-cu-tIX" secondAttribute="trailing" constant="34" id="V0n-Y9-d1r"/>
+                <constraint firstItem="DkB-bf-QnF" firstAttribute="leading" secondItem="ead-5b-zL0" secondAttribute="trailing" constant="8" id="XOn-wa-tiT"/>
+                <constraint firstItem="Rw2-wh-w9r" firstAttribute="trailing" secondItem="CPg-4W-L2n" secondAttribute="trailing" id="ZWt-Om-WDB"/>
+                <constraint firstAttribute="bottom" secondItem="tLK-4V-BNF" secondAttribute="bottom" id="c4m-bw-JND"/>
+                <constraint firstItem="tLK-4V-BNF" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="cbw-dV-4Ev"/>
+                <constraint firstItem="tLK-4V-BNF" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="dHr-nq-vNb"/>
+                <constraint firstItem="ErN-Cm-IlO" firstAttribute="centerX" secondItem="tLK-4V-BNF" secondAttribute="centerX" id="fAp-wk-QPe"/>
+                <constraint firstAttribute="trailing" secondItem="CPg-4W-L2n" secondAttribute="trailing" constant="20" id="gEA-va-tkJ"/>
+                <constraint firstItem="WWB-cu-tIX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="34" id="gvK-Xx-Bju"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="DkB-bf-QnF" secondAttribute="bottom" constant="20" id="i5S-qi-DiN"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="tLK-4V-BNF" secondAttribute="trailing" id="ld0-2h-oo6"/>
+                <constraint firstItem="DkB-bf-QnF" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="57" id="ln2-KV-Hef"/>
+                <constraint firstItem="CPg-4W-L2n" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="40" id="qgz-cs-wce"/>
+                <constraint firstItem="HQe-LY-5v8" firstAttribute="centerX" secondItem="tLK-4V-BNF" secondAttribute="centerX" id="t0e-O2-B21"/>
+            </constraints>
+            <point key="canvasLocation" x="139.69465648854961" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LoginBacktyground" width="375" height="812"/>
+        <image name="logiToyeIcon" width="54" height="90"/>
+        <image name="loginTyAgree" width="16" height="16"/>
+        <image name="loginTyAgreeSe" width="16" height="16"/>
+        <image name="loignTyRight" width="16" height="16"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

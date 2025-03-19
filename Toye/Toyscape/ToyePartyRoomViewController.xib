@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ToyePartyRoomViewController" customModule="Toye" customModuleProvider="target">
+            <connections>
+                <outlet property="partyERoomToyInput" destination="oxw-qv-U4b" id="TfJ-JJ-Wcj"/>
+                <outlet property="partyRoomTableView" destination="NOa-Zy-aSD" id="x8j-Ll-Ah7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" contentInsetAdjustmentBehavior="never" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" estimatedSectionHeaderHeight="-1" sectionFooterHeight="28" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="NOa-Zy-aSD">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="760"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="qhN-Sl-nMR"/>
+                        <outlet property="delegate" destination="-1" id="eXa-GY-Wah"/>
+                    </connections>
+                </tableView>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oWd-xD-Mk5">
+                    <rect key="frame" x="12" y="767" width="365" height="46"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1t-Dm-COZ">
+                            <rect key="frame" x="323" y="4" width="38" height="38"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" backgroundImage="PartyRoomSend"/>
+                            <connections>
+                                <action selector="scheduleToyDiscussionInPlayPalsRoom:" destination="-1" eventType="touchUpInside" id="zxa-pF-qLC"/>
+                            </connections>
+                        </button>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oxw-qv-U4b">
+                            <rect key="frame" x="16" y="0.0" width="307" height="46"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" weight="black" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.26000000000000001" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="oxw-qv-U4b" firstAttribute="leading" secondItem="oWd-xD-Mk5" secondAttribute="leading" constant="16" id="7Y9-98-yfv"/>
+                        <constraint firstAttribute="height" constant="46" id="EC8-Fc-tnF"/>
+                        <constraint firstItem="oxw-qv-U4b" firstAttribute="top" secondItem="oWd-xD-Mk5" secondAttribute="top" id="Iko-KS-sEm"/>
+                        <constraint firstAttribute="trailing" secondItem="b1t-Dm-COZ" secondAttribute="trailing" constant="4" id="NKz-j6-O4m"/>
+                        <constraint firstAttribute="bottom" secondItem="oxw-qv-U4b" secondAttribute="bottom" id="T5J-dt-Ui9"/>
+                        <constraint firstItem="b1t-Dm-COZ" firstAttribute="centerY" secondItem="oWd-xD-Mk5" secondAttribute="centerY" id="jDx-xu-jMb"/>
+                        <constraint firstItem="b1t-Dm-COZ" firstAttribute="leading" secondItem="oxw-qv-U4b" secondAttribute="trailing" id="k4u-IQ-rXX"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="23"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.047058823529411764" green="0.0" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="NOa-Zy-aSD" secondAttribute="trailing" id="6vg-y8-Cc5"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="oWd-xD-Mk5" secondAttribute="trailing" constant="16" id="Ez3-wE-2uh"/>
+                <constraint firstItem="NOa-Zy-aSD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="QjC-cT-a9e"/>
+                <constraint firstItem="NOa-Zy-aSD" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="b5Q-hh-hCK"/>
+                <constraint firstAttribute="bottom" secondItem="NOa-Zy-aSD" secondAttribute="bottom" constant="92" id="k3P-qt-31A"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="oWd-xD-Mk5" secondAttribute="bottom" constant="5" id="tp8-zq-3wq"/>
+                <constraint firstItem="oWd-xD-Mk5" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="12" id="yha-Ab-GAR"/>
+            </constraints>
+            <point key="canvasLocation" x="136.64122137404578" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="PartyRoomSend" width="38" height="38"/>
+    </resources>
+</document>

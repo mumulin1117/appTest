@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>roomID</key>
+		<string>S8x49fIcbfYZ.jpeg</string>
+		<key>talkRoomName</key>
+		<string>Toye Trendy Toy World</string>
+		<key>talkRoomInitiatorID</key>
+		<string>vIBDdkl8Mrz6.png</string>
+		<key>talkRoomInitiator</key>
+		<string>Dakota</string>
+		<key>talkRoomDescription</key>
+		<string>A gathering place for toy lovers to share their collections and appreciate the unique charm of various toys.</string>
+		<key>talkRoomWelcome</key>
+		<string>Welcome to the Toy Appreciation Room! Share your collection and let’s explore the unique charm of toys together.</string>
+	</dict>
+	<dict>
+		<key>roomID</key>
+		<string>vDuI9nZqvInY.jpg</string>
+		<key>talkRoomName</key>
+		<string>Funky Toye Hub</string>
+		<key>talkRoomInitiatorID</key>
+		<string>f5nMzSGJ9gta.png</string>
+		<key>talkRoomInitiator</key>
+		<string>Ezra</string>
+		<key>talkRoomDescription</key>
+		<string>Discuss the latest trends in the toy world and share your expectations for upcoming new releases.</string>
+		<key>talkRoomWelcome</key>
+		<string>Welcome to the Trendy Toy Discussion Room! Let’s talk about the latest toy trends and your expectations for new releases.</string>
+	</dict>
+	<dict>
+		<key>roomID</key>
+		<string>naRy57wDeThD.jpg</string>
+		<key>talkRoomName</key>
+		<string>Star-Trendy Toye Community</string>
+		<key>talkRoomInitiatorID</key>
+		<string>qa6m7OWbMZZV.png</string>
+		<key>talkRoomInitiator</key>
+		<string>Harper</string>
+		<key>talkRoomDescription</key>
+		<string>A platform for showcasing your creative toy designs and exchanging ideas with like-minded enthusiasts.</string>
+		<key>talkRoomWelcome</key>
+		<string>Welcome to the DIY Creative Toy Room! Showcase your creative designs and inspire more ideas!</string>
+	</dict>
+	<dict>
+		<key>roomID</key>
+		<string>qpTyp1FV3dQP.jpg</string>
+		<key>talkRoomName</key>
+		<string>Cool Toye Alliance</string>
+		<key>talkRoomInitiatorID</key>
+		<string>ck2VnbbRhyTG.png</string>
+		<key>talkRoomInitiator</key>
+		<string>Indigo</string>
+		<key>talkRoomDescription</key>
+		<string>Discover rare and collectible toys and share the thrill of finding unique treasures.</string>
+		<key>talkRoomWelcome</key>
+		<string>Welcome to the Rare Toy Discovery Room! Let’s uncover the rare treasures that make hearts race.</string>
+	</dict>
+	<dict>
+		<key>roomID</key>
+		<string>h7yQVn2EmN3b.jpg</string>
+		<key>talkRoomName</key>
+		<string>Colorful Toye Toy Circle</string>
+		<key>talkRoomInitiatorID</key>
+		<string>PV7Gaje3OBiv.png</string>
+		<key>talkRoomInitiator</key>
+		<string>Kai</string>
+		<key>talkRoomDescription</key>
+		<string>Buy, sell, and trade toys in an open and dynamic auction platform tailored for collectors.</string>
+		<key>talkRoomWelcome</key>
+		<string>Welcome to the Toy Auction and Trade Room! Find your desired toys here and start a new journey in collecting.”</string>
+	</dict>
+	<dict>
+		<key>roomID</key>
+		<string>4PRjVHUmULFx.jpg</string>
+		<key>talkRoomName</key>
+		<string>Playful Toye Tribe</string>
+		<key>talkRoomInitiatorID</key>
+		<string>JhX5afzSK0XQ.png</string>
+		<key>talkRoomInitiator</key>
+		<string>Linden</string>
+		<key>talkRoomDescription</key>
+		<string>Explore the history, culture, and stories behind toys, unveiling the nostalgia they bring.</string>
+		<key>talkRoomWelcome</key>
+		<string>Welcome to the Toy History and Culture Room! Explore the stories behind toys and the culture and memories they carry.</string>
+	</dict>
+	<dict>
+		<key>roomID</key>
+		<string>BhNpzJOf7r3e.jpg</string>
+		<key>talkRoomName</key>
+		<string>Glorious Toye Toy Collection</string>
+		<key>talkRoomInitiatorID</key>
+		<string>PzyF2fwlo2bg.png</string>
+		<key>talkRoomInitiator</key>
+		<string>Noel</string>
+		<key>talkRoomDescription</key>
+		<string>A dedicated space for addressing toy maintenance and repair issues with expert advice.</string>
+		<key>talkRoomWelcome</key>
+		<string>Welcome to the Toy Problem Solving Room! Got a toy maintenance issue? You’ll find the answers here.”</string>
+	</dict>
+	<dict>
+		<key>roomID</key>
+		<string>vrsd2lz8IYIl.jpg</string>
+		<key>talkRoomName</key>
+		<string>Intuitive Toye Toy Union</string>
+		<key>talkRoomInitiatorID</key>
+		<string>0R7Kj7x1Hdks.png</string>
+		<key>talkRoomInitiator</key>
+		<string>Owen</string>
+		<key>talkRoomDescription</key>
+		<string>Revisit cherished childhood memories by sharing the stories of toys that defined your youth.</string>
+		<key>talkRoomWelcome</key>
+		<string>Welcome to the Childhood Memory Sharing Room! Share your childhood toy stories and let’s relive those wonderful moments together.</string>
+	</dict>
+</array>
+</plist>

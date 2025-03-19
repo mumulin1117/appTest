@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB" customClass="ToyBlackUserView" customModule="Toye" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="315" height="582"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blackUserTopBackground" translatesAutoresizingMaskIntoConstraints="NO" id="v5m-5p-Ri1">
+                    <rect key="frame" x="0.0" y="0.0" width="315" height="179"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8rB-8t-074">
+                    <rect key="frame" x="265" y="14" width="34" height="34"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" backgroundImage="toyAlertDismis"/>
+                    <connections>
+                        <action selector="iBToyReportRemoveScreen:" destination="iN0-l3-epB" eventType="touchUpInside" id="48u-Gb-i3i"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iB1-f5-ogf">
+                    <rect key="frame" x="20" y="24.000000000000004" width="166.66666666666666" height="57.333333333333343"/>
+                    <string key="text">Please select the
+reason for reporting
+ this user:</string>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="16"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" clipsSubviews="YES" tag="300" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SYC-pc-Vo1">
+                    <rect key="frame" x="20" y="105.33333333333331" width="275" height="54"/>
+                    <color key="backgroundColor" red="0.90980392156862744" green="0.32941176470588235" blue="0.97254901960784312" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="275" id="ErL-Ei-fQi"/>
+                        <constraint firstAttribute="height" constant="54" id="YMj-Nb-YR3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Harassment">
+                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="selected">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="iBReportItemAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="i9p-IE-32l"/>
+                    </connections>
+                </button>
+                <button opaque="NO" clipsSubviews="YES" tag="301" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QRB-3f-AIp">
+                    <rect key="frame" x="20" y="171.33333333333334" width="275" height="54"/>
+                    <color key="backgroundColor" red="0.90980392160000001" green="0.3294117647" blue="0.97254901959999995" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="Ds4-dS-r4F"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Inappropriate langua">
+                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="selected">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="iBReportItemAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="vzz-2s-yg0"/>
+                    </connections>
+                </button>
+                <button opaque="NO" clipsSubviews="YES" tag="302" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qeA-ax-Byn">
+                    <rect key="frame" x="20" y="237.33333333333337" width="275" height="54"/>
+                    <color key="backgroundColor" red="0.90980392160000001" green="0.3294117647" blue="0.97254901959999995" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="Hxc-MT-GOW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Spam or false information">
+                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="selected">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="iBReportItemAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="rBf-RD-1NH"/>
+                    </connections>
+                </button>
+                <button opaque="NO" clipsSubviews="YES" tag="303" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TpW-pt-bef">
+                    <rect key="frame" x="20" y="303.33333333333331" width="275" height="54"/>
+                    <color key="backgroundColor" red="0.90980392160000001" green="0.3294117647" blue="0.97254901959999995" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="XYe-Gv-aQc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Other (please specify in the description box below).">
+                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="selected">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="iBReportItemAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="aQQ-hF-27F"/>
+                    </connections>
+                </button>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lkw-60-rfT">
+                    <rect key="frame" x="79" y="514.33333333333337" width="157" height="48"/>
+                    <color key="backgroundColor" red="0.90980392160000001" green="0.3294117647" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="9GK-DC-maV"/>
+                        <constraint firstAttribute="width" constant="157" id="Wl1-iU-WvG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Submit Report">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <state key="disabled">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="26"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="submitToyServerAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="0jL-KL-CXW"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fUm-LY-5iX" customClass="RSKPlaceholderTextView" customModule="RSKPlaceholderTextView">
+                    <rect key="frame" x="20" y="374.33333333333331" width="275" height="120"/>
+                    <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="MhE-6n-bvD"/>
+                    </constraints>
+                    <color key="textColor" systemColor="labelColor"/>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Enter your reason here..."/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                            <color key="value" red="0.74901960779999999" green="0.74901960779999999" blue="0.74901960779999999" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="TpW-pt-bef" firstAttribute="leading" secondItem="qeA-ax-Byn" secondAttribute="leading" id="0ey-sI-zS6"/>
+                <constraint firstItem="QRB-3f-AIp" firstAttribute="trailing" secondItem="SYC-pc-Vo1" secondAttribute="trailing" id="4O5-2b-RDG"/>
+                <constraint firstItem="qeA-ax-Byn" firstAttribute="leading" secondItem="QRB-3f-AIp" secondAttribute="leading" id="5Y4-t7-8mH"/>
+                <constraint firstItem="SYC-pc-Vo1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="7FL-6W-nTe"/>
+                <constraint firstItem="Lkw-60-rfT" firstAttribute="top" secondItem="fUm-LY-5iX" secondAttribute="bottom" constant="20" id="ESR-db-zZ1"/>
+                <constraint firstItem="iB1-f5-ogf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="Gfj-xM-X3a"/>
+                <constraint firstItem="QRB-3f-AIp" firstAttribute="width" secondItem="SYC-pc-Vo1" secondAttribute="width" id="Gns-p1-X2Y"/>
+                <constraint firstAttribute="trailing" secondItem="v5m-5p-Ri1" secondAttribute="trailing" id="LTd-Vl-tTU"/>
+                <constraint firstAttribute="bottom" secondItem="Lkw-60-rfT" secondAttribute="bottom" constant="19.670000000000002" id="M9h-U9-Erh"/>
+                <constraint firstItem="v5m-5p-Ri1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="OcG-j3-XU7"/>
+                <constraint firstItem="TpW-pt-bef" firstAttribute="top" secondItem="qeA-ax-Byn" secondAttribute="bottom" constant="12" id="Pe7-ML-XYU"/>
+                <constraint firstItem="SYC-pc-Vo1" firstAttribute="top" secondItem="iB1-f5-ogf" secondAttribute="bottom" constant="24" id="TN5-n2-aeU"/>
+                <constraint firstItem="Lkw-60-rfT" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="YtX-s8-NlB"/>
+                <constraint firstItem="QRB-3f-AIp" firstAttribute="top" secondItem="SYC-pc-Vo1" secondAttribute="bottom" constant="12" id="ZZL-pD-h3y"/>
+                <constraint firstItem="8rB-8t-074" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="14" id="Zqd-1G-ohM"/>
+                <constraint firstItem="fUm-LY-5iX" firstAttribute="top" secondItem="TpW-pt-bef" secondAttribute="bottom" constant="17" id="aCj-yk-QaC"/>
+                <constraint firstItem="qeA-ax-Byn" firstAttribute="top" secondItem="QRB-3f-AIp" secondAttribute="bottom" constant="12" id="bY2-lB-raG"/>
+                <constraint firstItem="iB1-f5-ogf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="24" id="gZZ-vg-F1d"/>
+                <constraint firstAttribute="trailing" secondItem="8rB-8t-074" secondAttribute="trailing" constant="16" id="gaC-Iy-O8X"/>
+                <constraint firstAttribute="trailing" secondItem="SYC-pc-Vo1" secondAttribute="trailing" constant="20" id="gcI-pq-KnV"/>
+                <constraint firstItem="qeA-ax-Byn" firstAttribute="width" secondItem="QRB-3f-AIp" secondAttribute="width" id="j5S-fh-OdB"/>
+                <constraint firstItem="TpW-pt-bef" firstAttribute="trailing" secondItem="qeA-ax-Byn" secondAttribute="trailing" id="jSL-tk-Tta"/>
+                <constraint firstItem="fUm-LY-5iX" firstAttribute="trailing" secondItem="TpW-pt-bef" secondAttribute="trailing" id="kG3-CM-h6w"/>
+                <constraint firstItem="TpW-pt-bef" firstAttribute="width" secondItem="qeA-ax-Byn" secondAttribute="width" id="lBE-i2-XsE"/>
+                <constraint firstItem="QRB-3f-AIp" firstAttribute="leading" secondItem="SYC-pc-Vo1" secondAttribute="leading" id="n2L-00-O3v"/>
+                <constraint firstItem="fUm-LY-5iX" firstAttribute="leading" secondItem="TpW-pt-bef" secondAttribute="leading" id="n2k-3K-wyr"/>
+                <constraint firstItem="qeA-ax-Byn" firstAttribute="trailing" secondItem="QRB-3f-AIp" secondAttribute="trailing" id="nwY-zb-WZe"/>
+                <constraint firstItem="v5m-5p-Ri1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ugl-Sd-E9p"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="24"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="reportToyTextView" destination="fUm-LY-5iX" id="nHO-Hm-ln9"/>
+                <outlet property="submitToyServer" destination="Lkw-60-rfT" id="lPT-xp-KbC"/>
+                <outlet property="toyLastreportButton" destination="TpW-pt-bef" id="km5-PL-Wnz"/>
+            </connections>
+            <point key="canvasLocation" x="136.64122137404578" y="15.492957746478874"/>
+        </view>
+        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sLf-An-SEr">
+            <rect key="frame" x="0.0" y="0.0" width="157" height="48"/>
+            <color key="backgroundColor" red="0.90980392160000001" green="0.3294117647" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="width" constant="157" id="YeP-Tj-GMH"/>
+                <constraint firstAttribute="height" constant="48" id="yaz-tM-MSh"/>
+            </constraints>
+            <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
+            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+            <state key="normal" title="Submit Report">
+                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            </state>
+            <state key="disabled">
+                <color key="titleColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+            </state>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="26"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="-42" y="296"/>
+        </button>
+    </objects>
+    <resources>
+        <image name="blackUserTopBackground" width="315" height="179"/>
+        <image name="toyAlertDismis" width="34" height="34"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

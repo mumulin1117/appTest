@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ToyTalksViewController" customModule="Toye" customModuleProvider="target">
+            <connections>
+                <outlet property="toyTalkTable" destination="6bK-rl-N38" id="w7P-mJ-PQd"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="toyTalkBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Jc2-DK-6fT">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <button opaque="NO" tag="800" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q1g-KN-NyT">
+                    <rect key="frame" x="15.000000000000007" y="129" width="115.66666666666669" height="110"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" backgroundImage="toyTalkFollow"/>
+                    <connections>
+                        <action selector="toyTalkButtonAction:" destination="-1" eventType="touchUpInside" id="oNx-vX-MKX"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="801" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="taG-ND-v4f">
+                    <rect key="frame" x="138.66666666666666" y="129" width="115.66666666666666" height="110"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" backgroundImage="toyTalkFans"/>
+                    <connections>
+                        <action selector="toyTalkButtonAction:" destination="-1" eventType="touchUpInside" id="qli-Ie-8ea"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="802" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhM-oD-EvG">
+                    <rect key="frame" x="262.33333333333331" y="129" width="115.66666666666669" height="110"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" backgroundImage="toyTalkNotifications"/>
+                    <connections>
+                        <action selector="toyTalkButtonAction:" destination="-1" eventType="touchUpInside" id="8Dv-98-Gy6"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="toytalktitleImage" translatesAutoresizingMaskIntoConstraints="NO" id="ZUh-BO-2In">
+                    <rect key="frame" x="24" y="66" width="155" height="31"/>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" contentInsetAdjustmentBehavior="never" style="insetGrouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="6bK-rl-N38">
+                    <rect key="frame" x="0.0" y="267" width="393" height="551"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="D5F-0v-a7Q"/>
+                        <outlet property="delegate" destination="-1" id="Ffu-Gs-w9r"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="hhM-oD-EvG" firstAttribute="leading" secondItem="taG-ND-v4f" secondAttribute="trailing" constant="8" id="1iU-m4-ylA"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="6bK-rl-N38" secondAttribute="trailing" id="8XH-hl-pHV"/>
+                <constraint firstItem="6bK-rl-N38" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="9Ws-3g-EJi"/>
+                <constraint firstItem="q1g-KN-NyT" firstAttribute="top" secondItem="ZUh-BO-2In" secondAttribute="bottom" constant="32" id="Aq0-Ri-kwx"/>
+                <constraint firstItem="hhM-oD-EvG" firstAttribute="centerY" secondItem="taG-ND-v4f" secondAttribute="centerY" id="CEt-P5-1eP"/>
+                <constraint firstItem="6bK-rl-N38" firstAttribute="top" secondItem="q1g-KN-NyT" secondAttribute="bottom" constant="28" id="Gxc-8A-lvc"/>
+                <constraint firstItem="taG-ND-v4f" firstAttribute="leading" secondItem="q1g-KN-NyT" secondAttribute="trailing" constant="8" id="Hyq-OO-SNW"/>
+                <constraint firstItem="q1g-KN-NyT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="IMA-P2-5cA"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="6bK-rl-N38" secondAttribute="bottom" id="Knl-CY-AYh"/>
+                <constraint firstAttribute="trailing" secondItem="Jc2-DK-6fT" secondAttribute="trailing" id="NY8-Iu-Hoe"/>
+                <constraint firstItem="Jc2-DK-6fT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="WCQ-Qj-cwH"/>
+                <constraint firstAttribute="bottom" secondItem="Jc2-DK-6fT" secondAttribute="bottom" id="X3N-lV-HqY"/>
+                <constraint firstItem="hhM-oD-EvG" firstAttribute="width" secondItem="q1g-KN-NyT" secondAttribute="width" id="Xr1-2e-udx"/>
+                <constraint firstItem="ZUh-BO-2In" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="eaB-ij-dIq"/>
+                <constraint firstItem="Jc2-DK-6fT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="hnJ-fD-7sy"/>
+                <constraint firstItem="taG-ND-v4f" firstAttribute="centerY" secondItem="q1g-KN-NyT" secondAttribute="centerY" id="lRH-6u-Dqa"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hhM-oD-EvG" secondAttribute="trailing" constant="15" id="mj4-CD-iBV"/>
+                <constraint firstItem="taG-ND-v4f" firstAttribute="width" secondItem="q1g-KN-NyT" secondAttribute="width" id="qFw-Ro-pxN"/>
+                <constraint firstItem="ZUh-BO-2In" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="66" id="qzH-Xh-s82"/>
+            </constraints>
+            <point key="canvasLocation" x="139.69465648854961" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="toyTalkBackground" width="375" height="812"/>
+        <image name="toyTalkFans" width="110" height="110"/>
+        <image name="toyTalkFollow" width="110" height="110"/>
+        <image name="toyTalkNotifications" width="110" height="110"/>
+        <image name="toytalktitleImage" width="155" height="31"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

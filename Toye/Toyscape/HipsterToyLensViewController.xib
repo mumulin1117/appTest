@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HipsterToyLensViewController" customModule="Toye" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hipsterMaskImage" translatesAutoresizingMaskIntoConstraints="NO" id="RX0-0i-MEC">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" contentInsetAdjustmentBehavior="never" translatesAutoresizingMaskIntoConstraints="NO" id="TqB-ve-lCh">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Rb-wq-Zkc">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="788"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hipsterReviewImage" translatesAutoresizingMaskIntoConstraints="NO" id="gzA-1a-JbV">
+                                    <rect key="frame" x="0.0" y="42" width="393" height="420"/>
+                                </imageView>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g3u-dY-qh6">
+                                    <rect key="frame" x="12" y="468" width="369" height="232"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hipLayerImage" translatesAutoresizingMaskIntoConstraints="NO" id="BqO-nP-F3X">
+                                            <rect key="frame" x="0.0" y="0.0" width="369" height="232"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SNh-yH-m8Q">
+                                            <rect key="frame" x="20" y="16" width="329" height="200"/>
+                                            <string key="text">Hey, trendy toy lovers! Unsure about the authenticity or rarity of your toys? Found a mysterious vintage toy or a unique piece and want to confirm its value? We're here to help. Snap clear photos of your toys from all angles, highlighting details and quirks. Click the upload button and let our AI and experts uncover the secrets.</string>
+                                            <fontDescription key="fontDescription" type="system" weight="black" pointSize="16"/>
+                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="SNh-yH-m8Q" secondAttribute="bottom" constant="16" id="SMQ-Nq-pDV"/>
+                                        <constraint firstItem="SNh-yH-m8Q" firstAttribute="top" secondItem="g3u-dY-qh6" secondAttribute="top" constant="16" id="Zxt-Sa-zDX"/>
+                                        <constraint firstItem="BqO-nP-F3X" firstAttribute="top" secondItem="g3u-dY-qh6" secondAttribute="top" id="e02-Po-6qy"/>
+                                        <constraint firstAttribute="trailing" secondItem="SNh-yH-m8Q" secondAttribute="trailing" constant="20" id="etS-gk-18p"/>
+                                        <constraint firstAttribute="trailing" secondItem="BqO-nP-F3X" secondAttribute="trailing" id="gXS-pg-Xs9"/>
+                                        <constraint firstAttribute="bottom" secondItem="BqO-nP-F3X" secondAttribute="bottom" id="h5c-zV-KU9"/>
+                                        <constraint firstItem="SNh-yH-m8Q" firstAttribute="leading" secondItem="g3u-dY-qh6" secondAttribute="leading" constant="20" id="q7D-Rq-yJZ"/>
+                                        <constraint firstItem="BqO-nP-F3X" firstAttribute="leading" secondItem="g3u-dY-qh6" secondAttribute="leading" id="zed-RA-6Ya"/>
+                                    </constraints>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPy-cZ-fIS">
+                                    <rect key="frame" x="31" y="716" width="331" height="52"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" backgroundImage="hipsterButtonBackground"/>
+                                    <connections>
+                                        <action selector="startHipsterToyLens:" destination="-1" eventType="touchUpInside" id="cek-kM-pT2"/>
+                                    </connections>
+                                </button>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hipsterStar" translatesAutoresizingMaskIntoConstraints="NO" id="DcO-7L-pT6">
+                                    <rect key="frame" x="8" y="436" width="46" height="46"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="gzA-1a-JbV" secondAttribute="trailing" id="5TU-i8-7gh"/>
+                                <constraint firstItem="DcO-7L-pT6" firstAttribute="leading" secondItem="6Rb-wq-Zkc" secondAttribute="leading" constant="8" id="7L3-wj-jBm"/>
+                                <constraint firstItem="bPy-cZ-fIS" firstAttribute="top" secondItem="g3u-dY-qh6" secondAttribute="bottom" constant="16" id="HfH-q2-e8i"/>
+                                <constraint firstItem="gzA-1a-JbV" firstAttribute="top" secondItem="6Rb-wq-Zkc" secondAttribute="top" constant="42" id="Iou-8K-0Em"/>
+                                <constraint firstItem="g3u-dY-qh6" firstAttribute="top" secondItem="gzA-1a-JbV" secondAttribute="bottom" constant="6" id="OSo-mE-p2M"/>
+                                <constraint firstItem="g3u-dY-qh6" firstAttribute="leading" secondItem="6Rb-wq-Zkc" secondAttribute="leading" constant="12" id="RlG-Bj-ryJ"/>
+                                <constraint firstAttribute="bottom" secondItem="bPy-cZ-fIS" secondAttribute="bottom" constant="20" id="dEY-3z-N0f"/>
+                                <constraint firstItem="gzA-1a-JbV" firstAttribute="leading" secondItem="6Rb-wq-Zkc" secondAttribute="leading" id="dje-QP-acW"/>
+                                <constraint firstItem="DcO-7L-pT6" firstAttribute="bottom" secondItem="gzA-1a-JbV" secondAttribute="bottom" constant="20" id="fxS-4z-3Bw"/>
+                                <constraint firstAttribute="trailing" secondItem="g3u-dY-qh6" secondAttribute="trailing" constant="12" id="xdT-zZ-euS"/>
+                                <constraint firstItem="bPy-cZ-fIS" firstAttribute="centerX" secondItem="6Rb-wq-Zkc" secondAttribute="centerX" id="z3c-Fg-eWd"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="6Rb-wq-Zkc" secondAttribute="bottom" id="7nP-A0-7JJ"/>
+                        <constraint firstItem="6Rb-wq-Zkc" firstAttribute="top" secondItem="TqB-ve-lCh" secondAttribute="top" id="Tj5-AQ-1LF"/>
+                        <constraint firstItem="6Rb-wq-Zkc" firstAttribute="leading" secondItem="TqB-ve-lCh" secondAttribute="leading" id="YBM-lt-a25"/>
+                        <constraint firstAttribute="trailing" secondItem="6Rb-wq-Zkc" secondAttribute="trailing" id="qVb-GQ-smq"/>
+                        <constraint firstItem="6Rb-wq-Zkc" firstAttribute="width" secondItem="TqB-ve-lCh" secondAttribute="width" id="uwX-bS-v2M"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="TqB-ve-lCh" secondAttribute="bottom" id="0pU-M4-xmG"/>
+                <constraint firstItem="TqB-ve-lCh" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="G9J-1h-VrI"/>
+                <constraint firstItem="TqB-ve-lCh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="KAt-CR-32c"/>
+                <constraint firstAttribute="bottom" secondItem="RX0-0i-MEC" secondAttribute="bottom" id="fes-YQ-jxm"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="TqB-ve-lCh" secondAttribute="trailing" id="gzy-JP-pTu"/>
+                <constraint firstItem="RX0-0i-MEC" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="whm-re-LBq"/>
+                <constraint firstItem="RX0-0i-MEC" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="xKf-1R-G8x"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="RX0-0i-MEC" secondAttribute="trailing" id="zEh-tf-QeE"/>
+            </constraints>
+            <point key="canvasLocation" x="136.64122137404578" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="hipLayerImage" width="351" height="232"/>
+        <image name="hipsterButtonBackground" width="331" height="52"/>
+        <image name="hipsterMaskImage" width="375" height="812"/>
+        <image name="hipsterReviewImage" width="375" height="420"/>
+        <image name="hipsterStar" width="46" height="46"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

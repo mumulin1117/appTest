@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ToyVaultGoldCollectionViewCell" customModule="Toye" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="109" height="130"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="109" height="130"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="toyVaultGoldItemBackground" translatesAutoresizingMaskIntoConstraints="NO" id="6lN-jr-iHx">
+                        <rect key="frame" x="0.0" y="0.0" width="109" height="130"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="toyVaultGold" translatesAutoresizingMaskIntoConstraints="NO" id="LA8-hC-5Wx">
+                        <rect key="frame" x="44.666666666666664" y="12" width="19.999999999999993" height="20"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBs-JC-yFv">
+                        <rect key="frame" x="37" y="44" width="35" height="15"/>
+                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="12"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vN9-kU-Bla">
+                        <rect key="frame" x="12" y="86" width="85" height="34"/>
+                        <color key="backgroundColor" red="0.90980392156862744" green="0.32941176470588235" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="34" id="n9A-ee-Wcz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="13"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" title="Button">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="17"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="toyeOwnerFlagButtonAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="KbY-bC-bzx"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="vN9-kU-Bla" secondAttribute="trailing" constant="12" id="4fW-sn-MEc"/>
+                <constraint firstAttribute="trailing" secondItem="6lN-jr-iHx" secondAttribute="trailing" id="GeJ-r6-ekA"/>
+                <constraint firstItem="vN9-kU-Bla" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="12" id="QdP-GD-NXG"/>
+                <constraint firstItem="6lN-jr-iHx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="THf-rK-r2R"/>
+                <constraint firstItem="LA8-hC-5Wx" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="12" id="ZJR-aK-ewL"/>
+                <constraint firstItem="xBs-JC-yFv" firstAttribute="top" secondItem="LA8-hC-5Wx" secondAttribute="bottom" constant="12" id="bFq-7i-8Jh"/>
+                <constraint firstItem="LA8-hC-5Wx" firstAttribute="centerX" secondItem="6lN-jr-iHx" secondAttribute="centerX" id="eZQ-gj-4iN"/>
+                <constraint firstAttribute="bottom" secondItem="vN9-kU-Bla" secondAttribute="bottom" constant="10" id="gPB-vn-yVZ"/>
+                <constraint firstAttribute="bottom" secondItem="6lN-jr-iHx" secondAttribute="bottom" id="hP0-ic-VkV"/>
+                <constraint firstItem="xBs-JC-yFv" firstAttribute="centerX" secondItem="6lN-jr-iHx" secondAttribute="centerX" id="l0i-cv-XkD"/>
+                <constraint firstItem="6lN-jr-iHx" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="x24-E5-U9h"/>
+            </constraints>
+            <size key="customSize" width="146" height="189"/>
+            <connections>
+                <outlet property="toyeCountNumber" destination="xBs-JC-yFv" id="qso-QL-awg"/>
+                <outlet property="toyeOwnerFlagButton" destination="vN9-kU-Bla" id="H3b-fN-1mE"/>
+            </connections>
+            <point key="canvasLocation" x="211.4503816793893" y="69.014084507042256"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="toyVaultGold" width="20" height="20"/>
+        <image name="toyVaultGoldItemBackground" width="109" height="130"/>
+    </resources>
+</document>
