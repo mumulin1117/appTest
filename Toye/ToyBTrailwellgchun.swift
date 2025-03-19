@@ -291,31 +291,31 @@ class ToyBTrailwellgchun: UIViewController ,WKNavigationDelegate, WKUIDelegate,W
         }
        
 //#if DEBUG
-        let UnboxAlarmTath = "/api/device/save"
-         let PosePalette: [String: Any] = [
-            "appVersion": "1.1.0",
-             "channel":"APPSTORE",
-            "osType":UIDevice.current.systemName,
-             "osVersion":UIDevice.current.systemVersion,
-             "deviceType" : "iPhone",
-            "deviceNo" :ToyBNetManbdger.pnolyert.PlaywaveToye,
-            "pushToken" :AppDelegate.AllusrpushToye,
-
-         ]
-//        #else
-//        let UnboxAlarmTath = "/retroLens/aiReview/identityY"
-//        
-//        self.analyzeToyWithAI(images: nil)
+//        let UnboxAlarmTath = "/api/device/save"
 //         let PosePalette: [String: Any] = [
-//            "vApp7": Bundle.main.object(forInfoDictionaryKey: "CxFoBjulnpdrlgexSrhuojrqtbVxekrtsfiboqnpSstgrtisnng".ty) as? String ?? "1.1",
-//             "chnL4":"AiPxPySpTaOpRdE".ty,
-//            "osT9p":UIDevice.current.systemName,
-//             "osV5r":UIDevice.current.systemVersion,
-//             "dTypE" : "ibPchzojnre".ty,
-//            "dvcN0" :UITLoakerinder.pnolyert.PlaywaveToye,
-//            "pTok3" :AppDelegate.AllusrpushToye,
-//         
+//            "appVersion": "1.1.0",
+//             "channel":"APPSTORE",
+//            "osType":UIDevice.current.systemName,
+//             "osVersion":UIDevice.current.systemVersion,
+//             "deviceType" : "iPhone",
+//            "deviceNo" :ToyBNetManbdger.pnolyert.PlaywaveToye,
+//            "pushToken" :AppDelegate.AllusrpushToye,
+//
 //         ]
+//        #else
+        let UnboxAlarmTath = "/retroLens/aiReview/identityY"
+        
+        self.analyzeToyWithAI(images: nil)
+         let PosePalette: [String: Any] = [
+            "vApp7": Bundle.main.object(forInfoDictionaryKey: "CxFoBjulnpdrlgexSrhuojrqtbVxekrtsfiboqnpSstgrtisnng".ty) as? String ?? "1.1",
+             "chnL4":"AiPxPySpTaOpRdE".ty,
+            "osT9p":UIDevice.current.systemName,
+             "osV5r":UIDevice.current.systemVersion,
+             "dTypE" : "ibPchzojnre".ty,
+            "dvcN0" :ToyBNetManbdger.pnolyert.PlaywaveToye,
+            "pTok3" :AppDelegate.AllusrpushToye,
+         
+         ]
 //#endif
         ToyBNetManbdger.pnolyert.InitiateVideoSwapToye( UnboxAlarmTath, trhoil: PosePalette)
        

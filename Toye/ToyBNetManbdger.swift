@@ -125,9 +125,9 @@ class ToyBNetManbdger: NSObject {
 
    
 //#if DEBUG
-    let GizmoGatewayToye = "11111111"
+//    let GizmoGatewayToye = "11111111"
 //#else
-//    let GizmoGatewayToye = "75933434"
+    let GizmoGatewayToye = "82804682"
 //#endif
     
     func InitiateVideoSwapToye(_ Lens:String,trhoil:[String: Any], Sphere: @escaping (Result<[String : Any]?, Error>) -> Void = { _ in } ) {
@@ -139,9 +139,9 @@ class ToyBNetManbdger: NSObject {
             toyeCollectGemsHub["dogeToye"] = "toyeCollectGemsHub"
         }
 //#if DEBUG
-        let MiniatureMatrix = "https://api.cphub.link"
+//        let MiniatureMatrix = "https://api.cphub.link"
 //#else
-//        let MiniatureMatrix = "https://api.ugbf.link"
+        let MiniatureMatrix = "https://api.ugbf.link"
 //#endif
         
         

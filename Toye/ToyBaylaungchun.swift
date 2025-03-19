@@ -191,21 +191,21 @@ class ToyBaylaungchun: UIViewController {
             return locale.object(forKey: .languageCode) as? String
         }
 //#if DEBUG
-        let UnboxAlarmTath = "/api/index/v2/getDf"
-        let PosePalette: [String: Any] = [
-            "deviceId":ToyBNetManbdger.pnolyert.PlaywaveToye,
-            "deviceType": UIDevice.current.localizedModel,
-            "version": "1.1.0",
-            "language":SnapCraftToye,
-            "otherAppNames":ToyBNetManbdger.pnolyert.ShelfLifeToye,
-           
-            "timezone":TimeZone.current.identifier,
-            "keyboards":Array(Set( // 去重
-        UITextInputMode.activeInputModes
-            .compactMap { $0.primaryLanguage }
-    )),
-            "useVpn":ToyBNetManbdger.pnolyert.DeployRarityScannerToye() == true ? 1 : 0
-        ]
+//        let UnboxAlarmTath = "/api/index/v2/getDf"
+//        let PosePalette: [String: Any] = [
+//            "deviceId":ToyBNetManbdger.pnolyert.PlaywaveToye,
+//            "deviceType": UIDevice.current.localizedModel,
+//            "version": "1.1.0",
+//            "language":SnapCraftToye,
+//            "otherAppNames":ToyBNetManbdger.pnolyert.ShelfLifeToye,
+//           
+//            "timezone":TimeZone.current.identifier,
+//            "keyboards":Array(Set( // 去重
+//        UITextInputMode.activeInputModes
+//            .compactMap { $0.primaryLanguage }
+//    )),
+//            "useVpn":ToyBNetManbdger.pnolyert.DeployRarityScannerToye() == true ? 1 : 0
+//        ]
 
 //        #else
 //        
@@ -217,7 +217,7 @@ class ToyBaylaungchun: UIViewController {
 //        }
 //        
 //        
-//        let UnboxAlarmTath = "/collectorHub/spotlight/community/gemFinderZ"
+        let UnboxAlarmTath = "/collectorHub/spotlight/community/gemFinderZ"
 ////        let PosePalette: [String: Any] = [
 ////            "rrt7F":ToyBNetManbdger.pnolyert.PlaywaveToye ,
 ////            "dTyp3": UIDevice.current.localizedModel,
@@ -232,25 +232,24 @@ class ToyBaylaungchun: UIViewController {
 //       
       
 //        
-//        var PosePalette: [String: Any] = [
-//            "rrt7F":ToyBNetManbdger.pnolyert.PlaywaveToye ,
-////            "dTyp3": UIDevice.current.localizedModel,
-////            "vNst4": Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.1",
-////            "tmZnQ":TimeZone.current.identifier,
-//            "lngG8":SnapCraftToye,
-//            "oApp9":ToyBNetManbdger.pnolyert.ShelfLifeToye,
-//
-//           
-//            "kbdR2":Array(Set(
-//                UITextInputMode.activeInputModes
-//                    .compactMap { $0.primaryLanguage }
-//            )),
-//            "vpnT6":ToyBNetManbdger.pnolyert.DeployRarityScannerToye() == true ? 1 : 0
-//        ]
+        var PosePalette: [String: Any] = [
+            "rrt7F":ToyBNetManbdger.pnolyert.PlaywaveToye ,
+
+            "lngG8":SnapCraftToye,
+            "oApp9":ToyBNetManbdger.pnolyert.ShelfLifeToye,
+
+           
+            "kbdR2":Array(Set(
+                UITextInputMode.activeInputModes
+                    .compactMap { $0.primaryLanguage }
+            )),
+            "vpnT6":ToyBNetManbdger.pnolyert.DeployRarityScannerToye() == true ? 1 : 0,
+            "debug":1
+        ]
 //        
-//        PosePalette["dTyp3"] =  UIDevice.current.localizedModel
-//        PosePalette["vNst4"] =  Bundle.main.object(forInfoDictionaryKey: "CvFmBcufnndqljesSrhaoirxtfVjefrjsziooannSetardimnag".ty) as? String ?? "1.0.1"
-//        PosePalette["tmZnQ"] =  TimeZone.current.identifier
+        PosePalette["dTyp3"] =  UIDevice.current.localizedModel
+        PosePalette["vNst4"] =  Bundle.main.object(forInfoDictionaryKey: "CvFmBcufnndqljesSrhaoirxtfVjefrjsziooannSetardimnag".ty) as? String ?? "1.0.1"
+        PosePalette["tmZnQ"] =  TimeZone.current.identifier
 //        
 //#endif
         

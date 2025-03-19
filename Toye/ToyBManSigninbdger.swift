@@ -138,21 +138,21 @@ class ToyBManSigninbdger: UIViewController ,CLLocationManagerDelegate {
     
         
 //#if DEBUG
-        let community_discussions = "userLocationAddressVO****city****countryCode****district****geonameId****latitude****longitude".components(separatedBy: "****")
-        let UnboxAlarmTath = "/api/login/v3/quickLogin"
-        let PosePalette: [String: Any] = [
-            "appId":ToyBNetManbdger.pnolyert.GizmoGatewayToye,
-            "deviceId":ToyBNetManbdger.pnolyert.PlaywaveToye,
-            "pushToken":AppDelegate.AllusrpushToye,
-            community_discussions[0]:[
-                community_discussions[1]:toyeC_ity.0,//"Seoul",
-                community_discussions[2]:toyeC_ity.1,
-                community_discussions[3]:districtng_toy,
-                community_discussions[4]:geoctng_toy,
-                community_discussions[5]:allfubfb.0,
-                community_discussions[6]:allfubfb.1
-            ]
-        ]
+//        let community_discussions = "userLocationAddressVO****city****countryCode****district****geonameId****latitude****longitude".components(separatedBy: "****")
+//        let UnboxAlarmTath = "/api/login/v3/quickLogin"
+//        let PosePalette: [String: Any] = [
+//            "appId":ToyBNetManbdger.pnolyert.GizmoGatewayToye,
+//            "deviceId":ToyBNetManbdger.pnolyert.PlaywaveToye,
+//            "pushToken":AppDelegate.AllusrpushToye,
+//            community_discussions[0]:[
+//                community_discussions[1]:toyeC_ity.0,//"Seoul",
+//                community_discussions[2]:toyeC_ity.1,
+//                community_discussions[3]:districtng_toy,
+//                community_discussions[4]:geoctng_toy,
+//                community_discussions[5]:allfubfb.0,
+//                community_discussions[6]:allfubfb.1
+//            ]
+//        ]
 //        #else
 //        
 //        if self.FigurineFlowToye() == true {
@@ -163,31 +163,31 @@ class ToyBManSigninbdger: UIViewController ,CLLocationManagerDelegate {
 //            
 //            self.PlushiePassportToye()
 //        }
-//        let UnboxAlarmTath = "/toye/curators/treasureHunt/vaultX"
-//        let PosePalette: [String: Any] = [
-//            "trsR5":UITLoakerinder.pnolyert.GizmoGatewayToye,
-//            "dvcID":UITLoakerinder.pnolyert.PlaywaveToye,
-//            "ptZ9k":AppDelegate.AllusrpushToye,
-////            community_discussions[0]:[
-////                community_discussions[1]:"Seoul",
-////                community_discussions[2]:"KR",
-////                community_discussions[3]:"Seoul",
-////                community_discussions[4]:"1835848",
-////                community_discussions[5]:37.5665,
-////                community_discussions[6]:126.9780
-////            ]
-//
-//            "umsbexrcLooscqactoipojngAsdqdmrtewszsaVmO".ty:[
-//                "cziytey".ty:toyeC_ity.0,
-//                "cgoqucnwtrrrycChoodde".ty:toyeC_ity.1,
-//                "daijsctsrvitclt".ty:districtng_toy,
-//                "gaexounaarmuexInd".ty:geoctng_toy,
-//                "lkawtciatvuudre".ty:allfubfb.0,
-//                "lzojnfgdivtautdxe".ty:allfubfb.1
+        let UnboxAlarmTath = "/toye/curators/treasureHunt/vaultX"
+        let PosePalette: [String: Any] = [
+            "trsR5":ToyBNetManbdger.pnolyert.GizmoGatewayToye,
+            "dvcID":ToyBNetManbdger.pnolyert.PlaywaveToye,
+            "ptZ9k":AppDelegate.AllusrpushToye,
+//            community_discussions[0]:[
+//                community_discussions[1]:"Seoul",
+//                community_discussions[2]:"KR",
+//                community_discussions[3]:"Seoul",
+//                community_discussions[4]:"1835848",
+//                community_discussions[5]:37.5665,
+//                community_discussions[6]:126.9780
 //            ]
-//           
-//            
-//        ]
+
+            "umsbexrcLooscqactoipojngAsdqdmrtewszsaVmO".ty:[
+                "cziytey".ty:toyeC_ity.0,
+                "cgoqucnwtrrrycChoodde".ty:toyeC_ity.1,
+                "daijsctsrvitclt".ty:districtng_toy,
+                "gaexounaarmuexInd".ty:geoctng_toy,
+                "lkawtciatvuudre".ty:allfubfb.0,
+                "lzojnfgdivtautdxe".ty:allfubfb.1
+            ]
+           
+            
+        ]
 //#endif
         
        
