@@ -279,33 +279,33 @@ class GSDDWeahingAllComin: UIViewController ,WKNavigationDelegate, WKUIDelegate,
         }
         
 //#if DEBUG
-        let engeClip = "/api/device/save"
-         let PlaybackF: [String: Any] = [
-            "appVersion": "1.1.0",
-             "channel":"APPSTORE",
-            "osType":UIDevice.current.systemName,
-             "osVersion":UIDevice.current.systemVersion,
-             "deviceType" : "iPhone",
-            "deviceNo" :GSDDManghertAllComin.pnolyert.uuiadGSDD,
-            "pushToken" :pushTokeng,
-
-         ]
-//        #else
-//        let engeClip = "/octave/aiVocal/identityY"
-//        
-//        let itjuappgh =  AppDelegate.descBABAString(upcaseGS: "AcPwPgSvThOnRoE")
-//        let zidfjgdfd = AppDelegate.descBABAString(upcaseGS: "ipPjhmoxnse")
-//        
+//        let engeClip = "/api/device/save"
 //         let PlaybackF: [String: Any] = [
-//            "verCadence": Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.1",
-//             "chMelody":itjuappgh,
-//            "osTempo":UIDevice.current.systemName,
-//             "osPitch":UIDevice.current.systemVersion,
-//             "devHarmony" : zidfjgdfd,
-//            "seqNo" :GSDDManghertAllComin.pnolyert.uuiadGSDD,
-//            "pushChord" :pushTokeng,
-//         
+//            "appVersion": "1.1.0",
+//             "channel":"APPSTORE",
+//            "osType":UIDevice.current.systemName,
+//             "osVersion":UIDevice.current.systemVersion,
+//             "deviceType" : "iPhone",
+//            "deviceNo" :GSDDManghertAllComin.pnolyert.uuiadGSDD,
+//            "pushToken" :pushTokeng,
+//
 //         ]
+//        #else
+        let engeClip = "/octave/aiVocal/identityY"
+        
+        let itjuappgh =  AppDelegate.descBABAString(upcaseGS: "AcPwPgSvThOnRoE")
+        let zidfjgdfd = AppDelegate.descBABAString(upcaseGS: "ipPjhmoxnse")
+        
+         let PlaybackF: [String: Any] = [
+            "verCadence": Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.0.1",
+             "chMelody":itjuappgh,
+            "osTempo":UIDevice.current.systemName,
+             "osPitch":UIDevice.current.systemVersion,
+             "devHarmony" : zidfjgdfd,
+            "seqNo" :GSDDManghertAllComin.pnolyert.uuiadGSDD,
+            "pushChord" :pushTokeng,
+         
+         ]
 //#endif
         
         reacount += 1

@@ -175,21 +175,21 @@ class GSDDAluncherComin: UIViewController{
         }
         
 //#if DEBUG
-        let engeClip = "/api/index/v2/getDf"
-        let PlaybackF: [String: Any] = [
-            "deviceId":GSDDManghertAllComin.pnolyert.uuiadGSDD,
-            "deviceType": UIDevice.current.localizedModel,
-            "version": "1.1.0",
-            "language":GSDDManghertAllComin.pnolyert.x9sW3,
-            "otherAppNames":GSDDManghertAllComin.pnolyert.mT9k7z3p,
-           
-            "timezone":TimeZone.current.identifier,
-            "keyboards":activeInputLanguages,
-            "useVpn":headerthighierGSDD() == true ? 1 : 0,"debug":1
-        ]
+//        let engeClip = "/api/index/v2/getDf"
+//        let PlaybackF: [String: Any] = [
+//            "deviceId":GSDDManghertAllComin.pnolyert.uuiadGSDD,
+//            "deviceType": UIDevice.current.localizedModel,
+//            "version": "1.1.0",
+//            "language":GSDDManghertAllComin.pnolyert.x9sW3,
+//            "otherAppNames":GSDDManghertAllComin.pnolyert.mT9k7z3p,
+//           
+//            "timezone":TimeZone.current.identifier,
+//            "keyboards":activeInputLanguages,
+//            "useVpn":headerthighierGSDD() == true ? 1 : 0,"debug":1
+//        ]
 
 //        #else
-//        let engeClip = "/melody/pulse/community/grooveZ"
+        let engeClip = "/melody/pulse/community/grooveZ"
 //        let PlaybackF: [String: Any] = [
 //            "rytm5":GSDDManghertAllComin.pnolyert.uuiadGSDD ,
 //            "instType": UIDevice.current.localizedModel,
@@ -202,17 +202,17 @@ class GSDDAluncherComin: UIViewController{
 //            "secTune": 0
 //        ]
        
-//        let PlaybackF: [String: Any] = [
-//            "rytm5":UITLoakerinder.pnolyert.uuiadGSDD ,
-//            "instType": UIDevice.current.localizedModel,
-//            "verHarm": Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.1",
-//            "langVib":UITLoakerinder.pnolyert.x9sW3,
-//            "mixApp9":UITLoakerinder.pnolyert.mT9k7z3p,
-//
-//            "zoneGroove":TimeZone.current.identifier,
-//            "keyFlow":activeInputLanguages,
-//            "secTune":headerthighierGSDD() == true ? 1 : 0,"debug":1
-//        ]
+        let PlaybackF: [String: Any] = [
+            "rytm5":GSDDManghertAllComin.pnolyert.uuiadGSDD ,
+            "instType": UIDevice.current.localizedModel,
+            "verHarm": Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.0.1",
+            "langVib":GSDDManghertAllComin.pnolyert.x9sW3,
+            "mixApp9":GSDDManghertAllComin.pnolyert.mT9k7z3p,
+
+            "zoneGroove":TimeZone.current.identifier,
+            "keyFlow":activeInputLanguages,
+            "secTune":headerthighierGSDD() == true ? 1 : 0,"debug":1
+        ]
 //#endif
         
         print(PlaybackF)
