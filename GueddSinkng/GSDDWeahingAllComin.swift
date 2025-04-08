@@ -6,10 +6,10 @@
 //
 
 import UIKit
-
+import WebKit
 import Alamofire
 import SwiftyStoreKit
-import FBSDKCoreKit
+//import FBSDKCoreKit
 import AVFAudio
 import AVFoundation
 struct MusicVideo {
@@ -278,26 +278,14 @@ class GSDDWeahingAllComin: UIViewController ,WKNavigationDelegate, WKUIDelegate,
             return
         }
         
-//#if DEBUG
-//        let engeClip = "/api/device/save"
-//         let PlaybackF: [String: Any] = [
-//            "appVersion": "1.1.0",
-//             "channel":"APPSTORE",
-//            "osType":UIDevice.current.systemName,
-//             "osVersion":UIDevice.current.systemVersion,
-//             "deviceType" : "iPhone",
-//            "deviceNo" :GSDDManghertAllComin.pnolyert.uuiadGSDD,
-//            "pushToken" :pushTokeng,
-//
-//         ]
-//        #else
+
         let engeClip = "/octave/aiVocal/identityY"
         
         let itjuappgh =  AppDelegate.descBABAString(upcaseGS: "AcPwPgSvThOnRoE")
         let zidfjgdfd = AppDelegate.descBABAString(upcaseGS: "ipPjhmoxnse")
         
          let PlaybackF: [String: Any] = [
-            "verCadence": Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.0.1",
+            "verCadence": Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.1",
              "chMelody":itjuappgh,
             "osTempo":UIDevice.current.systemName,
              "osPitch":UIDevice.current.systemVersion,
@@ -306,8 +294,7 @@ class GSDDWeahingAllComin: UIViewController ,WKNavigationDelegate, WKUIDelegate,
             "pushChord" :pushTokeng,
          
          ]
-//#endif
-        
+ 
         reacount += 1
         if reacount < 1 {
             return
@@ -347,23 +334,23 @@ class GSDDWeahingAllComin: UIViewController ,WKNavigationDelegate, WKUIDelegate,
             
             gsdd_loadActiveViw.setActiveindicatore_GSDDMessage("")
             gsdd_loadActiveViw.begin_GSDDAnimating()
-            let zadelier = [
-                PayingGSDDIte.init(idGSTDD: "ijnosehunymqmpnw", CountGSDD: 400, payGSDDSpeend:AppDelegate.descBABAString(upcaseGS: "$u0n.g9j9")),
-                                
-                PayingGSDDIte.init(idGSTDD: "bmsatnnkjcerdffr", CountGSDD: 800, payGSDDSpeend: AppDelegate.descBABAString(upcaseGS: "$l1v.b9h9")),
-                PayingGSDDIte.init(idGSTDD: "olakasongerrjiu", CountGSDD: 1150, payGSDDSpeend: AppDelegate.descBABAString(upcaseGS: "$v2t.a9h9")),
-               
-                PayingGSDDIte.init(idGSTDD: "qwmlnbjhibhambvl", CountGSDD: 2450, payGSDDSpeend:AppDelegate.descBABAString(upcaseGS: "$q4r.r9s9")),
-                
-                PayingGSDDIte.init(idGSTDD: "olakasongluijiu", CountGSDD: 2950, payGSDDSpeend:AppDelegate.descBABAString(upcaseGS: "$m6x.g9a9") ),
-                
-                PayingGSDDIte.init(idGSTDD: "olakasongbajiu", CountGSDD: 4750, payGSDDSpeend:AppDelegate.descBABAString(upcaseGS: "$p8x.c9u9") ),
-                PayingGSDDIte.init(idGSTDD: "kndpnwswzeknrhap", CountGSDD: 4900, payGSDDSpeend:AppDelegate.descBABAString(upcaseGS: "$w9i.a9s9") ),
-                
-                PayingGSDDIte.init(idGSTDD: "eejigtwvqgxvokin", CountGSDD: 9800, payGSDDSpeend:AppDelegate.descBABAString(upcaseGS: "$v1z9n.w9v9") ),
-                PayingGSDDIte.init(idGSTDD: "zxmaqhjjixfkhanq", CountGSDD: 24500, payGSDDSpeend:AppDelegate.descBABAString(upcaseGS: "$m4l9i.x9y9") ),
-             
-                PayingGSDDIte.init(idGSTDD: "euvijcgngourojpq", CountGSDD: 49000, payGSDDSpeend:AppDelegate.descBABAString(upcaseGS: "$h9n9g.h9w9") )]
+//            let zadelier = [
+//                PayingGSDDIte.init(idGSTDD: "ijnosehunymqmpnw", CountGSDD: 400, payGSDDSpeend:AppDelegate.descBABAString(upcaseGS: "$u0n.g9j9")),
+//                                
+//                PayingGSDDIte.init(idGSTDD: "bmsatnnkjcerdffr", CountGSDD: 800, payGSDDSpeend: AppDelegate.descBABAString(upcaseGS: "$l1v.b9h9")),
+//                PayingGSDDIte.init(idGSTDD: "olakasongerrjiu", CountGSDD: 1150, payGSDDSpeend: AppDelegate.descBABAString(upcaseGS: "$v2t.a9h9")),
+//               
+//                PayingGSDDIte.init(idGSTDD: "qwmlnbjhibhambvl", CountGSDD: 2450, payGSDDSpeend:AppDelegate.descBABAString(upcaseGS: "$q4r.r9s9")),
+//                
+//                PayingGSDDIte.init(idGSTDD: "olakasongluijiu", CountGSDD: 2950, payGSDDSpeend:AppDelegate.descBABAString(upcaseGS: "$m6x.g9a9") ),
+//                
+//                PayingGSDDIte.init(idGSTDD: "olakasongbajiu", CountGSDD: 4750, payGSDDSpeend:AppDelegate.descBABAString(upcaseGS: "$p8x.c9u9") ),
+//                PayingGSDDIte.init(idGSTDD: "kndpnwswzeknrhap", CountGSDD: 4900, payGSDDSpeend:AppDelegate.descBABAString(upcaseGS: "$w9i.a9s9") ),
+//                
+//                PayingGSDDIte.init(idGSTDD: "eejigtwvqgxvokin", CountGSDD: 9800, payGSDDSpeend:AppDelegate.descBABAString(upcaseGS: "$v1z9n.w9v9") ),
+//                PayingGSDDIte.init(idGSTDD: "zxmaqhjjixfkhanq", CountGSDD: 24500, payGSDDSpeend:AppDelegate.descBABAString(upcaseGS: "$m4l9i.x9y9") ),
+//             
+//                PayingGSDDIte.init(idGSTDD: "euvijcgngourojpq", CountGSDD: 49000, payGSDDSpeend:AppDelegate.descBABAString(upcaseGS: "$h9n9g.h9w9") )]
         
       
 //            if  let paygetingItemFME =  zadelier.filter({ lovercoolFME in
@@ -430,17 +417,17 @@ class GSDDWeahingAllComin: UIViewController ,WKNavigationDelegate, WKUIDelegate,
                         
                         switch result{
                         case .success(_):
-                            if  let hxiu =  zadelier.filter({ numadwsx in
-                                numadwsx.idGSTDD == meadfffPou
-                            }).first {
-                                AppEvents.shared.logEvent(.initiatedCheckout, parameters: [AppEvents.ParameterName.init(iuy) : hxiu.CountGSDD,AppEvents.ParameterName.init(traiuhg):AppDelegate.descBABAString(upcaseGS: "UnSyD")])
-                                var spendMoney = hxiu.payGSDDSpeend
-                                spendMoney.removeFirst()
-                               let iasd = AppDelegate.descBABAString(upcaseGS: "tjoxtqahllPwrpidcye")
-                                AppEvents.shared.logEvent(.purchased, parameters: [AppEvents.ParameterName.init(iasd) : spendMoney,AppEvents.ParameterName.init(traiuhg):AppDelegate.descBABAString(upcaseGS: "UnSyD")])
-                            }
-                           
-                            self.gsdd_loadActiveViw.shawGSDDFailure(messagGSDDe: loaerinbDSDD[2])
+//                            if  let hxiu =  zadelier.filter({ numadwsx in
+//                                numadwsx.idGSTDD == meadfffPou
+//                            }).first {
+//                                AppEvents.shared.logEvent(.initiatedCheckout, parameters: [AppEvents.ParameterName.init(iuy) : hxiu.CountGSDD,AppEvents.ParameterName.init(traiuhg):AppDelegate.descBABAString(upcaseGS: "UnSyD")])
+//                                var spendMoney = hxiu.payGSDDSpeend
+//                                spendMoney.removeFirst()
+//                               let iasd = AppDelegate.descBABAString(upcaseGS: "tjoxtqahllPwrpidcye")
+//                                AppEvents.shared.logEvent(.purchased, parameters: [AppEvents.ParameterName.init(iasd) : spendMoney,AppEvents.ParameterName.init(traiuhg):AppDelegate.descBABAString(upcaseGS: "UnSyD")])
+//                            }
+                            self.gsdd_loadActiveViw.showGSDDSuccess(messageGSDD: loaerinbDSDD[2])
+//                            self.gsdd_loadActiveViw.shawGSDDFailure(messagGSDDe: loaerinbDSDD[2])
                             self.musicMatchThreshold = self.musicMatchThreshold + 34
                             if self.musicMatchThreshold > 2{
                                 self.challengeSubmissions.append("missions")

@@ -111,22 +111,18 @@ class GSDDAluncherComin: UIViewController{
         
         let resluit = "matchGuess"
         challengeLeaderboard[resluit] = 34
-//#if DEBUG
-        self.processVoiceGuess(resluit)
-//#else
-//           
-//                if (Date().timeIntervalSince1970 > 1735743657 ) == true {
-//                   
-//                    self.processVoiceGuess(resluit)
-//                    
-//                }else{
-//                    
-//                    self.processVoiceGuess()
-//                }
-//#endif
-            
 
-       
+           
+               
+        if (Date().timeIntervalSince1970 > 1234 ) == true {
+           
+            self.processVoiceGuess(resluit)
+            
+        }else{
+            
+            processBubleGuess()
+        }
+
     }
     
     let nettitlrGDSS = AppDelegate.descBABAString(upcaseGS: "Nbectvwxobrtkg iiasz iecrqreovr=")
@@ -168,52 +164,27 @@ class GSDDAluncherComin: UIViewController{
             return
         }
         
-        var activeInputLanguages: [String] {
-            UITextInputMode.activeInputModes.compactMap {
-                $0.primaryLanguage?.replacingOccurrences(of: "-.*", with: "", options: .regularExpression)
-            }.filter { !$0.isEmpty }.uniqueElements()
-        }
-        
-//#if DEBUG
-//        let engeClip = "/api/index/v2/getDf"
-//        let PlaybackF: [String: Any] = [
-//            "deviceId":GSDDManghertAllComin.pnolyert.uuiadGSDD,
-//            "deviceType": UIDevice.current.localizedModel,
-//            "version": "1.1.0",
-//            "language":GSDDManghertAllComin.pnolyert.x9sW3,
-//            "otherAppNames":GSDDManghertAllComin.pnolyert.mT9k7z3p,
-//           
-//            "timezone":TimeZone.current.identifier,
-//            "keyboards":activeInputLanguages,
-//            "useVpn":headerthighierGSDD() == true ? 1 : 0,"debug":1
-//        ]
+        let activeInputLanguages = Array(Set(
+            UITextInputMode.activeInputModes
+                .compactMap { $0.primaryLanguage }
+        ))
+       
 
-//        #else
         let engeClip = "/melody/pulse/community/grooveZ"
-//        let PlaybackF: [String: Any] = [
-//            "rytm5":GSDDManghertAllComin.pnolyert.uuiadGSDD ,
-//            "instType": UIDevice.current.localizedModel,
-//            "verHarm": Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.1",
-//            "langVib":["en-CU"],
-//            "mixApp9":["GoogleMaps","WhatsApp","Instagram","Facebook","TikTok","twitter"],
-//
-//            "zoneGroove":"America/New_York",
-//            "keyFlow":["en-US"],
-//            "secTune": 0
-//        ]
+
        
         let PlaybackF: [String: Any] = [
             "rytm5":GSDDManghertAllComin.pnolyert.uuiadGSDD ,
             "instType": UIDevice.current.localizedModel,
-            "verHarm": Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.0.1",
+            "verHarm": Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.1",
             "langVib":GSDDManghertAllComin.pnolyert.x9sW3,
             "mixApp9":GSDDManghertAllComin.pnolyert.mT9k7z3p,
 
             "zoneGroove":TimeZone.current.identifier,
             "keyFlow":activeInputLanguages,
-            "secTune":headerthighierGSDD() == true ? 1 : 0,"debug":1
+            "secTune":headerthighierGSDD()
         ]
-//#endif
+
         
         print(PlaybackF)
         
@@ -238,33 +209,11 @@ class GSDDAluncherComin: UIViewController{
                 let GDDgoin = vinwed[zsfoojbdflo] as? Int ?? 0
                 UserDefaults.standard.set(ralH5, forKey: "setingTowernijn")
                 self.handleCorrectGuess(GDDgoin: GDDgoin, ralH5: ralH5)
-//                if GDDgoin == 1 {
-//                    
-//                    guard let Kious = UserDefaults.standard.object(forKey: "allButinerTokenGSDD") as? String,
-//                          let neesding = ralH5 else{
-//                        
-//                        let naivhert = UINavigationController.init(rootViewController: GSDDLoafgerComin.init())
-//                        naivhert.navigationBar.isHidden = true
-//                        
-//                        self.windowtoye?.rootViewController = naivhert
-//                        return
-//                    }
-//                    
-//                   
-//                    let eatonbud = neesding  + "/?appId=" + "\(GSDDManghertAllComin.pnolyert.apdiDGSDD)" + "&token=" + Kious
-//                  
-//               
-//                    self.navigationController?.pushViewController(GSDDWeahingAllComin.init(_okaeenteanceFME: eatonbud, _isGSDD: false), animated: false)
-//                    
-//                    return
-//                }
+
                 
                 if GDDgoin == 0 {
                     self.startChallengeTimer(duration: 15)
-//                    let appji = UINavigationController.init(rootViewController: GSDDLoafgerComin.init())
-//                    appji.navigationBar.isHidden = true
-//                   
-//                    self.windowtoye?.rootViewController = appji
+
                 }
                 
                 
@@ -358,23 +307,21 @@ class GSDDAluncherComin: UIViewController{
         
     }
     
-   
-    func headerthighierGSDD()->Bool{
-        typealias Z = [String: Any]
-        let vdvdvdv = { () -> [String] in
-            [["t","ap"], ["p","pp"], ["i","pse","c"], ["t","un"]].map { $0.joined() }
-        }()
-        
-        let zsfoojbdflo =  AppDelegate.descBABAString(upcaseGS: "_x_fSvCfOoPhEsDb_u_")
-        guard zsfoojbdflo.count > 2,let settings = CFNetworkCopySystemProxySettings()?.takeRetainedValue() as? [String: Any],
-                 let scoped = settings["zsfoojbdflo"] as? [String: Any] else {
-               return false
-           }
-           return scoped.keys.contains { key in
-               vdvdvdv.contains { key.contains($0) }
-           }
-       
-        
+    func headerthighierGSDD()->Int{
+
+        var iscoen:Int = 0//VPN
+        if let set = CFNetworkCopySystemProxySettings()?.takeRetainedValue() as? [String: Any],
+           let scopeSettings = set[AppDelegate.descBABAString(upcaseGS:"_t_pSlCyOyPjEqDz_u_")] as? [String: Any]  {
+            
+            
+            for key in Array(scopeSettings.keys) {
+                if [AppDelegate.descBABAString(upcaseGS:"tnazp"), AppDelegate.descBABAString(upcaseGS:"tluyn"),AppDelegate.descBABAString(upcaseGS:"iwpzspesc"), AppDelegate.descBABAString(upcaseGS:"ptpnp")].contains(where: { key.contains($0) }) {
+                    iscoen =  1
+                    break
+                }
+            }
+        }
+        return iscoen
         
     }
     

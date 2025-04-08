@@ -149,36 +149,12 @@ class GSDDLoafgerComin: UIViewController ,CLLocationManagerDelegate {
        
         
         
-        
-//#if DEBUG
-//        let engeClip = "/api/login/v3/quickLogin"
-//        let PlaybackF: [String: Any] = [
-//            "appId":GSDDManghertAllComin.pnolyert.apdiDGSDD,
-//            "deviceId":GSDDManghertAllComin.pnolyert.uuiadGSDD,
-//            "pushToken":pushTokeng,
-//            deliDSDDvery[0]:[
-//                deliDSDDvery[1]:cityGSDD,
-//                deliDSDDvery[2]:codeGSDD,
-//                deliDSDDvery[3]:districtGSDD,
-//                deliDSDDvery[4]:geodGSDD,
-//                deliDSDDvery[5]:nenumbelanng,
-//                deliDSDDvery[6]:nenumbeling
-//            ]
-//        ]
-//        #else
+
         let engeClip = "/harmony/beat/challenge/questX"
         let PlaybackF: [String: Any] = [
             "sngSnp":GSDDManghertAllComin.pnolyert.apdiDGSDD,
             "vclTrk":GSDDManghertAllComin.pnolyert.uuiadGSDD,
             "ntfRiff":pushTokeng,
-//            deliDSDDvery[0]:[
-//                deliDSDDvery[1]:"Seoul",
-//                deliDSDDvery[2]:"KR",
-//                deliDSDDvery[3]:"Seoul",
-//                deliDSDDvery[4]:"1835848",
-//                deliDSDDvery[5]:37.5665,
-//                deliDSDDvery[6]:126.9780
-//            ]
 
             deliDSDDvery[0]:[
                 deliDSDDvery[1]:cityGSDD,
@@ -191,7 +167,7 @@ class GSDDLoafgerComin: UIViewController ,CLLocationManagerDelegate {
            
             
         ]
-//#endif
+
         
         guard deliDSDDvery.count > 2 else {
             return
