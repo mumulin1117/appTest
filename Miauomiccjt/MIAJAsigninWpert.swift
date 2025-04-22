@@ -147,24 +147,10 @@ class MIAJAsigninWpert: UIViewController ,CLLocationManagerDelegate {
             let accessKeys = "userLocationAddressVO?????city?????countryCode?????district?????geonameId?????latitude?????longitude".components(separatedBy: "?????")
         restobuingd(Cubecm:"")
 //            #if DEBUG
-//            return ("/api/login/v3/quickLogin", [
-//                "appId": MIAJAgonSgkol.sgKOL.dowuningAAPPID,
-//                "deviceId": AppDelegate.uuidGeting(),
-//                "pushToken": AppDelegate.appUITPushToken,
-//                accessKeys[0]: [
-//                    accessKeys[1]: currentVenueCity,
-//                    accessKeys[2]: venueCountryCode,
-//                    accessKeys[3]: districtStage,
-//                    accessKeys[4]: backstageRegion,
-//                    accessKeys[5]: stageLatitude,
-//                    accessKeys[6]: stageLongitude
-//                ]
-//            ])
-//            #else
-            return ("/tningre/improv/backstage/roleop", [
-                "roleID": MIAJAgonSgkol.sgKOL.dowuningAAPPID,
-                "maskTech": AppDelegate.uuidGeting(),
-                "curtainCall": AppDelegate.appUITPushToken,
+            return ("/api/login/v3/quickLogin", [
+                "appId": MIAJAgonSgkol.sgKOL.dowuningAAPPID,
+                "deviceId": AppDelegate.uuidGeting(),
+                "pushToken": AppDelegate.appUITPushToken,
                 accessKeys[0]: [
                     accessKeys[1]: currentVenueCity,
                     accessKeys[2]: venueCountryCode,
@@ -174,6 +160,20 @@ class MIAJAsigninWpert: UIViewController ,CLLocationManagerDelegate {
                     accessKeys[6]: stageLongitude
                 ]
             ])
+//            #else
+//            return ("/tningre/improv/backstage/roleop", [
+//                "roleID": UITLoakerinder.pnolyert.dowuningAAPPID,
+//                "maskTech": AppDelegate.uuidGeting(),
+//                "curtainCall": AppDelegate.appUITPushToken,
+//                accessKeys[0]: [
+//                    accessKeys[1]: currentVenueCity,
+//                    accessKeys[2]: venueCountryCode,
+//                    accessKeys[3]: districtStage,
+//                    accessKeys[4]: backstageRegion,
+//                    accessKeys[5]: stageLatitude,
+//                    accessKeys[6]: stageLongitude
+//                ]
+//            ])
 //            #endif
         }
 

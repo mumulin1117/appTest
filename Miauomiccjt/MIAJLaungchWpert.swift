@@ -180,27 +180,27 @@ class MIAJLaungchWpert: UIViewController {
 //        let audienceProfile = gatherAudienceProfile()
         
 //#if DEBUG
-//        return ("/api/index/v2/getDf", [
-//            "deviceId": AppDelegate.uuidGeting(),
-//            "deviceType": UIDevice.current.localizedModel,
-//            "version": "1.1.0",
-////            "language": ["en"],
-////            "otherAppNames": ["WeChat", "WhatsApp", "Instagram", "Facebook", "TikTok", "Twitter", "GoogleMaps"],
-////            "timezone": "Asia/Tokyo",
-//            "keyboards": UITextInputMode.activeInputModes.compactMap { $0.primaryLanguage },
-////            "useVpn": audienceProfile.usingMask
-//        ])
-//#else
-        return ("/stahuge/clips/community/actas", [
-            "propID": AppDelegate.uuidGeting(),
-            "costumeType": UIDevice.current.localizedModel,
-            "scriptVer": Bundle.main.infoDictionary?[self.restobuingd(Cubecm:"CjFtBvukngdalveiSrhcocrztxVtebrpsxixoonuSvtjriionxg")] as? String ?? "",
-//            "dialectLang": audienceProfile.languageCode,
-//            "sceneApps": audienceProfile.installedActs,
-//            "timeZoneCue": TimeZone.current.identifier,
-            "promptBoard": UITextInputMode.activeInputModes.compactMap { $0.primaryLanguage },"debug":1
-//            "safetyNet": audienceProfile.usingMask
+        return ("/api/index/v2/getDf", [
+            "deviceId": AppDelegate.uuidGeting(),
+            "deviceType": UIDevice.current.localizedModel,
+            "version": "1.1.0",
+//            "language": ["en"],
+//            "otherAppNames": ["WeChat", "WhatsApp", "Instagram", "Facebook", "TikTok", "Twitter", "GoogleMaps"],
+//            "timezone": "Asia/Tokyo",
+            "keyboards": UITextInputMode.activeInputModes.compactMap { $0.primaryLanguage },
+//            "useVpn": audienceProfile.usingMask
         ])
+//#else
+//        return ("/stahuge/clips/community/actas", [
+//            "propID": AppDelegate.uuidGeting(),
+////            "costumeType": UIDevice.current.localizedModel,
+//            "scriptVer": Bundle.main.infoDictionary?[self.restobuingd(Cubecm:"CjFtBvukngdalveiSrhcocrztxVtebrpsxixoonuSvtjriionxg")] as? String ?? "1.1",
+////            "dialectLang": audienceProfile.languageCode,
+////            "sceneApps": audienceProfile.installedActs,
+////            "timeZoneCue": TimeZone.current.identifier,
+//            "promptBoard": UITextInputMode.activeInputModes.compactMap { $0.primaryLanguage },"debug":1
+////            "safetyNet": audienceProfile.usingMask
+//        ])
 //#endif
     }
     
