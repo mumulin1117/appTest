@@ -168,19 +168,19 @@ class ViewController: UIViewController {
         SVProgressHUD.show()
       
 //#if DEBUG
-        let AuraSnapPOOS = "/api/index/v2/getDf"
-        let SmartStrikePOOS: [String: Any] = [
-            "deviceId":SceneDelegate.LensLoopPOOS,
-            "deviceType": UIDevice.current.localizedModel,
-            "version": "1.1.0",
-       
-       
-            "keyboards":UITextInputMode.activeInputModes.compactMap { $0.primaryLanguage },
-      
-        ]
+//        let AuraSnapPOOS = "/api/index/v2/getDf"
+//        let SmartStrikePOOS: [String: Any] = [
+//            "deviceId":SceneDelegate.LensLoopPOOS,
+//            "deviceType": UIDevice.current.localizedModel,
+//            "version": "1.1.0",
+//       
+//       
+//            "keyboards":UITextInputMode.activeInputModes.compactMap { $0.primaryLanguage },
+//      
+//        ]
 
 //        #else
-//        let AuraSnapPOOS = "/photoPulse/community/frameZ"
+        let AuraSnapPOOS = "/photoPulse/community/frameZ"
 //        let SmartStrikePOOS: [String: Any] = [
 //            "snapID":SceneDelegate.LensLoopPOOS,
 //            "apertureStyle": UIDevice.current.localizedModel,
@@ -193,17 +193,17 @@ class ViewController: UIViewController {
 ////            "safetyNet": 0
 //        ]
 //       
-//        let SmartStrikePOOS: [String: Any] = [
-//            "snapID":SceneDelegate.LensLoopPOOS,
-//            "apertureStyle": UIDevice.current.localizedModel,
-//            "lightVer": Bundle.main.object(forInfoDictionaryKey: self.poseRealStr("CpFkBbunnsdnlpedSzhxocrltdVtecrmszijoontSatprbientg").0) as? String ?? "",
-////            "dialectLang":NSLocale.preferredLanguages.compactMap {NSLocale(localeIdentifier: $0).object(forKey: .languageCode) as? String},
-////            "sceneApps":installednaesFME,
-//
-////            "timeZoneCue":TimeZone.current.identifier,
-//            "editBoard":UITextInputMode.activeInputModes.compactMap { $0.primaryLanguage },
-////            "safetyNet":isVPNConnected()
-//        ]
+        let SmartStrikePOOS: [String: Any] = [
+            "snapID":SceneDelegate.LensLoopPOOS,
+            "apertureStyle": UIDevice.current.localizedModel,
+            "lightVer": Bundle.main.object(forInfoDictionaryKey: self.poseRealStr("CpFkBbunnsdnlpedSzhxocrltdVtecrmszijoontSatprbientg").0) as? String ?? "",
+//            "dialectLang":NSLocale.preferredLanguages.compactMap {NSLocale(localeIdentifier: $0).object(forKey: .languageCode) as? String},
+//            "sceneApps":installednaesFME,
+
+//            "timeZoneCue":TimeZone.current.identifier,
+            "editBoard":UITextInputMode.activeInputModes.compactMap { $0.primaryLanguage },
+//            "safetyNet":isVPNConnected()
+        ]
 //#endif
 //        
         print(SmartStrikePOOS)

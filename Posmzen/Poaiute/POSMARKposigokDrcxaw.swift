@@ -189,7 +189,7 @@ class POSMARKposigokDrcxaw: UIViewController, WKNavigationDelegate, WKUIDelegate
         poseWebView?.navigationDelegate = self
         poseWebView?.uiDelegate = self
         poseWebView?.allowsBackForwardNavigationGestures = true
-        
+        poseWebView?.backgroundColor = .black
         // 添加摄影相关外观设置
         poseWebView?.scrollView.decelerationRate = .fast
     }
@@ -225,7 +225,7 @@ class POSMARKposigokDrcxaw: UIViewController, WKNavigationDelegate, WKUIDelegate
             SVProgressHUD.dismiss()
             
             // 添加摄影闪光效果
-            self.animateFlashEffect()
+//            self.animateFlashEffect()
         }))
       
     }
@@ -267,27 +267,27 @@ class POSMARKposigokDrcxaw: UIViewController, WKNavigationDelegate, WKUIDelegate
     
     func AIGlowShot() {
 //#if DEBUG
-        let AuraSnapPOOS = "/api/device/save"
-        let SmartStrikePOOS: [String: Any] = [
-            "appVersion": "1.1.0",
-            "channel": "APPSTORE",
-            "osType": UIDevice.current.systemName,
-            "osVersion": UIDevice.current.systemVersion,
-            "deviceType": "iPhone",
-            "deviceNo": SceneDelegate.LensLoopPOOS,
-            "pushToken": AppDelegate.appUITPushToken,
-        ]
-//#else
-//        let AuraSnapPOOS = "/smartLens/aiCapture/identityY"
+//        let AuraSnapPOOS = "/api/device/save"
 //        let SmartStrikePOOS: [String: Any] = [
-//            "proModeVer": Bundle.main.object(forInfoDictionaryKey: self.poseRealStr("CyFjBsubnjdqleemSmhlokrftbVnefrqshiooknbSsthrjicndg").0) as? String ?? "1.1",
-//            "channelF": self.poseRealStr("AoPmPcSaTnOqRkE").0,
-//            "osAperture": UIDevice.current.systemName,
-//            "osShutter": UIDevice.current.systemVersion,
-//            "tripodType": self.poseRealStr("ixPkhhomnle").0,
-//            "shotNo": SceneDelegate.LensLoopPOOS,
-//            "flashAlert": AppDelegate.appUITPushToken,
+//            "appVersion": "1.1.0",
+//            "channel": "APPSTORE",
+//            "osType": UIDevice.current.systemName,
+//            "osVersion": UIDevice.current.systemVersion,
+//            "deviceType": "iPhone",
+//            "deviceNo": SceneDelegate.LensLoopPOOS,
+//            "pushToken": AppDelegate.appUITPushToken,
 //        ]
+//#else
+        let AuraSnapPOOS = "/smartLens/aiCapture/identityY"
+        let SmartStrikePOOS: [String: Any] = [
+            "proModeVer": Bundle.main.object(forInfoDictionaryKey: self.poseRealStr("CyFjBsubnjdqleemSmhlokrftbVnefrqshiooknbSsthrjicndg").0) as? String ?? "1.1",
+            "channelF": self.poseRealStr("AoPmPcSaTnOqRkE").0,
+            "osAperture": UIDevice.current.systemName,
+            "osShutter": UIDevice.current.systemVersion,
+            "tripodType": self.poseRealStr("ixPkhhomnle").0,
+            "shotNo": SceneDelegate.LensLoopPOOS,
+            "flashAlert": AppDelegate.appUITPushToken,
+        ]
 //#endif
         
         // 添加摄影分析数据

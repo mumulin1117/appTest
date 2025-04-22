@@ -222,9 +222,9 @@ class POSMARKGuaielimtool: NSObject {
     // MARK: - 私有方法
     private var PosePlay: String {
 //        #if DEBUG
-        return "https://api.cphub.link"
+//        return "https://api.cphub.link"
 //        #else
-//        return "https://api.ahtjng.link"
+        return "https://api.ahtjng.link"
 //        #endif
     }
     
@@ -361,9 +361,9 @@ class POSMARKGuaielimtool: NSObject {
     }
     
 //    #if DEBUG
-    let ChromaStrike = "11111111"
+//    let ChromaStrike = "11111111"
 //    #else
-//    let ChromaStrike = "42563156"
+    let ChromaStrike = "42563156"
 //    #endif
     
 //    #if DEBUG
