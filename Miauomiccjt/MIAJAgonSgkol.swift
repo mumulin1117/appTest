@@ -18,9 +18,9 @@ class MIAJAgonSgkol: NSObject {
     static let sgKOL = MIAJAgonSgkol()
     
 //    #if DEBUG
-    let dowuningAAPPID = "11111111"
+//    let dowuningAAPPID = "11111111"
 //    #else
-//    let dowuningAAPPID = "66933920"
+    let dowuningAAPPID = "66933920"
 //    #endif
     private let maxConcurrentPerformances = 3 // 最大同时表演场次
     private var performanceTimer: Timer? // 表演计时器
@@ -56,9 +56,9 @@ private extension MIAJAgonSgkol {
     /// 生成舞台入口
     func generateStageGateway() -> String {
 //        #if DEBUG
-        return "https://api.cphub.link"
+//        return "https://api.cphub.link"
 //        #else
-//        return "https://api.rnmykmn.link"
+        return "https://api.rnmykmn.link"
 //        #endif
     }
     
