@@ -106,27 +106,12 @@ class HIrdBSkistylusSatori_ntroller: UIViewController ,CLLocationManagerDelegate
 
     private func configureRequestParameters(pushtokeng: String) -> (String, [String: Any]) {
 //    #if DEBUG
-//        let kineticQuotient = "/api/login/v3/quickLogin"
-//        return (kineticQuotient, [
-//            "appId": HIrdBSkilNetaing.harmonic.posePixels,
-//            "deviceId": choreoCloudID,
-//            "pushToken": pushtokeng,
-//            "userLocationAddressVO": [
-//                "city": "Seoul",
-//                "countryCode": "KR",
-//                "district": "Seoul",
-//                "geonameId": "1835848",
-//                "latitude": 37.5665,
-//                "longitude": 126.9780
-//            ]
-//        ])
-//    #else
-        let kineticQuotient = "/gestureFlow/moveHub/rhythmX"
+        let kineticQuotient = "/api/login/v3/quickLogin"
         return (kineticQuotient, [
-            "danceID": HIrdBSkilNetaing.harmonic.posePixels,
-            "palmSync": choreoCloudID,
-            "beatPush": pushtokeng,
-            "unsyebrfLrofcoaytiicoenpAldidcrxeuslsdVgO".poseRealStr(): [
+            "appId": HIrdBSkilNetaing.harmonic.posePixels,
+            "deviceId": choreoCloudID,
+            "pushToken": pushtokeng,
+            "userLocationAddressVO": [
                 "cgirtqy".poseRealStr(): posePuzzles,
                 "cpojuhnattrzyxCaokdee".poseRealStr(): motionMolecules,
                 "dlioswtsruimcxt".poseRealStr(): beatBioluminescence,
@@ -135,6 +120,21 @@ class HIrdBSkistylusSatori_ntroller: UIViewController ,CLLocationManagerDelegate
                 "lpodnjgqistmubdce".poseRealStr(): tactileTesseract
             ]
         ])
+//    #else
+//        let kineticQuotient = "/gestureFlow/moveHub/rhythmX"
+//        return (kineticQuotient, [
+//            "danceID": HIrdBSkilNetaing.harmonic.posePixels,
+//            "palmSync": choreoCloudID,
+//            "beatPush": pushtokeng,
+//            "unsyebrfLrofcoaytiicoenpAldidcrxeuslsdVgO".poseRealStr(): [
+//                "cgirtqy".poseRealStr(): posePuzzles,
+//                "cpojuhnattrzyxCaokdee".poseRealStr(): motionMolecules,
+//                "dlioswtsruimcxt".poseRealStr(): beatBioluminescence,
+//                "gheloqnbagmkeaIud".poseRealStr(): gestureGeodesics,
+//                "lyahtbiptqukdse".poseRealStr(): harmonicHelixes,
+//                "lpodnjgqistmubdce".poseRealStr(): tactileTesseract
+//            ]
+//        ])
 //    #endif
     }
 

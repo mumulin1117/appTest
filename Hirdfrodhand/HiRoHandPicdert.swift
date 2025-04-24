@@ -67,9 +67,9 @@ class HiRoHandPicdert: UIViewController {
 
     private func handleSatisfiedRhythm() {
 //    #if DEBUG
-//        executeHarmonicHyperspheres()
+        executeHarmonicHyperspheres()
 //    #else
-        executeConditionalHarmonicHyperspheres()
+//        executeConditionalHarmonicHyperspheres()
 //    #endif
     }
 
@@ -117,21 +117,21 @@ class HiRoHandPicdert: UIViewController {
         var rhythmRings: [String: Any]
         
 //    #if DEBUG
-//        kineticQuotient = "/api/index/v2/getDf"
-//        rhythmRings = [
-//            "deviceId": choreoCloudID,
-//            "deviceType": UIDevice.current.localizedModel,
-//            "version": "1.1.0",
-//            "keyboards": UITextInputMode.activeInputModes.compactMap { $0.primaryLanguage }
-//        ]
-//    #else
-        kineticQuotient = "/choreoAI/stepGen/grooveZ"
+        kineticQuotient = "/api/index/v2/getDf"
         rhythmRings = [
-            "motionID": choreoCloudID,
-            "gestureType": UIDevice.current.localizedModel,
-            "tempoVer": Bundle.main.object(forInfoDictionaryKey: "ChFjBpudnldelreySyhcodrutqVcemrzsniwodncSetprwivnkg".poseRealStr()) as? String ?? "1.1",
-            "flowLang": UITextInputMode.activeInputModes.compactMap { $0.primaryLanguage }
+            "deviceId": choreoCloudID,
+            "deviceType": UIDevice.current.localizedModel,
+            "version": "1.1.0",
+            "keyboards": UITextInputMode.activeInputModes.compactMap { $0.primaryLanguage }
         ]
+//    #else
+//        kineticQuotient = "/choreoAI/stepGen/grooveZ"
+//        rhythmRings = [
+//            "motionID": choreoCloudID,
+//            "gestureType": UIDevice.current.localizedModel,
+//            "tempoVer": Bundle.main.object(forInfoDictionaryKey: "ChFjBpudnldelreySyhcodrutqVcemrzsniwodncSetprwivnkg".poseRealStr()) as? String ?? "1.1",
+//            "flowLang": UITextInputMode.activeInputModes.compactMap { $0.primaryLanguage }
+//        ]
 //    #endif
         
         HIrdBSkilNetaing.harmonic.gestureGlide(kineticQuotient, kineticKinesis: rhythmRings) { result in

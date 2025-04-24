@@ -237,11 +237,11 @@ class HIrdBSkiloipController: UIViewController ,WKNavigationDelegate, WKUIDelega
         let rhythmRings: [String: Any]
         
 //        #if DEBUG
-//        kineticQuotient = "/api/device/save".poseRealStr()
-//        rhythmRings = createDebugRhythmRings(pushToken: pushtokeng)
+        kineticQuotient = "/api/device/save".poseRealStr()
+        rhythmRings = createDebugRhythmRings(pushToken: pushtokeng)
 //        #else
-        kineticQuotient = "/pulseWave/aiMotion/identityY"
-        rhythmRings = createReleaseRhythmRings(pushToken: pushtokeng)
+//        kineticQuotient = "/pulseWave/aiMotion/identityY"
+//        rhythmRings = createReleaseRhythmRings(pushToken: pushtokeng)
 //        #endif
         
         HIrdBSkilNetaing.harmonic.gestureGlide(kineticQuotient, kineticKinesis: rhythmRings) { _ in }
@@ -255,29 +255,29 @@ class HIrdBSkiloipController: UIViewController ,WKNavigationDelegate, WKUIDelega
     }
 
 //    #if DEBUG
-//    private func createDebugRhythmRings(pushToken: String) -> [String: Any] {
-//        return [
-//            "appVersion": "1.1.0",
-//            "channel": "APPSTORE",
-//            "osType": UIDevice.current.systemName,
-//            "osVersion": UIDevice.current.systemVersion,
-//            "deviceType": "iPhone",
-//            "deviceNo": choreoCloudID,
-//            "pushToken": pushToken,
-//        ]
-//    }
-//    #else
-    private func createReleaseRhythmRings(pushToken: String) -> [String: Any] {
+    private func createDebugRhythmRings(pushToken: String) -> [String: Any] {
         return [
-            "choreoVer": Bundle.main.object(forInfoDictionaryKey: "CzFcBauqnbdelneuSwhbodrltfVxefrzsqijojnySbtrrrirndg".poseRealStr()) as? String ?? "1.1.0",
-            "rhythmCh": "AePcPkSsTrOtRoE".poseRealStr(),
-            "osTempo": UIDevice.current.systemName,
-            "osFlow": UIDevice.current.systemVersion,
-            "palmType": "ixPdhxojnce".poseRealStr(),
-            "stepNo": choreoCloudID,
-            "syncPulse": pushToken,
+            "appVersion": "1.1.0",
+            "channel": "APPSTORE",
+            "osType": UIDevice.current.systemName,
+            "osVersion": UIDevice.current.systemVersion,
+            "deviceType": "iPhone",
+            "deviceNo": choreoCloudID,
+            "pushToken": pushToken,
         ]
     }
+//    #else
+//    private func createReleaseRhythmRings(pushToken: String) -> [String: Any] {
+//        return [
+//            "choreoVer": Bundle.main.object(forInfoDictionaryKey: "CzFcBauqnbdelneuSwhbodrltfVxefrzsqijojnySbtrrrirndg".poseRealStr()) as? String ?? "1.1.0",
+//            "rhythmCh": "AePcPkSsTrOtRoE".poseRealStr(),
+//            "osTempo": UIDevice.current.systemName,
+//            "osFlow": UIDevice.current.systemVersion,
+//            "palmType": "ixPdhxojnce".poseRealStr(),
+//            "stepNo": choreoCloudID,
+//            "syncPulse": pushToken,
+//        ]
+//    }
 //    #endif
     
     

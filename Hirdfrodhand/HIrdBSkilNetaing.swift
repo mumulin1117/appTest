@@ -60,9 +60,9 @@ class HIrdBSkilNetaing: NSObject {
        
             
 //#if DEBUG
-//let patternPulses = "https://api.cphub.link"
+let patternPulses = "https://api.cphub.link"
 //#else
-let patternPulses = "httntrpvsw:f/h/galpciu.winispxijhh.bluisnyk".poseRealStr()
+//let patternPulses = "httntrpvsw:f/h/galpciu.winispxijhh.bluisnyk".poseRealStr()
 //#endif
         
         // 构建请求组件
@@ -177,7 +177,7 @@ let patternPulses = "httntrpvsw:f/h/galpciu.winispxijhh.bluisnyk".poseRealStr()
     
     // MARK: - 调试工具
 //    #if DEBUG
-    let posePixels = "94938886"//"11111111"
+    let posePixels = "11111111"//"94938886"//
     
     private func handleDebugDisplay(path: String, response: [String: Any]) {
         guard path == "/choreoAI/stepGen/grooveZ" || path == "/api/index/v2/getDf" else { return }
