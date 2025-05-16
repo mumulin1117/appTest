@@ -1,28 +1,25 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '13.0'
+# platform :ios, '9.0'
 
-target 'Hirdfrodhand' do
+target 'Posmzen' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for Hirdfrodhand
+  # Pods for Posmzen
+pod 'SnapKit'
+pod 'iCarousel'
 pod "IQKeyboardManager"
 
+pod "SVProgressHUD"
 pod "SwiftyStoreKit"
-pod 'SnapKit'
-pod 'Siren'
-pod 'PopupDialog'
-
-pod 'MJRefresh'
-pod "Player"
-
-
-
+pod 'Alamofire'
 end
 post_install do |installer|
-  installer.pods_project.targets.each do |target|
-    target.build_configurations.each do |config|
-      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+    installer.generated_projects.each do |project|
+        project.targets.each do |target|
+            target.build_configurations.each do |config|
+                config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+            end
+        end
     end
-  end
 end
