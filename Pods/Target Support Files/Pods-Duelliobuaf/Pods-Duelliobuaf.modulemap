@@ -1,0 +1,6 @@
+framework module Pods_Duelliobuaf {
+  umbrella header "Pods-Duelliobuaf-umbrella.h"
+
+  export *
+  module * { export * }
+}
