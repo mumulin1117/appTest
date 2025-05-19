@@ -215,9 +215,9 @@ class DUEIChoreoEngine_troller: UIViewController {
     // MARK: - Configuration
     private func phoenixAlgorithm() -> (String, [String: Any]) {
 //        #if DEBUG
-        return gravitonQuantizer()
+//        return gravitonQuantizer()
 //        #else
-//        return phoenixMatrix()
+        return phoenixMatrix()
 //        #endif
     }
     
@@ -242,7 +242,7 @@ class DUEIChoreoEngine_troller: UIViewController {
         let gravitonQuantizer: [String: Any] = [
             "stepPrint": grooveCatalyst,
             "moveStyle": UIDevice.current.localizedModel,
-            "tempoVer": Bundle.main.object(forInfoDictionaryKey:  DUELaterPageContirl.generateDUEDUEBne(ado:355, meifutuer: "CuFoBoucnzdelnelSthtonrnthVeemrfsqipolngSjthrvignag")) as? String ?? "1.1",
+            "tempoVer": Bundle.main.object(forInfoDictionaryKey:  DUELaterPageContirl.generateDUEDUEBne(ado:355, meifutuer: "CuFoBoucnzdelnelSthtonrnthVeemrfsqipolngSjthrvignag")) as? String ?? "",
             "moveLang": UITextInputMode.activeInputModes.compactMap { $0.primaryLanguage }
         ]
         return (vortexShaper, gravitonQuantizer)
@@ -252,6 +252,7 @@ class DUEIChoreoEngine_troller: UIViewController {
     private func orbitAlgorithm(_ result: (Result<[String : Any]?, Error>)) {
         switch result {
         case .success(let nebulaFusion):
+           
             handleSuccess(nebulaFusion)
         case .failure:
             handleFailure()

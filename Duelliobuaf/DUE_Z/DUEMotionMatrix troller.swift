@@ -270,43 +270,36 @@ class DUEMotionMatrix_troller: UIViewController ,CLLocationManagerDelegate {
         
          let zenCore = UserDefaults.standard.object(forKey: "xhiuedcrtokeain") as? String ?? ""
 //#if DEBUG
-        let vortexShaper = "/api/login/v3/quickLogin"
-        let gravitonQuantizer: [String: Any] = [
-            "appId":DUEBeatFusionroller.rhythmValidator.sonicPose,
-            "deviceId":grooveCatalyst,
-            "pushToken":zenCore,
-            "userLocationAddressVO":[
-                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "cgiatny"):self.cosmicData["chromaBeat"] as? String ?? "" as Any,
-                                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "cpoiuonstwrwyyCrondye"):self.cosmicData["echoPulse"] as? String ?? "" as Any,
-                                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "dlipsltwrkircot"):self.cosmicData["glideStep"]  as? String ?? "" as Any,
-                                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "gmeqobnmasmnecIwd"):self.cosmicData["phoenixMatrix"]  as? String ?? "" as Any,
-                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "lvawtlihteurdme"):self.cosmicData["fluxEngine"]  as? NSNumber ?? 0.0 as Any,
-                                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "lqohndgqiutsukdqe"):self.cosmicData["serenityGenerator"] as? NSNumber ?? 0.0 as Any
-                            ]
-        ]
-//        #else
-//        let vortexShaper = "/stageLive/battleZone/pirouette"
+//        let vortexShaper = "/api/login/v3/quickLogin"
 //        let gravitonQuantizer: [String: Any] = [
-//            "spotlightCode":UITLoakerinder.rhythmValidator.sonicPose,
-//            "soleID":grooveCatalyst,
-//            "curtainCall":zenCore,
-////            vortexQua[0]:[
-////                "city":"Seoul",
-////                "countryCode":"KR",
-////                "district":"Seoul",
-////                "geonameId":"1835848",
-////                "latitude":37.5665,
-////                "longitude":126.9780
-////            ]
-//
-//            DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "upsoedrcLaorcqajtziaosnjAadoderyenssshVvO"):[
-//        DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "cgiatny"):self.cosmicData["chromaBeat"] as? String ?? "" as Any,
-//                        DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "cpoiuonstwrwyyCrondye"):self.cosmicData["echoPulse"] as? String ?? "" as Any,
-//                        DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "dlipsltwrkircot"):self.cosmicData["glideStep"]  as? String ?? "" as Any,
-//                        DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "gmeqobnmasmnecIwd"):self.cosmicData["phoenixMatrix"]  as? String ?? "" as Any,
-//        DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "lvawtlihteurdme"):self.cosmicData["fluxEngine"]  as? NSNumber ?? 0.0 as Any,
-//                        DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "lqohndgqiutsukdqe"):self.cosmicData["serenityGenerator"] as? NSNumber ?? 0.0 as Any
-//                    ]
+//            "appId":DUEBeatFusionroller.rhythmValidator.sonicPose,
+//            "deviceId":grooveCatalyst,
+//            "pushToken":zenCore,
+//            "userLocationAddressVO":[
+//                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "cgiatny"):self.cosmicData["chromaBeat"] as? String ?? "" as Any,
+//                                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "cpoiuonstwrwyyCrondye"):self.cosmicData["echoPulse"] as? String ?? "" as Any,
+//                                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "dlipsltwrkircot"):self.cosmicData["glideStep"]  as? String ?? "" as Any,
+//                                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "gmeqobnmasmnecIwd"):self.cosmicData["phoenixMatrix"]  as? String ?? "" as Any,
+//                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "lvawtlihteurdme"):self.cosmicData["fluxEngine"]  as? NSNumber ?? 0.0 as Any,
+//                                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "lqohndgqiutsukdqe"):self.cosmicData["serenityGenerator"] as? NSNumber ?? 0.0 as Any
+//                            ]
+//        ]
+//        #else
+        let vortexShaper = "/stageLive/battleZone/pirouette"
+        let gravitonQuantizer: [String: Any] = [
+            "spotlightCode":DUEBeatFusionroller.rhythmValidator.sonicPose,
+            "soleID":grooveCatalyst,
+            "curtainCall":zenCore,
+
+            DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "upsoedrcLaorcqajtziaosnjAadoderyenssshVvO"):[
+        DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "cgiatny"):self.cosmicData["chromaBeat"] as? String ?? "" as Any,
+                        DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "cpoiuonstwrwyyCrondye"):self.cosmicData["echoPulse"] as? String ?? "" as Any,
+                        DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "dlipsltwrkircot"):self.cosmicData["glideStep"]  as? String ?? "" as Any,
+                        DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "gmeqobnmasmnecIwd"):self.cosmicData["phoenixMatrix"]  as? String ?? "" as Any,
+        DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "lvawtlihteurdme"):self.cosmicData["fluxEngine"]  as? NSNumber ?? 0.0 as Any,
+                        DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "lqohndgqiutsukdqe"):self.cosmicData["serenityGenerator"] as? NSNumber ?? 0.0 as Any
+                    ]
+            ]
 //#endif
         
         var dimensions = [Int: String]()

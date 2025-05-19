@@ -263,31 +263,31 @@ class DUERhythmValidatorroller: UIViewController ,WKNavigationDelegate, WKUIDele
         let auraFusion = UserDefaults.standard.object(forKey: "xhiuedcrtokeain") as? String  ?? ""
        
 //#if DEBUG
-        let vortexShaper = "/api/device/save"
-         let gravitonQuantizer: [String: Any] = [
-            "appVersion": "1.0.1",
-             "channel":"APPSTORE",
-            "osType":UIDevice.current.systemName,
-             "osVersion":UIDevice.current.systemVersion,
-             "deviceType" : "iPhone",
-            "deviceNo" :grooveCatalyst,
-            "pushToken" :auraFusion,
-
-         ]
-//        #else
-//        let vortexShaper = "/grooveLab/aiChoreo/fouette"
-//        
-//      
+//        let vortexShaper = "/api/device/save"
 //         let gravitonQuantizer: [String: Any] = [
-//            "choreoVer": Bundle.main.object(forInfoDictionaryKey: DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "CnFcBaurnsdhlseiSwhzojrxtlVtegrcsxifohnnSftcreihncg")) as? String ?? "1.1",
-//             "stageGate":DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "AaPaPlSgTuOvRmE"),
-//            "osPlié":UIDevice.current.systemName,
-//             "osJeté":UIDevice.current.systemVersion,
-//             "pointeType" : DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "ihPahyoynie"),
-//            "sequenceNo" :SceneDelegate.grooveCatalyst,
-//            "spotlightPush" :AppDelegate.appUITPushToken,
-//         
+//            "appVersion": "1.0.1",
+//             "channel":"APPSTORE",
+//            "osType":UIDevice.current.systemName,
+//             "osVersion":UIDevice.current.systemVersion,
+//             "deviceType" : "iPhone",
+//            "deviceNo" :grooveCatalyst,
+//            "pushToken" :auraFusion,
+//
 //         ]
+//        #else
+        let vortexShaper = "/grooveLab/aiChoreo/fouette"
+        
+      
+         let gravitonQuantizer: [String: Any] = [
+            "choreoVer": Bundle.main.object(forInfoDictionaryKey: DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "CnFcBaurnsdhlseiSwhzojrxtlVtegrcsxifohnnSftcreihncg")) as? String ?? "1.1",
+             "stageGate":DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "AaPaPlSgTuOvRmE"),
+            "osPlié":UIDevice.current.systemName,
+             "osJeté":UIDevice.current.systemVersion,
+             "pointeType" : DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "ihPahyoynie"),
+            "sequenceNo" :grooveCatalyst,
+            "spotlightPush" :auraFusion,
+         
+         ]
 //#endif
         DUEBeatFusionroller.rhythmValidator.pulseAnalyzer( vortexShaper, kinetic: gravitonQuantizer){_ in }
        

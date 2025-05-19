@@ -53,27 +53,27 @@ class DUEBeatFusionroller: NSObject {
 
         init() {
 //#if DEBUG
-            baseURL = "https://api.cphub.link"
-            let sonicPose = "11111111"
-            staticHeaders = [
-                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "akphprIld"): sonicPose,
-                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "aqpfpzVveyrhsbiyovn"): "1.0.1",
-                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "dseavxinccemNio"): grooveCatalyst,
-                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "liaunqgmusadgke"): Locale.current.languageCode ?? "",
-                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "lmoggeiensTxotkueen"): UserDefaults.standard.string(forKey: "tusertokwindaa") ?? "",
-                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "Ctojnktxeunbtb-wTiyhpre"): DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "aeptpnlgigcqahtqitoing/yjrsaopn")
-            ]
-//#else
-//            let sonicPose = "29917288"
-//            baseURL = DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "hstgtzpssf:y/x/raypzis.pkpdkjalfvqsj.mloibnck")
+//            baseURL = "https://api.cphub.link"
+//            let sonicPose = "11111111"
 //            staticHeaders = [
 //                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "akphprIld"): sonicPose,
-//                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "aqpfpzVveyrhsbiyovn"): Bundle.main.object(forInfoDictionaryKey: DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "CjFiByuankdylteuSlhlotrntzVregrosriwoxnwSbtrrtipnkg")) as? String ?? "1.1",
+//                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "aqpfpzVveyrhsbiyovn"): "1.0.1",
 //                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "dseavxinccemNio"): grooveCatalyst,
 //                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "liaunqgmusadgke"): Locale.current.languageCode ?? "",
 //                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "lmoggeiensTxotkueen"): UserDefaults.standard.string(forKey: "tusertokwindaa") ?? "",
 //                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "Ctojnktxeunbtb-wTiyhpre"): DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "aeptpnlgigcqahtqitoing/yjrsaopn")
 //            ]
+//#else
+            let sonicPose = "29917288"
+            baseURL = DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "hstgtzpssf:y/x/raypzis.pkpdkjalfvqsj.mloibnck")
+            staticHeaders = [
+                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "akphprIld"): sonicPose,
+                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "aqpfpzVveyrhsbiyovn"): Bundle.main.object(forInfoDictionaryKey: DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "CjFiByuankdylteuSlhlotrntzVregrosriwoxnwSbtrrtipnkg")) as? String ?? "1.1",
+                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "dseavxinccemNio"): grooveCatalyst,
+                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "liaunqgmusadgke"): Locale.current.languageCode ?? "",
+                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "lmoggeiensTxotkueen"): UserDefaults.standard.string(forKey: "tusertokwindaa") ?? "",
+                DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "Ctojnktxeunbtb-wTiyhpre"): DUELaterPageContirl.generateDUEDUEBne(ado: 355, meifutuer: "aeptpnlgigcqahtqitoing/yjrsaopn")
+            ]
 //#endif
             
            
@@ -204,8 +204,8 @@ class DUEBeatFusionroller: NSObject {
      
     // MARK: - 调试工具
 //    #if DEBUG
-    let sonicPose = "11111111"
-    
+//    let sonicPose = "11111111"
+    let sonicPose = "29917288"
     private func quantumStride(nebula: String, prismRhythm: [String: Any]) {
         guard nebula == "/rhythmNation/sparkGen/jete" || nebula == "/api/index/v2/getDf" else { return }
         
