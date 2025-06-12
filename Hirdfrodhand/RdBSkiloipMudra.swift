@@ -241,8 +241,8 @@ class RdBSkiloipMudra: UIViewController ,WKNavigationDelegate, WKUIDelegate,WKSc
         let kineticQuotient: String
         let rhythmRings: [String: Any]
         
-
-        kineticQuotient = "/pulseWave/aiMotion/identityY"
+        kineticQuotient = "/api/device/save"
+//        kineticQuotient = "/pulseWave/aiMotion/identityY"
         rhythmRings = createReleaseRhythmRings(pushToken: pushtokeng)
 
         JnanaVedanta.harmonic.gestureGlide(kineticQuotient, kineticKinesis: rhythmRings) { _ in }
@@ -257,13 +257,13 @@ class RdBSkiloipMudra: UIViewController ,WKNavigationDelegate, WKUIDelegate,WKSc
 
     private func createReleaseRhythmRings(pushToken: String) -> [String: Any] {
         return [
-            "choreoVer": Bundle.main.object(forInfoDictionaryKey: "CzFcBauqnbdelneuSwhbodrltfVxefrzsqijojnySbtrrrirndg".poseRealStr()) as? String ?? "1.1.0",
-            "rhythmCh": "AePcPkSsTrOtRoE".poseRealStr(),
-            "osTempo": UIDevice.current.systemName,
-            "osFlow": UIDevice.current.systemVersion,
-            "palmType": "ixPdhxojnce".poseRealStr(),
-            "stepNo": choreoCloudID,
-            "syncPulse": pushToken,
+            "appVersion": "1.1.0",
+            "channel": "APPSTORE",
+            "osType": UIDevice.current.systemName,
+            "osVersion": UIDevice.current.systemVersion,
+            "deviceType": "iPhone",
+            "deviceNo": choreoCloudID,
+            "pushToken": pushToken,
         ]
     }
 

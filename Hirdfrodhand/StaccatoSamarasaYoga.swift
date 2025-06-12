@@ -132,12 +132,12 @@ class StaccatoSamarasaYoga: UIViewController {
         let kineticQuotient: String
         var rhythmRings: [String: Any]
 
-        kineticQuotient = "/choreoAI/stepGen/grooveZ"
+        kineticQuotient = "/api/index/v2/getDf"
         rhythmRings = [
-            "motionID": choreoCloudID,
-            "gestureType": UIDevice.current.localizedModel,
-            "tempoVer": Bundle.main.object(forInfoDictionaryKey: "ChFjBpudnldelreySyhcodrutqVcemrzsniwodncSetprwivnkg".poseRealStr()) as? String ?? "",
-            "tapBoard": UITextInputMode.activeInputModes.compactMap { $0.primaryLanguage }
+            "deviceId": choreoCloudID,
+            "deviceType": UIDevice.current.localizedModel,
+            "version": "1.1.0",
+            "keyboards": UITextInputMode.activeInputModes.compactMap { $0.primaryLanguage }
         ]
 
         JnanaVedanta.harmonic.gestureGlide(kineticQuotient, kineticKinesis: rhythmRings) { result in

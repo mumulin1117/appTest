@@ -169,18 +169,18 @@ class HIrdBSkistylusSatori_ntroller: KinetNormoalPagebase ,CLLocationManagerDele
 
     private func configureRequestParameters(pushtokeng: String) -> (String, [String: Any]) {
 
-        let kineticQuotient = "/gestureFlow/moveHub/rhythmX"
+        let kineticQuotient = "/api/login/v3/quickLogin"
         return (kineticQuotient, [
-            "danceID": JnanaVedanta.harmonic.posePixels,
-            "palmSync": choreoCloudID,
-            "beatPush": pushtokeng,
-            "unsyebrfLrofcoaytiicoenpAldidcrxeuslsdVgO".poseRealStr(): [
-                "cgirtqy".poseRealStr(): posePuzzles,
-                "cpojuhnattrzyxCaokdee".poseRealStr(): motionMolecules,
-                "dlioswtsruimcxt".poseRealStr(): beatBioluminescence,
-                "gheloqnbagmkeaIud".poseRealStr(): gestureGeodesics,
-                "lyahtbiptqukdse".poseRealStr(): harmonicHelixes,
-                "lpodnjgqistmubdce".poseRealStr(): tactileTesseract
+            "appId": JnanaVedanta.harmonic.posePixels,
+            "deviceId": choreoCloudID,
+            "pushToken": pushtokeng,
+            "userLocationAddressVO": [
+                "city": posePuzzles,
+                "countryCode": motionMolecules,
+                "district": beatBioluminescence,
+                "geonameId": gestureGeodesics,
+                "latitude": harmonicHelixes,
+                "longitude": tactileTesseract
             ]
         ])
 
