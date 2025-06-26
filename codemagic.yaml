@@ -15,13 +15,11 @@ workflows:
         XCODE_SCHEME: "Apfocsee" # <-- Put the name of your Xcode scheme here
       xcode: latest
       cocoapods: default
-    cache:
-      cache_paths:
-        - ~/Library/Caches/CocoaPods
+   
     scripts:
       - name: Install CocoaPods dependencies
         script: |
-          pod install --repo-update
+          pod install 
       - name: Set up provisioning profiles settings on Xcode project
         script: xcode-project use-profiles
 #      - name: Increment build number
