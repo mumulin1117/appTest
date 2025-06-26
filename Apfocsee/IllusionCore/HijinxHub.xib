@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HijinxHub" customModule="Apfocsee" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="467" height="113"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="467" height="113"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cponnwrbgk" translatesAutoresizingMaskIntoConstraints="NO" id="KhO-4g-QbJ">
+                        <rect key="frame" x="0.0" y="0.0" width="467" height="113"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="JIuaojdcoin" translatesAutoresizingMaskIntoConstraints="NO" id="pg6-oH-fP4">
+                        <rect key="frame" x="12" y="32.666666666666664" width="48" height="47.999999999999993"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="48" id="DhR-2F-y5v"/>
+                            <constraint firstAttribute="height" constant="48" id="UTJ-CZ-K2y"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JWi-Lz-Cj8">
+                        <rect key="frame" x="345" y="36.666666666666664" width="106" height="39.999999999999993"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="7Uh-uk-Tuo"/>
+                            <constraint firstAttribute="width" constant="106" id="Xfa-fj-9VW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" backgroundImage="purplebg">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flu-Xv-Qr9">
+                        <rect key="frame" x="72" y="56.666666666666664" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="KhO-4g-QbJ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="4DY-fo-Ux8"/>
+                <constraint firstItem="flu-Xv-Qr9" firstAttribute="leading" secondItem="pg6-oH-fP4" secondAttribute="trailing" constant="12" id="4NW-dt-lxc"/>
+                <constraint firstItem="pg6-oH-fP4" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="12" id="5Lo-JG-5qp"/>
+                <constraint firstItem="KhO-4g-QbJ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="FL8-hd-fxN"/>
+                <constraint firstAttribute="trailing" secondItem="JWi-Lz-Cj8" secondAttribute="trailing" constant="16" id="Go5-j4-m1U"/>
+                <constraint firstItem="flu-Xv-Qr9" firstAttribute="centerY" secondItem="pg6-oH-fP4" secondAttribute="centerY" id="Mag-UG-mUw"/>
+                <constraint firstItem="pg6-oH-fP4" firstAttribute="centerY" secondItem="KhO-4g-QbJ" secondAttribute="centerY" id="Ocg-Jd-vdb"/>
+                <constraint firstAttribute="bottom" secondItem="KhO-4g-QbJ" secondAttribute="bottom" id="Unz-xk-yMT"/>
+                <constraint firstItem="JWi-Lz-Cj8" firstAttribute="centerY" secondItem="KhO-4g-QbJ" secondAttribute="centerY" id="w2i-JY-pp9"/>
+                <constraint firstAttribute="trailing" secondItem="KhO-4g-QbJ" secondAttribute="trailing" id="yQF-GO-T1f"/>
+            </constraints>
+            <size key="customSize" width="467" height="113"/>
+            <connections>
+                <outlet property="countauioLbl" destination="flu-Xv-Qr9" id="UVY-j2-cak"/>
+                <outlet property="spenmmoney" destination="JWi-Lz-Cj8" id="bgK-mj-3vy"/>
+            </connections>
+            <point key="canvasLocation" x="269.46564885496184" y="42.605633802816904"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="JIuaojdcoin" width="48" height="48"/>
+        <image name="cponnwrbgk" width="327" height="82"/>
+        <image name="purplebg" width="106" height="42"/>
+    </resources>
+</document>
