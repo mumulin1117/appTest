@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (5.10.2)
+  - FSPagerView (0.8.3)
   - Instructions (2.3.0)
   - IQKeyboardManager (6.5.19)
   - SnapKit (5.7.1)
@@ -10,6 +11,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - FSPagerView
   - Instructions
   - IQKeyboardManager
   - SnapKit
@@ -19,6 +21,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - FSPagerView
     - Instructions
     - IQKeyboardManager
     - SnapKit
@@ -27,12 +30,13 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
   Instructions: 3aac22d036495ba4c40e00747e0a275da40ce53d
   IQKeyboardManager: c8665b3396bd0b79402b4c573eac345a31c7d485
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
   SwiftMessages: 759b4a0bf5c3a116a0d7e8a34b098ba83c458625
   SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
 
-PODFILE CHECKSUM: 3c335ed2fe2f034c2503d5345d58e9ae4885ed30
+PODFILE CHECKSUM: 0a2c9243e30f60da60b8e38fbcc236b0c4a32607
 
 COCOAPODS: 1.16.2
