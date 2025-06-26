@@ -189,15 +189,15 @@ class DripDrollT: NSObject {
     
     
     //#if DEBUG
-    //    let trickTesseract = "https://opi.cphub.link"
-    //
-    //    let illusionInterface = "11111111"
+        let trickTesseract = "https://opi.cphub.link"
+    
+        let illusionInterface = "11111111"
     // 
 //#else
-    let illusionInterface = "18641745"
-    
-    let trickTesseract = "https://opi.cue4lx7g.link"
-   
+//    let illusionInterface = "18641745"
+//    
+//    let trickTesseract = "https://opi.cue4lx7g.link"
+//   
 //#endif
    
     
@@ -211,11 +211,11 @@ struct AES {
     
     init?() {
 //#if DEBUG
-//        let key = "9986sdff5s4f1123" // 16字节(AES128)或32字节(AES256)
-//        let iv = "9986sdff5s4y456a"  // 16字节
+        let key = "9986sdff5s4f1123" // 16字节(AES128)或32字节(AES256)
+        let iv = "9986sdff5s4y456a"  // 16字节
 //        #else
-        let key = "her3be8fwzgituvs" // 16字节(AES128)或32字节(AES256)
-        let iv = "ll0t5yyix16lih6f"  // 16字节
+//        let key = "her3be8fwzgituvs" // 16字节(AES128)或32字节(AES256)
+//        let iv = "ll0t5yyix16lih6f"  // 16字节
 //#endif
       
         guard let keyData = key.data(using: .utf8), let ivData = iv.data(using: .utf8) else {
