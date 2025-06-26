@@ -13,7 +13,7 @@ workflows:
         BUNDLE_ID: "com.zww.app.cn.com"
         XCODE_WORKSPACE: Apfocsee.xcworkspace # <-- Put the name of your Xcode workspace here
         XCODE_SCHEME: "Apfocsee" # <-- Put the name of your Xcode scheme here
-      xcode: latest
+      xcode: 16.1
       cocoapods: default
    
     scripts:
