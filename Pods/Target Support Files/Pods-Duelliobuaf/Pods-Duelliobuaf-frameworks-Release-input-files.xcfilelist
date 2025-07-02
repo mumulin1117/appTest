@@ -1,9 +1,0 @@
-${PODS_ROOT}/Target Support Files/Pods-Duelliobuaf/Pods-Duelliobuaf-frameworks.sh
-${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
-${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework
-${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
-${BUILT_PRODUCTS_DIR}/LLCycleScrollView/LLCycleScrollView.framework
-${BUILT_PRODUCTS_DIR}/Loaf/Loaf.framework
-${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
-${BUILT_PRODUCTS_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework
-${BUILT_PRODUCTS_DIR}/TagListView/TagListView.framework

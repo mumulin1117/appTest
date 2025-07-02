@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PrankEngine" customModule="Apfocsee" customModuleProvider="target">
+            <connections>
+                <outlet property="MatrixButon" destination="iBe-aB-3mC" id="pcf-Xx-ayQ"/>
+                <outlet property="view" destination="Sdm-UK-xCY" id="9Dv-SQ-OAl"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Sdm-UK-xCY">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aiopBeaoj" translatesAutoresizingMaskIntoConstraints="NO" id="3AA-Qn-Pvl">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EaH-vp-1fM">
+                    <rect key="frame" x="24" y="748" width="345" height="54"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="49m-cs-ZCd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="     300" image="smaillcogcoin" backgroundImage="hipopLaobg"/>
+                    <connections>
+                        <action selector="speend300Domend:" destination="-1" eventType="touchUpInside" id="e7D-De-y2R"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iBe-aB-3mC">
+                    <rect key="frame" x="14" y="59" width="34" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="KLE-HO-OdA"/>
+                        <constraint firstAttribute="width" constant="34" id="f5y-68-z8U"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="trableBackback"/>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="JiW-PN-hYA"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="JiW-PN-hYA" firstAttribute="bottom" secondItem="EaH-vp-1fM" secondAttribute="bottom" constant="16" id="Cnm-vc-A6w"/>
+                <constraint firstItem="3AA-Qn-Pvl" firstAttribute="top" secondItem="Sdm-UK-xCY" secondAttribute="top" id="Qgr-Ej-nyE"/>
+                <constraint firstAttribute="bottom" secondItem="3AA-Qn-Pvl" secondAttribute="bottom" id="VJ7-MH-IU6"/>
+                <constraint firstItem="iBe-aB-3mC" firstAttribute="leading" secondItem="JiW-PN-hYA" secondAttribute="leading" constant="14" id="XYj-a8-Wvs"/>
+                <constraint firstItem="JiW-PN-hYA" firstAttribute="trailing" secondItem="EaH-vp-1fM" secondAttribute="trailing" constant="24" id="YxY-fB-ZBU"/>
+                <constraint firstItem="iBe-aB-3mC" firstAttribute="top" secondItem="JiW-PN-hYA" secondAttribute="top" id="aVJ-GL-cJd"/>
+                <constraint firstItem="3AA-Qn-Pvl" firstAttribute="leading" secondItem="JiW-PN-hYA" secondAttribute="leading" id="nie-NG-Uoz"/>
+                <constraint firstItem="EaH-vp-1fM" firstAttribute="leading" secondItem="JiW-PN-hYA" secondAttribute="leading" constant="24" id="rHd-Oa-oiI"/>
+                <constraint firstItem="3AA-Qn-Pvl" firstAttribute="trailing" secondItem="JiW-PN-hYA" secondAttribute="trailing" id="rsC-r3-fzs"/>
+            </constraints>
+            <point key="canvasLocation" x="100" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="aiopBeaoj" width="375" height="812"/>
+        <image name="hipopLaobg" width="300" height="60"/>
+        <image name="smaillcogcoin" width="28" height="28"/>
+        <image name="trableBackback" width="34" height="34"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

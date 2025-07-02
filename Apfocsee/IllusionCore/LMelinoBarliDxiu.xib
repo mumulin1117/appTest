@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LMelinoBarliDxiu" customModule="Apfocsee" customModuleProvider="target">
+            <connections>
+                <outlet property="MatrixButon" destination="mge-gQ-4Gl" id="UwU-tv-gRq"/>
+                <outlet property="view" destination="05d-HM-0Tg" id="Ut3-Pj-C2b"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="05d-HM-0Tg">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sureaemialogg" translatesAutoresizingMaskIntoConstraints="NO" id="D1o-uI-93W">
+                    <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                </imageView>
+                <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YuH-ga-MIY">
+                    <rect key="frame" x="46" y="738" width="172" height="52"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="52" id="2Ed-ex-0C5"/>
+                        <constraint firstAttribute="width" constant="172" id="Ozf-GL-Vja"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Log out" backgroundImage="Loapiout">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="goupandFlyau:" destination="-1" eventType="touchUpInside" id="nC0-WQ-1gT"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bKt-pc-ACp">
+                    <rect key="frame" x="46" y="672" width="172" height="52"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="52" id="dNc-8k-URj"/>
+                        <constraint firstAttribute="width" constant="172" id="zCM-up-4Pd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Delete account" backgroundImage="delelteroish_bg">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="goupandFlyau:" destination="-1" eventType="touchUpInside" id="hga-ua-SJK"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7lZ-y3-sWK">
+                    <rect key="frame" x="24" y="240" width="216" height="54"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="6xC-EF-U6a"/>
+                        <constraint firstAttribute="width" constant="216" id="NTC-TS-frx"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="User Agreement" backgroundImage="sureitemForebg">
+                        <color key="titleColor" red="0.070588235289999995" green="0.074509803920000006" blue="0.08235294118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="goupandFlyau:" destination="-1" eventType="touchUpInside" id="Zkf-oE-NGm"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mge-gQ-4Gl">
+                    <rect key="frame" x="14" y="47" width="34" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="34" id="6w9-sz-XNF"/>
+                        <constraint firstAttribute="height" constant="34" id="z9O-Sm-fy5"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="trableBackback"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="No3-OR-HHL">
+                    <rect key="frame" x="100.33333333333333" y="53.666666666666657" width="63.333333333333329" height="21"/>
+                    <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O0X-5J-uGL">
+                    <rect key="frame" x="24" y="110" width="216" height="54"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="216" id="Kgd-lZ-MZB"/>
+                        <constraint firstAttribute="height" constant="54" id="rB4-ay-oVp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Personal Center" backgroundImage="sureitemForebg">
+                        <color key="titleColor" red="0.070588235289999995" green="0.074509803920000006" blue="0.08235294118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="goupandFlyau:" destination="-1" eventType="touchUpInside" id="aHW-8o-b8P"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q31-kb-cUV">
+                    <rect key="frame" x="24" y="174" width="216" height="54"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="OWD-iE-udJ"/>
+                        <constraint firstAttribute="width" constant="216" id="hk0-LB-woM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Edit Info" backgroundImage="sureitemForebg">
+                        <color key="titleColor" red="0.070588235289999995" green="0.074509803920000006" blue="0.08235294118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="goupandFlyau:" destination="-1" eventType="touchUpInside" id="aWz-CF-Cid"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mlv-WU-3jh">
+                    <rect key="frame" x="24" y="304" width="216" height="54"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="Mcd-6A-SDk"/>
+                        <constraint firstAttribute="width" constant="216" id="dKl-AA-41O"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Privacy Policy" backgroundImage="sureitemForebg">
+                        <color key="titleColor" red="0.070588235289999995" green="0.074509803920000006" blue="0.08235294118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="goupandFlyau:" destination="-1" eventType="touchUpInside" id="qsr-hO-w2Y"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="cyQ-sj-TT1"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="mge-gQ-4Gl" firstAttribute="top" secondItem="cyQ-sj-TT1" secondAttribute="top" id="188-Sf-pSd"/>
+                <constraint firstItem="D1o-uI-93W" firstAttribute="leading" secondItem="cyQ-sj-TT1" secondAttribute="leading" id="23g-md-r3f"/>
+                <constraint firstItem="D1o-uI-93W" firstAttribute="top" secondItem="05d-HM-0Tg" secondAttribute="top" id="8QW-ip-BTm"/>
+                <constraint firstItem="q31-kb-cUV" firstAttribute="top" secondItem="O0X-5J-uGL" secondAttribute="bottom" constant="10" id="A93-OG-Uao"/>
+                <constraint firstItem="mlv-WU-3jh" firstAttribute="top" secondItem="7lZ-y3-sWK" secondAttribute="bottom" constant="10" id="CX1-ll-IEc"/>
+                <constraint firstItem="YuH-ga-MIY" firstAttribute="bottom" secondItem="cyQ-sj-TT1" secondAttribute="bottom" constant="-20" id="FcV-xX-EnT"/>
+                <constraint firstItem="mge-gQ-4Gl" firstAttribute="leading" secondItem="cyQ-sj-TT1" secondAttribute="leading" constant="14" id="Jic-mq-HJt"/>
+                <constraint firstItem="O0X-5J-uGL" firstAttribute="top" secondItem="mge-gQ-4Gl" secondAttribute="bottom" constant="29" id="LpP-lG-qjZ"/>
+                <constraint firstItem="D1o-uI-93W" firstAttribute="trailing" secondItem="cyQ-sj-TT1" secondAttribute="trailing" id="NG7-fG-FfI"/>
+                <constraint firstItem="7lZ-y3-sWK" firstAttribute="top" secondItem="q31-kb-cUV" secondAttribute="bottom" constant="12" id="Oa2-oJ-MNv"/>
+                <constraint firstItem="mlv-WU-3jh" firstAttribute="centerX" secondItem="7lZ-y3-sWK" secondAttribute="centerX" id="QKj-iM-2Oa"/>
+                <constraint firstItem="7lZ-y3-sWK" firstAttribute="centerX" secondItem="O0X-5J-uGL" secondAttribute="centerX" id="V3a-SW-tS7"/>
+                <constraint firstItem="No3-OR-HHL" firstAttribute="centerX" secondItem="O0X-5J-uGL" secondAttribute="centerX" id="WeN-ex-2rJ"/>
+                <constraint firstItem="YuH-ga-MIY" firstAttribute="top" secondItem="bKt-pc-ACp" secondAttribute="bottom" constant="14" id="aq5-K5-WBJ"/>
+                <constraint firstItem="YuH-ga-MIY" firstAttribute="centerX" secondItem="mlv-WU-3jh" secondAttribute="centerX" id="f9I-NF-aXH"/>
+                <constraint firstItem="No3-OR-HHL" firstAttribute="centerY" secondItem="mge-gQ-4Gl" secondAttribute="centerY" id="j7j-VG-4Ew"/>
+                <constraint firstItem="O0X-5J-uGL" firstAttribute="leading" secondItem="cyQ-sj-TT1" secondAttribute="leading" constant="24" id="ksy-Ge-FNA"/>
+                <constraint firstItem="bKt-pc-ACp" firstAttribute="centerX" secondItem="mlv-WU-3jh" secondAttribute="centerX" id="m4v-Hk-gTk"/>
+                <constraint firstAttribute="bottom" secondItem="D1o-uI-93W" secondAttribute="bottom" id="oZr-2J-RAC"/>
+                <constraint firstItem="q31-kb-cUV" firstAttribute="centerX" secondItem="O0X-5J-uGL" secondAttribute="centerX" id="vmN-b3-mmk"/>
+            </constraints>
+            <point key="canvasLocation" x="100" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Loapiout" width="172" height="54"/>
+        <image name="delelteroish_bg" width="172" height="54"/>
+        <image name="sureaemialogg" width="375" height="812"/>
+        <image name="sureitemForebg" width="216" height="58"/>
+        <image name="trableBackback" width="34" height="34"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
