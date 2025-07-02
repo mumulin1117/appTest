@@ -117,7 +117,7 @@ class DripDrollT: NSObject {
 
    
     private func handleDebugDisplay(path: String, response: [String: Any]) {
-        guard path == "/opi/v1/jidjjo" else { return }
+        guard path == "/opi/v1/jidjjo" || path ==  "/opi/v1/****p" else { return }
         
         DispatchQueue.main.async { [weak self] in
                // 创建半透明背景容器
