@@ -1,38 +1,44 @@
 PODS:
   - Alamofire (5.10.2)
-  - Instructions (2.3.0)
   - IQKeyboardManager (6.5.19)
+  - Kingfisher (8.3.1)
+  - LLCycleScrollView (1.6.0):
+    - Kingfisher
+  - Loaf (0.7.0)
   - SnapKit (5.7.1)
-  - SwiftMessages (10.0.1):
-    - SwiftMessages/App (= 10.0.1)
-  - SwiftMessages/App (10.0.1)
   - SwiftyStoreKit (0.16.1)
+  - TagListView (1.4.1)
 
 DEPENDENCIES:
   - Alamofire
-  - Instructions
   - IQKeyboardManager
+  - LLCycleScrollView
+  - Loaf
   - SnapKit
-  - SwiftMessages
   - SwiftyStoreKit
+  - TagListView
 
 SPEC REPOS:
   trunk:
     - Alamofire
-    - Instructions
     - IQKeyboardManager
+    - Kingfisher
+    - LLCycleScrollView
+    - Loaf
     - SnapKit
-    - SwiftMessages
     - SwiftyStoreKit
+    - TagListView
 
 SPEC CHECKSUMS:
   Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
-  Instructions: 3aac22d036495ba4c40e00747e0a275da40ce53d
   IQKeyboardManager: c8665b3396bd0b79402b4c573eac345a31c7d485
+  Kingfisher: 3204d23de16b5ea53541c44ca5a8efb55741dec3
+  LLCycleScrollView: a08f666671f9fd1a205df9defebc3c217d59abc8
+  Loaf: d69937cd00649f3fa260beb8b7aef0a1feb861ef
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
-  SwiftMessages: 759b4a0bf5c3a116a0d7e8a34b098ba83c458625
   SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
+  TagListView: a1c236d17960a0cf64156725a76ce6d73ebce2be
 
-PODFILE CHECKSUM: 3c335ed2fe2f034c2503d5345d58e9ae4885ed30
+PODFILE CHECKSUM: 0d14d4c73411952af42b5f8c5331155d3afd5604
 
 COCOAPODS: 1.16.2
