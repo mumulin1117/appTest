@@ -207,12 +207,16 @@ class StormShenaniganController: UIViewController ,WKNavigationDelegate, WKUIDel
                         return
                       }
                     
-                
+                    guard let jsonData = try? JSONSerialization.data(withJSONObject: ["orderCode":orderCode], options: [.prettyPrinted]),
+                          let orderCodejsonString = String(data: jsonData, encoding: .utf8) else{
+                        self.showingAlertingFor_Alert(alsemessage: "orderCode  trans error")
+                        return
+                    }
 
                     DripDrollT.goofyGradient.sillySynapse("/opi/v1/****p", pranktopia: [
                         "**p":ticketData.base64EncodedString(),//payload
                         "**t":gettransID,//transactionId
-                        "**c":["orderCode":orderCode]//callbackResult
+                        "**c":orderCodejsonString//callbackResult
                     ]) { result in
                        
                         self.view.isUserInteractionEnabled = true
