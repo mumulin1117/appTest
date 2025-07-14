@@ -1,0 +1,54 @@
+[
+    {
+        "userId":"1724807653882",
+        "account":"",
+        "password":"",
+        "nickname":"Ava Hope",
+        "gender":"Female",
+        "goldNumber":0,
+        "isVip":false,
+        "avatar":"Ava Hope.jpg"
+    },
+    {
+        "userId":"1724807653872",
+        "account":"",
+        "password":"",
+        "nickname":"Ben Wise",
+        "gender":"Male",
+        "goldNumber":0,
+        "isVip":false,
+        "avatar":"Ben Wise.jpg"
+    },
+    {
+        "userId":"1724807653862",
+        "account":"",
+        "password":"",
+        "nickname":"Sophia",
+        "gender":"Female",
+        "goldNumber":0,
+        "isVip":false,
+        "avatar":"Sophia.jpg"
+    },
+    {
+        "userId":"1724807653852",
+        "account":"",
+        "password":"",
+        "nickname":"Ryan",
+        "gender":"Male",
+        "goldNumber":0,
+        "isVip":false,
+        "avatar":"Ryan.jpg"
+    },
+    {
+        "userId":"1724807653842",
+        "account":"",
+        "password":"",
+        "nickname":"Alex",
+        "gender":"Male",
+        "goldNumber":0,
+        "isVip":false,
+        "avatar":"Alex.jpg"
+    }
+]
+
+ 
