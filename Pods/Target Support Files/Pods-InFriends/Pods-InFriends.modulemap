@@ -1,6 +1,0 @@
-framework module Pods_InFriends {
-  umbrella header "Pods-InFriends-umbrella.h"
-
-  export *
-  module * { export * }
-}

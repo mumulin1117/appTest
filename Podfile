@@ -1,36 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
 
-target 'InFriends' do
+target 'DiBngHink' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for InFriends
-  pod 'SnapKit', '~> 5.7.0'
-  pod 'Toast-Swift', '~> 5.1.1'
-  pod 'IQKeyboardManagerSwift'
-  pod 'KakaJSON'
-  pod 'Alamofire'
-  pod 'ScreenProtectorKit'
-  pod 'RealmSwift'
+  # Pods for DiBngHink
+pod 'SnapKit'
+pod 'SDWebImage'
+pod "Alamofire"
 
+pod 'SwiftyStoreKit'
+pod 'PKHUD'
+pod 'IQKeyboardManager'
 
-  target 'InFriendsTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'InFriendsUITests' do
-    # Pods for testing
-  end
-
+pod 'Adjust', '~> 5.1.1'
+pod 'FBSDKCoreKit'
 end
-
-post_install do |installer|
-    installer.generated_projects.each do |project|
-        project.targets.each do |target|
-            target.build_configurations.each do |config|
-                config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
-            end
-        end
-    end
-end
-

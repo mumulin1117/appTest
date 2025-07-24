@@ -11,8 +11,8 @@ workflows:
         bundle_identifier: com.zww.app.cn.com
       vars:
         BUNDLE_ID: "com.zww.app.cn.com"
-        XCODE_WORKSPACE: InFriends.xcworkspace # <-- Put the name of your Xcode workspace here
-        XCODE_SCHEME: "InFriends" # <-- Put the name of your Xcode scheme here
+        XCODE_WORKSPACE: DiBngHink.xcworkspace # <-- Put the name of your Xcode workspace here
+        XCODE_SCHEME: "DiBngHink" # <-- Put the name of your Xcode scheme here
       xcode: 16.1
       cocoapods: default
 #    cache:
