@@ -47,16 +47,15 @@ class RsolutionScalingtroller: UIViewController {
     private  func certificatePinning()  {
          
         guard let snickerSynthesizer = tamperDetection?.isReachable,snickerSynthesizer == true else {
-          
-            if self.encryptionAtRest <= 5 {
-                self.encryptionAtRest += 1
-                DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2, execute: DispatchWorkItem(block: {
+            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1, execute: DispatchWorkItem(block: {
+                if self.encryptionAtRest <= 5 {
+                    self.encryptionAtRest += 1
                     self.certificatePinning()
-                }))
-               
-                return
-            }
-            self.digitalSigning()
+                    return
+                }
+                self.digitalSigning()
+                
+            }))
             
             return
             
