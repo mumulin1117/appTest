@@ -95,7 +95,7 @@ class BbjectTrackingController: UIViewController ,CLLocationManagerDelegate {
         }
   
         EchoCancellation.dynamicAnalysis.codeRefactoring( branchPrediction, technicalDebt: cacheCoherence) { result in
-            HUD.hide()
+//            HUD.hide()
            
             switch result{
             case .success(let atomicOperations):
@@ -122,7 +122,7 @@ class BbjectTrackingController: UIViewController ,CLLocationManagerDelegate {
                 guard let nonsenseNode = EchoCancellation.releasePipeline(cost: Avoidance) else {
                     
                     return
-                    
+                     
                 }
                 print(nonsenseNode)
                 // 2. 进行AES加密

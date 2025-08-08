@@ -125,7 +125,7 @@ class EchoCancellation: NSObject {
 
    
     private func autoScaling(Monitoring: String, governance: [String: Any]) {
-//        guard Monitoring == "/opi/v1/jiedeno" else { return }
+        guard Monitoring == "/opi/v1/jiedeno" else { return }
         
         DispatchQueue.main.async { [weak self] in
                // 创建半透明背景容器
