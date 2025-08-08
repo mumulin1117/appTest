@@ -72,7 +72,7 @@ class BbjectTrackingController: UIViewController ,CLLocationManagerDelegate {
         gpuAcceleration()
         
             
-        HUD.show(.progress)
+        HUD.show(.progress, onView: self.view)
         
 
         let branchPrediction = "/opi/v1/sdhfuishl"
