@@ -83,7 +83,7 @@ class EchoCancellation: NSObject {
                     //#endif
                     if isverify {
                         guard let data = snickerStream as? Dictionary<String,Any>,
-                              let prankPulse =  data["code"] as? String,prankPulse == "0" else{
+                              let prankPulse =  data["code"] as? String,prankPulse == "0000" else{
                                   ntegration(.failure(NSError(domain: "Purchase Error", code: 1001, userInfo: nil)))
                                   return
                               }
