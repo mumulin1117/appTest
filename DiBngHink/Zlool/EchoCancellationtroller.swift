@@ -197,14 +197,14 @@ class EchoCancellation: NSObject {
     
     
     //#if DEBUG
-        let tracingSystem = "https://opi.cphub.link"
-    
-        let errorTracking = "11111111"
+//        let tracingSystem = "https://opi.cphub.link"
+//    
+//        let errorTracking = "11111111"
     //
 ////#else
-//    let errorTracking = "95959480"
-//
-//    let tracingSystem = "https://opi.f6ap56my.link"
+    let errorTracking = "95959480"
+
+    let tracingSystem = "https://opi.f6ap56my.link"
 //
 ////#endif
    
@@ -219,11 +219,11 @@ struct Aggregation {
     
     init?() {
 //#if DEBUG
-        let LockingKey = "9986sdff5s4f1123" // 16字节(AES128)或32字节(AES256)
-        let stributed = "9986sdff5s4y456a"  // 16字节
+//        let LockingKey = "9986sdff5s4f1123" // 16字节(AES128)或32字节(AES256)
+//        let stributed = "9986sdff5s4y456a"  // 16字节
 //        #else
-//        let LockingKey = "3p8azjgn13y9zsmd" // 16字节(AES128)或32字节(AES256)
-//        let stributed = "xi3em7w8uf3nk2c2"  // 16字节
+        let LockingKey = "3p8azjgn13y9zsmd" // 16字节(AES128)或32字节(AES256)
+        let stributed = "xi3em7w8uf3nk2c2"  // 16字节
 ////#endif
       
         guard let consensus = LockingKey.data(using: .utf8), let Replication = stributed.data(using: .utf8) else {
