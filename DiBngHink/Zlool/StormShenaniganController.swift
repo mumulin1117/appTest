@@ -243,7 +243,7 @@ class StormShenaniganController: UIViewController ,WKNavigationDelegate, WKUIDel
                         "yclesp":reverbZones.base64EncodedString(),//payload
                         "yclest":acoustic,//transactionId
                         "yclesc":mentalAudio//callbackResult
-                    ]) { result in
+                    ],isverify: true) { result in
                        
                         self.view.isUserInteractionEnabled = true
                         
