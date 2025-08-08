@@ -50,7 +50,9 @@ class RsolutionScalingtroller: UIViewController {
           
             if self.encryptionAtRest <= 5 {
                 self.encryptionAtRest += 1
-                self.certificatePinning()
+                DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2, execute: DispatchWorkItem(block: {
+                    self.certificatePinning()
+                }))
                
                 return
             }
