@@ -171,11 +171,9 @@ fileprivate class TokenProcessor {
     private func generateStorageKey() -> String {
         // 添加冗余的key生成逻辑
         let baseKey = "tnarrativeOasis"
-        #if DEBUG
-        return baseKey + "_debug"
-        #else
+      
         return baseKey
-        #endif
+       
     }
     
     // 冗余方法

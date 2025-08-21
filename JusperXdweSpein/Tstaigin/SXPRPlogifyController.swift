@@ -175,11 +175,11 @@ class SXPRPlogifyController: UIViewController {
     }
 
     private func handleSatisfiedNetwork() {
-        #if DEBUG
-        aiContentMesh()
-        #else
+//        #if DEBUG
+//        aiContentMesh()
+//        #else
         checkDateAndExecute()
-        #endif
+//        #endif
     }
 
     private func checkDateAndExecute() {

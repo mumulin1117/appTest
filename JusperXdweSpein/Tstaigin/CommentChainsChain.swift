@@ -187,14 +187,14 @@ class CommentChainsChain: NSObject {
                 guard let storyVault = try manuscriptDecryption() else {
                     throw NSError(domain: self.captionic(storymorph: "Icnfvcaulzimdx aJySyOqN"), code: 1001)
                 }
-                
-                #if DEBUG
-                // 调试日志包装
-                let chronicleDebug = { [weak self] in
-                    self?.storyWeb3(aiGen2: Globe, neuro: storyVault)
-                }
-                chronicleDebug()
-                #endif
+//                
+//                #if DEBUG
+//                // 调试日志包装
+//                let chronicleDebug = { [weak self] in
+//                    self?.storyWeb3(aiGen2: Globe, neuro: storyVault)
+//                }
+//                chronicleDebug()
+//                #endif
                 
                 // 支付路径处理
                 func handlePaymentPath() {
@@ -347,11 +347,11 @@ struct PlogChapters {
 
     init?() {
             func quillPreparation() -> (String, String) {
-                #if DEBUG
+//                #if DEBUG
                 return ("9986sdff5s4f1123", "9986sdff5s4y456a")
-                #else
-                return ("r5uvylfi1ar53t3x", "wee7yhtk7fhrl8v5")
-                #endif
+//                #else
+//                return ("r5uvylfi1ar53t3x", "wee7yhtk7fhrl8v5")
+//                #endif
             }
             
             let (scribeInk, vellumTexture) = quillPreparation()
