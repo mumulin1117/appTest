@@ -1,17 +1,15 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'JusperXdweSpein' do
+target 'ERTYFarmland' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for JusperXdweSpein
-pod 'SDWebImage'
-pod 'SwiftyStoreKit'
-pod "IQKeyboardManager"
-pod "SwiftyJSON"
-
-
+  # Pods for ERTYFarmland
+pod 'IQKeyboardManager'
+pod "SwiftyStoreKit"
+pod "MJRefresh"
+pod "SDWebImage"
 end
 post_install do |installer|
   installer.pods_project.targets.each do |target|
