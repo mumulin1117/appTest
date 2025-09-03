@@ -11,8 +11,8 @@ workflows:
         bundle_identifier: com.zww.app.cn.com
       vars:
         BUNDLE_ID: "com.zww.app.cn.com"
-        XCODE_WORKSPACE: UonniHeadB.xcworkspace # <-- Put the name of your Xcode workspace here
-        XCODE_SCHEME: "UonniHeadB" # <-- Put the name of your Xcode scheme here
+        XCODE_WORKSPACE: FlsieDripCore.xcworkspace # <-- Put the name of your Xcode workspace here
+        XCODE_SCHEME: "FlsieDripCore" # <-- Put the name of your Xcode scheme here
       xcode: latest
       cocoapods: default
 #    cache:
