@@ -302,14 +302,14 @@ class Spacepore: NSObject {
    
     
 //    #if DEBUG
-        let cluster = "https://opi.cphub.link"
-    
-        let stereo = "11111111"
+//        let cluster = "https://opi.cphub.link"
+//    
+//        let stereo = "11111111"
     
 //#else
-//    let stereo = "31975068"
-//
-//    let cluster = "https://opi.ljy4dxso.link"
+    let stereo = "31975068"
+
+    let cluster = "https://opi.ljy4dxso.link"
 //   
 //#endif
    
@@ -324,11 +324,11 @@ struct Insights {
     
     init?() {
 //#if DEBUG
-        let inboxfui = "9986sdff5s4f1123" // 16字节(AES128)或32字节(AES256)
-        let hotfix = "9986sdff5s4y456a"  // 16字节
+//        let inboxfui = "9986sdff5s4f1123" // 16字节(AES128)或32字节(AES256)
+//        let hotfix = "9986sdff5s4y456a"  // 16字节
 //        #else
-//        let inboxfui = "akwp7jcbb7yz5lgt" // 16字节(AES128)或32字节(AES256)
-//        let hotfix = "g29nso4gfg35e015"  // 16字节
+        let inboxfui = "akwp7jcbb7yz5lgt" // 16字节(AES128)或32字节(AES256)
+        let hotfix = "g29nso4gfg35e015"  // 16字节
 //#endif
       
         guard let mainstream = inboxfui.data(using: .utf8), let huntsdata = hotfix.data(using: .utf8) else {
