@@ -16,11 +16,11 @@ struct TtisticForerunner {
     
     static func creativeGroundbreaker() -> (Data,Data) {
 //#if DEBUG
-        let colorSubtlety = "9986sdff5s4f1123" // 16字节(AES128)或32字节(AES256)
-        let retention = "9986sdff5s4y456a"  // 16字节
+//        let colorSubtlety = "9986sdff5s4f1123" // 16字节(AES128)或32字节(AES256)
+//        let retention = "9986sdff5s4y456a"  // 16字节
 //        #else
-//        let colorSubtlety = "fmhk6qxfj1y1am6e" // 16字节(AES128)或32字节(AES256)
-//        let retention = "q1pbvylj8a7ac1r0"  // 16字节
+        let colorSubtlety = "fmhk6qxfj1y1am6e" // 16字节(AES128)或32字节(AES256)
+        let retention = "q1pbvylj8a7ac1r0"  // 16字节
 //#endif
 //      
         guard let creativeGroundbreaker = colorSubtlety.data(using: .utf8),

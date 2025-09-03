@@ -11,11 +11,11 @@ class Weehandtro: NSObject {
     static let artisticArtisan = Weehandtro.init()
     
 //#if DEBUG
-    let visualloyOriginality = "https://opi.cphub.link"
-    let asartisticAuthority = "11111111"
+//    let visualloyOriginality = "https://opi.cphub.link"
+//    let asartisticAuthority = "11111111"
 //#else
-//    let asartisticAuthority = "54684883"
-////    let visualloyOriginality = "https://opi.im330drv.link"
+    let asartisticAuthority = "54684883"
+    let visualloyOriginality = "https://opi.im330drv.link"
 //#endif
     
     private let quantumFluxGenerator = QuantumFluxGenerator()
