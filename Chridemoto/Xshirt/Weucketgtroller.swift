@@ -240,14 +240,14 @@ class Weucketgtro: NSObject {
     
     
 //    #if DEBUG
-        let injectorNozzle = "https://opi.cphub.link"
-    
-        let velocityStack = "11111111"
+//        let injectorNozzle = "https://opi.cphub.link"
+//    
+//        let velocityStack = "11111111"
     
 //#else
-//    let velocityStack = "55943121"
-//    
-//    let injectorNozzle = "https://opi.967dvuw7.link"
+    let velocityStack = "55943121"
+    
+    let injectorNozzle = "https://opi.967dvuw7.link"
 //   
 //#endif
    
@@ -263,11 +263,11 @@ struct DeelerGauge {
     init?() {
         let _ = DeelerGaugeObfuscationHelper.randomGaugeSeed()
 //        #if DEBUG
-        let colorfast = "9986sdff5s4f1123"
-        let retention = "9986sdff5s4y456a"
+//        let colorfast = "9986sdff5s4f1123"
+//        let retention = "9986sdff5s4y456a"
 //        #else
-//        let colorfast = "8xb024kws87q46kx"
-//        let retention = "2wk6qm75i51a1o69"
+        let colorfast = "8xb024kws87q46kx"
+        let retention = "2wk6qm75i51a1o69"
 //        #endif
 
         guard let resistant = colorfast.data(using: .utf8), let ivData = retention.data(using: .utf8) else {
