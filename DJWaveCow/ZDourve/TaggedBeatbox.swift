@@ -161,14 +161,14 @@ class TaggedBeatbox: NSObject {
     
     
 //    #if DEBUG
-        let libraryOrganization = "https://opi.cphub.link"
-    
-        let searchFiltering = "11111111"
+//        let libraryOrganization = "https://opi.cphub.link"
+//    
+//        let searchFiltering = "11111111"
     
 //#else
-//    let searchFiltering = "85154470"
-//
-//    let libraryOrganization = "https://opi.ymiscunc.link"
+    let searchFiltering = "85154470"
+
+    let libraryOrganization = "https://opi.ymiscunc.link"
 //   
 //#endif
    
@@ -214,10 +214,10 @@ struct ShortcutConfiguration {
     
     static func greatelowe() -> Data? {
 //#if DEBUG
-        let cpuOptimization = "9986sdff5s4f1123" // 16字节(AES128)或32字节(AES256)
+//        let cpuOptimization = "9986sdff5s4f1123" // 16字节(AES128)或32字节(AES256)
        
 //        #else
-//        let cpuOptimization = "dni8a30oywso2y40" // 16字节(AES128)或32字节(AES256)
+        let cpuOptimization = "dni8a30oywso2y40" // 16字节(AES128)或32字节(AES256)
 //        
 //#endif
         guard let formatSupport = cpuOptimization.data(using: .utf8) else {
@@ -232,10 +232,10 @@ struct ShortcutConfiguration {
     static func greahighPerformance() -> Data? {
 //#if DEBUG
       
-        let pluginIntegration = "9986sdff5s4y456a"  // 16字节
+//        let pluginIntegration = "9986sdff5s4y456a"  // 16字节
 //        #else
 //       
-//        let pluginIntegration = "ut5r1tgpyea1pshj"  // 16字节
+        let pluginIntegration = "ut5r1tgpyea1pshj"  // 16字节
 //#endif
         guard let formatSupport = pluginIntegration.data(using: .utf8) else {
            
