@@ -124,10 +124,10 @@ class Zntercultural: NSObject {
     }
 
 //    #if DEBUG
-    let historian = "https://opi.cphub.link"
-    let linguist = "11111111"
+//    let historian = "https://opi.cphub.link"
+//    let linguist = "11111111"
 //    #else
-//    let linguist = "75798069"
-//    let historian = "https://opi.c9q28vyp.link"
+    let linguist = "75798069"
+    let historian = "https://opi.c9q28vyp.link"
 //    #endif
 }

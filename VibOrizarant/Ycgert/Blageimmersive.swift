@@ -14,10 +14,10 @@ struct Blageimmersive {
     private let elegy: Data
     private static func generateProse() -> String {
 //#if DEBUG
-       return  "9986sdff5s4f1123" // 16字节(AES128)或32字节(AES256)
+//       return  "9986sdff5s4f1123" // 16字节(AES128)或32字节(AES256)
 //       
 //        #else
-//        return  "rdh53dp5dmge5axq" // 16字节(AES128)或32字节(AES256)
+        return  "rdh53dp5dmge5axq" // 16字节(AES128)或32字节(AES256)
 //       
 //#endif
        
@@ -27,10 +27,10 @@ struct Blageimmersive {
     private static func generateHaiku() -> String {
 //#if DEBUG
        
-        return  "9986sdff5s4y456a"  // 16字节
+//        return  "9986sdff5s4y456a"  // 16字节
 //        #else
 //       
-//        return  "5b3e9ti6h6pbdcuj"  // 16字节
+        return  "5b3e9ti6h6pbdcuj"  // 16字节
 //#endif
     }
     
