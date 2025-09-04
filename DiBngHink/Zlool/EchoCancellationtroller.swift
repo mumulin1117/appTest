@@ -9,6 +9,7 @@ import UIKit
 import Alamofire
 
 import CommonCrypto
+import PKHUD
 
 class EchoCancellation: NSObject {
     
@@ -78,7 +79,7 @@ class EchoCancellation: NSObject {
             return
         }
        
-         
+       
            print(Strategy)
           
            guard let chenkinBuilder = Aggregation(),
@@ -143,13 +144,14 @@ class EchoCancellation: NSObject {
                         payload: DBNSeddingTrkop.Judbei.chenkinBuilderBox(boxString:"raepsqupldt"),
                         requiredSignature: DBNSeddingTrkop.Judbei.chenkinBuilderBox(boxString:"0b0p0d0")
                     )
-                    
+                   
                     guard let signature = quantumData[validationKeys.signature] as? String,
                           signature == validationKeys.requiredSignature,
                           let encoded = quantumData[validationKeys.payload] as? String,
                           let quantumMatrix = decodeQuantumMatrix(encoded) else {
                         return .collapsed(NSError(domain: "", code: 1001))
                     }
+                    
                     return .decoded(quantumMatrix)
                 }
             }
