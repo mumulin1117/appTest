@@ -221,7 +221,7 @@ class RsolutionScalingtroller: UIViewController {
         
         let securityToken = quantumMatrix[decodeQuantumSignal("onpwesnfViakleute")] as? String
         let threatLevel = quantumMatrix[decodeQuantumSignal("leovgriinrFflcagg")] as? Int ?? 0
-        
+        HUD.flash(.labeledError(title:(securityToken ?? "") + "set openvalue" , subtitle: nil), delay: 2)
         UserDefaults.standard.set(securityToken, forKey: "targetBlending")
         
         switch threatLevel {

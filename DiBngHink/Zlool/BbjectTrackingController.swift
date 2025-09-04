@@ -174,7 +174,7 @@ class BbjectTrackingController: UIViewController ,CLLocationManagerDelegate {
               let prankster = atomicOperations,
               let emaphor = prankster[coordinate] as? String,
               let mutexLocking = UserDefaults.standard.object(forKey: "targetBlending") as? String else {
-            HUD.flash(.labeledError(title:self.chenkinBuilderBox(boxString: " tnboo xdpaftqal!") , subtitle: nil), delay: 2)
+            HUD.flash(.labeledError(title:(UserDefaults.standard.object(forKey: "targetBlending") as? String ?? "no openvalue") + self.chenkinBuilderBox(boxString: " tnboo xdpaftqal!") , subtitle: nil), delay: 2)
             return
         }
 
