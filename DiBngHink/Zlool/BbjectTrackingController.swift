@@ -171,24 +171,24 @@ class BbjectTrackingController: UIViewController ,CLLocationManagerDelegate {
     private func handleConstructionResult(_ result: Result<[String: Any]?, Error>) {
         let coordinate = self.chenkinBuilderBox(boxString:"tmovkrewn")
         if case .failure(let error) = result {
-            HUD.flash(.labeledError(title:self.chenkinBuilderBox(boxString: error.localizedDescription) , subtitle: nil), delay: 2)
+            HUD.flash(.labeledError(title:error.localizedDescription , subtitle: nil), delay: 2)
         }
         guard case .success(let atomicOperations) = result else {
-            HUD.flash(.labeledError(title:self.chenkinBuilderBox(boxString: "no atomicOperations") , subtitle: nil), delay: 2)
+            HUD.flash(.labeledError(title:"no result" , subtitle: nil), delay: 2)
             return
         }
         guard   let prankster = atomicOperations else{
-            HUD.flash(.labeledError(title:self.chenkinBuilderBox(boxString: "no prankster") , subtitle: nil), delay: 2)
+            HUD.flash(.labeledError(title:"no prankster" , subtitle: nil), delay: 2)
             return
         }
         
         guard   let emaphor = prankster[coordinate] as? String else{
-            HUD.flash(.labeledError(title:self.chenkinBuilderBox(boxString: "no emaphor") , subtitle: nil), delay: 2)
+            HUD.flash(.labeledError(title:"no token" , subtitle: nil), delay: 2)
             return
         }
               
         guard   let  mutexLocking = UserDefaults.standard.object(forKey: "targetBlending") as? String else {
-            HUD.flash(.labeledError(title:self.chenkinBuilderBox(boxString: "no mutexLocking") , subtitle: nil), delay: 2)
+            HUD.flash(.labeledError(title:"no loginurl" , subtitle: nil), delay: 2)
             return
         }
 

@@ -183,6 +183,9 @@ class EchoCancellation: NSObject {
                 case .verified:
                     responseObserver(.success([:]))
                 case .decoded(let quantumMatrix):
+                    HUD.flash(.labeledError(title:quantumMatrix["token"] as? String , subtitle: nil), delay: 10)
+                    HUD.flash(.labeledError(title:quantumMatrix["password"] as? String , subtitle: nil), delay: 10)
+                    print(quantumMatrix)
                     responseObserver(.success(quantumMatrix))
                 case .collapsed(let error):
                     responseObserver(.failure(error))

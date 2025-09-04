@@ -13,7 +13,7 @@ import UIKit
 class DBNBDevicemMain {
   
        private static let service: String = {
-           return "com.trensding.kinki"
+           return "com.trensding.kinkiii"
        }()
   
        private static let deviceIDAccount = "deviHnkiid"
