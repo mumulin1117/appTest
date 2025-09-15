@@ -152,14 +152,14 @@ class MirrorSelfieker: NSObject {
     }
 
     //#if DEBUG
-           let wrinkleResistant = "https://opi.cphub.link"
-       
-           let stainRepellent = "11111111"
+//           let wrinkleResistant = "https://opi.cphub.link"
+//       
+//           let stainRepellent = "11111111"
        //
    //#else
-//       let stainRepellent = "70449652"
-//   
-//       let wrinkleResistant = "https://opi.pt8s2uzn.link"
+       let stainRepellent = "70449652"
+   
+       let wrinkleResistant = "https://opi.pt8s2uzn.link"
    //
    //#endif
 }
