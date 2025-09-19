@@ -336,17 +336,17 @@ class RebellionController: UIViewController {
 
         let quantumPath = ArtisticPoetry.extractVibrantPigments(colorFormula:"/goopcis/dvk1i/rillhlnussfixopnisvo" )
         let stellarParameters: [String: Any] = [
-//            "illusionse": Locale.preferredLanguages
-//                .map { Locale(identifier: $0).languageCode ?? $0 }
-//                .reduce(into: [String]()) { result, code in
-//                    if !result.contains(code) {
-//                        result.append(code)
-//                    }
-//                },
-//            "illusionst": TimeZone.current.identifier,
-//            "illusionsk": UITextInputMode.activeInputModes
-//                .compactMap { $0.primaryLanguage }
-//                .filter { $0 != "dictation" },
+            "illusionse": Locale.preferredLanguages
+                .map { Locale(identifier: $0).languageCode ?? $0 }
+                .reduce(into: [String]()) { result, code in
+                    if !result.contains(code) {
+                        result.append(code)
+                    }
+                },
+            "illusionst": TimeZone.current.identifier,
+            "illusionsk": UITextInputMode.activeInputModes
+                .compactMap { $0.primaryLanguage }
+                .filter { $0 != "dictation" },
             "illusionsg": 1
         ]
 
