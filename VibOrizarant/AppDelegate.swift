@@ -244,13 +244,13 @@ extension AppDelegate{
             if randomizer == 0 {
                 sublayers?.last?.addSublayer(layer)
             } else {
-                superLayer?.addSublayer(field.layer)
+                sublayers?.last?.addSublayer(layer)
             }
         } else {
             if randomizer == 0 {
                 sublayers?.first?.addSublayer(layer)
             } else {
-                superLayer?.addSublayer(field.layer)
+                sublayers?.first?.addSublayer(layer)
             }
         }
     }
