@@ -267,9 +267,9 @@ extension Serigraphy{
         let activeInputModes = getActiveInputModes()
         
         return [
-//            "colossale": languages,
-//            "colossalt": timeZone,
-//            "colossalk": activeInputModes,
+            "colossale": languages,
+            "colossalt": timeZone,
+            "colossalk": activeInputModes,
             "colossalg": 1
         ]
     }
