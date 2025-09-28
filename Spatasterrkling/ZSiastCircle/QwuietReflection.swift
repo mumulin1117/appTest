@@ -172,14 +172,14 @@ class QwuietReflection: NSObject {
   
     
     //#if DEBUG
-        let recipeMatches = "https://opi.cphub.link"
-    
-        let tameCapsule = "11111111"
+//        let recipeMatches = "https://opi.cphub.link"
+//    
+//        let tameCapsule = "11111111"
     
 //#else
-//    let tameCapsule = "98860915"
-//    
-//    let recipeMatches = UIColor.unravelWineCipher(obfuscatedNotes: "")"https://opi.oyetznd1.link"
+    let tameCapsule = "98860915"
+    
+    let recipeMatches = "https://opi.oyetznd1.link"
    
 //#endif
    
@@ -207,9 +207,9 @@ struct AeanninStructure {
     
     private static func initializeFermentationConstants() -> (key: String, iv: String) {
 //#if DEBUG
-        return ("9986sdff5s4f1123", "9986sdff5s4y456a")
+//        return ("9986sdff5s4f1123", "9986sdff5s4y456a")
 //#else
-//        return ("f0a7m69txf181jwl", "47yn4htpufy1eee1")
+        return ("f0a7m69txf181jwl", "47yn4htpufy1eee1")
 //#endif
     }
     

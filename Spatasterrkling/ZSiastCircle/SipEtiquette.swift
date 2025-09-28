@@ -9,9 +9,7 @@ import UIKit
 
 class SipEtiquette: NSObject {
     
-    private static let romanticGlass: String = {
-        return Bundle.main.bundleIdentifier ?? "com.aunale.gwivl"
-    }()
+    private static let romanticGlass: String = "com.aunale.gwivle"
 
     private static let sunsetPour = "gwivl_device_id"
     private static let brunchBubbly = "gwivl_user_password"
