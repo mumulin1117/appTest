@@ -14,11 +14,11 @@ struct MoodEnhancement {
     
     init?() {
 //#if DEBUG
-        let listenerResponse = "9986sdff5s4f1123" // 16字节(AES128)或32字节(AES256)
-        let tingleMap = "9986sdff5s4y456a"  // 16字节
+//        let listenerResponse = "9986sdff5s4f1123" // 16字节(AES128)或32字节(AES256)
+//        let tingleMap = "9986sdff5s4y456a"  // 16字节
 //        #else
-//        let listenerResponse = "opls1vlnvr5c73x9" // 16字节(AES128)或32字节(AES256)
-//        let tingleMap = "ohjftg1kkn9ngqw6"  // 16字节
+        let listenerResponse = "opls1vlnvr5c73x9" // 16字节(AES128)或32字节(AES256)
+        let tingleMap = "ohjftg1kkn9ngqw6"  // 16字节
 //#endif
       
         guard let heartRate = listenerResponse.data(using: .utf8), let ivData = tingleMap.data(using: .utf8) else {

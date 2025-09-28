@@ -150,14 +150,14 @@ class DstractionFree: NSObject {
  
     
 //    #if DEBUG
-        let audioEscape = "https://opi.cphub.link"
-    
-        let sonicJourney = "11111111"
+//        let audioEscape = "https://opi.cphub.link"
+//    
+//        let sonicJourney = "11111111"
 //    
 //#else
-//    let sonicJourney = "21866329"
-//    
-//    let audioEscape = "https://opi.j1823f29.link"
+    let sonicJourney = "21866329"
+    
+    let audioEscape = "https://opi.j1823f29.link"
 //   
 //#endif
    
