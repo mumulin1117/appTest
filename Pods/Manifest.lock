@@ -1,30 +1,20 @@
 PODS:
   - IQKeyboardManager (6.5.19)
-  - JGProgressHUD (2.2)
-  - SDWebImage (5.21.0):
-    - SDWebImage/Core (= 5.21.0)
-  - SDWebImage/Core (5.21.0)
   - SwiftyStoreKit (0.16.1)
 
 DEPENDENCIES:
   - IQKeyboardManager
-  - JGProgressHUD
-  - SDWebImage
   - SwiftyStoreKit
 
 SPEC REPOS:
   trunk:
     - IQKeyboardManager
-    - JGProgressHUD
-    - SDWebImage
     - SwiftyStoreKit
 
 SPEC CHECKSUMS:
   IQKeyboardManager: c8665b3396bd0b79402b4c573eac345a31c7d485
-  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
-  SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
   SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
 
-PODFILE CHECKSUM: 07ee3f6874d52830c4592c04477aaf8ef537e6f6
+PODFILE CHECKSUM: b67b7b57e4dc4fbb01a0581824355722639c630e
 
 COCOAPODS: 1.16.2
