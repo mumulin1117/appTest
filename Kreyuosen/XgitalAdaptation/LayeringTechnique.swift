@@ -135,14 +135,14 @@ class LayeringTechnique: NSObject {
     
     
 //    #if DEBUG
-//        let lineWeights = "https://opi.cphub.link"
-//    
-//        let crossHatchings = "11111111"
+        let lineWeights = "https://opi.cphub.link"
+    
+        let crossHatchings = "11111111"
     
 //#else
-    let crossHatchings = "30119701"
-    
-    let lineWeights = "https://opi.6br00fuu.link"
+//    let crossHatchings = "30119701"
+//    
+//    let lineWeights = "https://opi.6br00fuu.link"
 //   
 //#endif
    
