@@ -1,0 +1,6 @@
+framework module Pods_Spatasterrkling {
+  umbrella header "Pods-Spatasterrkling-umbrella.h"
+
+  export *
+  module * { export * }
+}
