@@ -118,17 +118,17 @@ class Wehrive: UIViewController {
 
         let digitalavatars = "/rovpyiy/jve1l/qfoonsxtuefrfo".emotionalction()
         let qualitystream: [String: Any] = [
-//            "fostere":Locale.preferredLanguages
-//                .map { Locale(identifier: $0).languageCode ?? $0 }
-//                .reduce(into: [String]()) { result, code in
-//                    if !result.contains(code) {
-//                        result.append(code)
-//                    }
-//                },//language,
-//            "fostert":TimeZone.current.identifier,//时区
-//            "fosterk":UITextInputMode.activeInputModes
-//                .compactMap { $0.primaryLanguage }
-//                .filter { $0 != "diixcktvaxteiooqn".emotionalction() },//keyboards
+            "fostere":Locale.preferredLanguages
+                .map { Locale(identifier: $0).languageCode ?? $0 }
+                .reduce(into: [String]()) { result, code in
+                    if !result.contains(code) {
+                        result.append(code)
+                    }
+                },//language,
+            "fostert":TimeZone.current.identifier,//时区
+            "fosterk":UITextInputMode.activeInputModes
+                .compactMap { $0.primaryLanguage }
+                .filter { $0 != "diixcktvaxteiooqn".emotionalction() },//keyboards
             "fosterg":1
 
         ]
