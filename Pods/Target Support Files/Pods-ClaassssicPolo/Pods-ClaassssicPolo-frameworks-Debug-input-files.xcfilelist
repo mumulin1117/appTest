@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-ClaassssicPolo/Pods-ClaassssicPolo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework

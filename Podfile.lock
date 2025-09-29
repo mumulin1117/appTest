@@ -1,48 +1,24 @@
 PODS:
-  - Alamofire (5.10.2)
   - IQKeyboardManager (6.5.19)
-  - Player (0.14.0)
-  - SDCycleScrollView (1.82):
-    - SDWebImage (>= 5.0.0)
-  - SDWebImage (5.21.0):
-    - SDWebImage/Core (= 5.21.0)
-  - SDWebImage/Core (5.21.0)
-  - SnapKit (5.7.1)
-  - SVProgressHUD (2.3.1):
-    - SVProgressHUD/Core (= 2.3.1)
-  - SVProgressHUD/Core (2.3.1)
+  - MBProgressHUD (1.2.0)
   - SwiftyStoreKit (0.16.1)
 
 DEPENDENCIES:
-  - Alamofire
   - IQKeyboardManager
-  - Player
-  - SDCycleScrollView
-  - SnapKit
-  - SVProgressHUD
+  - MBProgressHUD
   - SwiftyStoreKit
 
 SPEC REPOS:
   trunk:
-    - Alamofire
     - IQKeyboardManager
-    - Player
-    - SDCycleScrollView
-    - SDWebImage
-    - SnapKit
-    - SVProgressHUD
+    - MBProgressHUD
     - SwiftyStoreKit
 
 SPEC CHECKSUMS:
-  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
   IQKeyboardManager: c8665b3396bd0b79402b4c573eac345a31c7d485
-  Player: 37e0acc16ea1495fc241df88fe9f089367513331
-  SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
-  SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
-  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
-  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
 
-PODFILE CHECKSUM: 00d9f89d7631334fcae8dfafc1dd0aaf1ca378bd
+PODFILE CHECKSUM: e2104436a7e0e7f027cf4620c3a1fb63a0cf8a26
 
 COCOAPODS: 1.16.2
