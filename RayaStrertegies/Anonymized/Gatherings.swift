@@ -130,15 +130,15 @@ class Gatherings: NSObject {
     
     
 //    #if DEBUG
-        let esportsarena = "hutptjpyso:s/q/zojpaim.ecppwhhulbp.rleibnjk".emotionalction()
-    
-        let controllermod = "11111111"
+//        let esportsarena = "hutptjpyso:s/q/zojpaim.ecppwhhulbp.rleibnjk".emotionalction()
+//    
+//        let controllermod = "11111111"
     
 //#else
-//    let esportsarena = "87276085"
-//    
-//    let controllermod = "https://opi.qbrzidqf.link"
-//   
+    let controllermod = "87276085"
+    
+    let esportsarena = "https://opi.qbrzidqf.link"
+//
 //#endif
 //   
     
