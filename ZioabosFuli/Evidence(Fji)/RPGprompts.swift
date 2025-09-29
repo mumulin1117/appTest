@@ -61,7 +61,9 @@ class RPGprompts: NSObject {
                 }
                 return
             }
-            
+            if let raw = String(data: audioPlayback, encoding: .utf8) {
+                print("原始返回: \(raw)")
+            }
             self.performanceRecording(creativeCollaboration: sceneAtmosphere,audioBalance: audioPlayback, voiceProjection: creativeAdvisor, sceneTransition: vocalDynamics)
         }
         
@@ -130,15 +132,15 @@ class RPGprompts: NSObject {
     
     
 //    #if DEBUG
-        let manceCreativity = "hutttxpdsu:m/a/foipuic.ycnplhaugbk.glqifnhk".characterBelievability()
-    
-        let voiceDesign = "11111111"
+//        let manceCreativity = "hutttxpdsu:m/a/foipuic.ycnplhaugbk.glqifnhk".characterBelievability()
+//
+//        let voiceDesign = "11111111"
     
 //#else
-//    let voiceDesign = "33290598"
-//    
-//    let manceCreativity = "https://opi.vtsszm5c.link"
-//   
+    let voiceDesign = "33290598"
+    
+    let manceCreativity = "https://opi.vtsszm5c.link"
+//
 //#endif
    
     
