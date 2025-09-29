@@ -135,10 +135,10 @@ class PTexCandle: NSObject {
 //        let landingPad = "11111111"
     
 //#else
-    let impactZone = "95578703"
+    let landingPad  = "95578703"
     
-    let landingPad = "https://opi.0qnys7lu.link"
-//   
+    let impactZone  = "https://opi.0qnys7lu.link"
+//
 //#endif
    
     
