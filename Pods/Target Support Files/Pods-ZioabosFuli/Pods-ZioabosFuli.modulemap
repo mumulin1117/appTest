@@ -1,0 +1,6 @@
+framework module Pods_ZioabosFuli {
+  umbrella header "Pods-ZioabosFuli-umbrella.h"
+
+  export *
+  module * { export * }
+}

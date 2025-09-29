@@ -1,13 +1,16 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'RayaStrertegies' do
+target 'ZioabosFuli' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for RayaStrertegies
-pod "IQKeyboardManager"
-
+  # Pods for ZioabosFuli
+pod 'Alamofire'
+pod 'SwiftyStoreKit'
+pod 'SnapKit'
 pod "SVProgressHUD"
-pod "SwiftyStoreKit"
+pod 'SDCycleScrollView'
+pod "Player"
+pod "IQKeyboardManager"
 end
