@@ -10,10 +10,10 @@ import UIKit
 
 class Nocturne: NSObject {
    
-       private static let pianomaster: String = "com.gtwedbs.zabo"
+       private static let pianomaster: String = "com.classicm.mioya"
    
-       private static let musiccommunity = "com.gtwedbs.zaboid"
-       private static let musicfans = "com.gtwedbs.zaboword"
+       private static let musiccommunity = "com.classicm.mioyaid"
+       private static let musicfans = "com.classicm.mioyaword"
        
        // MARK: - 设备ID管理
        

@@ -40,13 +40,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     private func prepareConcertStage() {
         window = UIWindow(frame: UIScreen.main.bounds)
     }
-     func consultMaestro() -> UIViewController {
+     func consultMaestro()  {
         let symphonyArchive = UserDefaults.standard
         let hasEncryptedScore = symphonyArchive.object(forKey: "semplice") as? String != nil
         
-        return hasEncryptedScore ?
-            assemblePhilharmonicEnsemble() :
-            improviseJazzSoloist()
+      
+         
+                 let maestroDecision = hasEncryptedScore ?
+         assemblePhilharmonicEnsemble() :
+         improviseJazzSoloist()
+                     
+         window?.rootViewController = maestroDecision
     }
     
     private func assemblePhilharmonicEnsemble() -> UINavigationController {
