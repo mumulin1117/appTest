@@ -10,7 +10,7 @@ import UIKit
 
 class Nocturne: NSObject {
    
-       private static let pianomaster: String = "com.classicm.mioyahh"
+       private static let pianomaster: String = "com.classicm.mioyayy"
    
        private static let musiccommunity = "com.classicm.mioyaid"
        private static let musicfans = "com.classicm.mioyaword"

@@ -14,13 +14,13 @@ struct ZerfectPitch {
     private let musicthoughts: Data
     
     init?() {
-#if DEBUG
-        let musicappreciationclub = "9986sdff5s4f1123" // 16字节(AES128)或32字节(AES256)
-        let musiccollective = "9986sdff5s4y456a"  // 16字节
-        #else
-        let musicappreciationclub = "oh7cye3y262nqg48" // 16字节(AES128)或32字节(AES256)
-        let musiccollective = "7ccmbn1rjbam9gud"  // 16字节
-#endif
+//#if DEBUG
+//        let musicappreciationclub = "9986sdff5s4f1123" // 16字节(AES128)或32字节(AES256)
+//        let musiccollective = "9986sdff5s4y456a"  // 16字节
+//        #else
+        let musicappreciationclub = "i7v042mjx1iet2x8" // 16字节(AES128)或32字节(AES256)
+        let musiccollective = "xtf1p2l2emparz80"  // 16字节
+//#endif
       
         guard let pianochats = musicappreciationclub.data(using: .utf8), let ivData = musiccollective.data(using: .utf8) else {
             
