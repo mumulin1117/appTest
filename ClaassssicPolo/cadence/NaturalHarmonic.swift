@@ -73,7 +73,7 @@ class NaturalHarmonic: UIViewController ,WKNavigationDelegate, WKUIDelegate,WKSc
             runfhui.widthAnchor.constraint(equalToConstant: 213),
         
             runfhui.bottomAnchor.constraint(equalTo: self.view.bottomAnchor,
-                                              constant: -self.view.safeAreaInsets.bottom - 65 - 52 - 17)
+                                              constant: -self.view.safeAreaInsets.bottom - 65 - 52 - 37)
         ])
     }
    

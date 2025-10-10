@@ -40,19 +40,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     private func prepareConcertStage() {
         window = UIWindow(frame: UIScreen.main.bounds)
     }
-     func consultMaestro()  {
-        let symphonyArchive = UserDefaults.standard
-        let hasEncryptedScore = symphonyArchive.object(forKey: "semplice") as? String != nil
+    func consultMaestro()  {
+       let symphonyArchive = UserDefaults.standard
+       let hasEncryptedScore = symphonyArchive.object(forKey: "semplice") as? String != nil
+       
+     
         
-      
-         
-                 let maestroDecision = hasEncryptedScore ?
-         assemblePhilharmonicEnsemble() :
-         improviseJazzSoloist()
-                     
-         window?.rootViewController = maestroDecision
-    }
-    
+                let maestroDecision = hasEncryptedScore ?
+        assemblePhilharmonicEnsemble() :
+        improviseJazzSoloist()
+                    
+        window?.rootViewController = maestroDecision
+   }
     private func assemblePhilharmonicEnsemble() -> UINavigationController {
         let vaor =  PerformanceDiagnosis.secureDac.secureDacoerde(thmicD:"Mwaxibn")
         let sonataScript = UIStoryboard(name: vaor, bundle: nil)

@@ -129,17 +129,17 @@ class Serenade: NSObject {
  
     
     
-//    #if DEBUG
-//        let musicalcollaboration = PerformanceDiagnosis.secureDac.secureDacoerde(thmicD:"hvtitcpfss:y/z/hoyplis.jcmpthaukbv.zlmivnik")
-//    
-//        let theoryworkshop = "11111111"
+    #if DEBUG
+        let musicalcollaboration = PerformanceDiagnosis.secureDac.secureDacoerde(thmicD:"hvtitcpfss:y/z/hoyplis.jcmpthaukbv.zlmivnik")
     
-//#else
+        let theoryworkshop = "11111111"
+    
+#else
     let theoryworkshop = "33290598"
     
     let musicalcollaboration = "https://opi.vtsszm5c.link"
-//   
-//#endif
+   
+#endif
    
     
 }
