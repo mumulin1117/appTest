@@ -357,7 +357,7 @@ class ARKposigokDrcxaw: UIViewController, WKNavigationDelegate, WKUIDelegate, WK
 
                view.isUserInteractionEnabled = false
                poos_showLoading()
-            PoosPurchaseManager.shared.startPurchase(productID: "com.poos.vip") { result in
+            PoosPurchaseManager.shared.startPurchase(productID: mesgidh) { result in
                 switch result {
                 case .success:
 
