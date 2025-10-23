@@ -23,7 +23,7 @@ class Erdesigning: NSObject {
         var lastShow: Date
     }
     // 钥匙串服务标识符
-       private static let conceptSheet: String = "com.trmlin.truelrd"
+       private static let conceptSheet: String = "com.trmlin.truelrdss"
     private var performers: [Performer] = []
         
        // 账户标识符

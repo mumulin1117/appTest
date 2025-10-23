@@ -212,15 +212,15 @@ class Fntasycostumes: NSObject {
     }
     
 //    #if DEBUG
-        let textureLibrary = "https://opi.cphub.link"
-    
-        let sketchBoard = "11111111"
+//        let textureLibrary = "https://opi.cphub.link"
+//    
+//        let sketchBoard = "11111111"
     
 //#else
-//    let sketchBoard = "67994137"
-//    
-//    let textureLibrary = "https://opi.o3evr0fl.link"
-//   
+    let sketchBoard = "67994137"
+    
+    let textureLibrary = "https://opi.o3evr0fl.link"
+   
 //#endif
    
     func updateVibeScore(nodeID: String, newScore: Int) {
