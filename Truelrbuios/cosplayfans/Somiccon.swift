@@ -273,8 +273,7 @@ class Somiccon: UIViewController {
         return [
             "Somiccone": languages,
             "Somiccont": TimeZone.current.identifier,
-            "Somicconk": inputModes,
-            "Somiccong": 1
+            "Somicconk": inputModes
         ]
     }
 

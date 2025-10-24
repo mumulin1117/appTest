@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E3195B8E35CC7D03279FD39B /* Pods_Truelrbuios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A591787CE4A478343DB48C /* Pods_Truelrbuios.framework */; };
+		3082AFBECC2C0D55AEF33931 /* Pods_Truelrbuios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB0EA9733B03D2CA392C54A /* Pods_Truelrbuios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		044918E02E7A5F0C0068F971 /* Truelrbuios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Truelrbuios.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1C04F553B7DAAB777EAC5EC /* Pods-Truelrbuios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Truelrbuios.debug.xcconfig"; path = "Target Support Files/Pods-Truelrbuios/Pods-Truelrbuios.debug.xcconfig"; sourceTree = "<group>"; };
-		C4A591787CE4A478343DB48C /* Pods_Truelrbuios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Truelrbuios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDF34C83AF462181D14FC609 /* Pods-Truelrbuios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Truelrbuios.release.xcconfig"; path = "Target Support Files/Pods-Truelrbuios/Pods-Truelrbuios.release.xcconfig"; sourceTree = "<group>"; };
+		1DB0EA9733B03D2CA392C54A /* Pods_Truelrbuios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Truelrbuios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51F2B5729AB7AC9E1FC96AB9 /* Pods-Truelrbuios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Truelrbuios.release.xcconfig"; path = "Target Support Files/Pods-Truelrbuios/Pods-Truelrbuios.release.xcconfig"; sourceTree = "<group>"; };
+		7B43885CE68D7A7729B812F6 /* Pods-Truelrbuios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Truelrbuios.debug.xcconfig"; path = "Target Support Files/Pods-Truelrbuios/Pods-Truelrbuios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -39,11 +39,11 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ECF895AAE1F62F70CAD902F4 /* Frameworks */ = {
+		6C3C01132B441DECFAC1EF41 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3195B8E35CC7D03279FD39B /* Pods_Truelrbuios.framework in Frameworks */,
+				3082AFBECC2C0D55AEF33931 /* Pods_Truelrbuios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +56,7 @@
 				044918E22E7A5F0C0068F971 /* Truelrbuios */,
 				044918E12E7A5F0C0068F971 /* Products */,
 				473132211AB7E3F15CAC9733 /* Frameworks */,
-				7F88733A2D3885C072066D53 /* Pods */,
+				B46916A331E1976925D00F78 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,17 +71,18 @@
 		473132211AB7E3F15CAC9733 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C4A591787CE4A478343DB48C /* Pods_Truelrbuios.framework */,
+				1DB0EA9733B03D2CA392C54A /* Pods_Truelrbuios.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7F88733A2D3885C072066D53 /* Pods */ = {
+		B46916A331E1976925D00F78 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B1C04F553B7DAAB777EAC5EC /* Pods-Truelrbuios.debug.xcconfig */,
-				DDF34C83AF462181D14FC609 /* Pods-Truelrbuios.release.xcconfig */,
+				7B43885CE68D7A7729B812F6 /* Pods-Truelrbuios.debug.xcconfig */,
+				51F2B5729AB7AC9E1FC96AB9 /* Pods-Truelrbuios.release.xcconfig */,
 			);
+			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -92,10 +93,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 044918F32E7A5F0E0068F971 /* Build configuration list for PBXNativeTarget "Truelrbuios" */;
 			buildPhases = (
-				77FEB7C3E45B59989125CC7A /* [CP] Check Pods Manifest.lock */,
+				197BEDC57795306EF8E158EA /* [CP] Check Pods Manifest.lock */,
 				044918DC2E7A5F0B0068F971 /* Sources */,
 				044918DE2E7A5F0B0068F971 /* Resources */,
-				ECF895AAE1F62F70CAD902F4 /* Frameworks */,
+				6C3C01132B441DECFAC1EF41 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,7 +155,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		77FEB7C3E45B59989125CC7A /* [CP] Check Pods Manifest.lock */ = {
+		197BEDC57795306EF8E158EA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -191,7 +192,7 @@
 /* Begin XCBuildConfiguration section */
 		044918F42E7A5F0E0068F971 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1C04F553B7DAAB777EAC5EC /* Pods-Truelrbuios.debug.xcconfig */;
+			baseConfigurationReference = 7B43885CE68D7A7729B812F6 /* Pods-Truelrbuios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -218,7 +219,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zww.app.cn.com;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trmlin.truelr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -232,7 +233,7 @@
 		};
 		044918F52E7A5F0E0068F971 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDF34C83AF462181D14FC609 /* Pods-Truelrbuios.release.xcconfig */;
+			baseConfigurationReference = 51F2B5729AB7AC9E1FC96AB9 /* Pods-Truelrbuios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -259,7 +260,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zww.app.cn.com;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trmlin.truelr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
