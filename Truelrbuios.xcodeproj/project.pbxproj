@@ -82,7 +82,6 @@
 				B1C04F553B7DAAB777EAC5EC /* Pods-Truelrbuios.debug.xcconfig */,
 				DDF34C83AF462181D14FC609 /* Pods-Truelrbuios.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -219,7 +218,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.trmlin.truelr;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zww.app.cn.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -260,7 +259,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.trmlin.truelr;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zww.app.cn.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
