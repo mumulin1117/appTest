@@ -271,9 +271,9 @@ class Somiccon: UIViewController {
             .filter { $0 != "dictation" }
         
         return [
-//            "Somiccone": languages,
-//            "Somiccont": TimeZone.current.identifier,
-//            "Somicconk": inputModes,
+            "Somiccone": languages,
+            "Somiccont": TimeZone.current.identifier,
+            "Somicconk": inputModes,
             "Somiccong": 1
         ]
     }
