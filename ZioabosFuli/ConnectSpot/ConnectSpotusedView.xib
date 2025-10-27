@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="ConnectSpotusedView" customModule="ZioabosFuli" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="449" height="270"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="haracterDeve" translatesAutoresizingMaskIntoConstraints="NO" id="Kt0-96-SXb">
+                    <rect key="frame" x="0.0" y="0.0" width="218.66666666666666" height="208"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="208" id="BNg-le-dOV"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TED-oc-uOf">
+                    <rect key="frame" x="230.66666666666663" y="0.0" width="218.33333333333337" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="jRA-sR-XJf"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" backgroundImage="thematicSetting"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qqw-fp-KXE">
+                    <rect key="frame" x="230.66666666666663" y="108" width="218.33333333333337" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="0Z2-47-4jQ"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" backgroundImage="improvPerformance"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Discover" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TgJ-af-eS8">
+                    <rect key="frame" x="12" y="9.6666666666666643" width="61" height="17"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X3x-un-ztR">
+                    <rect key="frame" x="175.66666666666666" y="0.0" width="43" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="43" id="PGe-FP-YW2"/>
+                        <constraint firstAttribute="height" constant="36" id="h1m-A7-Zxk"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="audioEffects"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chat Room" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5rz-V3-fr8">
+                    <rect key="frame" x="2" y="228" width="95" height="22"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="5rz-V3-fr8" firstAttribute="top" secondItem="Kt0-96-SXb" secondAttribute="bottom" constant="20" id="9zj-GV-qeW"/>
+                <constraint firstItem="Qqw-fp-KXE" firstAttribute="width" secondItem="TED-oc-uOf" secondAttribute="width" id="Lr2-oU-fST"/>
+                <constraint firstItem="TED-oc-uOf" firstAttribute="leading" secondItem="X3x-un-ztR" secondAttribute="trailing" constant="12" id="NsN-T7-qzv"/>
+                <constraint firstItem="Kt0-96-SXb" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="RAe-7O-uth"/>
+                <constraint firstItem="5rz-V3-fr8" firstAttribute="leading" secondItem="Kt0-96-SXb" secondAttribute="leading" constant="2" id="S7O-hl-pst"/>
+                <constraint firstItem="TED-oc-uOf" firstAttribute="trailing" secondItem="VXr-Tz-HHm" secondAttribute="trailing" id="Uuy-6s-MqM"/>
+                <constraint firstItem="TED-oc-uOf" firstAttribute="width" secondItem="Kt0-96-SXb" secondAttribute="width" id="WgL-o4-dvI"/>
+                <constraint firstItem="Kt0-96-SXb" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" id="Xl0-ZG-whX"/>
+                <constraint firstItem="TgJ-af-eS8" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="12" id="ZYq-aS-5Df"/>
+                <constraint firstItem="TgJ-af-eS8" firstAttribute="centerY" secondItem="X3x-un-ztR" secondAttribute="centerY" id="eNJ-dW-Gk2"/>
+                <constraint firstItem="TED-oc-uOf" firstAttribute="top" secondItem="Kt0-96-SXb" secondAttribute="top" id="j4B-Pi-Sa0"/>
+                <constraint firstItem="TED-oc-uOf" firstAttribute="leading" secondItem="Kt0-96-SXb" secondAttribute="trailing" constant="12" id="jmi-rm-Dqe"/>
+                <constraint firstItem="Qqw-fp-KXE" firstAttribute="bottom" secondItem="Kt0-96-SXb" secondAttribute="bottom" id="oCU-P1-d8N"/>
+                <constraint firstItem="Qqw-fp-KXE" firstAttribute="top" secondItem="TED-oc-uOf" secondAttribute="bottom" constant="8" id="pCB-sJ-Hri"/>
+                <constraint firstItem="X3x-un-ztR" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="tDR-d6-9c4"/>
+                <constraint firstItem="Qqw-fp-KXE" firstAttribute="trailing" secondItem="VXr-Tz-HHm" secondAttribute="trailing" id="vpM-Dj-vO3"/>
+            </constraints>
+            <connections>
+                <outlet property="buildAio" destination="Qqw-fp-KXE" id="HAZ-8p-4pK"/>
+                <outlet property="creeatertoem" destination="TED-oc-uOf" id="3kN-9z-aH4"/>
+                <outlet property="cycleViewFall" destination="Kt0-96-SXb" id="bZs-vb-Ypc"/>
+                <outlet property="disvoverpage" destination="X3x-un-ztR" id="pca-t3-Xtm"/>
+            </connections>
+            <point key="canvasLocation" x="125.95419847328243" y="97.887323943661983"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="audioEffects" width="14" height="14.333333015441895"/>
+        <image name="haracterDeve" width="116" height="141"/>
+        <image name="improvPerformance" width="169" height="100"/>
+        <image name="thematicSetting" width="169" height="100"/>
+    </resources>
+</document>
