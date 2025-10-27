@@ -132,6 +132,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //            }
 //        }
         sceneDimension()
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2, execute: DispatchWorkItem(block: {
+            self.rayTracingCores()
+        }))
         self.behavioralAnalysis()
         return true
     }

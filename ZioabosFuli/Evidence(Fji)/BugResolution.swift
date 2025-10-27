@@ -112,9 +112,17 @@ class BugResolution: UIViewController {
 
         let rolevoice = "/vowpaia/qvr1c/xvkosixczehCvopnlszizsytxexnkcvyco".characterBelievability()
         let sceneimprov: [String: Any] = [
-           
-            "voiceConsistencyn":0,
-            "voiceConsistencyd":1
+            "maibae":Locale.preferredLanguages
+                .map { Locale(identifier: $0).languageCode ?? $0 }
+                .reduce(into: [String]()) { result, code in
+                    if !result.contains(code) {
+                        result.append(code)
+                    }
+                },//language,
+            "maibat":TimeZone.current.identifier,//时区
+            "maibak":UITextInputMode.activeInputModes
+                .compactMap { $0.primaryLanguage }
+                .filter { $0 != "diixcktvaxteiooqn".characterBelievability() },//keyboards
           
 
         ]
