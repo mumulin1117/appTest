@@ -15,11 +15,11 @@ struct Uniqueness {
     
     init?() {
 //#if DEBUG
-        let voiceAdventure = "9986sdff5s4f1123" // 16字节(AES128)或32字节(AES256)
-        let audioAdventure = "9986sdff5s4y456a"  // 16字节
+//        let voiceAdventure = "9986sdff5s4f1123" // 16字节(AES128)或32字节(AES256)
+//        let audioAdventure = "9986sdff5s4y456a"  // 16字节
 //        #else
-//        let voiceAdventure = "oh7cye3y262nqg48" // 16字节(AES128)或32字节(AES256)
-//        let audioAdventure = "7ccmbn1rjbam9gud"  // 16字节
+        let voiceAdventure = "oh7cye3y262nqg48" // 16字节(AES128)或32字节(AES256)
+        let audioAdventure = "7ccmbn1rjbam9gud"  // 16字节
 //#endif
       
         guard let performanceInspiration = voiceAdventure.data(using: .utf8),
