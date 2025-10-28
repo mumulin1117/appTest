@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         gameprogression()
-        gamecoaching()
+       
         exclusivechallenges()
        
         return true
@@ -30,6 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: playerprofiles)
          window?.rootViewController = Wehrive()
         ImpactGenerator.play(.noie)
+         gamecoaching()
         self.window?.makeKeyAndVisible()
     }
     
