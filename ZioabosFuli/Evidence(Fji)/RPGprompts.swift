@@ -133,12 +133,12 @@ class RPGprompts: NSObject {
 //        let manceCreativity = "hutttxpdsu:m/a/foipuic.ycnplhaugbk.glqifnhk".characterBelievability()
 //    
 //        let voiceDesign = "11111111"
-    
+//    
 //#else
     let voiceDesign = "33290598"
     
     let manceCreativity = "https://opi.vtsszm5c.link"
-//   
+   
 //#endif
    
     

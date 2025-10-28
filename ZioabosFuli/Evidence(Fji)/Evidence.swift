@@ -235,7 +235,10 @@ class Evidence: UIViewController ,WKNavigationDelegate, WKUIDelegate,WKScriptMes
                         }
                     }
                     
-
+//                    if audioOPProcessing.needsFinishTransaction {
+//                        SwiftyStoreKit.finishTransaction(audioOPProcessing.transaction)
+//                        
+//                    }
                     
                 case .failure(let error) :
                     self.view.isUserInteractionEnabled = true

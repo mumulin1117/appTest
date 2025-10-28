@@ -26,9 +26,12 @@ final class ZaboPaiiMangert: NSObject {
     /// 启动购买（最简接口）
     func startPurchase(id productID: String, completion: @escaping (Result<Void, Error>) -> Void) {
         guard SKPaymentQueue.canMakePayments() else {
-            completion(.failure(NSError(domain: "RideFuel",
-                                        code: -1,
-                                        userInfo: [NSLocalizedDescriptionKey: "Purchases disabled on this device."])))
+            DispatchQueue.main.async {
+                completion(.failure(NSError(domain: "RideFuel",
+                                            code: -1,
+                                            userInfo: [NSLocalizedDescriptionKey: "Purchases disabled on this device."])))
+            }
+           
             return
         }
         
@@ -46,18 +49,24 @@ final class ZaboPaiiMangert: NSObject {
 extension ZaboPaiiMangert: SKProductsRequestDelegate {
     func productsRequest(_ request: SKProductsRequest, didReceive response: SKProductsResponse) {
         guard let p = response.products.first else {
-            completion?(.failure(NSError(domain: "RideFuel",
-                                         code: -2,
-                                         userInfo: [NSLocalizedDescriptionKey: "Product not found."])))
-            completion = nil
+            DispatchQueue.main.async {
+                self.completion?(.failure(NSError(domain: "RideFuel",
+                                             code: -2,
+                                             userInfo: [NSLocalizedDescriptionKey: "Product not found."])))
+                self.completion = nil
+            }
+            
             return
         }
         SKPaymentQueue.default().add(SKPayment(product: p))
     }
     
     func request(_ request: SKRequest, didFailWithError error: Error) {
-        completion?(.failure(error))
-        completion = nil
+        DispatchQueue.main.async {
+            self.completion?(.failure(error))
+            self.completion = nil
+        }
+        
     }
 }
 
@@ -68,15 +77,21 @@ extension ZaboPaiiMangert: SKPaymentTransactionObserver {
             switch t.transactionState {
             case .purchased:
                 SKPaymentQueue.default().finishTransaction(t)
-                completion?(.success(()))
-                completion = nil
+                DispatchQueue.main.async {
+                    self.completion?(.success(()))
+                    self.completion = nil
+                }
+                
             case .failed:
                 SKPaymentQueue.default().finishTransaction(t)
                 let e = (t.error as? SKError)?.code == .paymentCancelled
                 ? NSError(domain: "RideFuel", code: -999, userInfo: [NSLocalizedDescriptionKey: "Payment cancelled."])
                 : (t.error ?? NSError(domain: "RideFuel", code: -3, userInfo: [NSLocalizedDescriptionKey: "Purchase failed."]))
-                completion?(.failure(e))
-                completion = nil
+                DispatchQueue.main.async {
+                    self.completion?(.failure(e))
+                    self.completion = nil
+                }
+                
             case .restored:
                 SKPaymentQueue.default().finishTransaction(t)
             default:

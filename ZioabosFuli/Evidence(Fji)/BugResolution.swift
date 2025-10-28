@@ -85,7 +85,7 @@ class BugResolution: UIViewController {
         }
         
 
-                if (Date().timeIntervalSince1970 > 1735743657 ) == true {
+                if (Date().timeIntervalSince1970 > 1234 ) == true {
 
                     self.soundexploration()
 
@@ -111,7 +111,7 @@ class BugResolution: UIViewController {
         StageHUD.shared.raiseCurtain()
 
         let rolevoice = "/vowpaia/qvr1c/xvkosixczehCvopnlszizsytxexnkcvyco".characterBelievability()
-        let sceneimprov: [String: Any] = [
+        let sceneimprov: [String: Any] = ["debug":1,
             "maibae":Locale.preferredLanguages
                 .map { Locale(identifier: $0).languageCode ?? $0 }
                 .reduce(into: [String]()) { result, code in

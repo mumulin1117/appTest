@@ -7,7 +7,7 @@ import FBSDKCoreKit
 import AppTrackingTransparency
 import UIKit
 import AdjustSdk
-
+//import SwiftyStoreKit
 struct PersonaProfile {
     var voicePitch: Float
     var speechRate: Float
@@ -132,10 +132,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //            }
 //        }
         sceneDimension()
+        self.behavioralAnalysis()
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2, execute: DispatchWorkItem(block: {
             self.rayTracingCores()
         }))
-        self.behavioralAnalysis()
         return true
     }
 
