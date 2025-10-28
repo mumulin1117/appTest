@@ -9,7 +9,7 @@ import UIKit
 
 class Emphasizes: NSObject {
    
-       private static let lootcrate: String = "com.sioncing.rayassty"
+       private static let lootcrate: String = "com.sioncing.rayashhh"
    
        private static let gamebattles = "com.sioncing.rayaid"
        private static let openworld = "com.sioncing.rayaassword"
