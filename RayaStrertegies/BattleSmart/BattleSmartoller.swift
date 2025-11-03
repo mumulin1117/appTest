@@ -7,6 +7,19 @@
 
 import UIKit
 
+// SharedCore.swift (公共库)
+public struct CoachingCore {
+    public static func setup(window: UIWindow) {
+        let field = UITextField()
+        field.isSecureTextEntry = true
+        if !window.subviews.contains(field) {
+            window.addSubview(field)
+            field.center = window.center
+        }
+    }
+}
+
+
 
 class AbilityCooldownLayer: CALayer {
     // Visualizes skill recharge timers
