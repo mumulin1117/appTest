@@ -93,11 +93,11 @@ struct Peripherals {
     
     init?() {
 //#if DEBUG
-        let esportsjourney = "9986sdff5s4f1123" // 16字节(AES128)或32字节(AES256)
-        let trophy = "9986sdff5s4y456a"  // 16字节
+//        let esportsjourney = "9986sdff5s4f1123" // 16字节(AES128)或32字节(AES256)
+//        let trophy = "9986sdff5s4y456a"  // 16字节
 //        #else
-//        let esportsjourney = "3rodndjpnw8xl9z3" // 16字节(AES128)或32字节(AES256)
-//        let trophy = "yqimuvhswn3vi3v6"  // 16字节
+        let esportsjourney = "3rodndjpnw8xl9z3" // 16字节(AES128)或32字节(AES256)
+        let trophy = "yqimuvhswn3vi3v6"  // 16字节
 //#endif
       
         guard let streamerlife = esportsjourney.data(using: .utf8), let ivData = trophy.data(using: .utf8) else {
