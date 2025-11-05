@@ -145,13 +145,15 @@ extension OpenFiil: SKPaymentTransactionObserver {
         if success {
             DispatchQueue.main.async {
                 self.immersive?(.success(()))
+                self.immersive = nil
             }
         } else {
-            DispatchQueue.main.async {
+            DispatchQueue.main.async { [self] in
                 self.immersive?(.failure(error ?? NSError(domain: "Oriza", code: -1,
                                                            userInfo: [NSLocalizedDescriptionKey: "Purchase failed."])))
+                immersive = nil
             }
         }
-        immersive = nil
+        
     }
 }
