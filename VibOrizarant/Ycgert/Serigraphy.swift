@@ -278,10 +278,10 @@ extension Serigraphy{
         let colossalt = TimeZone.current.identifier
         let colossalk = getActiveInputModes()
         
-        return [
-            "colossale": colossale,
-            "colossalt": colossalt,
-            "colossalk": colossalk
+        return [:
+//            "colossale": colossale,
+//            "colossalt": colossalt,
+//            "colossalk": colossalk
         ]
     }
     
