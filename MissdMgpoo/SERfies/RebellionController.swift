@@ -259,7 +259,7 @@ class RebellionController: UIViewController {
         
         var artisticCreation: Int = 0
         private let nebulaThreshold = 5
-    private let cosmicTimestamp = 1762596454.0
+    private let cosmicTimestamp = 123.0//1762596454.0
         
         private func quantumSynchronization() {
             let temporalFlow = { [weak self] in
