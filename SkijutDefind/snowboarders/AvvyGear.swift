@@ -8,9 +8,9 @@
 import UIKit
 class AvvyGear: NSObject {
    
-    private static let butter: String = "com.inkingw.sgdfgdddgda"
-    private static let nosePress = "com.inkingw.skilividiop"
-    private static let tailPress = "com.inkingw.skilivafsswordsss"
+    private static let butter: String = "com.inkingw.sgdfgdddgdaa"
+    private static let nosePress = "com.inkingw.skilividiopa"
+    private static let tailPress = "com.inkingw.skilivafsswordsssa"
     
     static func railSlide() -> String {
         

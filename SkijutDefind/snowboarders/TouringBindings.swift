@@ -238,7 +238,7 @@ class TouringBindings: UIViewController {
                               let colorGrading = faceShot.waveBox(mailbox: theatrical)
                         else { return }
                    
-                        let blowerPow = gladed +
+                        let blowerPow = bumpField +
                             RailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"/j?wompseynyPoacrlagmksa=") +
                             colorGrading +
                             RailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"&eatpbprIsdo=") +
