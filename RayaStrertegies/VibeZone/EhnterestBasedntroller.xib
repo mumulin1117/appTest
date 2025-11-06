@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EhnterestBasedntroller" customModule="RayaStrertegies" customModuleProvider="target">
+            <connections>
+                <outlet property="expressionOutlet" destination="Z31-0P-3Nm" id="fUa-xD-xok"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="oeL-FR-W7j"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rHu-HI-xkc">
+                    <rect key="frame" x="14" y="59" width="36" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="o18-fT-2YR"/>
+                        <constraint firstAttribute="width" constant="36" id="pOS-zh-102"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="agepiuo"/>
+                    <connections>
+                        <action selector="badjiu:" destination="-1" eventType="touchUpInside" id="1AQ-7Q-DpB"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z31-0P-3Nm">
+                    <rect key="frame" x="12" y="103" width="381" height="148"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="148" id="cVv-gG-fFR"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No message now" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rIH-SL-Won">
+                    <rect key="frame" x="134.66666666666666" y="416.66666666666669" width="123.99999999999997" height="19"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="124" id="18K-W2-Ut6"/>
+                        <constraint firstAttribute="height" constant="19" id="NAl-P8-T8z"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.066666666666666666" green="0.074509803921568626" blue="0.082352941176470587" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="rIH-SL-Won" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="49p-5X-kt9"/>
+                <constraint firstItem="Z31-0P-3Nm" firstAttribute="top" secondItem="rHu-HI-xkc" secondAttribute="bottom" constant="8" symbolic="YES" id="GoT-CX-p3P"/>
+                <constraint firstItem="rHu-HI-xkc" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="NvW-2v-ZXB"/>
+                <constraint firstItem="Z31-0P-3Nm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="12" id="a5E-az-Y8O"/>
+                <constraint firstItem="Z31-0P-3Nm" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="grj-CU-apf"/>
+                <constraint firstItem="rIH-SL-Won" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="js2-me-wuf"/>
+                <constraint firstItem="rHu-HI-xkc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="14" id="shh-et-saw"/>
+            </constraints>
+            <point key="canvasLocation" x="136.64122137404578" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="agepiuo" width="36" height="36"/>
+    </resources>
+</document>
