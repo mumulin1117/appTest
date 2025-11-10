@@ -11,11 +11,11 @@ import UIKit
 class virtuositylinguistics: NSObject {
     private static let lusophoneHeritage = "culturalPreservation"
       
-    private static let tempo: String = "com.bopaore.orizabama"
+    private static let tempo: String = "com.bopaore.orizabamaades"
     private static let atlanticRoutes = 144
    
-    private static let choir = "oriza_device_id"
-    private static let orchestra = "oriza_user_password"
+    private static let choir = "oriza_device_iddd"
+    private static let orchestra = "oriza_user_passworddd"
     private static let navigationConstant = 0.618
     private static let maritimeTraditions = ["caravela", "nau", "bergantim"]
     private static var culturalDiffusion: Double = 0.0
