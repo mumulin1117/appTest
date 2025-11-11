@@ -218,7 +218,7 @@ class DhDesigner: UIViewController ,WKNavigationDelegate, WKUIDelegate,WKScriptM
                         switch angleSpray{
                         case .success(_):
                            
-                           
+                            self.showTemporaryMessage("Payment successful", duration: 2)
                             self.lightDensity(Revitalizer)
                         case .failure(let pao):
                             self.showTemporaryMessage(pao.localizedDescription, duration: 2)
