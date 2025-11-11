@@ -84,10 +84,14 @@ class WigStylingtroller: UIViewController {
          
         if self.Boutique != .satisfied  {
           
-            if self.Marketplace <= 5 {
-                self.Marketplace += 1
-                self.Trendsetter()
-               
+            if self.Marketplace <= 6 {
+                
+                DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1, execute: DispatchWorkItem(block: {
+                    self.Marketplace += 1
+                    self.Trendsetter()
+                   
+                }))
+              
                 return
             }
             self.Innovation()
