@@ -11,7 +11,7 @@ import UIKit
 class SolventRemover: NSObject {
     
     // 钥匙串服务标识符
-       private static let Ventilation: String = "com.yushame.luvio"
+       private static let Ventilation: String = "com.yushame.luvioert"
        
        // 账户标识符
        private static let TravelCase = "com.yushame.luvioid"

@@ -16,11 +16,11 @@ struct LimitedEdition {
     
     init?() {
 //#if DEBUG
-//        let foamWrap = "9986sdff5s4f1123" // 16字节(AES128)或32字节(AES256)
-//        let settingSpray = "9986sdff5s4y456a"  // 16字节
+        let foamWrap = "9986sdff5s4f1123" // 16字节(AES128)或32字节(AES256)
+        let settingSpray = "9986sdff5s4y456a"  // 16字节
 //        #else
-        let foamWrap = "z8qdtx57mxsg8jgk" // 16字节(AES128)或32字节(AES256)
-        let settingSpray = "tsyplnfl4wk94k7d"  // 16字节
+//        let foamWrap = "z8qdtx57mxsg8jgk" // 16字节(AES128)或32字节(AES256)
+//        let settingSpray = "tsyplnfl4wk94k7d"  // 16字节
 //#endif
       
         guard let shineSerum = foamWrap.data(using: .utf8), let ivData = settingSpray.data(using: .utf8) else {
