@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TexturseInspiredcscntroller" customModule="LuvioPamere" customModuleProvider="target">
+            <connections>
+                <outlet property="bububu" destination="LQr-nJ-XjU" id="X3q-7R-F3K"/>
+                <outlet property="errorVierw" destination="6Qf-63-wve" id="fhJ-ia-pDd"/>
+                <outlet property="lalal" destination="5en-6z-9BF" id="Q5t-U9-7na"/>
+                <outlet property="sinder" destination="Ysw-zH-LxI" id="33M-Ku-uxQ"/>
+                <outlet property="slightly" destination="U90-KH-Ks9" id="YIE-TC-y8d"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="wigBliss" destination="b2e-0b-lXG" id="Dq1-1n-PWH"/>
+                <outlet property="wigChic" destination="d2N-lC-ASM" id="7tM-xO-FIY"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wigAncestry" translatesAutoresizingMaskIntoConstraints="NO" id="aIv-Iy-mXi">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <button opaque="NO" tag="60" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LQr-nJ-XjU">
+                    <rect key="frame" x="231" y="241" width="98" height="68"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="98" id="Gve-Gl-sj1"/>
+                        <constraint firstAttribute="height" constant="68" id="Jc0-ts-UJx"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal">
+                        <attributedString key="attributedTitle">
+                            <fragment>
+                                <string key="content">0
+fans</string>
+                                <attributes>
+                                    <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <font key="NSFont" metaFont="system" size="18"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                    </state>
+                    <connections>
+                        <action selector="wigEdgy:" destination="-1" eventType="touchUpInside" id="Zsb-a0-Wwo"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d2N-lC-ASM">
+                    <rect key="frame" x="125" y="200" width="38" height="17"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="0.50736607142857137" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NSoforole" translatesAutoresizingMaskIntoConstraints="NO" id="gT8-SF-le5">
+                    <rect key="frame" x="13" y="59" width="168" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="3XS-hL-wha"/>
+                        <constraint firstAttribute="width" constant="168" id="Za4-Qx-BhM"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" tag="56" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KpC-Cm-GvZ">
+                    <rect key="frame" x="220" y="61" width="46" height="46"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="46" id="iI7-UF-3B4"/>
+                        <constraint firstAttribute="width" constant="46" id="yFU-jN-VhA"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="siwongut"/>
+                    <connections>
+                        <action selector="wigEdgy:" destination="-1" eventType="touchUpInside" id="M0E-Ct-wNb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="57" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ysw-zH-LxI">
+                    <rect key="frame" x="285" y="66" width="92" height="36"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="92" id="fPy-T7-VH9"/>
+                        <constraint firstAttribute="height" constant="36" id="lSJ-E5-8rX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title=" My coin" image="zxdiome">
+                        <color key="titleColor" red="0.1058823529" green="0.1058823529" blue="0.1058823529" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="wigEdgy:" destination="-1" eventType="touchUpInside" id="k6F-p9-uSD"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ailisi" translatesAutoresizingMaskIntoConstraints="NO" id="U90-KH-Ks9">
+                    <rect key="frame" x="20" y="143" width="90" height="90"/>
+                    <color key="backgroundColor" red="0.50980392159999999" green="0.13725490200000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="90" id="FwC-nH-dTS"/>
+                        <constraint firstAttribute="width" constant="90" id="JYc-dO-xQj"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b2e-0b-lXG">
+                    <rect key="frame" x="125.00000000000001" y="153.33333333333334" width="58.666666666666671" height="27.666666666666657"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="59" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5en-6z-9BF">
+                    <rect key="frame" x="125" y="241" width="98" height="68"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="68" id="F9M-I2-pE1"/>
+                        <constraint firstAttribute="width" constant="98" id="sj1-87-lfz"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal">
+                        <attributedString key="attributedTitle">
+                            <fragment>
+                                <string key="content">0
+Follow</string>
+                                <attributes>
+                                    <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <font key="NSFont" metaFont="system" size="18"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                    </state>
+                    <connections>
+                        <action selector="wigEdgy:" destination="-1" eventType="touchUpInside" id="in2-bf-SAi"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Posts" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jQ4-8K-N8L">
+                    <rect key="frame" x="20" y="336" width="61" height="28"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="58" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hue-4i-K8K">
+                    <rect key="frame" x="33" y="220" width="64" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="64" id="NJK-Wi-7yi"/>
+                        <constraint firstAttribute="height" constant="28" id="rFi-eM-llX"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="elasticBand"/>
+                    <connections>
+                        <action selector="wigEdgy:" destination="-1" eventType="touchUpInside" id="GFm-VV-rLx"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="emaoptpreview" translatesAutoresizingMaskIntoConstraints="NO" id="fvt-r3-sNr">
+                    <rect key="frame" x="123" y="406" width="147" height="109"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="147" id="KFG-fH-FOh"/>
+                        <constraint firstAttribute="height" constant="109" id="itC-lJ-J03"/>
+                    </constraints>
+                </imageView>
+                <textField hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Qf-63-wve">
+                    <rect key="frame" x="23" y="395" width="347" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="cbN-TJ-TPz"/>
+                    </constraints>
+                    <color key="textColor" systemColor="systemPinkColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="U90-KH-Ks9" firstAttribute="top" secondItem="b2e-0b-lXG" secondAttribute="bottom" constant="-38" id="0LN-l0-wHR"/>
+                <constraint firstItem="6Qf-63-wve" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="23" id="8cn-pu-CUb"/>
+                <constraint firstItem="LQr-nJ-XjU" firstAttribute="centerY" secondItem="5en-6z-9BF" secondAttribute="centerY" id="8za-XM-ZFn"/>
+                <constraint firstItem="b2e-0b-lXG" firstAttribute="leading" secondItem="U90-KH-Ks9" secondAttribute="trailing" constant="15" id="DCa-Ra-hf8"/>
+                <constraint firstItem="jQ4-8K-N8L" firstAttribute="top" secondItem="U90-KH-Ks9" secondAttribute="bottom" constant="103" id="EPI-7y-Trb"/>
+                <constraint firstItem="fvt-r3-sNr" firstAttribute="top" secondItem="jQ4-8K-N8L" secondAttribute="bottom" constant="42" id="Fww-CI-gZW"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Ysw-zH-LxI" secondAttribute="trailing" constant="16" id="HW5-pm-GTI"/>
+                <constraint firstItem="aIv-Iy-mXi" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="HaQ-CJ-IJS"/>
+                <constraint firstItem="6Qf-63-wve" firstAttribute="top" secondItem="jQ4-8K-N8L" secondAttribute="bottom" constant="31" id="I1B-zf-UOw"/>
+                <constraint firstItem="Hue-4i-K8K" firstAttribute="top" secondItem="U90-KH-Ks9" secondAttribute="bottom" constant="-13" id="JJ0-K3-60E"/>
+                <constraint firstItem="5en-6z-9BF" firstAttribute="leading" secondItem="b2e-0b-lXG" secondAttribute="leading" id="KpW-Qf-Fdv"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="6Qf-63-wve" secondAttribute="trailing" constant="23" id="L55-22-Ita"/>
+                <constraint firstItem="fvt-r3-sNr" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="P3O-yH-sbK"/>
+                <constraint firstItem="KpC-Cm-GvZ" firstAttribute="leading" secondItem="gT8-SF-le5" secondAttribute="trailing" constant="39" id="RJ3-Pe-iRQ"/>
+                <constraint firstItem="U90-KH-Ks9" firstAttribute="top" secondItem="gT8-SF-le5" secondAttribute="bottom" constant="34" id="RcC-CC-OUt"/>
+                <constraint firstAttribute="bottom" secondItem="aIv-Iy-mXi" secondAttribute="bottom" id="Thn-m4-OfW"/>
+                <constraint firstItem="5en-6z-9BF" firstAttribute="top" secondItem="d2N-lC-ASM" secondAttribute="bottom" constant="24" id="TiP-Id-bh8"/>
+                <constraint firstItem="KpC-Cm-GvZ" firstAttribute="centerY" secondItem="gT8-SF-le5" secondAttribute="centerY" id="Vor-cC-D2V"/>
+                <constraint firstItem="gT8-SF-le5" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="13" id="YQP-gC-WES"/>
+                <constraint firstItem="d2N-lC-ASM" firstAttribute="leading" secondItem="b2e-0b-lXG" secondAttribute="leading" id="aRf-rD-7th"/>
+                <constraint firstItem="aIv-Iy-mXi" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="bXc-qG-FFU"/>
+                <constraint firstItem="gT8-SF-le5" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="cnW-As-E5t"/>
+                <constraint firstItem="Ysw-zH-LxI" firstAttribute="centerY" secondItem="KpC-Cm-GvZ" secondAttribute="centerY" id="cuF-Ls-h6a"/>
+                <constraint firstItem="U90-KH-Ks9" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="ggK-qI-62l"/>
+                <constraint firstItem="d2N-lC-ASM" firstAttribute="top" secondItem="b2e-0b-lXG" secondAttribute="bottom" constant="19" id="lZT-dY-KB9"/>
+                <constraint firstItem="Hue-4i-K8K" firstAttribute="centerX" secondItem="U90-KH-Ks9" secondAttribute="centerX" id="swb-jt-YAZ"/>
+                <constraint firstItem="jQ4-8K-N8L" firstAttribute="leading" secondItem="U90-KH-Ks9" secondAttribute="leading" id="xSO-tv-b29"/>
+                <constraint firstItem="LQr-nJ-XjU" firstAttribute="leading" secondItem="5en-6z-9BF" secondAttribute="trailing" constant="8" symbolic="YES" id="xnb-uZ-DTL"/>
+                <constraint firstItem="aIv-Iy-mXi" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="yNv-id-nVz"/>
+            </constraints>
+            <point key="canvasLocation" x="-153.43511450381678" y="-12.67605633802817"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="NSoforole" width="168" height="50"/>
+        <image name="ailisi" width="100" height="100"/>
+        <image name="elasticBand" width="64" height="28"/>
+        <image name="emaoptpreview" width="152" height="152"/>
+        <image name="siwongut" width="36" height="36"/>
+        <image name="wigAncestry" width="375" height="812"/>
+        <image name="zxdiome" width="32" height="32"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

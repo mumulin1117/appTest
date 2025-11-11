@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 71;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -16,6 +16,7 @@
 			dependencies = (
 			);
 			name = AdjustSignature;
+			productName = AdjustSignature;
 		};
 		28907903AF6DD0AD321D92CD660E7E23 /* FBSDKCoreKit */ = {
 			isa = PBXAggregateTarget;
@@ -28,6 +29,7 @@
 				97D62C0C430D8D098D111C5AECAC996C /* PBXTargetDependency */,
 			);
 			name = FBSDKCoreKit;
+			productName = FBSDKCoreKit;
 		};
 		479BDBD165CD08E2159181E58CD2078F /* FBAEMKit */ = {
 			isa = PBXAggregateTarget;
@@ -39,6 +41,7 @@
 				8DADB283E5DC06EF1B2AD16827E9E8F5 /* PBXTargetDependency */,
 			);
 			name = FBAEMKit;
+			productName = FBAEMKit;
 		};
 		8EA62FEAB23070050EFD4D4508D659E5 /* FBSDKCoreKit_Basics */ = {
 			isa = PBXAggregateTarget;
@@ -49,6 +52,7 @@
 			dependencies = (
 			);
 			name = FBSDKCoreKit_Basics;
+			productName = FBSDKCoreKit_Basics;
 		};
 /* End PBXAggregateTarget section */
 
@@ -79,10 +83,9 @@
 		37074BEE352328D245485161D4F4DE91 /* ADJDeeplink.m in Sources */ = {isa = PBXBuildFile; fileRef = 6723EAE394638147BC0C65303955B893 /* ADJDeeplink.m */; };
 		3B0902D0FB1EB43CCCF98291721EB2C5 /* ADJActivityState.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E69C03B1495B2AC79EAC96099A954EC /* ADJActivityState.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3CF61F505FA90154B902D49A2438B72C /* ADJLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = CEB08B78D435D052DB63206FE7292FCE /* ADJLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40BCE9228182ECD606AEE04C87DC9BB8 /* Adjust-Adjust in Resources */ = {isa = PBXBuildFile; fileRef = B6C339432292171DF9AF35D79D97FF46 /* Adjust-Adjust */; };
+		40BCE9228182ECD606AEE04C87DC9BB8 /* Adjust.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B6C339432292171DF9AF35D79D97FF46 /* Adjust.bundle */; };
 		44477271F4942FAD0AFE8A57C8DD996D /* ADJEventFailure.h in Headers */ = {isa = PBXBuildFile; fileRef = E38F1174F2827C7D0AAD139BEB0CDDCE /* ADJEventFailure.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4BAB4AA700B7975C5A67B44A7831FA46 /* ADJPackageHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 424AF65B0DEBF6B5B29B259A61BBD2BC /* ADJPackageHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4C748FAAFA59D9E1DEBBA026335DF0A5 /* Pods-VibOrizarant-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 837F34BDDF0BB73759A5CFA6F8AD303E /* Pods-VibOrizarant-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DCDA3C280FE00A865CE4E83FA60C5F4 /* ADJUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = B7E0C969AFD14DE7B06687EE334D84FC /* ADJUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		51A4AD7527079BE467D5F477B85A4F5B /* ADJPackageBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F70A160CFA2170401F96EC4BB8D6875 /* ADJPackageBuilder.m */; };
 		5888B3A4D9EA77A8B54EE710AD42E605 /* ADJSKAdNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 372245C194A8B9900FD9F1A2C0813BF5 /* ADJSKAdNetwork.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -95,6 +98,7 @@
 		663BC5CD6C1F7F5EE15976441F21DB88 /* ADJPackageParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 773B4C84FC8864D994A1CB9EC8130F9C /* ADJPackageParams.m */; };
 		686F6A4167B1D54424004EB0F1E0FB19 /* ADJAdRevenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 826D9BE07FD879C98CBA3C4C11CFBAD1 /* ADJAdRevenue.m */; };
 		6B13D856F24F6A58B0CDAEB4E11298F6 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E481F122C95C393A5B5C7363847C720E /* PrivacyInfo.xcprivacy */; };
+		6B24562D279027AB11A8EC5C3856938D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A29F3A4CF2BE85A4E26F4BDC4B39BC /* Foundation.framework */; };
 		6DD082736F728832160D83CBB8DBC3A9 /* ADJActivityHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = ADD44FD3A630BC6A64F029CD787CBB16 /* ADJActivityHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6DFD9643194FC73504B4C38FD7C44920 /* ADJActivityKind.m in Sources */ = {isa = PBXBuildFile; fileRef = 185AFD0D3C9731AE36D1F6BEFAAE5BD9 /* ADJActivityKind.m */; };
 		6F6EDD80C0D7A325E05DCD4E08606DEB /* ADJTimerOnce.h in Headers */ = {isa = PBXBuildFile; fileRef = C70CD5A7EA5100FE12BA2A32A9A8449D /* ADJTimerOnce.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -107,6 +111,7 @@
 		85831DC5FCB7AA01EA33E1F4368B994B /* ADJAttributionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 864601F01062AC7F9F39C3F06AF07885 /* ADJAttributionHandler.m */; };
 		863EB465E832998ECDEC97A4D3AE5D86 /* ADJSessionFailure.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E226B95FAC0A9332ABAB6C6AB9553A2 /* ADJSessionFailure.m */; };
 		8759A6EBB15E6894F2C10E70D16EC3F2 /* ADJActivityPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CC7AB7BDE974EAA1DA7520FD92167A /* ADJActivityPackage.m */; };
+		897C28DED31F4AE9028A7EEA456B31E8 /* Pods-LuvioPamere-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20859CA92AC86313A0F8E1B2F90DE5B4 /* Pods-LuvioPamere-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A1A2E87141D1DBF4CF93F429CDD7479 /* ADJEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F9306D575AE1794983C8469EEEDBDE /* ADJEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A3A35AB4ED35F4AAA96AEC965BEE5E2 /* ADJSdkClickHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 10952F7F568D1B7228315D796ABDFE36 /* ADJSdkClickHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8D5E6544B88CC2B40DFDFE57EAAFAC37 /* ADJPurchaseVerificationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5CB546286E2E031F6496F146B0887B /* ADJPurchaseVerificationHandler.m */; };
@@ -116,7 +121,6 @@
 		978999AB89D8BA6E5F46B613A0335F67 /* ADJAttribution.m in Sources */ = {isa = PBXBuildFile; fileRef = BF230BF5DA406961F7289F8C38CB6381 /* ADJAttribution.m */; };
 		992A7ACA532A31D52CBB8223994B8B3C /* ADJEventSuccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 281616E3D83F7D3FBF53F1BB49A838C0 /* ADJEventSuccess.m */; };
 		9FE893E7D397752F1FE8A96B6FCA897F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A29F3A4CF2BE85A4E26F4BDC4B39BC /* Foundation.framework */; };
-		A38C54B1621A5C380F2C15A256EC6587 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A29F3A4CF2BE85A4E26F4BDC4B39BC /* Foundation.framework */; };
 		A9B09F3AB2224872C02306BE2C699612 /* ADJAppStoreSubscription.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A2D5480FD813DF32A726D5F4F78B3A0 /* ADJAppStoreSubscription.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB1F25D98A3ED9988AAF098AEACE049B /* ADJPackageBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 78740041084C1CBD67E7AFBF7A2C7B74 /* ADJPackageBuilder.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		ADC151ECC48AEFD7054B8520C2005F88 /* ADJSessionFailure.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F3577BF0EF5F75F95B52D37A422B610 /* ADJSessionFailure.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -125,8 +129,8 @@
 		BAA18B88C055F5D58444A6CA9A08604A /* ADJSessionSuccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 9798A34E3BFE1E7F6A6195E23FFB327A /* ADJSessionSuccess.m */; };
 		BD3F948A9CFEA920292F381A8B1D5518 /* ADJAdjustFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DE92B778905258A5B9697D651EF0D0 /* ADJAdjustFactory.m */; };
 		C9F8980DA0D9BA86CADD2D07B924690C /* ADJPurchaseVerificationResult.h in Headers */ = {isa = PBXBuildFile; fileRef = B5697A55F9D722CB234313637E0D3003 /* ADJPurchaseVerificationResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA8489C17A490E7CD5797B86788B00D7 /* Pods-VibOrizarant-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E24AACC93D557944414EA83EC09B85AB /* Pods-VibOrizarant-dummy.m */; };
 		CD458E01EB51BFCB0F692C280BC61D6D /* ADJSKAdNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 1566BAE2D77F59340982F5054D58DF4C /* ADJSKAdNetwork.m */; };
+		D169ACA047E76870634A01B717B6EACD /* Pods-LuvioPamere-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6921A635AFADAA72E579E524945D94E7 /* Pods-LuvioPamere-dummy.m */; };
 		D25FB8797E2C4482286C11F99BFEE333 /* ADJRequestHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = D7A7B1C4AF89DF9C42EF7C3454E8C8AD /* ADJRequestHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D2E315619CED8EE4A241C16E4FBB5F8B /* ADJResponseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A03E6BF63009F249A262FFEE1E139C /* ADJResponseData.m */; };
 		DDB5C2F92272A7C065C29538F50C4480 /* ADJGlobalParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 915E9E19D4AA4421D3A223FC532C661D /* ADJGlobalParameters.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -142,19 +146,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1502B1A0FEB70EDC36BFAAF7F45A9B80 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7111F362EA0D14BECD8B96EA1EAA5F79;
-			remoteInfo = Adjust;
-		};
 		2B4C68B7DD7C09D3669EB5368822169A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 471352CEDDB3183F0E470F770197C032;
 			remoteInfo = "Adjust-Adjust";
+		};
+		2CBF8ACC6083306FBE84638B52FBF96A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26FB84987CFFD20C5EE3572256C80B04;
+			remoteInfo = AdjustSignature;
 		};
 		3B1CD878158FFEDA233FBAE5CC121CBA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -170,19 +174,26 @@
 			remoteGlobalIDString = 479BDBD165CD08E2159181E58CD2078F;
 			remoteInfo = FBAEMKit;
 		};
-		4C80002F1C594A8F8A7A7580BD7341A1 /* PBXContainerItemProxy */ = {
+		64B34ED95CDABBC827617B0CF738A7C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8EA62FEAB23070050EFD4D4508D659E5;
-			remoteInfo = FBSDKCoreKit_Basics;
+			remoteGlobalIDString = 7111F362EA0D14BECD8B96EA1EAA5F79;
+			remoteInfo = Adjust;
 		};
-		5A31AEB19D33B5FE3F282ED5D2C4B443 /* PBXContainerItemProxy */ = {
+		6DD0B004DA1A22B18C0185F96078737F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 26FB84987CFFD20C5EE3572256C80B04;
-			remoteInfo = AdjustSignature;
+			remoteGlobalIDString = 479BDBD165CD08E2159181E58CD2078F;
+			remoteInfo = FBAEMKit;
+		};
+		74220538DE6E09D183548B1CB14BF0E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28907903AF6DD0AD321D92CD660E7E23;
+			remoteInfo = FBSDKCoreKit;
 		};
 		7B7F9FA539CDCF2B725EFC8A7B94AD27 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -198,42 +209,36 @@
 			remoteGlobalIDString = 26FB84987CFFD20C5EE3572256C80B04;
 			remoteInfo = AdjustSignature;
 		};
-		E7F2D4970126AD49C309EEF8FD42F2C4 /* PBXContainerItemProxy */ = {
+		FB9236FE436806007AEF5A3D978FC512 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 28907903AF6DD0AD321D92CD660E7E23;
-			remoteInfo = FBSDKCoreKit;
-		};
-		FB3CCEF1DAF831340AE44FB5E6D1BE3E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 479BDBD165CD08E2159181E58CD2078F;
-			remoteInfo = FBAEMKit;
+			remoteGlobalIDString = 8EA62FEAB23070050EFD4D4508D659E5;
+			remoteInfo = FBSDKCoreKit_Basics;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		024EA03906B563A8050EDFCA5B7E5A0C /* ADJActivityPackage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJActivityPackage.h; path = Adjust/Internal/ADJActivityPackage.h; sourceTree = "<group>"; };
+		03A7CFC8D1ABA4B6C3E4249B4B7E9E93 /* Pods_LuvioPamere.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuvioPamere.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0858D82332926EA1DD4E39102D830C64 /* AdjustSignature-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AdjustSignature-xcframeworks.sh"; sourceTree = "<group>"; };
 		08A29F3A4CF2BE85A4E26F4BDC4B39BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		0BECFC46606ED8BE15D831B43E446C22 /* ADJPurchaseVerificationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJPurchaseVerificationHandler.h; path = Adjust/Internal/ADJPurchaseVerificationHandler.h; sourceTree = "<group>"; };
 		0C5CB546286E2E031F6496F146B0887B /* ADJPurchaseVerificationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJPurchaseVerificationHandler.m; path = Adjust/Internal/ADJPurchaseVerificationHandler.m; sourceTree = "<group>"; };
 		0CC349E62F7E8B95726F445D1FEFC60B /* ADJAttributionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJAttributionHandler.h; path = Adjust/Internal/ADJAttributionHandler.h; sourceTree = "<group>"; };
+		0DB0CA0C40963A63271AD26D497E20A3 /* Pods-LuvioPamere.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LuvioPamere.modulemap"; sourceTree = "<group>"; };
 		10952F7F568D1B7228315D796ABDFE36 /* ADJSdkClickHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJSdkClickHandler.h; path = Adjust/Internal/ADJSdkClickHandler.h; sourceTree = "<group>"; };
 		110D52FB69E16AB93F73369E543356F8 /* ResourceBundle-Adjust-Adjust-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Adjust-Adjust-Info.plist"; sourceTree = "<group>"; };
-		118D77C4F2B2D9930DEC58F57B383BFA /* Pods-VibOrizarant.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VibOrizarant.modulemap"; sourceTree = "<group>"; };
-		12A1DFF84CA54FD4C898DEDEB6641535 /* Pods-VibOrizarant-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VibOrizarant-acknowledgements.markdown"; sourceTree = "<group>"; };
-		14350F41045502821058839F82EF47EE /* Pods-VibOrizarant-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VibOrizarant-Info.plist"; sourceTree = "<group>"; };
 		1566BAE2D77F59340982F5054D58DF4C /* ADJSKAdNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJSKAdNetwork.m; path = Adjust/Internal/ADJSKAdNetwork.m; sourceTree = "<group>"; };
 		15F9306D575AE1794983C8469EEEDBDE /* ADJEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJEvent.h; path = Adjust/ADJEvent.h; sourceTree = "<group>"; };
+		16A6D22F3400E91CF92188978470198B /* Pods-LuvioPamere.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuvioPamere.release.xcconfig"; sourceTree = "<group>"; };
 		17D0408B9AE1758D42BEE7EFB0729394 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		185AFD0D3C9731AE36D1F6BEFAAE5BD9 /* ADJActivityKind.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJActivityKind.m; path = Adjust/Internal/ADJActivityKind.m; sourceTree = "<group>"; };
 		1A81D6F50D9C4BB235D301E57B38C591 /* ADJPurchaseVerificationResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJPurchaseVerificationResult.m; path = Adjust/ADJPurchaseVerificationResult.m; sourceTree = "<group>"; };
 		1E3BC50304A3E3F7121B85FA7255C6D8 /* ADJEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJEvent.m; path = Adjust/ADJEvent.m; sourceTree = "<group>"; };
 		1EED3DE5FCD98A05D279430A7FC1EC39 /* AdjustSignature.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AdjustSignature.debug.xcconfig; sourceTree = "<group>"; };
-		215DF7C41CA6BF5D01618FE73FD8B5B5 /* FBSDKCoreKit_Basics.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FBSDKCoreKit_Basics.xcframework; path = XCFrameworks/FBSDKCoreKit_Basics.xcframework; sourceTree = "<group>"; };
+		20859CA92AC86313A0F8E1B2F90DE5B4 /* Pods-LuvioPamere-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LuvioPamere-umbrella.h"; sourceTree = "<group>"; };
+		215DF7C41CA6BF5D01618FE73FD8B5B5 /* FBSDKCoreKit_Basics.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = FBSDKCoreKit_Basics.xcframework; path = XCFrameworks/FBSDKCoreKit_Basics.xcframework; sourceTree = "<group>"; };
 		23EA0D4BDA6681E81B503B928050E1EB /* ADJLinkResolution.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJLinkResolution.h; path = Adjust/ADJLinkResolution.h; sourceTree = "<group>"; };
 		27A4F72DADD41292BFDF944928186AE3 /* ADJEventFailure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJEventFailure.m; path = Adjust/ADJEventFailure.m; sourceTree = "<group>"; };
 		281616E3D83F7D3FBF53F1BB49A838C0 /* ADJEventSuccess.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJEventSuccess.m; path = Adjust/ADJEventSuccess.m; sourceTree = "<group>"; };
@@ -248,34 +253,34 @@
 		424AF65B0DEBF6B5B29B259A61BBD2BC /* ADJPackageHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJPackageHandler.h; path = Adjust/Internal/ADJPackageHandler.h; sourceTree = "<group>"; };
 		428411591F81648A5AC1188568A31FB6 /* FBAEMKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBAEMKit.release.xcconfig; sourceTree = "<group>"; };
 		46CC7AB7BDE974EAA1DA7520FD92167A /* ADJActivityPackage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJActivityPackage.m; path = Adjust/Internal/ADJActivityPackage.m; sourceTree = "<group>"; };
+		4B61CFB52C62123203F258518E4AEC5E /* Pods-LuvioPamere.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuvioPamere.debug.xcconfig"; sourceTree = "<group>"; };
 		52288FD547046AFD702281BDAF50FE10 /* ADJBackoffStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJBackoffStrategy.h; path = Adjust/Internal/ADJBackoffStrategy.h; sourceTree = "<group>"; };
-		54246DF748D8168C40EAE6A0F22AC756 /* Pods-VibOrizarant */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VibOrizarant"; path = Pods_VibOrizarant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54A03E6BF63009F249A262FFEE1E139C /* ADJResponseData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJResponseData.m; path = Adjust/Internal/ADJResponseData.m; sourceTree = "<group>"; };
 		54DE92B778905258A5B9697D651EF0D0 /* ADJAdjustFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJAdjustFactory.m; path = Adjust/Internal/ADJAdjustFactory.m; sourceTree = "<group>"; };
 		56793EE75028C7B488F19027BFBFD92B /* Adjust-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Adjust-Info.plist"; sourceTree = "<group>"; };
 		56CFBE7D8D35BE4CE602166199D62C18 /* ADJUrlStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJUrlStrategy.h; path = Adjust/Internal/ADJUrlStrategy.h; sourceTree = "<group>"; };
 		572EB2E3A4F19FA7B72A8A626D1F65B1 /* ADJSessionSuccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJSessionSuccess.h; path = Adjust/ADJSessionSuccess.h; sourceTree = "<group>"; };
+		5A12E4200965FB37369389B7B55DDA0D /* Pods-LuvioPamere-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuvioPamere-frameworks.sh"; sourceTree = "<group>"; };
 		5A2D5480FD813DF32A726D5F4F78B3A0 /* ADJAppStoreSubscription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJAppStoreSubscription.h; path = Adjust/ADJAppStoreSubscription.h; sourceTree = "<group>"; };
 		5B36A2416503BEBE432063CD4085985F /* ADJAttribution.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJAttribution.h; path = Adjust/ADJAttribution.h; sourceTree = "<group>"; };
 		5F70A160CFA2170401F96EC4BB8D6875 /* ADJPackageBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJPackageBuilder.m; path = Adjust/Internal/ADJPackageBuilder.m; sourceTree = "<group>"; };
-		60712779EEC2AA46C5EE69C168400E11 /* Pods-VibOrizarant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VibOrizarant.debug.xcconfig"; sourceTree = "<group>"; };
 		6164B7817D7B5EFADA66F622EAABF386 /* FBAEMKit-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FBAEMKit-xcframeworks.sh"; sourceTree = "<group>"; };
-		62D2F49335965C21FA1FD2E9D12B5756 /* FBSDKCoreKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FBSDKCoreKit.xcframework; path = XCFrameworks/FBSDKCoreKit.xcframework; sourceTree = "<group>"; };
+		62D2F49335965C21FA1FD2E9D12B5756 /* FBSDKCoreKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = FBSDKCoreKit.xcframework; path = XCFrameworks/FBSDKCoreKit.xcframework; sourceTree = "<group>"; };
 		64EF9E546563F50F18A65DC6DBE91020 /* FBSDKCoreKit_Basics-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FBSDKCoreKit_Basics-xcframeworks.sh"; sourceTree = "<group>"; };
 		670260446BDFFBBC6EFB4664070A5969 /* ADJTimerCycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJTimerCycle.h; path = Adjust/Internal/ADJTimerCycle.h; sourceTree = "<group>"; };
 		6709E46062093A2EAFE868CDD31690B7 /* Adjust-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Adjust-dummy.m"; sourceTree = "<group>"; };
 		6723EAE394638147BC0C65303955B893 /* ADJDeeplink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJDeeplink.m; path = Adjust/ADJDeeplink.m; sourceTree = "<group>"; };
 		685E865C81E47FED3680948A3CAC6BC7 /* ADJThirdPartySharing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJThirdPartySharing.m; path = Adjust/ADJThirdPartySharing.m; sourceTree = "<group>"; };
+		6921A635AFADAA72E579E524945D94E7 /* Pods-LuvioPamere-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LuvioPamere-dummy.m"; sourceTree = "<group>"; };
 		6E69C03B1495B2AC79EAC96099A954EC /* ADJActivityState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJActivityState.h; path = Adjust/Internal/ADJActivityState.h; sourceTree = "<group>"; };
 		702C5E973533D65CF7C591F2F5A5306D /* FBSDKCoreKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSDKCoreKit.release.xcconfig; sourceTree = "<group>"; };
-		71A6215EB8E2EEE8AA4FD5B9ABE54085 /* AdjustSigSdk.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AdjustSigSdk.xcframework; sourceTree = "<group>"; };
+		71A6215EB8E2EEE8AA4FD5B9ABE54085 /* AdjustSigSdk.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = AdjustSigSdk.xcframework; sourceTree = "<group>"; };
 		773B4C84FC8864D994A1CB9EC8130F9C /* ADJPackageParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJPackageParams.m; path = Adjust/Internal/ADJPackageParams.m; sourceTree = "<group>"; };
 		7771D3AE403D07DD1CD395804235FACA /* ADJLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJLogger.m; path = Adjust/ADJLogger.m; sourceTree = "<group>"; };
 		78740041084C1CBD67E7AFBF7A2C7B74 /* ADJPackageBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJPackageBuilder.h; path = Adjust/Internal/ADJPackageBuilder.h; sourceTree = "<group>"; };
 		7C9DC2CEE18C461C83087A89D7BCA5D5 /* ADJGlobalParameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJGlobalParameters.m; path = Adjust/Internal/ADJGlobalParameters.m; sourceTree = "<group>"; };
-		7FF5C62DF1E2D492F272FD7D2A1EF4A3 /* Adjust */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Adjust; path = AdjustSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FF5C62DF1E2D492F272FD7D2A1EF4A3 /* AdjustSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AdjustSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		826D9BE07FD879C98CBA3C4C11CFBAD1 /* ADJAdRevenue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJAdRevenue.m; path = Adjust/ADJAdRevenue.m; sourceTree = "<group>"; };
-		837F34BDDF0BB73759A5CFA6F8AD303E /* Pods-VibOrizarant-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VibOrizarant-umbrella.h"; sourceTree = "<group>"; };
 		84388326F88D2F92B7EB46C575663217 /* ADJUrlStrategy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJUrlStrategy.m; path = Adjust/Internal/ADJUrlStrategy.m; sourceTree = "<group>"; };
 		864601F01062AC7F9F39C3F06AF07885 /* ADJAttributionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJAttributionHandler.m; path = Adjust/Internal/ADJAttributionHandler.m; sourceTree = "<group>"; };
 		8980FE7FF4FA384B881E8F6D6893BD0F /* ADJActivityKind.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJActivityKind.h; path = Adjust/Internal/ADJActivityKind.h; sourceTree = "<group>"; };
@@ -284,28 +289,29 @@
 		8DD11B078D6E9BF1086D24BA10A63068 /* AdjustSdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdjustSdk.h; path = UmbrellaHeaders/sdk/AdjustSdk.h; sourceTree = "<group>"; };
 		8F93A613D3F1A1D5F62B9D513B2E6D1B /* ADJResponseData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJResponseData.h; path = Adjust/Internal/ADJResponseData.h; sourceTree = "<group>"; };
 		915E9E19D4AA4421D3A223FC532C661D /* ADJGlobalParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJGlobalParameters.h; path = Adjust/Internal/ADJGlobalParameters.h; sourceTree = "<group>"; };
+		92FC86E76FF7D1C1D7FD7C8A8C9AE8A0 /* Pods-LuvioPamere-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuvioPamere-acknowledgements.plist"; sourceTree = "<group>"; };
 		945D6F08CEB3C63B547C66B7EC3E24CB /* ADJActivityHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJActivityHandler.m; path = Adjust/Internal/ADJActivityHandler.m; sourceTree = "<group>"; };
 		9798A34E3BFE1E7F6A6195E23FFB327A /* ADJSessionSuccess.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJSessionSuccess.m; path = Adjust/ADJSessionSuccess.m; sourceTree = "<group>"; };
 		97C2073189D38B947DCB4B62E3E68DC2 /* ADJAppStoreSubscription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJAppStoreSubscription.m; path = Adjust/ADJAppStoreSubscription.m; sourceTree = "<group>"; };
 		98BF10DA0E99983593BF9E2D448F1635 /* ADJAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJAdditions.m; path = Adjust/Internal/ADJAdditions.m; sourceTree = "<group>"; };
 		999E9B70484428259097407CFE3F65B2 /* ADJConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJConfig.h; path = Adjust/ADJConfig.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FE4113DAD49F332C6D651967E5E336B /* ADJDeeplink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJDeeplink.h; path = Adjust/ADJDeeplink.h; sourceTree = "<group>"; };
-		9FE9D680FE380AFEA14445D8B3D2452D /* FBAEMKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FBAEMKit.xcframework; path = XCFrameworks/FBAEMKit.xcframework; sourceTree = "<group>"; };
+		9FE9D680FE380AFEA14445D8B3D2452D /* FBAEMKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = FBAEMKit.xcframework; path = XCFrameworks/FBAEMKit.xcframework; sourceTree = "<group>"; };
 		A41C3C6C2C6EDD00E3853F2D695DC467 /* Adjust.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Adjust.m; path = Adjust/Adjust.m; sourceTree = "<group>"; };
 		A5EEEF186A0F6EAB0B77866BEE1DE232 /* ADJTimerCycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJTimerCycle.m; path = Adjust/Internal/ADJTimerCycle.m; sourceTree = "<group>"; };
 		A710D147BB3DCF85DB7B4D38540A5B7F /* Adjust.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Adjust.debug.xcconfig; sourceTree = "<group>"; };
-		A857E41DDE9E63A320436B55696F0C1A /* Pods-VibOrizarant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VibOrizarant.release.xcconfig"; sourceTree = "<group>"; };
+		A8BBDAAF40E62FD94C014757F3D1D305 /* Pods-LuvioPamere-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LuvioPamere-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AC4C6BD57F3E385E9D1A9E6C10012B60 /* ADJLinkResolution.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJLinkResolution.m; path = Adjust/ADJLinkResolution.m; sourceTree = "<group>"; };
 		ADAEE07C694A83515AA68C78EBF68FFE /* ADJSdkClickHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJSdkClickHandler.m; path = Adjust/Internal/ADJSdkClickHandler.m; sourceTree = "<group>"; };
 		ADD44FD3A630BC6A64F029CD787CBB16 /* ADJActivityHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJActivityHandler.h; path = Adjust/Internal/ADJActivityHandler.h; sourceTree = "<group>"; };
 		B23A84C7189B8A9A304623DE5E523061 /* FBAEMKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBAEMKit.debug.xcconfig; sourceTree = "<group>"; };
-		B2EB915D1FB8241118F58378F3F04441 /* Pods-VibOrizarant-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VibOrizarant-frameworks.sh"; sourceTree = "<group>"; };
 		B5697A55F9D722CB234313637E0D3003 /* ADJPurchaseVerificationResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJPurchaseVerificationResult.h; path = Adjust/ADJPurchaseVerificationResult.h; sourceTree = "<group>"; };
-		B6C339432292171DF9AF35D79D97FF46 /* Adjust-Adjust */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Adjust-Adjust"; path = Adjust.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C339432292171DF9AF35D79D97FF46 /* Adjust.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Adjust.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E0C969AFD14DE7B06687EE334D84FC /* ADJUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJUtil.h; path = Adjust/Internal/ADJUtil.h; sourceTree = "<group>"; };
 		BE8D89E9A2923F45A27C656BFEBB1DF0 /* Adjust.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Adjust.release.xcconfig; sourceTree = "<group>"; };
 		BEB136D49C06BB6A7EEDF7B0BB07B908 /* ADJEventSuccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJEventSuccess.h; path = Adjust/ADJEventSuccess.h; sourceTree = "<group>"; };
+		BED77429B61B1221CD5E2E079391F9D6 /* Pods-LuvioPamere-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuvioPamere-Info.plist"; sourceTree = "<group>"; };
 		BF230BF5DA406961F7289F8C38CB6381 /* ADJAttribution.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJAttribution.m; path = Adjust/ADJAttribution.m; sourceTree = "<group>"; };
 		C1A168FBB6035BE5556642A900175900 /* FBSDKCoreKit-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FBSDKCoreKit-xcframeworks.sh"; sourceTree = "<group>"; };
 		C6DDCE0F915604621BBABE722EDF61D1 /* FBSDKCoreKit_Basics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSDKCoreKit_Basics.release.xcconfig; sourceTree = "<group>"; };
@@ -320,14 +326,12 @@
 		D7687483EE25ECCF02E77AFA814DDBC2 /* ADJAdjustFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJAdjustFactory.h; path = Adjust/Internal/ADJAdjustFactory.h; sourceTree = "<group>"; };
 		D798683BEC9FC7E4966A5E2700DF3B55 /* Adjust.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Adjust.h; path = Adjust/Adjust.h; sourceTree = "<group>"; };
 		D7A7B1C4AF89DF9C42EF7C3454E8C8AD /* ADJRequestHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJRequestHandler.h; path = Adjust/Internal/ADJRequestHandler.h; sourceTree = "<group>"; };
-		DBB7975E5D0B317FEC7A05E7420520DC /* Pods-VibOrizarant-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VibOrizarant-acknowledgements.plist"; sourceTree = "<group>"; };
 		DE51D048F685542B556419CC4A971281 /* ADJAppStorePurchase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJAppStorePurchase.m; path = Adjust/ADJAppStorePurchase.m; sourceTree = "<group>"; };
 		E1E0AD56A3FE9C5F0C7E3B9A5D19140F /* ADJUserDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJUserDefaults.h; path = Adjust/Internal/ADJUserDefaults.h; sourceTree = "<group>"; };
-		E24AACC93D557944414EA83EC09B85AB /* Pods-VibOrizarant-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VibOrizarant-dummy.m"; sourceTree = "<group>"; };
 		E2AF9AD0D981D52BF5A550E3EAC3907B /* Adjust-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Adjust-umbrella.h"; sourceTree = "<group>"; };
 		E38F1174F2827C7D0AAD139BEB0CDDCE /* ADJEventFailure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJEventFailure.h; path = Adjust/ADJEventFailure.h; sourceTree = "<group>"; };
 		E402D82E913343BFD08242ED55A12687 /* AdjustSignature.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AdjustSignature.release.xcconfig; sourceTree = "<group>"; };
-		E481F122C95C393A5B5C7363847C720E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Adjust/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		E481F122C95C393A5B5C7363847C720E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Adjust/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ECE4991AB352D5050261089238686DA1 /* ADJUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJUtil.m; path = Adjust/Internal/ADJUtil.m; sourceTree = "<group>"; };
 		F38128B40E93C112B788BE19C6901AD3 /* FBSDKCoreKit_Basics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSDKCoreKit_Basics.debug.xcconfig; sourceTree = "<group>"; };
 		F6B94ECE4FB7E0B3796DF4D1B0BD1870 /* ADJThirdPartySharing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJThirdPartySharing.h; path = Adjust/ADJThirdPartySharing.h; sourceTree = "<group>"; };
@@ -335,18 +339,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		250405C2F2EA9E732B5C49091E058774 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A38C54B1621A5C380F2C15A256EC6587 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		840C45CF9A5BE7D325CDACE09CE5F177 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC30D610C57E45980796745BEBC9EF07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B24562D279027AB11A8EC5C3856938D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +372,6 @@
 				442B778389D26D88A5E20D7A3AACFC09 /* Adjust */,
 				D3E3B8AD343C291845C71312137534A1 /* Support Files */,
 			);
-			name = Adjust;
 			path = Adjust;
 			sourceTree = "<group>";
 		};
@@ -405,7 +408,6 @@
 				3A97373786C65B7AB7F84DA227FD88CF /* Frameworks */,
 				DD22FE0F72B1523F9F2BB53AFA098244 /* Support Files */,
 			);
-			name = AdjustSignature;
 			path = AdjustSignature;
 			sourceTree = "<group>";
 		};
@@ -530,22 +532,22 @@
 			path = "../Target Support Files/FBSDKCoreKit_Basics";
 			sourceTree = "<group>";
 		};
+		61CE0686757399E7AD66A38916203FF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FF5C62DF1E2D492F272FD7D2A1EF4A3 /* AdjustSdk.framework */,
+				B6C339432292171DF9AF35D79D97FF46 /* Adjust.bundle */,
+				03A7CFC8D1ABA4B6C3E4249B4B7E9E93 /* Pods_LuvioPamere.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		692B0A86DEDAF6AEEB8336CBF0AB4769 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				9FE9D680FE380AFEA14445D8B3D2452D /* FBAEMKit.xcframework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8308F892DA40DB8F372B5A1308404F21 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7FF5C62DF1E2D492F272FD7D2A1EF4A3 /* Adjust */,
-				B6C339432292171DF9AF35D79D97FF46 /* Adjust-Adjust */,
-				54246DF748D8168C40EAE6A0F22AC756 /* Pods-VibOrizarant */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		901D3FB3516DBEF37D357D3BE0D02478 /* Resources */ = {
@@ -562,7 +564,6 @@
 				692B0A86DEDAF6AEEB8336CBF0AB4769 /* Frameworks */,
 				DF27AACCF907E631BB8606648680A05A /* Support Files */,
 			);
-			name = FBAEMKit;
 			path = FBAEMKit;
 			sourceTree = "<group>";
 		};
@@ -584,33 +585,15 @@
 				1E159ABAF6816104EC3EF34F88D9EF8E /* Frameworks */,
 				1C124CB155E08429CE291223406626BB /* Support Files */,
 			);
-			name = FBSDKCoreKit;
 			path = FBSDKCoreKit;
 			sourceTree = "<group>";
 		};
-		B96CACCCFD47ABF8384D89E59E4005EF /* Targets Support Files */ = {
+		C7218473935CE03AAB44EBFC07530A99 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BB75AEED4991C083F8BCE03749E94842 /* Pods-VibOrizarant */,
+				D322EC041836E3F4889759808490015F /* Pods-LuvioPamere */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		BB75AEED4991C083F8BCE03749E94842 /* Pods-VibOrizarant */ = {
-			isa = PBXGroup;
-			children = (
-				118D77C4F2B2D9930DEC58F57B383BFA /* Pods-VibOrizarant.modulemap */,
-				12A1DFF84CA54FD4C898DEDEB6641535 /* Pods-VibOrizarant-acknowledgements.markdown */,
-				DBB7975E5D0B317FEC7A05E7420520DC /* Pods-VibOrizarant-acknowledgements.plist */,
-				E24AACC93D557944414EA83EC09B85AB /* Pods-VibOrizarant-dummy.m */,
-				B2EB915D1FB8241118F58378F3F04441 /* Pods-VibOrizarant-frameworks.sh */,
-				14350F41045502821058839F82EF47EE /* Pods-VibOrizarant-Info.plist */,
-				837F34BDDF0BB73759A5CFA6F8AD303E /* Pods-VibOrizarant-umbrella.h */,
-				60712779EEC2AA46C5EE69C168400E11 /* Pods-VibOrizarant.debug.xcconfig */,
-				A857E41DDE9E63A320436B55696F0C1A /* Pods-VibOrizarant.release.xcconfig */,
-			);
-			name = "Pods-VibOrizarant";
-			path = "Target Support Files/Pods-VibOrizarant";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -619,9 +602,26 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				A860FCAA5D5C3FFB8D664A8A63EC9131 /* Pods */,
-				8308F892DA40DB8F372B5A1308404F21 /* Products */,
-				B96CACCCFD47ABF8384D89E59E4005EF /* Targets Support Files */,
+				61CE0686757399E7AD66A38916203FF3 /* Products */,
+				C7218473935CE03AAB44EBFC07530A99 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D322EC041836E3F4889759808490015F /* Pods-LuvioPamere */ = {
+			isa = PBXGroup;
+			children = (
+				0DB0CA0C40963A63271AD26D497E20A3 /* Pods-LuvioPamere.modulemap */,
+				A8BBDAAF40E62FD94C014757F3D1D305 /* Pods-LuvioPamere-acknowledgements.markdown */,
+				92FC86E76FF7D1C1D7FD7C8A8C9AE8A0 /* Pods-LuvioPamere-acknowledgements.plist */,
+				6921A635AFADAA72E579E524945D94E7 /* Pods-LuvioPamere-dummy.m */,
+				5A12E4200965FB37369389B7B55DDA0D /* Pods-LuvioPamere-frameworks.sh */,
+				BED77429B61B1221CD5E2E079391F9D6 /* Pods-LuvioPamere-Info.plist */,
+				20859CA92AC86313A0F8E1B2F90DE5B4 /* Pods-LuvioPamere-umbrella.h */,
+				4B61CFB52C62123203F258518E4AEC5E /* Pods-LuvioPamere.debug.xcconfig */,
+				16A6D22F3400E91CF92188978470198B /* Pods-LuvioPamere.release.xcconfig */,
+			);
+			name = "Pods-LuvioPamere";
+			path = "Target Support Files/Pods-LuvioPamere";
 			sourceTree = "<group>";
 		};
 		D3E3B8AD343C291845C71312137534A1 /* Support Files */ = {
@@ -646,7 +646,6 @@
 				45123F6805F2F95BD94BE1AD82FDB652 /* Frameworks */,
 				491DD4AA263D3562ADF4A8715B147F0D /* Support Files */,
 			);
-			name = FBSDKCoreKit_Basics;
 			path = FBSDKCoreKit_Basics;
 			sourceTree = "<group>";
 		};
@@ -722,40 +721,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9A27A09B6CC312FC1DFC470CF8BBDCF /* Headers */ = {
+		6D65F9CEAE3C8BC649AC9026C67ADFF8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C748FAAFA59D9E1DEBBA026335DF0A5 /* Pods-VibOrizarant-umbrella.h in Headers */,
+				897C28DED31F4AE9028A7EEA456B31E8 /* Pods-LuvioPamere-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4561498F495397F3E4EB8101D6C1B96E /* Pods-VibOrizarant */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D8FA88C4C403B80D222838F935133F3E /* Build configuration list for PBXNativeTarget "Pods-VibOrizarant" */;
-			buildPhases = (
-				C9A27A09B6CC312FC1DFC470CF8BBDCF /* Headers */,
-				D87348E1DA6C563EBA18D1C47C6484D7 /* Sources */,
-				250405C2F2EA9E732B5C49091E058774 /* Frameworks */,
-				28F40627C5E7F63EEE3A07B440FD8D85 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				059A487EA4A7C29F7F81756E66CB10A7 /* PBXTargetDependency */,
-				DBF9CAB30464673E7736DB48A729F58E /* PBXTargetDependency */,
-				B5CEE187B53063CC6AB546544B379F41 /* PBXTargetDependency */,
-				23811F497DFC2E420CD069528460B51E /* PBXTargetDependency */,
-				7FAB091C4BFD9AA3498B183A35BB230A /* PBXTargetDependency */,
-			);
-			name = "Pods-VibOrizarant";
-			productName = Pods_VibOrizarant;
-			productReference = 54246DF748D8168C40EAE6A0F22AC756 /* Pods-VibOrizarant */;
-			productType = "com.apple.product-type.framework";
-		};
 		471352CEDDB3183F0E470F770197C032 /* Adjust-Adjust */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF45046794BFBC4DAC24BC3B01F3FD8A /* Build configuration list for PBXNativeTarget "Adjust-Adjust" */;
@@ -770,7 +746,7 @@
 			);
 			name = "Adjust-Adjust";
 			productName = Adjust;
-			productReference = B6C339432292171DF9AF35D79D97FF46 /* Adjust-Adjust */;
+			productReference = B6C339432292171DF9AF35D79D97FF46 /* Adjust.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		7111F362EA0D14BECD8B96EA1EAA5F79 /* Adjust */ = {
@@ -790,7 +766,30 @@
 			);
 			name = Adjust;
 			productName = AdjustSdk;
-			productReference = 7FF5C62DF1E2D492F272FD7D2A1EF4A3 /* Adjust */;
+			productReference = 7FF5C62DF1E2D492F272FD7D2A1EF4A3 /* AdjustSdk.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB5FC5EA31EC6F40CEDE97DB07CDE463 /* Pods-LuvioPamere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B9DD23563FA792F72BACA68A99A5A23 /* Build configuration list for PBXNativeTarget "Pods-LuvioPamere" */;
+			buildPhases = (
+				6D65F9CEAE3C8BC649AC9026C67ADFF8 /* Headers */,
+				F33DF90710C68EF11B66446CC69117F1 /* Sources */,
+				BC30D610C57E45980796745BEBC9EF07 /* Frameworks */,
+				0B36A42B5025573A5FF077313B584B3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A02D569BB877A182E91BBB6152CBC4B1 /* PBXTargetDependency */,
+				768804A18EFAA0371591DD098ED30F67 /* PBXTargetDependency */,
+				552D427CC73F328F2908083F501F5DCA /* PBXTargetDependency */,
+				E6A91C61126FA13589D0FFE274AA509C /* PBXTargetDependency */,
+				6144214B8B4B2945ABD56807AFCD4724 /* PBXTargetDependency */,
+			);
+			name = "Pods-LuvioPamere";
+			productName = Pods_LuvioPamere;
+			productReference = 03A7CFC8D1ABA4B6C3E4249B4B7E9E93 /* Pods_LuvioPamere.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -811,9 +810,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
-			productRefGroup = 8308F892DA40DB8F372B5A1308404F21 /* Products */;
+			productRefGroup = 61CE0686757399E7AD66A38916203FF3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -823,13 +820,13 @@
 				479BDBD165CD08E2159181E58CD2078F /* FBAEMKit */,
 				28907903AF6DD0AD321D92CD660E7E23 /* FBSDKCoreKit */,
 				8EA62FEAB23070050EFD4D4508D659E5 /* FBSDKCoreKit_Basics */,
-				4561498F495397F3E4EB8101D6C1B96E /* Pods-VibOrizarant */,
+				BB5FC5EA31EC6F40CEDE97DB07CDE463 /* Pods-LuvioPamere */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		28F40627C5E7F63EEE3A07B440FD8D85 /* Resources */ = {
+		0B36A42B5025573A5FF077313B584B3A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -848,7 +845,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40BCE9228182ECD606AEE04C87DC9BB8 /* Adjust-Adjust in Resources */,
+				40BCE9228182ECD606AEE04C87DC9BB8 /* Adjust.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -979,34 +976,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D87348E1DA6C563EBA18D1C47C6484D7 /* Sources */ = {
+		F33DF90710C68EF11B66446CC69117F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA8489C17A490E7CD5797B86788B00D7 /* Pods-VibOrizarant-dummy.m in Sources */,
+				D169ACA047E76870634A01B717B6EACD /* Pods-LuvioPamere-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		059A487EA4A7C29F7F81756E66CB10A7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Adjust;
-			target = 7111F362EA0D14BECD8B96EA1EAA5F79 /* Adjust */;
-			targetProxy = 1502B1A0FEB70EDC36BFAAF7F45A9B80 /* PBXContainerItemProxy */;
-		};
-		23811F497DFC2E420CD069528460B51E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSDKCoreKit;
-			target = 28907903AF6DD0AD321D92CD660E7E23 /* FBSDKCoreKit */;
-			targetProxy = E7F2D4970126AD49C309EEF8FD42F2C4 /* PBXContainerItemProxy */;
-		};
 		45B6C487D0261C2F46B6F6C35BC1A932 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBAEMKit;
 			target = 479BDBD165CD08E2159181E58CD2078F /* FBAEMKit */;
 			targetProxy = 4A331CB6BB3556B994A43B80F9D697EF /* PBXContainerItemProxy */;
+		};
+		552D427CC73F328F2908083F501F5DCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBAEMKit;
+			target = 479BDBD165CD08E2159181E58CD2078F /* FBAEMKit */;
+			targetProxy = 6DD0B004DA1A22B18C0185F96078737F /* PBXContainerItemProxy */;
 		};
 		5CF0B359EA1BC8DAD741D3C7B8E3C7F3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1014,11 +1005,17 @@
 			target = 471352CEDDB3183F0E470F770197C032 /* Adjust-Adjust */;
 			targetProxy = 2B4C68B7DD7C09D3669EB5368822169A /* PBXContainerItemProxy */;
 		};
-		7FAB091C4BFD9AA3498B183A35BB230A /* PBXTargetDependency */ = {
+		6144214B8B4B2945ABD56807AFCD4724 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSDKCoreKit_Basics;
 			target = 8EA62FEAB23070050EFD4D4508D659E5 /* FBSDKCoreKit_Basics */;
-			targetProxy = 4C80002F1C594A8F8A7A7580BD7341A1 /* PBXContainerItemProxy */;
+			targetProxy = FB9236FE436806007AEF5A3D978FC512 /* PBXContainerItemProxy */;
+		};
+		768804A18EFAA0371591DD098ED30F67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AdjustSignature;
+			target = 26FB84987CFFD20C5EE3572256C80B04 /* AdjustSignature */;
+			targetProxy = 2CBF8ACC6083306FBE84638B52FBF96A /* PBXContainerItemProxy */;
 		};
 		8DADB283E5DC06EF1B2AD16827E9E8F5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1032,23 +1029,23 @@
 			target = 8EA62FEAB23070050EFD4D4508D659E5 /* FBSDKCoreKit_Basics */;
 			targetProxy = 7B7F9FA539CDCF2B725EFC8A7B94AD27 /* PBXContainerItemProxy */;
 		};
-		B5CEE187B53063CC6AB546544B379F41 /* PBXTargetDependency */ = {
+		A02D569BB877A182E91BBB6152CBC4B1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = FBAEMKit;
-			target = 479BDBD165CD08E2159181E58CD2078F /* FBAEMKit */;
-			targetProxy = FB3CCEF1DAF831340AE44FB5E6D1BE3E /* PBXContainerItemProxy */;
-		};
-		DBF9CAB30464673E7736DB48A729F58E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AdjustSignature;
-			target = 26FB84987CFFD20C5EE3572256C80B04 /* AdjustSignature */;
-			targetProxy = 5A31AEB19D33B5FE3F282ED5D2C4B443 /* PBXContainerItemProxy */;
+			name = Adjust;
+			target = 7111F362EA0D14BECD8B96EA1EAA5F79 /* Adjust */;
+			targetProxy = 64B34ED95CDABBC827617B0CF738A7C7 /* PBXContainerItemProxy */;
 		};
 		E6349C2601EEAE9AD3E158E1DBEB2ED4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AdjustSignature;
 			target = 26FB84987CFFD20C5EE3572256C80B04 /* AdjustSignature */;
 			targetProxy = 914D07E0B2C260CCB7B73574504351B9 /* PBXContainerItemProxy */;
+		};
+		E6A91C61126FA13589D0FFE274AA509C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSDKCoreKit;
+			target = 28907903AF6DD0AD321D92CD660E7E23 /* FBSDKCoreKit */;
+			targetProxy = 74220538DE6E09D183548B1CB14BF0E5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1072,7 +1069,7 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/Adjust/Adjust-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1093,45 +1090,6 @@
 			};
 			name = Release;
 		};
-		0F92D63CD1C8969D8F76547C27A5B80B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60712779EEC2AA46C5EE69C168400E11 /* Pods-VibOrizarant.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-VibOrizarant/Pods-VibOrizarant-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VibOrizarant/Pods-VibOrizarant.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		305CF0BB2A233D15A553701990C88B11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A710D147BB3DCF85DB7B4D38540A5B7F /* Adjust.debug.xcconfig */;
@@ -1140,7 +1098,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Adjust";
 				IBSC_MODULE = AdjustSdk;
 				INFOPLIST_FILE = "Target Support Files/Adjust/ResourceBundle-Adjust-Adjust-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_NAME = Adjust;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1230,7 +1188,7 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/Adjust/Adjust-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1284,6 +1242,46 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81E605B4EC680F0999F83543A64B5730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16A6D22F3400E91CF92188978470198B /* Pods-LuvioPamere.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-LuvioPamere/Pods-LuvioPamere-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LuvioPamere/Pods-LuvioPamere.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -1352,46 +1350,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		A5ECF4575B3A28478A6AAF002B6A771A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A857E41DDE9E63A320436B55696F0C1A /* Pods-VibOrizarant.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-VibOrizarant/Pods-VibOrizarant-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VibOrizarant/Pods-VibOrizarant.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		B4E707D7DAA31ED7A61C951C2F03228E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1475,7 +1433,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Adjust";
 				IBSC_MODULE = AdjustSdk;
 				INFOPLIST_FILE = "Target Support Files/Adjust/ResourceBundle-Adjust-Adjust-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_NAME = Adjust;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1483,6 +1441,45 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
+		};
+		F6A01744B291418DDE2B5044857F251C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B61CFB52C62123203F258518E4AEC5E /* Pods-LuvioPamere.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-LuvioPamere/Pods-LuvioPamere-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LuvioPamere/Pods-LuvioPamere.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		F7E93D6E92E114A56E7E0A754A900ACC /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1524,6 +1521,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1B9DD23563FA792F72BACA68A99A5A23 /* Build configuration list for PBXNativeTarget "Pods-LuvioPamere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A01744B291418DDE2B5044857F251C /* Debug */,
+				81E605B4EC680F0999F83543A64B5730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3839186A5B90C4A1D3AB39F8714F580C /* Build configuration list for PBXAggregateTarget "FBSDKCoreKit_Basics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1574,15 +1580,6 @@
 			buildConfigurations = (
 				FC4D48C7EE884A87C34B90F9D93E95E4 /* Debug */,
 				D7EB5808742F795357A48F8FB201650A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D8FA88C4C403B80D222838F935133F3E /* Build configuration list for PBXNativeTarget "Pods-VibOrizarant" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0F92D63CD1C8969D8F76547C27A5B80B /* Debug */,
-				A5ECF4575B3A28478A6AAF002B6A771A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
