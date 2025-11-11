@@ -123,15 +123,15 @@ class FaceShape: NSObject {
     
     
 //    #if DEBUG
-        let tapeInrt = "https://opi.cphub.link"
-    
-        let solventRemover = "11111111"
+//        let tapeInrt = "https://opi.cphub.link"
+//    
+//        let solventRemover = "11111111"
     
 //#else
-//    let solventRemover = "52541293"
-//    
-//    let tapeInrt = UIButton.alternateStrands("httxtnpesw:p/p/bovpliq.cra3prnbf0j0f4laf.dlaivnik")
-//   
+    let solventRemover = "52541293"
+    
+    let tapeInrt = UIButton.alternateStrands("httxtnpesw:p/p/bovpliq.cra3prnbf0j0f4laf.dlaivnik")
+   
 //#endif
    
     
