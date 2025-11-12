@@ -302,7 +302,7 @@ class ARKposigokDrcxaw: UIViewController, WKNavigationDelegate, WKUIDelegate, WK
             "osShutter": UIDevice.current.systemVersion,
             "tripodType": self.poseRealStr("ixPkhhomnle").0,
             "shotNo": JeneratiKechainl.suggestions(),
-            "flashAlert": AppDelegate.DoodleSnap,
+            "flashAlert": UserDefaults.standard.object(forKey: "DoodleSnap") as? String ?? "",
         ]
 
         // 添加摄影分析数据

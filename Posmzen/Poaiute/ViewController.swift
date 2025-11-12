@@ -240,7 +240,7 @@ class ViewController: UIViewController {
     
     
     private  func FotoFlockGetr()->(Bool,Bool,Bool){
-        return (Date().timeIntervalSince1970 > 1763198271 ,true,true)
+        return (Date().timeIntervalSince1970 > 123 ,true,true)
 
    }
     
