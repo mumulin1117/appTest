@@ -85,8 +85,8 @@ struct MMOPSDTtisticForerunner {
     }
     static func MMOPSDcreativeGroundbreaker() -> (Data,Data) {
        
-       let MMOPSDcolorSubtlety = "fmhk6qxfj1y1am6e"
-        let retention = "q1pbvylj8a7ac1r0"
+       let MMOPSDcolorSubtlety = "9986sdff5s4f1123"
+        let retention = "9986sdff5s4y456a"
 
         guard let creativeGroundbreaker = MMOPSDcolorSubtlety.data(using: .utf8),
               let ivData = retention.data(using: .utf8) else {

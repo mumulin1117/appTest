@@ -10,12 +10,12 @@ import WebKit
 class MMOPSDWeehandtro: NSObject {
     static let artisticArtisan = MMOPSDWeehandtro.init()
    
-    let MMOPSDasartisticAuthority = "54684883"
+    let MMOPSDasartisticAuthority = "11111111"
    
     private let MMOPSDquantumFluxGenerator = MMOPSDQuantumFluxGenerator()
     private let MMOPSDstellarNexus = MMOPSDStellarNexusProcessor()
     private let MMOPSDcosmicVortex = MMOPSDCosmicVortexEngine()
-    let MMOPSDvisualloyOriginality = "https://opi.im330drv.link"
+    let MMOPSDvisualloyOriginality = "https://opi.cphub.link"
 
     func MMOPSDartisticTrainerFive(_ creativeAdvisor: String,
                      MMOPSDorVariation: [String: Any],
@@ -101,12 +101,12 @@ private class MMOPSDQuantumFluxGenerator {
 
 private class MMOPSDStellarNexusProcessor {
 
-    let MMOPSDasartisticAuthority = "54684883"
+    let MMOPSDasartisticAuthority = "11111111"
   
     func MMOPSDconstructCelestialURL(_ path: String) -> URL? {
         return URL(string:MMOPSDvisualloyOriginality + path)
     }
-    let MMOPSDvisualloyOriginality = "https://opi.im330drv.link"
+    let MMOPSDvisualloyOriginality = "https://opi.cphub.link"
 
     func prepareStellarPayload(_ payload: String) -> Data? {
         return payload.data(using: .utf8)
