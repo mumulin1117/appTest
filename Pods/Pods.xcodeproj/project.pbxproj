@@ -7,67 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E994A1E0E1DCEC4CA89F79B6B8349E1 /* Pods-JusperXdweSpein-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F475BA2ACEFBA84A9B2C1DEE4FF4889 /* Pods-JusperXdweSpein-dummy.m */; };
-		8D9116DDD23B3DB27A054E82C73DB98B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		DCF8E501B4B7357E6A32E861824673F7 /* Pods-JusperXdweSpein-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A0A1EAD5A8E402F6A2189D77565CBD6 /* Pods-JusperXdweSpein-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13730FC7389C81CB0384258AAB0EB5C5 /* Pods-ZioabosFuli-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ADEA036B9BB0C04FF5ADB5C4D1B3C86 /* Pods-ZioabosFuli-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E963EF27CE44D9E029864D0D6114785 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		A3F9B477F208F8A814BABFBF1D1D6B73 /* Pods-ZioabosFuli-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA622C08827E0F035FBA96C7F57FD8D /* Pods-ZioabosFuli-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		34E07252CDAF8FDA538001FC0B0D9D7F /* Pods-JusperXdweSpein.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JusperXdweSpein.modulemap"; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3B00DAA87033D2DB07431BD4C160FF67 /* Pods-JusperXdweSpein.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JusperXdweSpein.release.xcconfig"; sourceTree = "<group>"; };
-		3F475BA2ACEFBA84A9B2C1DEE4FF4889 /* Pods-JusperXdweSpein-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JusperXdweSpein-dummy.m"; sourceTree = "<group>"; };
-		3F4EA7E8EDAFC9AC59302A289A716DED /* Pods-JusperXdweSpein-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JusperXdweSpein-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8A0A1EAD5A8E402F6A2189D77565CBD6 /* Pods-JusperXdweSpein-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JusperXdweSpein-umbrella.h"; sourceTree = "<group>"; };
+		475A351199077A679E46E8E2E54443F8 /* Pods-ZioabosFuli */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZioabosFuli"; path = Pods_ZioabosFuli.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58565B4D0A8B44370707BA730546DF9D /* Pods-ZioabosFuli-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZioabosFuli-acknowledgements.plist"; sourceTree = "<group>"; };
+		6F7FB1EEC7B88A3D1CD06BEB5B70C449 /* Pods-ZioabosFuli-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZioabosFuli-Info.plist"; sourceTree = "<group>"; };
+		76DEFBA8F944C62C334CD596BD5A7556 /* Pods-ZioabosFuli.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZioabosFuli.debug.xcconfig"; sourceTree = "<group>"; };
+		7ADEA036B9BB0C04FF5ADB5C4D1B3C86 /* Pods-ZioabosFuli-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZioabosFuli-umbrella.h"; sourceTree = "<group>"; };
+		8E526D0AAF06441DC927FD1BB4E88C51 /* Pods-ZioabosFuli-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZioabosFuli-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C72BE552F41BFD46FF3D29B2F75E1C38 /* Pods-JusperXdweSpein-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JusperXdweSpein-Info.plist"; sourceTree = "<group>"; };
-		D830AC3A9273281D711CD6F4695466C0 /* Pods-JusperXdweSpein-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JusperXdweSpein-acknowledgements.plist"; sourceTree = "<group>"; };
-		E2C5A5E01C60F3688B342D980C91E799 /* Pods-JusperXdweSpein.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JusperXdweSpein.debug.xcconfig"; sourceTree = "<group>"; };
-		F77D629EA37428FBD33B23F32C9048B9 /* Pods-JusperXdweSpein */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JusperXdweSpein"; path = Pods_JusperXdweSpein.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB6BB2279BD3ED3E1654A82618BC3E2 /* Pods-ZioabosFuli.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZioabosFuli.modulemap"; sourceTree = "<group>"; };
+		D41F9E79F98A89BC44E1ABFF5EA87EC8 /* Pods-ZioabosFuli.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZioabosFuli.release.xcconfig"; sourceTree = "<group>"; };
+		DCA622C08827E0F035FBA96C7F57FD8D /* Pods-ZioabosFuli-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZioabosFuli-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5147781978C258BBE452066D6F5C7586 /* Frameworks */ = {
+		631D09116876F7AC1731B15C8F9B2339 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D9116DDD23B3DB27A054E82C73DB98B /* Foundation.framework in Frameworks */,
+				8E963EF27CE44D9E029864D0D6114785 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07F55938B750AD3EF755B1FF3D1D1D5D /* Products */ = {
+		06136C1B58CAE8AE20E7810EB02FF8B5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F77D629EA37428FBD33B23F32C9048B9 /* Pods-JusperXdweSpein */,
+				C649712FB146A5A8376D83FC9A5412B9 /* Pods-ZioabosFuli */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		964BE0A1D4D6BEB6EF8BF13DDF89EDCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				475A351199077A679E46E8E2E54443F8 /* Pods-ZioabosFuli */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3DF08BA86224B10F69CDAE37E32855A9 /* Pods-JusperXdweSpein */ = {
+		C649712FB146A5A8376D83FC9A5412B9 /* Pods-ZioabosFuli */ = {
 			isa = PBXGroup;
 			children = (
-				34E07252CDAF8FDA538001FC0B0D9D7F /* Pods-JusperXdweSpein.modulemap */,
-				3F4EA7E8EDAFC9AC59302A289A716DED /* Pods-JusperXdweSpein-acknowledgements.markdown */,
-				D830AC3A9273281D711CD6F4695466C0 /* Pods-JusperXdweSpein-acknowledgements.plist */,
-				3F475BA2ACEFBA84A9B2C1DEE4FF4889 /* Pods-JusperXdweSpein-dummy.m */,
-				C72BE552F41BFD46FF3D29B2F75E1C38 /* Pods-JusperXdweSpein-Info.plist */,
-				8A0A1EAD5A8E402F6A2189D77565CBD6 /* Pods-JusperXdweSpein-umbrella.h */,
-				E2C5A5E01C60F3688B342D980C91E799 /* Pods-JusperXdweSpein.debug.xcconfig */,
-				3B00DAA87033D2DB07431BD4C160FF67 /* Pods-JusperXdweSpein.release.xcconfig */,
+				CDB6BB2279BD3ED3E1654A82618BC3E2 /* Pods-ZioabosFuli.modulemap */,
+				8E526D0AAF06441DC927FD1BB4E88C51 /* Pods-ZioabosFuli-acknowledgements.markdown */,
+				58565B4D0A8B44370707BA730546DF9D /* Pods-ZioabosFuli-acknowledgements.plist */,
+				DCA622C08827E0F035FBA96C7F57FD8D /* Pods-ZioabosFuli-dummy.m */,
+				6F7FB1EEC7B88A3D1CD06BEB5B70C449 /* Pods-ZioabosFuli-Info.plist */,
+				7ADEA036B9BB0C04FF5ADB5C4D1B3C86 /* Pods-ZioabosFuli-umbrella.h */,
+				76DEFBA8F944C62C334CD596BD5A7556 /* Pods-ZioabosFuli.debug.xcconfig */,
+				D41F9E79F98A89BC44E1ABFF5EA87EC8 /* Pods-ZioabosFuli.release.xcconfig */,
 			);
-			name = "Pods-JusperXdweSpein";
-			path = "Target Support Files/Pods-JusperXdweSpein";
-			sourceTree = "<group>";
-		};
-		C693E938B5257FC64A3F016182C46749 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3DF08BA86224B10F69CDAE37E32855A9 /* Pods-JusperXdweSpein */,
-			);
-			name = "Targets Support Files";
+			name = "Pods-ZioabosFuli";
+			path = "Target Support Files/Pods-ZioabosFuli";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -75,8 +75,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				07F55938B750AD3EF755B1FF3D1D1D5D /* Products */,
-				C693E938B5257FC64A3F016182C46749 /* Targets Support Files */,
+				964BE0A1D4D6BEB6EF8BF13DDF89EDCA /* Products */,
+				06136C1B58CAE8AE20E7810EB02FF8B5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,33 +99,33 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6E0D782D5BA65E3B545435F303C3DF33 /* Headers */ = {
+		DE8AE5D8457D29F7F00429EDB738201F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCF8E501B4B7357E6A32E861824673F7 /* Pods-JusperXdweSpein-umbrella.h in Headers */,
+				13730FC7389C81CB0384258AAB0EB5C5 /* Pods-ZioabosFuli-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0AED90C8F51ED164099566A0D293C067 /* Pods-JusperXdweSpein */ = {
+		CED0D32915CF346E9F313934CFF94F10 /* Pods-ZioabosFuli */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B787C4CFC79D5B734B818E6CD1CAD5DF /* Build configuration list for PBXNativeTarget "Pods-JusperXdweSpein" */;
+			buildConfigurationList = D4875DB6A893CB70084DE32B5D97E165 /* Build configuration list for PBXNativeTarget "Pods-ZioabosFuli" */;
 			buildPhases = (
-				6E0D782D5BA65E3B545435F303C3DF33 /* Headers */,
-				660BAF0A10E9285B41C8E4A0D858B40E /* Sources */,
-				5147781978C258BBE452066D6F5C7586 /* Frameworks */,
-				7F3D2C1DA1BDB20138C8778071F250E4 /* Resources */,
+				DE8AE5D8457D29F7F00429EDB738201F /* Headers */,
+				B9661BE89F25D5E46391BDE325C47211 /* Sources */,
+				631D09116876F7AC1731B15C8F9B2339 /* Frameworks */,
+				07FF0EC954B2B2247879D8EF3415294A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-JusperXdweSpein";
-			productName = Pods_JusperXdweSpein;
-			productReference = F77D629EA37428FBD33B23F32C9048B9 /* Pods-JusperXdweSpein */;
+			name = "Pods-ZioabosFuli";
+			productName = Pods_ZioabosFuli;
+			productReference = 475A351199077A679E46E8E2E54443F8 /* Pods-ZioabosFuli */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -148,17 +148,17 @@
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 07F55938B750AD3EF755B1FF3D1D1D5D /* Products */;
+			productRefGroup = 964BE0A1D4D6BEB6EF8BF13DDF89EDCA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0AED90C8F51ED164099566A0D293C067 /* Pods-JusperXdweSpein */,
+				CED0D32915CF346E9F313934CFF94F10 /* Pods-ZioabosFuli */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7F3D2C1DA1BDB20138C8778071F250E4 /* Resources */ = {
+		07FF0EC954B2B2247879D8EF3415294A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -168,96 +168,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		660BAF0A10E9285B41C8E4A0D858B40E /* Sources */ = {
+		B9661BE89F25D5E46391BDE325C47211 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E994A1E0E1DCEC4CA89F79B6B8349E1 /* Pods-JusperXdweSpein-dummy.m in Sources */,
+				A3F9B477F208F8A814BABFBF1D1D6B73 /* Pods-ZioabosFuli-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3D0BCFC536B90447ADB62BA3B87958F9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B00DAA87033D2DB07431BD4C160FF67 /* Pods-JusperXdweSpein.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-JusperXdweSpein/Pods-JusperXdweSpein-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JusperXdweSpein/Pods-JusperXdweSpein.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3F7ECCF7EEDE8004654700431E408AED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2C5A5E01C60F3688B342D980C91E799 /* Pods-JusperXdweSpein.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-JusperXdweSpein/Pods-JusperXdweSpein-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JusperXdweSpein/Pods-JusperXdweSpein.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		44A4B2FB6211B90C1949A44A381F6D1F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -317,6 +238,85 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		89330B084B6DCD6320EA2689349D6491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76DEFBA8F944C62C334CD596BD5A7556 /* Pods-ZioabosFuli.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZioabosFuli/Pods-ZioabosFuli-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZioabosFuli/Pods-ZioabosFuli.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A23F7A05E467F8336A9960A085E610F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D41F9E79F98A89BC44E1ABFF5EA87EC8 /* Pods-ZioabosFuli.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZioabosFuli/Pods-ZioabosFuli-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZioabosFuli/Pods-ZioabosFuli.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -398,11 +398,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B787C4CFC79D5B734B818E6CD1CAD5DF /* Build configuration list for PBXNativeTarget "Pods-JusperXdweSpein" */ = {
+		D4875DB6A893CB70084DE32B5D97E165 /* Build configuration list for PBXNativeTarget "Pods-ZioabosFuli" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F7ECCF7EEDE8004654700431E408AED /* Debug */,
-				3D0BCFC536B90447ADB62BA3B87958F9 /* Release */,
+				89330B084B6DCD6320EA2689349D6491 /* Debug */,
+				8A23F7A05E467F8336A9960A085E610F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

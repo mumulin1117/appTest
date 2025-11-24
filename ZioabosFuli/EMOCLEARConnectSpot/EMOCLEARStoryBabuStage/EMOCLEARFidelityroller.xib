@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EMOCLEARFidelityroller" customModule="ZioabosFuli" customModuleProvider="target">
+            <connections>
+                <outlet property="EMOCLEARchat" destination="SuX-vY-OJu" id="YMC-BU-QXi"/>
+                <outlet property="roleplayTheme" destination="6yH-lN-DKq" id="DmB-zy-c2w"/>
+                <outlet property="sceneHarmony" destination="SuX-vY-OJu" id="f6d-Ul-oy9"/>
+                <outlet property="storyRhythm" destination="EAD-1O-uMC" id="nMi-c2-urL"/>
+                <outlet property="view" destination="bXT-8L-B4z" id="LG1-TB-5SY"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="bXT-8L-B4z">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EMOCLEARsceneSetting" translatesAutoresizingMaskIntoConstraints="NO" id="jkD-lw-FN2">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mdq-W1-epm">
+                    <rect key="frame" x="12" y="780" width="36" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="RdE-mI-ZuZ"/>
+                        <constraint firstAttribute="width" constant="36" id="zXk-TJ-Vyk"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="EMOCLEAaudioImmersion"/>
+                    <connections>
+                        <action selector="interactiveRoleplay:" destination="-1" eventType="touchUpInside" id="JOH-ub-cjP"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hFY-im-w3l">
+                    <rect key="frame" x="15" y="65" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="24" id="Eji-aP-sf2"/>
+                        <constraint firstAttribute="height" constant="24" id="Em0-Cf-eti"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="EMOCLEARNIuline"/>
+                    <connections>
+                        <action selector="voiceRange:" destination="-1" eventType="touchUpInside" id="nZg-Wa-bfU"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SuX-vY-OJu">
+                    <rect key="frame" x="196.66666666666666" y="77" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="20"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="EAD-1O-uMC">
+                    <rect key="frame" x="15" y="114" width="363" height="664"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6yH-lN-DKq">
+                    <rect key="frame" x="59" y="778" width="276" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="GjH-bt-mtB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ef-QW-e05">
+                    <rect key="frame" x="349" y="780" width="36" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="36" id="Iyd-SQ-MZd"/>
+                        <constraint firstAttribute="height" constant="36" id="oXv-aP-rFp"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="EMOCLEARGsceneRealism"/>
+                    <connections>
+                        <action selector="EMOCLEARGsceneRealism:" destination="-1" eventType="touchUpInside" id="xcz-AC-pbf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PUB-HJ-pud">
+                    <rect key="frame" x="342" y="59" width="36" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="EOT-sS-JAv"/>
+                        <constraint firstAttribute="width" constant="36" id="b6g-3P-8fm"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="EMOCLEARroleplayEvent"/>
+                    <connections>
+                        <action selector="performanceIntensity:" destination="-1" eventType="touchUpInside" id="kEn-3j-oQM"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="T3Q-uY-5cF"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="6yH-lN-DKq" firstAttribute="leading" secondItem="T3Q-uY-5cF" secondAttribute="leading" constant="59" id="1dL-oD-eDw"/>
+                <constraint firstItem="mdq-W1-epm" firstAttribute="centerY" secondItem="6yH-lN-DKq" secondAttribute="centerY" id="9Xw-JQ-L4M"/>
+                <constraint firstItem="jkD-lw-FN2" firstAttribute="leading" secondItem="T3Q-uY-5cF" secondAttribute="leading" id="CTd-b6-JAz"/>
+                <constraint firstItem="hFY-im-w3l" firstAttribute="leading" secondItem="T3Q-uY-5cF" secondAttribute="leading" constant="15" id="G1d-u3-aHB"/>
+                <constraint firstItem="jkD-lw-FN2" firstAttribute="top" secondItem="bXT-8L-B4z" secondAttribute="top" id="Ggb-Bt-gPt"/>
+                <constraint firstItem="hFY-im-w3l" firstAttribute="top" secondItem="T3Q-uY-5cF" secondAttribute="top" constant="6" id="ISM-tc-MSc"/>
+                <constraint firstItem="EAD-1O-uMC" firstAttribute="top" secondItem="hFY-im-w3l" secondAttribute="bottom" constant="25" id="Ktc-5d-M9h"/>
+                <constraint firstAttribute="bottom" secondItem="jkD-lw-FN2" secondAttribute="bottom" id="Sm9-ba-JYA"/>
+                <constraint firstItem="T3Q-uY-5cF" firstAttribute="trailing" secondItem="PUB-HJ-pud" secondAttribute="trailing" constant="15" id="ZIv-Za-JhY"/>
+                <constraint firstItem="T3Q-uY-5cF" firstAttribute="trailing" secondItem="EAD-1O-uMC" secondAttribute="trailing" constant="15" id="a1a-z6-EXJ"/>
+                <constraint firstItem="6yH-lN-DKq" firstAttribute="top" secondItem="EAD-1O-uMC" secondAttribute="bottom" id="awU-oE-Z6E"/>
+                <constraint firstItem="0Ef-QW-e05" firstAttribute="centerY" secondItem="6yH-lN-DKq" secondAttribute="centerY" id="bmX-jm-nMq"/>
+                <constraint firstItem="SuX-vY-OJu" firstAttribute="centerY" secondItem="hFY-im-w3l" secondAttribute="centerY" id="eS3-TP-CMy"/>
+                <constraint firstItem="jkD-lw-FN2" firstAttribute="trailing" secondItem="T3Q-uY-5cF" secondAttribute="trailing" id="f1R-Uz-sbM"/>
+                <constraint firstItem="6yH-lN-DKq" firstAttribute="bottom" secondItem="T3Q-uY-5cF" secondAttribute="bottom" id="iFp-aW-YSK"/>
+                <constraint firstItem="EAD-1O-uMC" firstAttribute="leading" secondItem="T3Q-uY-5cF" secondAttribute="leading" constant="15" id="myh-TE-B9L"/>
+                <constraint firstItem="0Ef-QW-e05" firstAttribute="leading" secondItem="6yH-lN-DKq" secondAttribute="trailing" constant="14" id="nXu-Mv-VIA"/>
+                <constraint firstItem="PUB-HJ-pud" firstAttribute="centerY" secondItem="hFY-im-w3l" secondAttribute="centerY" id="uHc-8x-yLo"/>
+                <constraint firstItem="mdq-W1-epm" firstAttribute="leading" secondItem="T3Q-uY-5cF" secondAttribute="leading" constant="12" id="uTt-il-HfZ"/>
+                <constraint firstItem="SuX-vY-OJu" firstAttribute="centerX" secondItem="bXT-8L-B4z" secondAttribute="centerX" id="y7b-eY-O3f"/>
+                <constraint firstItem="T3Q-uY-5cF" firstAttribute="trailing" secondItem="0Ef-QW-e05" secondAttribute="trailing" constant="8" id="zLT-JH-8MQ"/>
+            </constraints>
+            <point key="canvasLocation" x="107.63358778625954" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="EMOCLEARGsceneRealism" width="36" height="36"/>
+        <image name="EMOCLEARNIuline" width="24" height="24"/>
+        <image name="EMOCLEARroleplayEvent" width="24" height="24"/>
+        <image name="EMOCLEARsceneSetting" width="375" height="812"/>
+        <image name="EMOCLEAaudioImmersion" width="36" height="36"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
