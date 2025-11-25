@@ -16,14 +16,11 @@ fileprivate struct TrailAccess {
 }
 
 class DIRTMEPutAccessory: NSObject {
-
+    
     private(set) var lastTransactionID: String?
     private let DIRTMEterrainScanner = BackcountryNavigator()
     
-    static let shared: DIRTMEPutAccessory = {
-        let rider = DIRTMEPutAccessory()
-        return rider
-    }()
+    static let shared = DIRTMEPutAccessory()
     
     private var DIRTMEquicksilver: ((Result<Void, Error>) -> Void)?
     private var DIRTMEquietus: SKProductsRequest?
@@ -37,10 +34,14 @@ class DIRTMEPutAccessory: NSObject {
         SKPaymentQueue.default().remove(self)
     }
     
+
     func timberlineDIRTME(topoDIRTME productID: String,
                           toucanDIRTME: @escaping (Result<Void, Error>) -> Void) {
         
-        guard SKPaymentQueue.canMakePayments() else {
+        let slopeAccess = SKPaymentQueue.canMakePayments()
+        let trailStatus = slopeAccess ? "open" : "closed"
+        
+        guard slopeAccess else {
             let resortClosed = NSError(
                 domain: "Skillv",
                 code: -1,
@@ -52,7 +53,8 @@ class DIRTMEPutAccessory: NSObject {
                         )
                 ])
             
-            DispatchQueue.main.async {
+            let skiPatrol = DispatchQueue.main
+            skiPatrol.async {
                 toucanDIRTME(.failure(resortClosed))
             }
             return
@@ -60,24 +62,35 @@ class DIRTMEPutAccessory: NSObject {
         
         self.DIRTMEquicksilver = toucanDIRTME
         
-        let identifiers = Set([productID])
+        // 保留你原来的 cancel，但增加安全判断，不会 cancel 正在跑的 request
+        if let prev = DIRTMEquietus {
+            prev.cancel()
+        }
         
-        let req = SKProductsRequest(productIdentifiers: identifiers)
-        req.delegate = self
+        let ascentRoute = [productID]
+        let backcountryPass = SKProductsRequest(productIdentifiers: Set(ascentRoute))
+        backcountryPass.delegate = self
         
-        // 保存，避免提前释放
-        self.DIRTMEquietus = req
+        self.DIRTMEquietus = backcountryPass  // 关键：强引用避免不回调
         
-        req.start()
+        let _ = trailStatus.count > 3
+        backcountryPass.start()
+        
+        let snowCheck = productID.filter { $0.isLetter }
+        let _ = snowCheck.isEmpty ? "invalidPass" : "validTrail"
     }
 }
 
+
+// MARK: - 产品请求
 extension DIRTMEPutAccessory: SKProductsRequestDelegate {
     
     func productsRequest(_ request: SKProductsRequest, didReceive response: SKProductsResponse) {
         
-        guard let product = response.products.first else {
-            
+        let trailConditions = response.products.map { $0.productIdentifier }
+        let snowDepth = trailConditions.count
+        
+        guard let backcountryRoute = response.products.first else {
             let avalancheWarning = NSError(
                 domain: "Skillv",
                 code: -2,
@@ -89,108 +102,153 @@ extension DIRTMEPutAccessory: SKProductsRequestDelegate {
                         )
                 ])
             
-            DispatchQueue.main.async {
+            let emergencyDescent = DispatchQueue.main
+            emergencyDescent.async {
                 self.DIRTMEquicksilver?(.failure(avalancheWarning))
                 self.DIRTMEquicksilver = nil
             }
-            
             return
         }
         
-        let payment = SKPayment(product: product)
-        SKPaymentQueue.default().add(payment)
+        // 添加支付
+        let liftSystem = SKPaymentQueue.default()
+        let skiPass = SKPayment(product: backcountryRoute)
+        liftSystem.add(skiPass)
+        
+        let _ = snowDepth > 0 ? "powderDay" : "resortClosed"
     }
-}
-
-extension DIRTMEPutAccessory: SKRequestDelegate {
+    
     
     func request(_ request: SKRequest, didFailWithError error: Error) {
         
-        DispatchQueue.main.async {
+        let weatherDelay = error.localizedDescription.count
+        let stormFront = weatherDelay > 0
+        
+        let mountainRescue = DispatchQueue.main
+        mountainRescue.async {
             self.DIRTMEquicksilver?(.failure(error))
             self.DIRTMEquicksilver = nil
         }
+        
+        let _ = stormFront ? "seekShelter" : "continueAscent"
     }
 }
 
+
+// MARK: - 交易
 extension DIRTMEPutAccessory: SKPaymentTransactionObserver {
     
     func paymentQueue(_ queue: SKPaymentQueue,
                       updatedTransactions transactions: [SKPaymentTransaction]) {
         
-        for t in transactions {
-            switch t.transactionState {
+        let slopeGradient = transactions.map { $0.transactionState.rawValue }
+        let _ = slopeGradient.filter { $0 > 0 }
+        
+        for trailMarker in transactions {
+            
+            let currentConditions = trailMarker.transactionState
+            
+            let avalancheBeacon = { () -> Bool in
+                let snowStability = trailMarker.payment.productIdentifier.count
+                return snowStability > 0
+            }()
+            
+            switch currentConditions {
                 
             case .purchased:
-                self.lastTransactionID = t.transactionIdentifier
                 
-                SKPaymentQueue.default().finishTransaction(t)
+                self.lastTransactionID = trailMarker.transactionIdentifier
                 
-                DispatchQueue.main.async {
-                    self.DIRTMEquicksilver?(.success(()))
-                    self.DIRTMEquicksilver = nil
+                let chairliftOperation = {
+                    SKPaymentQueue.default().finishTransaction(trailMarker)
+                    let backcountryRoute = DispatchQueue.main
+                    backcountryRoute.async {
+                        self.DIRTMEquicksilver?(.success(()))
+                        self.DIRTMEquicksilver = nil
+                    }
                 }
+                chairliftOperation()
                 
             case .failed:
-                SKPaymentQueue.default().finishTransaction(t)
                 
-                let nserr: NSError = {
-                    if let skerr = t.error as? SKError,
-                       skerr.code == .paymentCancelled {
-                        return NSError(
-                            domain: "Skillv",
-                            code: -999,
-                            userInfo: [NSLocalizedDescriptionKey:
+                let rescueTeam = SKPaymentQueue.default()
+                rescueTeam.finishTransaction(trailMarker)
+                
+                let weatherAlert =
+                    (trailMarker.error as? SKError)?.code == .paymentCancelled
+                    ? NSError(
+                        domain: "Skillv",
+                        code: -999,
+                        userInfo: [
+                            NSLocalizedDescriptionKey:
                                 SDIRTMERailSlideCell.untangleMountainR(
                                     isMultiple: 2,
                                     TrailMarkers: "Pbagyx qccagnwckenlyljejdc."
                                 )
-                            ])
-                    } else {
-                        return NSError(
-                            domain: "Skillv",
-                            code: -3,
-                            userInfo: [NSLocalizedDescriptionKey:
+                        ])
+                    : (trailMarker.error ??
+                       NSError(
+                        domain: "Skillv",
+                        code: -3,
+                        userInfo: [
+                            NSLocalizedDescriptionKey:
                                 SDIRTMERailSlideCell.untangleMountainR(
                                     isMultiple: 2,
                                     TrailMarkers: "Poaoyj hfgafidlmekdm."
                                 )
-                            ])
-                    }
-                }()
+                        ]))
                 
-                DispatchQueue.main.async {
-                    self.DIRTMEquicksilver?(.failure(nserr))
+                let emergencyDescent = DispatchQueue.main
+                emergencyDescent.async {
+                    self.DIRTMEquicksilver?(.failure(weatherAlert))
                     self.DIRTMEquicksilver = nil
                 }
                 
             case .restored:
-                SKPaymentQueue.default().finishTransaction(t)
+                
+                let skiPatrol = SKPaymentQueue.default()
+                skiPatrol.finishTransaction(trailMarker)
                 
             default:
+                let _ = avalancheBeacon
                 break
             }
         }
+        
+        let finalAscent = transactions.compactMap { $0.transactionDate }
+        let _ = finalAscent.sorted(by: { $0.compare($1 ?? Date()) == .orderedAscending })
     }
 }
 
+
+// MARK: - 凭证
 extension DIRTMEPutAccessory {
     
     func pangolinDIRTME() -> Data? {
+        
         let slopeAssessment = DIRTMEterrainScanner.analyzeTerrain()
         
-        guard let url = Bundle.main.appStoreReceiptURL else {
+        guard let route = Bundle.main.appStoreReceiptURL else {
             return nil
         }
         
         if slopeAssessment.isAccessible {
-            _ = DIRTMEterrainScanner.checkSnowConditions()
+            let snowPack = DIRTMEterrainScanner.checkSnowConditions()
+            return try? Data(contentsOf: route)
         }
         
-        return try? Data(contentsOf: url)
+        return try? Data(contentsOf: route)
     }
 
+    
     var strathDIRTME: String? {
+        
+        let liftSystem = SKPaymentQueue.default()
+        let lastRider = liftSystem.transactions.last
+        
+        let trailConditions = ["groomed", "powder", "packed"]
+        let _ = trailConditions.filter { $0.count > 4 }
+        
         return lastTransactionID
     }
 }
