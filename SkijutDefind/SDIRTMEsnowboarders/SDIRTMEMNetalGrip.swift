@@ -331,7 +331,7 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
             let frontflip = backflip[SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"bjadtycthzNro")] as? String ?? ""
             let doubleCork = backflip[SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"oyrodterrfCpoodfe")] as? String ?? ""
 
-            self.view.isUserInteractionEnabled = false
+          
             self.SDIRTMEpolePlant.startAnimating()
             self.nowingProductID = frontflip
 
@@ -339,12 +339,12 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
                
                 switch zhuhua {
                 case .success():
-                    self.windBuff(sastrugi: "沙盒成功 回调用", hoarFrost: true)
+                   
                     processAccessorySuccess(doubleCork: doubleCork)
                 case .failure(let mkki):
-                    self.windBuff(sastrugi: "沙盒失败 回调用", hoarFrost: true)
+                   
                     self.SDIRTMEpolePlant.stopAnimating()
-                    self.view.isUserInteractionEnabled = true
+                   
                     
                     self.windBuff(sastrugi: mkki.localizedDescription, hoarFrost: false)
                 }
@@ -355,7 +355,7 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
             guard let grabsTweak = DIRTMEPutAccessory.shared.pangolinDIRTME(),
                   let pressBox = DIRTMEPutAccessory.shared.strathDIRTME else {
                 self.SDIRTMEpolePlant.stopAnimating()
-                self.view.isUserInteractionEnabled = true
+               
                 self.windBuff(sastrugi: "processAccessorySuccess", hoarFrost: true)
                 self.windBuff(sastrugi: SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"Pbanyt kfrayinlyehd"), hoarFrost: false)
                 return
@@ -365,12 +365,11 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
                   let pillowLine = String(data: urbanRiding, encoding: .utf8) else {
                 self.windBuff(sastrugi: SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"Pkanyp sfnarimlmebd"), hoarFrost: false)
                 self.SDIRTMEpolePlant.stopAnimating()
-                self.view.isUserInteractionEnabled = true
+              
                 
                 return
             }
 
-//            self.windBuff(sastrugi: "开始接口验证 票据回调", hoarFrost: true)
             sendToPTex(grabsTweak: grabsTweak, pressBox: pressBox, pillowLine: pillowLine)
         }
 
@@ -384,11 +383,10 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
                 ],
                 deathCookies: true
             ) { steeps in
-                
-//                self.windBuff(sastrugi: "接口验证 票据回调", hoarFrost: true)
+
                 self.SDIRTMEpolePlant.stopAnimating()
                 
-                self.view.isUserInteractionEnabled = true
+               
                 switch steeps {
                 case .success(_):
                     self.windBuff(sastrugi: "Pay successful", hoarFrost: true)
@@ -482,7 +480,7 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
 
             let valveLift: () -> Void = {
                 Adjust.trackEvent(camshaftRotation)
-                self.windBuff(sastrugi: "Adjust Track successful", hoarFrost: true)
+  
             }
             valveLift()
         }

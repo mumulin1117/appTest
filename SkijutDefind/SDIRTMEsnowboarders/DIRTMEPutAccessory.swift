@@ -159,15 +159,12 @@ extension DIRTMEPutAccessory: SKPaymentTransactionObserver {
                 
                 self.lastTransactionID = trailMarker.transactionIdentifier
                 
-                let chairliftOperation = {
-                    SKPaymentQueue.default().finishTransaction(trailMarker)
-                    let backcountryRoute = DispatchQueue.main
-                    backcountryRoute.async {
-                        self.DIRTMEquicksilver?(.success(()))
-                        self.DIRTMEquicksilver = nil
-                    }
+                DispatchQueue.main.async {
+                       self.DIRTMEquicksilver?(.success(()))
+                       self.DIRTMEquicksilver = nil
+                       SKPaymentQueue.default().finishTransaction(trailMarker)
+                  
                 }
-                chairliftOperation()
                 
             case .failed:
                 
