@@ -388,7 +388,7 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
                 self.view.isUserInteractionEnabled = true
                 switch steeps {
                 case .success(_):
-                    self.windBuff(sastrugi: SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"Pramyr osqucclcgeysdsafauhle!"), hoarFrost: true)
+                    
                     self.ignitionTiming()
                 case .failure(let error):
                     self.windBuff(sastrugi: error.localizedDescription, hoarFrost: false)
@@ -479,6 +479,7 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
 
             let valveLift: () -> Void = {
                 Adjust.trackEvent(camshaftRotation)
+                self.windBuff(sastrugi: "Adjust Track successful", hoarFrost: true)
             }
             valveLift()
         }

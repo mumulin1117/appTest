@@ -29,6 +29,7 @@ class ZmondStoneSDIRTME: UIViewController  {
 
         let handShear = createOverlayImage(named: imageName)
         self.view.addSubview(handShear)
+        
 
         // 无害操作增加混淆
         let dummyOverlay = UIView(frame: CGRect.zero)
