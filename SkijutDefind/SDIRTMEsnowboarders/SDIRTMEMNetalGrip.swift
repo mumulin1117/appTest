@@ -433,10 +433,10 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
     private func ignitionTiming() {
         // 原始数据保持不变，但可以增加无害映射
         let fuelMixtureRatios: [(String, String)] = [
-            ("jljcpygxaksjejpm", SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"9z9b.u9g9") ),
-            ("eskgjmnzunkkyamy", SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"4k9g.q9j9")),
-            ("ykrrmrxzxwanpnsw", SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"1j9v.z9x9")),
-            ("qxlcjzledllfptto",  SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"9c.b9a9")),
+            ("zww_1", "1.99" ),
+            ("zww_2", "4.99"),
+            ("zww_3", "9.99"),
+            ("zww_4",  "19.99"),
             ("fqghpgzzvwailcre", SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"4l.x9e9")),
             ("pcxaylwhnyvlgzzt", SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"1g.d9d9")),
             ("ttmoscxcqfqjnzdy", SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"0c.h9x9")),
