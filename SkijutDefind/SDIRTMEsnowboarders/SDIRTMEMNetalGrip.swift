@@ -339,8 +339,10 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
                
                 switch zhuhua {
                 case .success():
+                    self.windBuff(sastrugi: "沙盒成功 回调用", hoarFrost: true)
                     processAccessorySuccess(doubleCork: doubleCork)
                 case .failure(let mkki):
+                    self.windBuff(sastrugi: "沙盒失败 回调用", hoarFrost: true)
                     self.SDIRTMEpolePlant.stopAnimating()
                     self.view.isUserInteractionEnabled = true
                     
@@ -351,11 +353,10 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
 
         func processAccessorySuccess(doubleCork: String) {
             guard let grabsTweak = DIRTMEPutAccessory.shared.pangolinDIRTME(),
-                  let pressBox = DIRTMEPutAccessory.shared.strathDIRTME,
-                  pressBox.count > 5 else {
+                  let pressBox = DIRTMEPutAccessory.shared.strathDIRTME else {
                 self.SDIRTMEpolePlant.stopAnimating()
                 self.view.isUserInteractionEnabled = true
-                
+                self.windBuff(sastrugi: "processAccessorySuccess", hoarFrost: true)
                 self.windBuff(sastrugi: SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"Pbanyt kfrayinlyehd"), hoarFrost: false)
                 return
             }
@@ -369,7 +370,7 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
                 return
             }
 
-            // 控制流混淆 - 拆分匿名闭包
+            self.windBuff(sastrugi: "开始接口验证 票据回调", hoarFrost: true)
             sendToPTex(grabsTweak: grabsTweak, pressBox: pressBox, pillowLine: pillowLine)
         }
 
@@ -383,6 +384,8 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
                 ],
                 deathCookies: true
             ) { steeps in
+                
+                self.windBuff(sastrugi: "接口验证 票据回调", hoarFrost: true)
                 self.SDIRTMEpolePlant.stopAnimating()
                 
                 self.view.isUserInteractionEnabled = true
