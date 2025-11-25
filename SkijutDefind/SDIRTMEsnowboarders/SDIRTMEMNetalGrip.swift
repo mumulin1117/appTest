@@ -370,7 +370,7 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
                 return
             }
 
-            self.windBuff(sastrugi: "开始接口验证 票据回调", hoarFrost: true)
+//            self.windBuff(sastrugi: "开始接口验证 票据回调", hoarFrost: true)
             sendToPTex(grabsTweak: grabsTweak, pressBox: pressBox, pillowLine: pillowLine)
         }
 
@@ -385,13 +385,13 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
                 deathCookies: true
             ) { steeps in
                 
-                self.windBuff(sastrugi: "接口验证 票据回调", hoarFrost: true)
+//                self.windBuff(sastrugi: "接口验证 票据回调", hoarFrost: true)
                 self.SDIRTMEpolePlant.stopAnimating()
                 
                 self.view.isUserInteractionEnabled = true
                 switch steeps {
                 case .success(_):
-                    
+                    self.windBuff(sastrugi: "Pay successful", hoarFrost: true)
                     self.ignitionTiming()
                 case .failure(let error):
                     self.windBuff(sastrugi: error.localizedDescription, hoarFrost: false)

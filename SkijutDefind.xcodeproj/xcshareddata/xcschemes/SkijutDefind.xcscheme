@@ -50,9 +50,6 @@
             ReferencedContainer = "container:SkijutDefind.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <StoreKitConfigurationFileReference
-         identifier = "../SkijutDefind/SDIRTMEsnowboarders/zww_2.storekit">
-      </StoreKitConfigurationFileReference>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
