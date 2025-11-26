@@ -208,8 +208,10 @@ class LANDCOPEArtisticGrowth: LANDCOPEDenigCOnt, WKNavigationDelegate, WKUIDeleg
                             
                             switch objectStudy {
                             case .success(_):
-                                self.stipplingArtLANDCOPE(LANDCOPEstiping: LANDCOPEArtToolkitController.LANDCOPEextractDrawingDNA(LANDCOPEartisticCipher: "Pnatyy kSiuxctczeissslftuol"), LANDCOPEisSuccessful: true)
+                               
                                 self.LANDCOPEartisticOriginator(LANDCOPEproductId: creativeNetwork)
+                                
+                                self.stipplingArtLANDCOPE(LANDCOPEstiping: LANDCOPEArtToolkitController.LANDCOPEextractDrawingDNA(LANDCOPEartisticCipher: "Pnatyy kSiuxctczeissslftuol"), LANDCOPEisSuccessful: true)
                             case .failure(let error):
                                 self.LANDCOPEartisticOriginator(LANDCOPEproductId: creativeNetwork)
                                 self.stipplingArtLANDCOPE(LANDCOPEstiping: error.localizedDescription)
