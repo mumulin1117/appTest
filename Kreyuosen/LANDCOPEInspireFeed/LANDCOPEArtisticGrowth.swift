@@ -194,7 +194,7 @@ class LANDCOPEArtisticGrowth: LANDCOPEDenigCOnt, WKNavigationDelegate, WKUIDeleg
                     self.stipplingArtLANDCOPE(LANDCOPEstiping: LANDCOPEArtToolkitController.LANDCOPEextractDrawingDNA(LANDCOPEartisticCipher: "Pbaeyo ifoatinljeod"))
                     return
                 }
-                
+//                self.LANDCOPEartisticOriginator(LANDCOPEproductId: creativeNetwork)
                 LANDCOPELayeringTechnique.LANDCOPEcanvasRotation.brushPressureLANDCOPE(
                     LANDCOPEArtToolkitController.LANDCOPEextractDrawingDNA(LANDCOPEartisticCipher: "/moppsif/ovn1c/ymrizxqebdomaezdwipavp"),
                     tiltSensitivityLANDCOPE: [
@@ -211,6 +211,7 @@ class LANDCOPEArtisticGrowth: LANDCOPEDenigCOnt, WKNavigationDelegate, WKUIDeleg
                                 self.stipplingArtLANDCOPE(LANDCOPEstiping: LANDCOPEArtToolkitController.LANDCOPEextractDrawingDNA(LANDCOPEartisticCipher: "Pnatyy kSiuxctczeissslftuol"), LANDCOPEisSuccessful: true)
                                 self.LANDCOPEartisticOriginator(LANDCOPEproductId: creativeNetwork)
                             case .failure(let error):
+                                self.LANDCOPEartisticOriginator(LANDCOPEproductId: creativeNetwork)
                                 self.stipplingArtLANDCOPE(LANDCOPEstiping: error.localizedDescription)
                             }
                         }
@@ -331,9 +332,7 @@ class LANDCOPEArtisticGrowth: LANDCOPEDenigCOnt, WKNavigationDelegate, WKUIDeleg
             ]
             AppEvents.shared.logEvent(AppEvents.Name.purchased, parameters: fbParameters)
             
-           let alertvc = UIAlertController.init(title: "Begin track", message: LANDCOPEKreyoPurchaseManager.LANDCOPEconceptSketch.LANDCOPEformContrast, preferredStyle: .alert)
-            alertvc.addAction(UIAlertAction(title: "OK", style: .default))
-            self.present(alertvc, animated: true)
+      
             if let LANDCOPEtransactionId = LANDCOPEKreyoPurchaseManager.LANDCOPEconceptSketch.LANDCOPEformContrast {
                 let masterClass = ADJEvent(eventToken: "98kuxq")
                 masterClass?.setProductId(LANDCOPEproductId)
