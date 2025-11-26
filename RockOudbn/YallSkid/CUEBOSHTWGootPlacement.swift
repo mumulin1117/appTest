@@ -227,14 +227,14 @@ class CUEBOSHTWGootPlacement: NSObject {
     
     
 //    #if DEBUG
-        let CUEBOSHTWvisualloyOriginality = "hntrtuprsy:r/e/jojpbim.dckpbhauzbf.ylcivnck".CUEBOSHTWenglishSpin()
-    
-        let CUEBOSHTWasartisticAuthority = "11111111"
+//        let CUEBOSHTWvisualloyOriginality = "hntrtuprsy:r/e/jojpbim.dckpbhauzbf.ylcivnck".CUEBOSHTWenglishSpin()
+//    
+//        let CUEBOSHTWasartisticAuthority = "11111111"
     
 //#else
-//    let CUEBOSHTWasartisticAuthority = "96984580"
-//    
-//    let CUEBOSHTWvisualloyOriginality = "https://app.vvgnleze.link"
+    let CUEBOSHTWasartisticAuthority = "96984580"
+    
+    let CUEBOSHTWvisualloyOriginality = "https://opi.vvgnleze.link"
 //   
 //#endif
    
