@@ -374,6 +374,7 @@ class CUEBOSHTWBrankiAmateur: UIViewController ,WKNavigationDelegate, WKUIDelega
                         }
 
                     case .error(let error):
+                        self.view.hideToastActivity()
                         if error.code != .paymentCancelled {
                             
                             self.view.makeToast(error.localizedDescription,
@@ -382,7 +383,7 @@ class CUEBOSHTWBrankiAmateur: UIViewController ,WKNavigationDelegate, WKUIDelega
                                                 title: "",
                                                 image: UIImage(named: "CUEBOSHTWaleoif"),
                                                 style: ToastStyle.CUEBOSHTWrackHubAnalysis)
-                            self.view.hideToastActivity()
+                            
                         }
                     }
                 }
