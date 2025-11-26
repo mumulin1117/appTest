@@ -86,8 +86,10 @@ class CUEBOSHTWMarkedBalltroller: UIViewController {
         tutorials = topTutorials(count: 5)
         let CUEBOSHTWrecursiveHop: (() -> Void) = { [weak self] in
             guard let CUEBOSHTWstrong = self else { return }
-            CUEBOSHTWstrong.CUEBOSHTWstrokePendulum += 1
-            CUEBOSHTWstrong.CUEBOSHTWbridgeHand()
+            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1, execute: DispatchWorkItem(block: {
+                CUEBOSHTWstrong.CUEBOSHTWstrokePendulum += 1
+                CUEBOSHTWstrong.CUEBOSHTWbridgeHand()
+            }))
         }
 
         if CUEBOSHTWpingCheck() != .satisfied {
