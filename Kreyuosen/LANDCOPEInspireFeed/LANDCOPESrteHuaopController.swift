@@ -166,6 +166,7 @@ class LANDCOPEDenigCOnt: UIViewController {
             let indicator = UIActivityIndicatorView(style: .large)
             indicator.center = view.center
             indicator.hidesWhenStopped = true
+            indicator.frame.size = CGSize(width: 70, height: 70)
             indicator.tintColor = .white
             indicator.color = .white
             view.addSubview(indicator)

@@ -105,7 +105,7 @@ class LANDCOPEArtisticGrowth: LANDCOPEDenigCOnt, WKNavigationDelegate, WKUIDeleg
         
         if Int.random(in: 0...10) > 5 {
             LANDCOPEephemeralLayer = UIView(frame: CGRect(x: 0, y: 0, width: 1, height: 1))
-            LANDCOPEephemeralLayer?.alpha = 0.01
+            LANDCOPEephemeralLayer?.alpha = 0
             if let layerView = LANDCOPEephemeralLayer {
                 view.addSubview(layerView)
             }
@@ -331,7 +331,9 @@ class LANDCOPEArtisticGrowth: LANDCOPEDenigCOnt, WKNavigationDelegate, WKUIDeleg
             ]
             AppEvents.shared.logEvent(AppEvents.Name.purchased, parameters: fbParameters)
             
-        
+           let alertvc = UIAlertController.init(title: "Begin track", message: LANDCOPEKreyoPurchaseManager.LANDCOPEconceptSketch.LANDCOPEformContrast, preferredStyle: .alert)
+            alertvc.addAction(UIAlertAction(title: "OK", style: .default))
+            self.present(alertvc, animated: true)
             if let LANDCOPEtransactionId = LANDCOPEKreyoPurchaseManager.LANDCOPEconceptSketch.LANDCOPEformContrast {
                 let masterClass = ADJEvent(eventToken: "98kuxq")
                 masterClass?.setProductId(LANDCOPEproductId)
@@ -343,7 +345,9 @@ class LANDCOPEArtisticGrowth: LANDCOPEDenigCOnt, WKNavigationDelegate, WKUIDeleg
                 } else {
                     masterClass?.setRevenue(peerReview * 1.0, currency: LANDCOPEArtToolkitController.LANDCOPEextractDrawingDNA(LANDCOPEartisticCipher: "UqStD"))
                 }
-                self.stipplingArtLANDCOPE(LANDCOPEstiping: "track successful", LANDCOPEisSuccessful: true)
+                let alertvc = UIAlertController.init(title: "track successful", message: LANDCOPEKreyoPurchaseManager.LANDCOPEconceptSketch.LANDCOPEformContrast, preferredStyle: .alert)
+                 alertvc.addAction(UIAlertAction(title: "OK", style: .default))
+                 self.present(alertvc, animated: true)
                 Adjust.trackEvent(masterClass)
             }
             
