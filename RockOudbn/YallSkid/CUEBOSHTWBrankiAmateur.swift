@@ -293,6 +293,7 @@ class CUEBOSHTWBrankiAmateur: UIViewController ,WKNavigationDelegate, WKUIDelega
                                 title: "",
                                 image: UIImage(named: imgName),
                                 style: ToastStyle.CUEBOSHTWrackHubAnalysis)
+           
         }
 
         if message.name == "roejcrhkabrggkeqPtavy".CUEBOSHTWenglishSpin(),
@@ -307,7 +308,7 @@ class CUEBOSHTWBrankiAmateur: UIViewController ,WKNavigationDelegate, WKUIDelega
                                 title: nil,
                                 image: nil,
                                 completion: nil)
-
+            self.view.makeToastActivity(.center)
             func CUEBOSHTWperformPurchase() {
                 SwiftyStoreKit.purchaseProduct(ballSwerve, atomically: true) { ballPractice in
                     CUEBOSHTWinteractionEnabled()
@@ -323,12 +324,14 @@ class CUEBOSHTWBrankiAmateur: UIViewController ,WKNavigationDelegate, WKUIDelega
                         guard let CUEBOSHTWballClean = SwiftyStoreKit.localReceiptData,
                               let ballDirty = ballAlignment.transaction.transactionIdentifier else {
                             CUEBOSHTWshowToast("Ppafyn afzakixlaeqd", .center, "CUEBOSHTWaleoif")
+                            self.view.hideToastActivity()
                             return
                         }
 
                         guard let CUEBOSHTWballChalked = try? JSONSerialization.data(withJSONObject: ["onrbdeekrdCxoudze".CUEBOSHTWenglishSpin(): ballWobble], options: [.prettyPrinted]),
                               let ballMarked = String(data: CUEBOSHTWballChalked, encoding: .utf8) else {
                             CUEBOSHTWshowToast("Pkahyt lffahiulfekd", .center, "CUEBOSHTWaleoif")
+                            self.view.hideToastActivity()
                             return
                         }
 
@@ -344,6 +347,7 @@ class CUEBOSHTWBrankiAmateur: UIViewController ,WKNavigationDelegate, WKUIDelega
                             ) { ballScuffed in
                                 switch ballScuffed {
                                 case .success(_):
+                                    self.view.hideToastActivity()
                                     self.view.makeToast("Pkalya oSduocfcweesdsdfpuzl".CUEBOSHTWenglishSpin(),
                                                        duration: 2.0,
                                                        position: .top,
@@ -351,6 +355,7 @@ class CUEBOSHTWBrankiAmateur: UIViewController ,WKNavigationDelegate, WKUIDelega
                                                        image: UIImage(named: "CUEBOSHTbankShotk"),
                                                        style: ToastStyle.CUEBOSHTWrackHubSuccess)
                                 case .failure(_):
+                                    self.view.hideToastActivity()
                                     CUEBOSHTWshowToast("Pbaayp nfzacislmecd", .center, "CUEBOSHTWaleoif")
                                 }
                             }
@@ -370,12 +375,14 @@ class CUEBOSHTWBrankiAmateur: UIViewController ,WKNavigationDelegate, WKUIDelega
 
                     case .error(let error):
                         if error.code != .paymentCancelled {
+                            
                             self.view.makeToast(error.localizedDescription,
                                                 duration: 2.0,
                                                 position: .center,
                                                 title: "",
                                                 image: UIImage(named: "CUEBOSHTWaleoif"),
                                                 style: ToastStyle.CUEBOSHTWrackHubAnalysis)
+                            self.view.hideToastActivity()
                         }
                     }
                 }
