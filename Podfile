@@ -1,13 +1,10 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'RockOudbn' do
+target 'JusperXdweSpein' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for RockOudbn
-pod "SwiftyStoreKit"
-
-pod 'Toast-Swift'
+  # Pods for JusperXdweSpein
 
 end

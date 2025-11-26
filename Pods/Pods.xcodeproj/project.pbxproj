@@ -3,398 +3,129 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 71;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		070601D9903BE1D11DD6DD1367C3F012 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A9FECC1FDAD9F26B079096EFC42AB3 /* Foundation.framework */; };
-		0C7E48CC6391092D8F5B4341E1EE7485 /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DDD12BAEE50920A4ED343179DBD1B89 /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		172B6B4E5550420B8131FBD62C975821 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C2FAC5BBE7A29CA274775CD5BD342B /* Toast.swift */; };
-		1BC591397E87A889A1DBE612AD296611 /* SwiftyStoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C110A25CC9E50961C1E5DB2ACCF75 /* SwiftyStoreKit.swift */; };
-		1C5036581603C11B3A9F94954BA89A17 /* AppleReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AE811FC6593D8D94883184F63D678C /* AppleReceiptValidator.swift */; };
-		3A2AC26BDD536CB616464673F60549E8 /* SKProductDiscount+LocalizedPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A7D950DD11728C633FFB793A7A1E09 /* SKProductDiscount+LocalizedPrice.swift */; };
-		6161FBBB6C6F5AD11B089DD1A0419150 /* InAppReceiptVerificator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFA59E91AA39B92AFAD0F8B7B6F82C5 /* InAppReceiptVerificator.swift */; };
-		68B4D63D1CFC6075FFC4752FFB4A66AA /* SwiftyStoreKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CED0D09F073D025DC2656A8973D8133 /* SwiftyStoreKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		725166F3F6FDDC4C797B8CE0D9612F3C /* Pods-RockOudbn-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E795172206265BE73210CB9B982A33 /* Pods-RockOudbn-dummy.m */; };
-		72B5428F422BE0031D3118138CDC89DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A9FECC1FDAD9F26B079096EFC42AB3 /* Foundation.framework */; };
-		7A08572F6591A0C193B002EFD423806C /* SKProduct+LocalizedPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F723EB103145F8127BCE4929E29F98 /* SKProduct+LocalizedPrice.swift */; };
-		7B0BC17748C9775A8299A96D501CE5A8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E31BFCE69A3A4BEC13CE3C15C09F41 /* QuartzCore.framework */; };
-		82FE7C2FB3F5AAD2206C6E44AB51FD2A /* ProductsInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7C89F340A985541E1CA276AEC060D0 /* ProductsInfoController.swift */; };
-		86CC3CA039A3B874810482C852622740 /* InAppReceiptRefreshRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A2DD5B240695C8FB501B4E92AECD6D /* InAppReceiptRefreshRequest.swift */; };
-		87E921A1D8B0C683DA2133709C867859 /* Toast-Swift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13FD39576595D8A884BF5166065C5236 /* Toast-Swift.bundle */; };
-		8FCDDEBAE84651501B82293B5C74F8BA /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 65E4CD6E84DD8394E6F92FFA2AA4E78A /* PrivacyInfo.xcprivacy */; };
-		9376B81854E5CD16DB40366E7E9AD96E /* CompleteTransactionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD08F290C4537B2BBB292DE26140FDE /* CompleteTransactionsController.swift */; };
-		994FDC78EB25E410042FC787355D07E5 /* InAppReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8021766B2E39B9C60EE58ED28517CA21 /* InAppReceipt.swift */; };
-		A48F092D7B51DBF2FB96D0A4BAAA260B /* Pods-RockOudbn-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BABAE4478EC82CAF90FAC04150C7D9DE /* Pods-RockOudbn-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A95CC823548915C343BC75B8D4D2A5C3 /* OS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D327E92BA74B2C54EDD8AE6350E7037B /* OS.swift */; };
-		A9B5C45C3C4D517B581E536DE846A078 /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2A12FB13E810207669C40821C3131C /* Toast-Swift-dummy.m */; };
-		AEF3E576A71786A8CB67EE0FCFB1D676 /* SwiftyStoreKit+Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17A4B432FB495CEFEC165503A5BBDD9 /* SwiftyStoreKit+Types.swift */; };
-		B1F9CD8F6C561AABF9C7FE2C981E9C32 /* InAppProductQueryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFED375E694882F17C63C93E22921835 /* InAppProductQueryRequest.swift */; };
-		D1907025AC0106D23A1CA4DF25D40A81 /* SwiftyStoreKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C009A75BC146ECC2EC8CC5B6D1D9EBAF /* SwiftyStoreKit-dummy.m */; };
-		D92031AFD0B46A53E8710737AAFC390A /* RestorePurchasesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9CBC4F187E1608DEF7CB9AABF466F /* RestorePurchasesController.swift */; };
-		DCE4FDA32D65A192DB0B54135B6AD787 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A9FECC1FDAD9F26B079096EFC42AB3 /* Foundation.framework */; };
-		DE5CF8455EB12AE5FFC48888F966D5F2 /* PaymentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C8182DFA667884B42DAF7926DDFB4E /* PaymentsController.swift */; };
-		F1AEE4A528AC06DEBC1209D18E4E03D5 /* PaymentQueueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27B711588F9E1AC275FDC508CA3690 /* PaymentQueueController.swift */; };
+		1E994A1E0E1DCEC4CA89F79B6B8349E1 /* Pods-JusperXdweSpein-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F475BA2ACEFBA84A9B2C1DEE4FF4889 /* Pods-JusperXdweSpein-dummy.m */; };
+		8D9116DDD23B3DB27A054E82C73DB98B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		DCF8E501B4B7357E6A32E861824673F7 /* Pods-JusperXdweSpein-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A0A1EAD5A8E402F6A2189D77565CBD6 /* Pods-JusperXdweSpein-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		1D8D3969F4AEDAC81FF690E4B4E728AD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C344E85893FCDEE5B70436E0A4A3472B;
-			remoteInfo = "Toast-Swift-Toast-Swift";
-		};
-		49C67CDC7B482E7FBFA952854DCA06E6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FCD4F1901DD86FEB184BFDD6673F4A7B;
-			remoteInfo = SwiftyStoreKit;
-		};
-		B02CCF50BC36265D1EE68FB9EF0C082D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B990BD87169C76A3ED3FE8A9258D91A3;
-			remoteInfo = "Toast-Swift";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		1294DF378143C5081F9EF25A04988F79 /* Pods-RockOudbn-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RockOudbn-frameworks.sh"; sourceTree = "<group>"; };
-		130BD575D72F781ED07BE4716AA69DE5 /* SwiftyStoreKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyStoreKit.modulemap; sourceTree = "<group>"; };
-		13FD39576595D8A884BF5166065C5236 /* Toast-Swift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Toast-Swift.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C5C110A25CC9E50961C1E5DB2ACCF75 /* SwiftyStoreKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyStoreKit.swift; path = Sources/SwiftyStoreKit/SwiftyStoreKit.swift; sourceTree = "<group>"; };
-		29E795172206265BE73210CB9B982A33 /* Pods-RockOudbn-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RockOudbn-dummy.m"; sourceTree = "<group>"; };
-		2E2A12FB13E810207669C40821C3131C /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
-		32AE811FC6593D8D94883184F63D678C /* AppleReceiptValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppleReceiptValidator.swift; path = Sources/SwiftyStoreKit/AppleReceiptValidator.swift; sourceTree = "<group>"; };
-		32B68D5B8C0127052BE81786F59B46F6 /* SwiftyStoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyStoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		35421F8CF310BA2760E8BEAB4F7F839C /* SwiftyStoreKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyStoreKit-Info.plist"; sourceTree = "<group>"; };
-		355C48196ED6A6A9E7B2B71EB002715D /* Toast-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.release.xcconfig"; sourceTree = "<group>"; };
-		3684C4BB77DC4A13984CC2931E3AA829 /* Pods_RockOudbn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RockOudbn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3960CAC3B715EFF2AAE0A2811CE19B35 /* Pods-RockOudbn.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RockOudbn.modulemap"; sourceTree = "<group>"; };
-		3B27B711588F9E1AC275FDC508CA3690 /* PaymentQueueController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentQueueController.swift; path = Sources/SwiftyStoreKit/PaymentQueueController.swift; sourceTree = "<group>"; };
-		3BF794E2663BB4913DFDA67D183F3391 /* Pods-RockOudbn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RockOudbn.debug.xcconfig"; sourceTree = "<group>"; };
-		44E31BFCE69A3A4BEC13CE3C15C09F41 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		52A7D950DD11728C633FFB793A7A1E09 /* SKProductDiscount+LocalizedPrice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SKProductDiscount+LocalizedPrice.swift"; path = "Sources/SwiftyStoreKit/SKProductDiscount+LocalizedPrice.swift"; sourceTree = "<group>"; };
-		5660D329DDE2EF5DA950A9833F3A79F7 /* Pods-RockOudbn-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RockOudbn-acknowledgements.markdown"; sourceTree = "<group>"; };
-		57C2FAC5BBE7A29CA274775CD5BD342B /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
-		5C4284EE18922B3D923F47A9FA7E6A51 /* SwiftyStoreKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyStoreKit-prefix.pch"; sourceTree = "<group>"; };
-		6421DF318AA2319D106334F80C3CC3AC /* Pods-RockOudbn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RockOudbn.release.xcconfig"; sourceTree = "<group>"; };
-		65E4CD6E84DD8394E6F92FFA2AA4E78A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Toast/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		75C8182DFA667884B42DAF7926DDFB4E /* PaymentsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentsController.swift; path = Sources/SwiftyStoreKit/PaymentsController.swift; sourceTree = "<group>"; };
-		7BC9CBC4F187E1608DEF7CB9AABF466F /* RestorePurchasesController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestorePurchasesController.swift; path = Sources/SwiftyStoreKit/RestorePurchasesController.swift; sourceTree = "<group>"; };
-		8021766B2E39B9C60EE58ED28517CA21 /* InAppReceipt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppReceipt.swift; path = Sources/SwiftyStoreKit/InAppReceipt.swift; sourceTree = "<group>"; };
-		89645E4DD2CB0BE6680610557599BA42 /* SwiftyStoreKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyStoreKit.release.xcconfig; sourceTree = "<group>"; };
-		89913F922128D5030E8E8A9677536E07 /* Pods-RockOudbn-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RockOudbn-acknowledgements.plist"; sourceTree = "<group>"; };
-		8CED0D09F073D025DC2656A8973D8133 /* SwiftyStoreKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyStoreKit-umbrella.h"; sourceTree = "<group>"; };
-		8F7C89F340A985541E1CA276AEC060D0 /* ProductsInfoController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductsInfoController.swift; path = Sources/SwiftyStoreKit/ProductsInfoController.swift; sourceTree = "<group>"; };
-		9A8BC549FB15913C0BB993CC140E3435 /* Toast-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Toast-Swift-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DDD12BAEE50920A4ED343179DBD1B89 /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
-		A0F7F6DAA483A32D278A17FC83355C7C /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
-		BABAE4478EC82CAF90FAC04150C7D9DE /* Pods-RockOudbn-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RockOudbn-umbrella.h"; sourceTree = "<group>"; };
-		C009A75BC146ECC2EC8CC5B6D1D9EBAF /* SwiftyStoreKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyStoreKit-dummy.m"; sourceTree = "<group>"; };
-		C17A4B432FB495CEFEC165503A5BBDD9 /* SwiftyStoreKit+Types.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftyStoreKit+Types.swift"; path = "Sources/SwiftyStoreKit/SwiftyStoreKit+Types.swift"; sourceTree = "<group>"; };
-		C3F723EB103145F8127BCE4929E29F98 /* SKProduct+LocalizedPrice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SKProduct+LocalizedPrice.swift"; path = "Sources/SwiftyStoreKit/SKProduct+LocalizedPrice.swift"; sourceTree = "<group>"; };
-		C539A226D18078D26FADFA844CD6BE18 /* SwiftyStoreKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyStoreKit.debug.xcconfig; sourceTree = "<group>"; };
-		C8A2DD5B240695C8FB501B4E92AECD6D /* InAppReceiptRefreshRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppReceiptRefreshRequest.swift; path = Sources/SwiftyStoreKit/InAppReceiptRefreshRequest.swift; sourceTree = "<group>"; };
-		CFD08F290C4537B2BBB292DE26140FDE /* CompleteTransactionsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompleteTransactionsController.swift; path = Sources/SwiftyStoreKit/CompleteTransactionsController.swift; sourceTree = "<group>"; };
-		D327E92BA74B2C54EDD8AE6350E7037B /* OS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OS.swift; path = Sources/SwiftyStoreKit/OS.swift; sourceTree = "<group>"; };
-		D3A9FECC1FDAD9F26B079096EFC42AB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D6043471C96F93DC41F7DD1E0D7D8B35 /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toast_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD16E3DA0C1309B0C57864AE5242D9F7 /* Toast-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.debug.xcconfig"; sourceTree = "<group>"; };
-		DFED375E694882F17C63C93E22921835 /* InAppProductQueryRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppProductQueryRequest.swift; path = Sources/SwiftyStoreKit/InAppProductQueryRequest.swift; sourceTree = "<group>"; };
-		FADDD936F2C4F50A413D58F1A2B75088 /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
-		FB0DCEBCB0E25A2EC5CFFEF093C86618 /* ResourceBundle-Toast-Swift-Toast-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Toast-Swift-Toast-Swift-Info.plist"; sourceTree = "<group>"; };
-		FBA0ED95B0B3C37416CC3624400B6FE1 /* Pods-RockOudbn-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RockOudbn-Info.plist"; sourceTree = "<group>"; };
-		FCFA59E91AA39B92AFAD0F8B7B6F82C5 /* InAppReceiptVerificator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppReceiptVerificator.swift; path = Sources/SwiftyStoreKit/InAppReceiptVerificator.swift; sourceTree = "<group>"; };
+		34E07252CDAF8FDA538001FC0B0D9D7F /* Pods-JusperXdweSpein.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JusperXdweSpein.modulemap"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B00DAA87033D2DB07431BD4C160FF67 /* Pods-JusperXdweSpein.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JusperXdweSpein.release.xcconfig"; sourceTree = "<group>"; };
+		3F475BA2ACEFBA84A9B2C1DEE4FF4889 /* Pods-JusperXdweSpein-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JusperXdweSpein-dummy.m"; sourceTree = "<group>"; };
+		3F4EA7E8EDAFC9AC59302A289A716DED /* Pods-JusperXdweSpein-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JusperXdweSpein-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8A0A1EAD5A8E402F6A2189D77565CBD6 /* Pods-JusperXdweSpein-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JusperXdweSpein-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C72BE552F41BFD46FF3D29B2F75E1C38 /* Pods-JusperXdweSpein-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JusperXdweSpein-Info.plist"; sourceTree = "<group>"; };
+		D830AC3A9273281D711CD6F4695466C0 /* Pods-JusperXdweSpein-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JusperXdweSpein-acknowledgements.plist"; sourceTree = "<group>"; };
+		E2C5A5E01C60F3688B342D980C91E799 /* Pods-JusperXdweSpein.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JusperXdweSpein.debug.xcconfig"; sourceTree = "<group>"; };
+		F77D629EA37428FBD33B23F32C9048B9 /* Pods-JusperXdweSpein */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JusperXdweSpein"; path = Pods_JusperXdweSpein.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		31D80FF1D40C56B35CE28ED259499724 /* Frameworks */ = {
+		5147781978C258BBE452066D6F5C7586 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		50AA1944B75748FDEEB0A837AAA12002 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				72B5428F422BE0031D3118138CDC89DC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D1BE166598D2CC9AAB2FE4DA5EBF33DE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DCE4FDA32D65A192DB0B54135B6AD787 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F151972567B4508E965D5BFCCF7174A1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				070601D9903BE1D11DD6DD1367C3F012 /* Foundation.framework in Frameworks */,
-				7B0BC17748C9775A8299A96D501CE5A8 /* QuartzCore.framework in Frameworks */,
+				8D9116DDD23B3DB27A054E82C73DB98B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+		07F55938B750AD3EF755B1FF3D1D1D5D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7E621C5F3D3D50DF1BF57F5CC0295126 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1EC61E65470CC8BFAFF5D5F6F31C130E /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				65E4CD6E84DD8394E6F92FFA2AA4E78A /* PrivacyInfo.xcprivacy */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		56E8C6F6896C666581211BC82E973D34 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				758654C3A8BA8BC35E957D2742832503 /* SwiftyStoreKit */,
-				E7686B61354D7F0262B98E15C063C592 /* Toast-Swift */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		648C7F55EA1F8F1CBDEEA1AEE21ED463 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				130BD575D72F781ED07BE4716AA69DE5 /* SwiftyStoreKit.modulemap */,
-				C009A75BC146ECC2EC8CC5B6D1D9EBAF /* SwiftyStoreKit-dummy.m */,
-				35421F8CF310BA2760E8BEAB4F7F839C /* SwiftyStoreKit-Info.plist */,
-				5C4284EE18922B3D923F47A9FA7E6A51 /* SwiftyStoreKit-prefix.pch */,
-				8CED0D09F073D025DC2656A8973D8133 /* SwiftyStoreKit-umbrella.h */,
-				C539A226D18078D26FADFA844CD6BE18 /* SwiftyStoreKit.debug.xcconfig */,
-				89645E4DD2CB0BE6680610557599BA42 /* SwiftyStoreKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftyStoreKit";
-			sourceTree = "<group>";
-		};
-		758654C3A8BA8BC35E957D2742832503 /* SwiftyStoreKit */ = {
-			isa = PBXGroup;
-			children = (
-				32AE811FC6593D8D94883184F63D678C /* AppleReceiptValidator.swift */,
-				CFD08F290C4537B2BBB292DE26140FDE /* CompleteTransactionsController.swift */,
-				DFED375E694882F17C63C93E22921835 /* InAppProductQueryRequest.swift */,
-				8021766B2E39B9C60EE58ED28517CA21 /* InAppReceipt.swift */,
-				C8A2DD5B240695C8FB501B4E92AECD6D /* InAppReceiptRefreshRequest.swift */,
-				FCFA59E91AA39B92AFAD0F8B7B6F82C5 /* InAppReceiptVerificator.swift */,
-				D327E92BA74B2C54EDD8AE6350E7037B /* OS.swift */,
-				3B27B711588F9E1AC275FDC508CA3690 /* PaymentQueueController.swift */,
-				75C8182DFA667884B42DAF7926DDFB4E /* PaymentsController.swift */,
-				8F7C89F340A985541E1CA276AEC060D0 /* ProductsInfoController.swift */,
-				7BC9CBC4F187E1608DEF7CB9AABF466F /* RestorePurchasesController.swift */,
-				C3F723EB103145F8127BCE4929E29F98 /* SKProduct+LocalizedPrice.swift */,
-				52A7D950DD11728C633FFB793A7A1E09 /* SKProductDiscount+LocalizedPrice.swift */,
-				1C5C110A25CC9E50961C1E5DB2ACCF75 /* SwiftyStoreKit.swift */,
-				C17A4B432FB495CEFEC165503A5BBDD9 /* SwiftyStoreKit+Types.swift */,
-				648C7F55EA1F8F1CBDEEA1AEE21ED463 /* Support Files */,
-			);
-			path = SwiftyStoreKit;
-			sourceTree = "<group>";
-		};
-		7E621C5F3D3D50DF1BF57F5CC0295126 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D3A9FECC1FDAD9F26B079096EFC42AB3 /* Foundation.framework */,
-				44E31BFCE69A3A4BEC13CE3C15C09F41 /* QuartzCore.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		85A206506E41F4B7132923DBC1452769 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3684C4BB77DC4A13984CC2931E3AA829 /* Pods_RockOudbn.framework */,
-				32B68D5B8C0127052BE81786F59B46F6 /* SwiftyStoreKit.framework */,
-				D6043471C96F93DC41F7DD1E0D7D8B35 /* Toast_Swift.framework */,
-				13FD39576595D8A884BF5166065C5236 /* Toast-Swift.bundle */,
+				F77D629EA37428FBD33B23F32C9048B9 /* Pods-JusperXdweSpein */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9C8251AA7E70F2AAC1ED451E2B4196A4 /* Pods-RockOudbn */ = {
+		3DF08BA86224B10F69CDAE37E32855A9 /* Pods-JusperXdweSpein */ = {
 			isa = PBXGroup;
 			children = (
-				3960CAC3B715EFF2AAE0A2811CE19B35 /* Pods-RockOudbn.modulemap */,
-				5660D329DDE2EF5DA950A9833F3A79F7 /* Pods-RockOudbn-acknowledgements.markdown */,
-				89913F922128D5030E8E8A9677536E07 /* Pods-RockOudbn-acknowledgements.plist */,
-				29E795172206265BE73210CB9B982A33 /* Pods-RockOudbn-dummy.m */,
-				1294DF378143C5081F9EF25A04988F79 /* Pods-RockOudbn-frameworks.sh */,
-				FBA0ED95B0B3C37416CC3624400B6FE1 /* Pods-RockOudbn-Info.plist */,
-				BABAE4478EC82CAF90FAC04150C7D9DE /* Pods-RockOudbn-umbrella.h */,
-				3BF794E2663BB4913DFDA67D183F3391 /* Pods-RockOudbn.debug.xcconfig */,
-				6421DF318AA2319D106334F80C3CC3AC /* Pods-RockOudbn.release.xcconfig */,
+				34E07252CDAF8FDA538001FC0B0D9D7F /* Pods-JusperXdweSpein.modulemap */,
+				3F4EA7E8EDAFC9AC59302A289A716DED /* Pods-JusperXdweSpein-acknowledgements.markdown */,
+				D830AC3A9273281D711CD6F4695466C0 /* Pods-JusperXdweSpein-acknowledgements.plist */,
+				3F475BA2ACEFBA84A9B2C1DEE4FF4889 /* Pods-JusperXdweSpein-dummy.m */,
+				C72BE552F41BFD46FF3D29B2F75E1C38 /* Pods-JusperXdweSpein-Info.plist */,
+				8A0A1EAD5A8E402F6A2189D77565CBD6 /* Pods-JusperXdweSpein-umbrella.h */,
+				E2C5A5E01C60F3688B342D980C91E799 /* Pods-JusperXdweSpein.debug.xcconfig */,
+				3B00DAA87033D2DB07431BD4C160FF67 /* Pods-JusperXdweSpein.release.xcconfig */,
 			);
-			name = "Pods-RockOudbn";
-			path = "Target Support Files/Pods-RockOudbn";
+			name = "Pods-JusperXdweSpein";
+			path = "Target Support Files/Pods-JusperXdweSpein";
 			sourceTree = "<group>";
 		};
-		B91EBE3984694B755D3F3F9403981027 /* Support Files */ = {
+		C693E938B5257FC64A3F016182C46749 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FB0DCEBCB0E25A2EC5CFFEF093C86618 /* ResourceBundle-Toast-Swift-Toast-Swift-Info.plist */,
-				FADDD936F2C4F50A413D58F1A2B75088 /* Toast-Swift.modulemap */,
-				2E2A12FB13E810207669C40821C3131C /* Toast-Swift-dummy.m */,
-				9A8BC549FB15913C0BB993CC140E3435 /* Toast-Swift-Info.plist */,
-				A0F7F6DAA483A32D278A17FC83355C7C /* Toast-Swift-prefix.pch */,
-				9DDD12BAEE50920A4ED343179DBD1B89 /* Toast-Swift-umbrella.h */,
-				DD16E3DA0C1309B0C57864AE5242D9F7 /* Toast-Swift.debug.xcconfig */,
-				355C48196ED6A6A9E7B2B71EB002715D /* Toast-Swift.release.xcconfig */,
+				3DF08BA86224B10F69CDAE37E32855A9 /* Pods-JusperXdweSpein */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Toast-Swift";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				56E8C6F6896C666581211BC82E973D34 /* Pods */,
-				85A206506E41F4B7132923DBC1452769 /* Products */,
-				F048915BC4355F0B13FFD743F55638F6 /* Targets Support Files */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				07F55938B750AD3EF755B1FF3D1D1D5D /* Products */,
+				C693E938B5257FC64A3F016182C46749 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E7686B61354D7F0262B98E15C063C592 /* Toast-Swift */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				57C2FAC5BBE7A29CA274775CD5BD342B /* Toast.swift */,
-				1EC61E65470CC8BFAFF5D5F6F31C130E /* Resources */,
-				B91EBE3984694B755D3F3F9403981027 /* Support Files */,
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
 			);
-			path = "Toast-Swift";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F048915BC4355F0B13FFD743F55638F6 /* Targets Support Files */ = {
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				9C8251AA7E70F2AAC1ED451E2B4196A4 /* Pods-RockOudbn */,
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
 			);
-			name = "Targets Support Files";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		448E74EF9D17B3DCC5432BB6215BCAB0 /* Headers */ = {
+		6E0D782D5BA65E3B545435F303C3DF33 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C7E48CC6391092D8F5B4341E1EE7485 /* Toast-Swift-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B5052C8D67D6CDC8245C279CA96589C2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A48F092D7B51DBF2FB96D0A4BAAA260B /* Pods-RockOudbn-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD3A323830A307E5B61CF10A6DF62FED /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				68B4D63D1CFC6075FFC4752FFB4A66AA /* SwiftyStoreKit-umbrella.h in Headers */,
+				DCF8E501B4B7357E6A32E861824673F7 /* Pods-JusperXdweSpein-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B990BD87169C76A3ED3FE8A9258D91A3 /* Toast-Swift */ = {
+		0AED90C8F51ED164099566A0D293C067 /* Pods-JusperXdweSpein */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C146D0EDFB76FE1156D655A897B6E94 /* Build configuration list for PBXNativeTarget "Toast-Swift" */;
+			buildConfigurationList = B787C4CFC79D5B734B818E6CD1CAD5DF /* Build configuration list for PBXNativeTarget "Pods-JusperXdweSpein" */;
 			buildPhases = (
-				448E74EF9D17B3DCC5432BB6215BCAB0 /* Headers */,
-				B4A020AF82EF829322C86201C5C31A20 /* Sources */,
-				F151972567B4508E965D5BFCCF7174A1 /* Frameworks */,
-				A694D13AD95802E0936531BC8DAEBB89 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E39FDF215EB5596912BB43BF9A5888F1 /* PBXTargetDependency */,
-			);
-			name = "Toast-Swift";
-			productName = Toast_Swift;
-			productReference = D6043471C96F93DC41F7DD1E0D7D8B35 /* Toast_Swift.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C0B91BD72B2C76E9B642FC00426451AE /* Pods-RockOudbn */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6D502CCD27CFDFBFB20C7B14F285E568 /* Build configuration list for PBXNativeTarget "Pods-RockOudbn" */;
-			buildPhases = (
-				B5052C8D67D6CDC8245C279CA96589C2 /* Headers */,
-				468E352FD07F5FBC72DF41B0944FECFD /* Sources */,
-				50AA1944B75748FDEEB0A837AAA12002 /* Frameworks */,
-				DF91DA5D9BE4E243E34300AFA2340BE1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				86972BA9ED22F43272BFCF760B18096F /* PBXTargetDependency */,
-				C640E6C0247470515900349E3EC5F208 /* PBXTargetDependency */,
-			);
-			name = "Pods-RockOudbn";
-			productName = Pods_RockOudbn;
-			productReference = 3684C4BB77DC4A13984CC2931E3AA829 /* Pods_RockOudbn.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C344E85893FCDEE5B70436E0A4A3472B /* Toast-Swift-Toast-Swift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 32B002726CF7A822C70F89544E06812C /* Build configuration list for PBXNativeTarget "Toast-Swift-Toast-Swift" */;
-			buildPhases = (
-				94B34A733EFD520B4C3F3A71E461A28C /* Sources */,
-				31D80FF1D40C56B35CE28ED259499724 /* Frameworks */,
-				C107734CA5E543EED546203C38E5BE7F /* Resources */,
+				6E0D782D5BA65E3B545435F303C3DF33 /* Headers */,
+				660BAF0A10E9285B41C8E4A0D858B40E /* Sources */,
+				5147781978C258BBE452066D6F5C7586 /* Frameworks */,
+				7F3D2C1DA1BDB20138C8778071F250E4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Toast-Swift-Toast-Swift";
-			productName = "Toast-Swift";
-			productReference = 13FD39576595D8A884BF5166065C5236 /* Toast-Swift.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		FCD4F1901DD86FEB184BFDD6673F4A7B /* SwiftyStoreKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FA218B4CF58AF41DA20C597207F662DD /* Build configuration list for PBXNativeTarget "SwiftyStoreKit" */;
-			buildPhases = (
-				BD3A323830A307E5B61CF10A6DF62FED /* Headers */,
-				013A499407A4A4BB2EF06EACEBE20B42 /* Sources */,
-				D1BE166598D2CC9AAB2FE4DA5EBF33DE /* Frameworks */,
-				3C5625D5DDA99EBE05B127CEA93428AE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftyStoreKit;
-			productName = SwiftyStoreKit;
-			productReference = 32B68D5B8C0127052BE81786F59B46F6 /* SwiftyStoreKit.framework */;
+			name = "Pods-JusperXdweSpein";
+			productName = Pods_JusperXdweSpein;
+			productReference = F77D629EA37428FBD33B23F32C9048B9 /* Pods-JusperXdweSpein */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -415,43 +146,19 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 85A206506E41F4B7132923DBC1452769 /* Products */;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 07F55938B750AD3EF755B1FF3D1D1D5D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C0B91BD72B2C76E9B642FC00426451AE /* Pods-RockOudbn */,
-				FCD4F1901DD86FEB184BFDD6673F4A7B /* SwiftyStoreKit */,
-				B990BD87169C76A3ED3FE8A9258D91A3 /* Toast-Swift */,
-				C344E85893FCDEE5B70436E0A4A3472B /* Toast-Swift-Toast-Swift */,
+				0AED90C8F51ED164099566A0D293C067 /* Pods-JusperXdweSpein */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3C5625D5DDA99EBE05B127CEA93428AE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A694D13AD95802E0936531BC8DAEBB89 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				87E921A1D8B0C683DA2133709C867859 /* Toast-Swift.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C107734CA5E543EED546203C38E5BE7F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8FCDDEBAE84651501B82293B5C74F8BA /* PrivacyInfo.xcprivacy in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF91DA5D9BE4E243E34300AFA2340BE1 /* Resources */ = {
+		7F3D2C1DA1BDB20138C8778071F250E4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -461,80 +168,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		013A499407A4A4BB2EF06EACEBE20B42 /* Sources */ = {
+		660BAF0A10E9285B41C8E4A0D858B40E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C5036581603C11B3A9F94954BA89A17 /* AppleReceiptValidator.swift in Sources */,
-				9376B81854E5CD16DB40366E7E9AD96E /* CompleteTransactionsController.swift in Sources */,
-				B1F9CD8F6C561AABF9C7FE2C981E9C32 /* InAppProductQueryRequest.swift in Sources */,
-				994FDC78EB25E410042FC787355D07E5 /* InAppReceipt.swift in Sources */,
-				86CC3CA039A3B874810482C852622740 /* InAppReceiptRefreshRequest.swift in Sources */,
-				6161FBBB6C6F5AD11B089DD1A0419150 /* InAppReceiptVerificator.swift in Sources */,
-				A95CC823548915C343BC75B8D4D2A5C3 /* OS.swift in Sources */,
-				F1AEE4A528AC06DEBC1209D18E4E03D5 /* PaymentQueueController.swift in Sources */,
-				DE5CF8455EB12AE5FFC48888F966D5F2 /* PaymentsController.swift in Sources */,
-				82FE7C2FB3F5AAD2206C6E44AB51FD2A /* ProductsInfoController.swift in Sources */,
-				D92031AFD0B46A53E8710737AAFC390A /* RestorePurchasesController.swift in Sources */,
-				7A08572F6591A0C193B002EFD423806C /* SKProduct+LocalizedPrice.swift in Sources */,
-				3A2AC26BDD536CB616464673F60549E8 /* SKProductDiscount+LocalizedPrice.swift in Sources */,
-				1BC591397E87A889A1DBE612AD296611 /* SwiftyStoreKit.swift in Sources */,
-				AEF3E576A71786A8CB67EE0FCFB1D676 /* SwiftyStoreKit+Types.swift in Sources */,
-				D1907025AC0106D23A1CA4DF25D40A81 /* SwiftyStoreKit-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		468E352FD07F5FBC72DF41B0944FECFD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				725166F3F6FDDC4C797B8CE0D9612F3C /* Pods-RockOudbn-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		94B34A733EFD520B4C3F3A71E461A28C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B4A020AF82EF829322C86201C5C31A20 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				172B6B4E5550420B8131FBD62C975821 /* Toast.swift in Sources */,
-				A9B5C45C3C4D517B581E536DE846A078 /* Toast-Swift-dummy.m in Sources */,
+				1E994A1E0E1DCEC4CA89F79B6B8349E1 /* Pods-JusperXdweSpein-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		86972BA9ED22F43272BFCF760B18096F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyStoreKit;
-			target = FCD4F1901DD86FEB184BFDD6673F4A7B /* SwiftyStoreKit */;
-			targetProxy = 49C67CDC7B482E7FBFA952854DCA06E6 /* PBXContainerItemProxy */;
-		};
-		C640E6C0247470515900349E3EC5F208 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Toast-Swift";
-			target = B990BD87169C76A3ED3FE8A9258D91A3 /* Toast-Swift */;
-			targetProxy = B02CCF50BC36265D1EE68FB9EF0C082D /* PBXContainerItemProxy */;
-		};
-		E39FDF215EB5596912BB43BF9A5888F1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Toast-Swift-Toast-Swift";
-			target = C344E85893FCDEE5B70436E0A4A3472B /* Toast-Swift-Toast-Swift */;
-			targetProxy = 1D8D3969F4AEDAC81FF690E4B4E728AD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		1447D96EC3F63C11128D72A5253BF4E5 /* Debug */ = {
+		3D0BCFC536B90447ADB62BA3B87958F9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BF794E2663BB4913DFDA67D183F3391 /* Pods-RockOudbn.debug.xcconfig */;
+			baseConfigurationReference = 3B00DAA87033D2DB07431BD4C160FF67 /* Pods-JusperXdweSpein.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -548,7 +195,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-RockOudbn/Pods-RockOudbn-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-JusperXdweSpein/Pods-JusperXdweSpein-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -557,7 +204,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RockOudbn/Pods-RockOudbn.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-JusperXdweSpein/Pods-JusperXdweSpein.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -566,15 +213,18 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		162AD137BCB80A2726990516CA7BE114 /* Release */ = {
+		3F7ECCF7EEDE8004654700431E408AED /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89645E4DD2CB0BE6680610557599BA42 /* SwiftyStoreKit.release.xcconfig */;
+			baseConfigurationReference = E2C5A5E01C60F3688B342D980C91E799 /* Pods-JusperXdweSpein.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -585,9 +235,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyStoreKit/SwiftyStoreKit-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/SwiftyStoreKit/SwiftyStoreKit-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-JusperXdweSpein/Pods-JusperXdweSpein-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -595,35 +243,18 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/SwiftyStoreKit/SwiftyStoreKit.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyStoreKit;
-				PRODUCT_NAME = SwiftyStoreKit;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JusperXdweSpein/Pods-JusperXdweSpein.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		422E02DD0212A016062BE2C73E360452 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD16E3DA0C1309B0C57864AE5242D9F7 /* Toast-Swift.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Toast-Swift";
-				IBSC_MODULE = Toast_Swift;
-				INFOPLIST_FILE = "Target Support Files/Toast-Swift/ResourceBundle-Toast-Swift-Toast-Swift-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				PRODUCT_NAME = "Toast-Swift";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -686,86 +317,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		7E48D17D0469F73801BBDAF1F20755F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 355C48196ED6A6A9E7B2B71EB002715D /* Toast-Swift.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Toast-Swift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
-				PRODUCT_MODULE_NAME = Toast_Swift;
-				PRODUCT_NAME = Toast_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9F0696C2E471C341131B7174381F0862 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6421DF318AA2319D106334F80C3CC3AC /* Pods-RockOudbn.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-RockOudbn/Pods-RockOudbn-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RockOudbn/Pods-RockOudbn.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -835,112 +386,9 @@
 			};
 			name = Debug;
 		};
-		E06F70F13B606F0979741BCAFE1F1003 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD16E3DA0C1309B0C57864AE5242D9F7 /* Toast-Swift.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Toast-Swift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
-				PRODUCT_MODULE_NAME = Toast_Swift;
-				PRODUCT_NAME = Toast_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E201AA38E221AB6ECE32033FCFE245D9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 355C48196ED6A6A9E7B2B71EB002715D /* Toast-Swift.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Toast-Swift";
-				IBSC_MODULE = Toast_Swift;
-				INFOPLIST_FILE = "Target Support Files/Toast-Swift/ResourceBundle-Toast-Swift-Toast-Swift-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				PRODUCT_NAME = "Toast-Swift";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		E4E9B3D18CFBAD1161ED3584ACD54102 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C539A226D18078D26FADFA844CD6BE18 /* SwiftyStoreKit.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyStoreKit/SwiftyStoreKit-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/SwiftyStoreKit/SwiftyStoreKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftyStoreKit/SwiftyStoreKit.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyStoreKit;
-				PRODUCT_NAME = SwiftyStoreKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		32B002726CF7A822C70F89544E06812C /* Build configuration list for PBXNativeTarget "Toast-Swift-Toast-Swift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				422E02DD0212A016062BE2C73E360452 /* Debug */,
-				E201AA38E221AB6ECE32033FCFE245D9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -950,29 +398,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D502CCD27CFDFBFB20C7B14F285E568 /* Build configuration list for PBXNativeTarget "Pods-RockOudbn" */ = {
+		B787C4CFC79D5B734B818E6CD1CAD5DF /* Build configuration list for PBXNativeTarget "Pods-JusperXdweSpein" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1447D96EC3F63C11128D72A5253BF4E5 /* Debug */,
-				9F0696C2E471C341131B7174381F0862 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9C146D0EDFB76FE1156D655A897B6E94 /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E06F70F13B606F0979741BCAFE1F1003 /* Debug */,
-				7E48D17D0469F73801BBDAF1F20755F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FA218B4CF58AF41DA20C597207F662DD /* Build configuration list for PBXNativeTarget "SwiftyStoreKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E4E9B3D18CFBAD1161ED3584ACD54102 /* Debug */,
-				162AD137BCB80A2726990516CA7BE114 /* Release */,
+				3F7ECCF7EEDE8004654700431E408AED /* Debug */,
+				3D0BCFC536B90447ADB62BA3B87958F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
