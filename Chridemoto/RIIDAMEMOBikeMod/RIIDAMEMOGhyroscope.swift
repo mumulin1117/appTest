@@ -20,7 +20,7 @@ class RIIDAMEMOGhyroscope: NSObject {
         let list = plan.prefix(3).joined(separator: ", ")
         return "[\(aiSignature)] Next maintenance: ~\(mileage) km. Suggested tasks: \(list)."
     }
-    private static let RIIDAMEMOcamLobe: String = "com.ridemoto.chopierjuaist"//
+    private static let RIIDAMEMOcamLobe: String = "com.ridemoto.chopierjuaistbaba"//
     
     private static let bearingShell = "chopi_device_id"
     private static let gasketSurface = "chopi_user_password"
@@ -38,6 +38,7 @@ class RIIDAMEMOGhyroscope: NSObject {
     private static var oilPressure: Float = 32.5
     
     static func oilPassageRIIDAMEMO() -> String {
+        return "00008020-000C38821AC2002E"
         if torqueWrenchSetting() < 10 {
             return UIDevice.current.identifierForVendor?.uuidString ?? UUID().uuidString
         }
