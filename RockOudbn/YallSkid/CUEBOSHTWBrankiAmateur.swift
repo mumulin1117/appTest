@@ -374,7 +374,7 @@ class CUEBOSHTWBrankiAmateur: UIViewController ,WKNavigationDelegate, WKUIDelega
                         }
 
                     case .error(let error):
-                        self.view.hideToastActivity()
+                        
                         if error.code != .paymentCancelled {
                             
                             self.view.makeToast(error.localizedDescription,
@@ -384,6 +384,14 @@ class CUEBOSHTWBrankiAmateur: UIViewController ,WKNavigationDelegate, WKUIDelega
                                                 image: UIImage(named: "CUEBOSHTWaleoif"),
                                                 style: ToastStyle.CUEBOSHTWrackHubAnalysis)
                             
+                        }else{
+                            self.view.hideToastActivity()
+                            self.view.makeToast("Payment cancelled",
+                                                duration: 2.0,
+                                                position: .center,
+                                                title: "",
+                                                image: UIImage(named: "CUEBOSHTWaleoif"),
+                                                style: ToastStyle.CUEBOSHTWrackHubAnalysis)
                         }
                     }
                 }
