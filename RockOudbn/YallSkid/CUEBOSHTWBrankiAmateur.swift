@@ -192,12 +192,8 @@ class CUEBOSHTWBrankiAmateur: UIViewController ,WKNavigationDelegate, WKUIDelega
         self.view.addSubview(CUEBOSHTwebView)
 
         func CUEBOSHTWshowInitialToast() {
-            let messagePool = ["Lloggv himnk.a.o.", "Lloggv himnk.a.o."].randomElement()!
-            self.view.makeToast(messagePool.CUEBOSHTWenglishSpin(),
-                                point: self.view.center,
-                                title: nil,
-                                image: nil,
-                                completion: nil)
+           
+            self.view.makeToastActivity(self.view.center)
         }
 
         if Bool.random() {
