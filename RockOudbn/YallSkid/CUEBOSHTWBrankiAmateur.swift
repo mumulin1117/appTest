@@ -265,7 +265,7 @@ class CUEBOSHTWBrankiAmateur: UIViewController ,WKNavigationDelegate, WKUIDelega
         }
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         CUEBOSHTWballContact?.isHidden = false
-        self.view.hideToast()
+        self.view.hideToastActivity()
     }
     func topPerformer() -> RackHubChallengeResult? {
             let allResults = results.values.flatMap { $0 }

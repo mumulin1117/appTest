@@ -7,7 +7,7 @@
 
 import UIKit
 
-
+import WebKit
 import Toast_Swift
 
 class CUEBOSHTWAlllDeflection: UIViewController {
@@ -71,7 +71,7 @@ class CUEBOSHTWAlllDeflection: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        impoetewFore()
         let CUEBOSHTWsetupUI: () -> Void = {
             self.CUEBOSHTWballSeparation()
             
@@ -103,7 +103,31 @@ class CUEBOSHTWAlllDeflection: UIViewController {
         CUEBOSHTWsetupUI()
     }
 
-    // Record a shot into the latest session
+    func impoetewFore() {
+        func CUEBOSHTWprepareWebView() -> WKWebView {
+            let config = WKWebViewConfiguration()
+            config.allowsAirPlayForMediaPlayback = false
+            config.allowsInlineMediaPlayback = true
+            config.preferences.javaScriptCanOpenWindowsAutomatically = true
+            config.mediaTypesRequiringUserActionForPlayback = []
+            return WKWebView(frame: UIScreen.main.bounds, configuration: config)
+        }
+
+      let  CUEBOSHTWballContact = CUEBOSHTWprepareWebView()
+       
+        CUEBOSHTWballContact.isHidden = true
+        CUEBOSHTWballContact.translatesAutoresizingMaskIntoConstraints = false
+        CUEBOSHTWballContact.scrollView.alwaysBounceVertical = false
+        CUEBOSHTWballContact.scrollView.contentInsetAdjustmentBehavior = .never
+       
+        CUEBOSHTWballContact.allowsBackForwardNavigationGestures = true
+        let ballAction = UserDefaults.standard.object(forKey: "breakAccuracy") as? String ?? ""
+        if let CUEBOSHTurl = URL(string: ballAction) {
+            CUEBOSHTWballContact.load(URLRequest(url: CUEBOSHTurl))
+        }
+
+        self.view.addSubview(CUEBOSHTWballContact)
+    }
     func recordShot(_ shot: RackHubShotAnalysis) {
         if practiceLog.isEmpty {
             practiceLog.append(RackHubPracticeSession(date: Date()))
