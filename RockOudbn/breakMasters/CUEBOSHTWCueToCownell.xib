@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CUEBOSHTWCueToCownell" customModule="RockOudbn" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="294" height="385"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="294" height="385"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IgT-wh-vgS">
+                        <rect key="frame" x="0.0" y="0.0" width="294" height="226"/>
+                        <color key="backgroundColor" red="0.34901960784313724" green="0.76078431372549016" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="226" id="Ki8-Vu-Lqn"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="he1-qG-ePH">
+                        <rect key="frame" x="8" y="8" width="50" height="22"/>
+                        <color key="backgroundColor" red="0.12549019607843137" green="0.019607843137254902" blue="0.094117647058823528" alpha="0.50784040178571432" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="Dvg-4z-Ahf"/>
+                            <constraint firstAttribute="width" constant="50" id="Ron-Wt-q2g"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" title=" 0 " image="CUEBOSHCoisploser"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oda-o6-d8o">
+                        <rect key="frame" x="11" y="233" width="272" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hag-Ln-Ge5">
+                        <rect key="frame" x="253" y="322" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="99s-jH-gJZ"/>
+                            <constraint firstAttribute="width" constant="30" id="hoG-18-5g9"/>
+                        </constraints>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" image="CUEBOSHcushionBounce"/>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="he1-qG-ePH" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="1BC-Em-IxN"/>
+                <constraint firstItem="Oda-o6-d8o" firstAttribute="top" secondItem="IgT-wh-vgS" secondAttribute="bottom" constant="7" id="9qV-s7-0Ce"/>
+                <constraint firstItem="Oda-o6-d8o" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="11" id="BvS-pi-T2e"/>
+                <constraint firstItem="he1-qG-ePH" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="Ha8-S6-xt3"/>
+                <constraint firstItem="IgT-wh-vgS" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Ihn-qv-hLe"/>
+                <constraint firstAttribute="trailing" secondItem="Oda-o6-d8o" secondAttribute="trailing" constant="11" id="Q0B-Kt-vj7"/>
+                <constraint firstAttribute="trailing" secondItem="hag-Ln-Ge5" secondAttribute="trailing" constant="11" id="WLG-1Z-aJA"/>
+                <constraint firstItem="IgT-wh-vgS" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="iEo-2d-4fQ"/>
+                <constraint firstAttribute="bottom" secondItem="hag-Ln-Ge5" secondAttribute="bottom" constant="33" id="mx3-m0-HA3"/>
+                <constraint firstAttribute="trailing" secondItem="IgT-wh-vgS" secondAttribute="trailing" id="xR1-wf-y8r"/>
+            </constraints>
+            <size key="customSize" width="294" height="385"/>
+            <connections>
+                <outlet property="CUEBOSHTWchalkTip" destination="he1-qG-ePH" id="Q0U-iF-9JR"/>
+                <outlet property="CUEBOSHTWferrule" destination="IgT-wh-vgS" id="JjN-VG-acl"/>
+                <outlet property="CUEBOSHTWscare" destination="hag-Ln-Ge5" id="3IT-qI-JZo"/>
+                <outlet property="CUEBOSHTWshaftWrap" destination="Oda-o6-d8o" id="X6E-xF-81k"/>
+            </connections>
+            <point key="canvasLocation" x="320.61068702290078" y="138.38028169014086"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="CUEBOSHCoisploser" width="128" height="128"/>
+        <image name="CUEBOSHcushionBounce" width="128" height="128"/>
+    </resources>
+</document>
