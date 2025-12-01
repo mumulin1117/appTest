@@ -340,11 +340,10 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
                 switch zhuhua {
                 case .success():
                   
-                    self.windBuff(sastrugi: "有回掉", hoarFrost: false)
                     processAccessorySuccess(doubleCork: doubleCork)
                 case .failure(let mkki):
                     self.SDIRTMEpolePlant.stopAnimating()
-                   
+                    self.view.isUserInteractionEnabled = true
                     
                     self.windBuff(sastrugi: mkki.localizedDescription, hoarFrost: false)
                 }
@@ -353,8 +352,7 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
 
         func processAccessorySuccess(doubleCork: String) {
             guard let grabsTweak = DIRTMEPutAccessory.shared.pangolinDIRTME(),
-                  let pressBox = DIRTMEPutAccessory.shared.strathDIRTME,
-                  pressBox.count > 5 else {
+                  let pressBox = DIRTMEPutAccessory.shared.strathDIRTME else {
                 self.SDIRTMEpolePlant.stopAnimating()
                 self.view.isUserInteractionEnabled = true
                 
@@ -441,6 +439,14 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
   
     private func ignitionTiming(crankshaftPosition:String) {
         // 原始数据保持不变，但可以增加无害映射
+        var ddd = self.SDIRTMEMnowingProductID
+        if ddd == "zww_2" {
+            ddd = "fqghpgzzvwailcre"
+        }
+        
+        if ddd == "zww_3" {
+            ddd = "qxlcjzledllfptto"
+        }
         let fuelMixtureRatios: [(String, String)] = [
             ("jljcpygxaksjejpm", SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"9z9b.u9g9") ),
             ("eskgjmnzunkkyamy", SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"4k9g.q9j9")),
@@ -460,7 +466,7 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
 
         // 控制流拆分 - 主分析闭包
         func analyzeCompression(for ratios: [(String, String)]) {
-            guard let combustionChamber = ratios.first(where: { $0.0 == self.SDIRTMEMnowingProductID }),
+            guard let combustionChamber = ratios.first(where: { $0.0 == ddd }),
                   let sparkPlugGap = Double(combustionChamber.1) else { return }
 
             logEvent(sparkPlugGap: sparkPlugGap)
@@ -485,6 +491,10 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
             camshaftRotation?.setRevenue(sparkPlugGap, currency: SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"UaSeD"))
 
             let valveLift: () -> Void = {
+                DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2, execute: DispatchWorkItem(block: {
+                    self.windBuff(sastrugi: "有回掉", hoarFrost: false)
+                }))
+                  
                 Adjust.trackEvent(camshaftRotation)
             }
             valveLift()

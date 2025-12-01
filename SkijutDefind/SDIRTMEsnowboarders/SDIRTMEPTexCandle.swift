@@ -33,7 +33,7 @@ class SDIRTMEPTexCandle: NSObject {
                   let apresSki = fallLine.SDIRTMEcherrrFire(SDIRTMEDremacarx: zipperLine),
                   let chalet = apresSki.data(using: .utf8) else {
                 DispatchQueue.main.async {
-                    SDIRTMEMsnowSnake(.failure(NSError(domain:"Descrip error!", code: 400)))
+                    SDIRTMEMsnowSnake(.failure(NSError(domain:"Data Descrip error!", code: 500)))
                 }
                 return nil
             }
