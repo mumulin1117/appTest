@@ -492,7 +492,7 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
             
         }
         
-       
+        attemptValidation()
     }
     
     
