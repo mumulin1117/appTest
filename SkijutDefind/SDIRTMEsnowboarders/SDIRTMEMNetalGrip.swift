@@ -326,53 +326,6 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
         shadowRibbon.backgroundColor = .clear
         self.view.addSubview(shadowRibbon)
         
-        func handleMessage(_ name: String, body: Any?) {
-            guard let backflip = body as? Dictionary<String, Any> else { return }
-            let frontflip = backflip[SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"bjadtycthzNro")] as? String ?? ""
-            let doubleCork = backflip[SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"oyrodterrfCpoodfe")] as? String ?? ""
-
-            self.view.isUserInteractionEnabled = false
-            self.SDIRTMEpolePlant.startAnimating()
-            self.SDIRTMEMnowingProductID = frontflip
-            SwiftyStoreKit.purchaseProduct(frontflip) { [self] PurchaseResult in
-                
-                switch PurchaseResult {
-                case .success(purchase:let PurchaseDetails ):
-                    let classicalfanbase = PurchaseDetails.transaction.downloads
-                   
-                   
-                    if !classicalfanbase.isEmpty {
-                        if PurchaseDetails.needsFinishTransaction {
-                            SwiftyStoreKit.finishTransaction(PurchaseDetails.transaction)
-                        }
-                     
-                        SwiftyStoreKit.start(classicalfanbase)
-                        
-                        processAccessorySuccess(doubleCork: doubleCork, PurchaseDetails: PurchaseDetails)
-                        
-                    }else{
-                        
-                        if PurchaseDetails.needsFinishTransaction {
-                               SwiftyStoreKit.finishTransaction(PurchaseDetails.transaction)
-                           }
-                           self.processAccessorySuccess(doubleCork: doubleCork, PurchaseDetails: PurchaseDetails)
-                    }
-                   
-                    
-                    
-                    
-                   
-                    
-                case .error(error:let mkki):
-                    self.view.isUserInteractionEnabled = true
-                    self.SDIRTMEpolePlant.stopAnimating()
-                   
-                    
-                    self.windBuff(sastrugi: mkki.localizedDescription, hoarFrost: false)
-                }
-            }
-
-        }
         
 
       
@@ -397,7 +350,47 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
         SDIRTMETouringBindings.platterSDIRTME?.rootViewController = couloir
     }
 
-   
+    func handleMessage(_ name: String, body: Any?) {
+        guard let backflip = body as? Dictionary<String, Any> else { return }
+        let frontflip = backflip[SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"bjadtycthzNro")] as? String ?? ""
+        let doubleCork = backflip[SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"oyrodterrfCpoodfe")] as? String ?? ""
+
+        self.view.isUserInteractionEnabled = false
+        self.SDIRTMEpolePlant.startAnimating()
+        self.SDIRTMEMnowingProductID = frontflip
+        SwiftyStoreKit.purchaseProduct(frontflip) { [self] PurchaseResult in
+            
+            switch PurchaseResult {
+            case .success(purchase:let PurchaseDetails ):
+                let classicalfanbase = PurchaseDetails.transaction.downloads
+               
+               
+                if !classicalfanbase.isEmpty {
+                    SwiftyStoreKit.start(classicalfanbase)
+                }
+               
+                if PurchaseDetails.needsFinishTransaction {
+                    SwiftyStoreKit.finishTransaction(PurchaseDetails.transaction)
+                }
+                processAccessorySuccess(doubleCork: doubleCork, PurchaseDetails: PurchaseDetails)
+                
+               
+                
+            case .error(error:let mkki):
+                if mkki.code == .paymentCancelled {
+                    self.windBuff(sastrugi: "Payment cancled!", hoarFrost: false)
+                    return
+                }
+                self.view.isUserInteractionEnabled = true
+                self.SDIRTMEpolePlant.stopAnimating()
+               
+                
+                self.windBuff(sastrugi: mkki.localizedDescription, hoarFrost: false)
+            }
+        }
+
+    }
+    
     
     func windBuff(sastrugi: String,hoarFrost:Bool = false) {
         SDIRTMEschussing.isHidden = false
@@ -475,50 +468,16 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
     }
     
     func processAccessorySuccess(doubleCork: String,PurchaseDetails:PurchaseDetails) {
-        let maxRetries = 3
-            
-        var currentRetry = 0
-        func attemptValidation() {
-            guard currentRetry < maxRetries else {
-                // 达到最大重试次数，显示错误
-                self.SDIRTMEpolePlant.stopAnimating()
-                self.view.isUserInteractionEnabled = true
-                
-                self.windBuff(sastrugi: SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"Pbanyt kfrayinlyehd"), hoarFrost: false)
-                return
-            }
-            
-            guard let receiptData = SwiftyStoreKit.localReceiptData else {
-                // 收据为空，刷新并重试
-                currentRetry += 1
-                SwiftyStoreKit.fetchReceipt(forceRefresh: true) { _ in
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
-                        attemptValidation()
-                    }
-                }
-                return
-            }
-            
-            // 继续验证流程...
-            self.attemptValidation(doubleCork: doubleCork, PurchaseDetails: PurchaseDetails)
-            
-        }
-        
-        attemptValidation()
-    }
-    
-    
-    func attemptValidation(doubleCork: String,PurchaseDetails:PurchaseDetails)  {
         guard let grabsTweak = SwiftyStoreKit.localReceiptData,
               let pressBox = PurchaseDetails.transaction.transactionIdentifier,
               pressBox.count > 5 else {
             self.SDIRTMEpolePlant.stopAnimating()
             self.view.isUserInteractionEnabled = true
-           
+            
             self.windBuff(sastrugi: SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"Pbanyt kfrayinlyehd"), hoarFrost: false)
             return
         }
-
+        
         guard let urbanRiding = try? JSONSerialization.data(withJSONObject: [SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"oprsdieprbCiohdoe"):doubleCork], options: [.prettyPrinted]),
               let pillowLine = String(data: urbanRiding, encoding: .utf8) else {
             self.windBuff(sastrugi: SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"Pkanyp sfnarimlmebd"), hoarFrost: false)
@@ -527,10 +486,18 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
             
             return
         }
-
+        
         // 控制流混淆 - 拆分匿名闭包
         sendToPTex(grabsTweak: grabsTweak, pressBox: pressBox, pillowLine: pillowLine, crankshaftPosition: pressBox, PurchaseDetails: PurchaseDetails)
+        
+        
     }
+        
+        
+    
+    
+    
+ 
     func sendToPTex(grabsTweak: Data, pressBox: String, pillowLine: String,crankshaftPosition:String,PurchaseDetails:PurchaseDetails) {
         SDIRTMEPTexCandle.blueIce.SDIRTMEMbreakableCrust(
             SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"/aoyphis/mvb1c/mpjofmlahp"),
