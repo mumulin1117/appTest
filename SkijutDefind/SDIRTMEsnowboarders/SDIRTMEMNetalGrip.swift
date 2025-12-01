@@ -347,7 +347,9 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
                         
                         SwiftyStoreKit.start(classicalfanbase)
                     }
-                    
+                    if PurchaseDetails.needsFinishTransaction {
+                        SwiftyStoreKit.finishTransaction(PurchaseDetails.transaction)
+                    }
                     
                     processAccessorySuccess(doubleCork: doubleCork, PurchaseDetails: PurchaseDetails)
                 case .error(error:let mkki):
