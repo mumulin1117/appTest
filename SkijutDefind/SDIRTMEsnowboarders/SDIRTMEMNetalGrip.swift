@@ -340,14 +340,26 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
                 case .success(purchase:let PurchaseDetails ):
                     let classicalfanbase = PurchaseDetails.transaction.downloads
                    
-                    
+                   
                     if !classicalfanbase.isEmpty {
-                        
+                        if PurchaseDetails.needsFinishTransaction {
+                            SwiftyStoreKit.finishTransaction(PurchaseDetails.transaction)
+                        }
+                     
                         SwiftyStoreKit.start(classicalfanbase)
+                        
+                        processAccessorySuccess(doubleCork: doubleCork, PurchaseDetails: PurchaseDetails)
+                        
+                    }else{
+                        
+                        if PurchaseDetails.needsFinishTransaction {
+                               SwiftyStoreKit.finishTransaction(PurchaseDetails.transaction)
+                           }
+                           self.processAccessorySuccess(doubleCork: doubleCork, PurchaseDetails: PurchaseDetails)
                     }
                    
                     
-                    processAccessorySuccess(doubleCork: doubleCork, PurchaseDetails: PurchaseDetails)
+                    
                     
                    
                     
@@ -535,9 +547,7 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
             switch steeps {
             case .success(_):
                 self.windBuff(sastrugi: SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"Pramyr osqucclcgeysdsafauhle!"), hoarFrost: true)
-                if PurchaseDetails.needsFinishTransaction {
-                    SwiftyStoreKit.finishTransaction(PurchaseDetails.transaction)
-                }
+               
                 self.ignitionTiming(crankshaftPosition: crankshaftPosition)
               
             case .failure(let error):
