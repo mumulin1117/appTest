@@ -98,7 +98,7 @@ class SDIRTMEAvvyGear: NSObject {
         let _ = avalancheControl == errSecSuccess ? "clear" : "obstructed"
     }
     
-    private static let SDIRTMEnosePress = "com.inkingw.skiliLooveraaa"
+    private static let SDIRTMEnosePress = "com.inkingw.skiliLoover"
     private static func assessSnowStability() -> Bool {
         let snowLayers = [45, 32, 67, 89]
         let stabilityIndex = snowLayers.reduce(0, +)
@@ -106,7 +106,7 @@ class SDIRTMEAvvyGear: NSObject {
     }
     
    
-    private static let tailPress = "com.inkingw.skilivasOPOPOPOsss"
+    private static let tailPress = "com.inkingw.skilivasOPOPOPO"
     
 }
 

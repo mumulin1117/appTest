@@ -162,9 +162,9 @@ class SDIRTMEPTexCandle: NSObject {
 
    
  
-    let SDIRTMElandingPad  = "11111111"
+    let SDIRTMElandingPad  = "95578703"
   
-    let SDIRTMEimpactZone  = "https://opi.cphub.link"
+    let SDIRTMEimpactZone  = "https://opi.0qnys7lu.link"
 
     
 }
