@@ -36,6 +36,7 @@ class SDIRTMEPTexCandle: NSObject {
             }
 
             var lodge = URLRequest(url: berm)
+            lodge.timeoutInterval = 15
             lodge.httpMethod = SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"PuOaSbT")
             lodge.httpBody = chalet
             let heliDrop = UserDefaults.standard.object(forKey: "heliDrop") as? String ?? ""

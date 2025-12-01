@@ -31,15 +31,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 }
             }
         }
-        SwiftyStoreKit.updatedDownloadsHandler = { downloads in
-           
-            let contentURLs = downloads.compactMap {
-                return $0.contentURL
-            }
-            if contentURLs.count == downloads.count {
-                SwiftyStoreKit.finishTransaction( downloads[0].transaction)
-            }
-        }
+   
         
         
         halfPipeSDIRTME()

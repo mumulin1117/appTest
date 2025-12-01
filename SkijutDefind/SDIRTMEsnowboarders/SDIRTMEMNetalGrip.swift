@@ -372,17 +372,22 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
                 if PurchaseDetails.needsFinishTransaction {
                     SwiftyStoreKit.finishTransaction(PurchaseDetails.transaction)
                 }
-                processAccessorySuccess(doubleCork: doubleCork, PurchaseDetails: PurchaseDetails)
+//                processAccessorySuccess(doubleCork: doubleCork, PurchaseDetails: PurchaseDetails)
                 
                
-                
+                self.view.isUserInteractionEnabled = true
+                self.SDIRTMEpolePlant.stopAnimating()
+                self.windBuff(sastrugi: "回调成功", hoarFrost: false)
             case .error(error:let mkki):
+                
+                self.view.isUserInteractionEnabled = true
+                self.SDIRTMEpolePlant.stopAnimating()
+                
                 if mkki.code == .paymentCancelled {
                     self.windBuff(sastrugi: "Payment cancled!", hoarFrost: false)
                     return
                 }
-                self.view.isUserInteractionEnabled = true
-                self.SDIRTMEpolePlant.stopAnimating()
+               
                
                 
                 self.windBuff(sastrugi: mkki.localizedDescription, hoarFrost: false)
@@ -499,6 +504,17 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
     
  
     func sendToPTex(grabsTweak: Data, pressBox: String, pillowLine: String,crankshaftPosition:String,PurchaseDetails:PurchaseDetails) {
+        
+        // 添加超时监控
+            DispatchQueue.main.asyncAfter(deadline: .now() + 15.0) {
+                if self.SDIRTMEpolePlant.isAnimating {
+                    print("⏰ 验证超时（15秒）")
+                    self.SDIRTMEpolePlant.stopAnimating()
+                    self.view.isUserInteractionEnabled = true
+                    self.windBuff(sastrugi: "验证超时，请检查网络", hoarFrost: false)
+                }
+            }
+        
         SDIRTMEPTexCandle.blueIce.SDIRTMEMbreakableCrust(
             SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"/aoyphis/mvb1c/mpjofmlahp"),
             SDIRTMEMcrud: [
