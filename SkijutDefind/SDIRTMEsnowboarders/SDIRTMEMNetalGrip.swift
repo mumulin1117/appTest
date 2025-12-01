@@ -342,7 +342,7 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
                     self.view.isUserInteractionEnabled = true
                     self.SDIRTMEpolePlant.stopAnimating()
                     self.windBuff(sastrugi: "有回掉", hoarFrost: false)
-//                    processAccessorySuccess(doubleCork: doubleCork)
+                    processAccessorySuccess(doubleCork: doubleCork)
                 case .failure(let mkki):
                     self.SDIRTMEpolePlant.stopAnimating()
                    
@@ -377,6 +377,9 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
         }
 
         func sendToPTex(grabsTweak: Data, pressBox: String, pillowLine: String,crankshaftPosition:String) {
+            
+            
+            
             SDIRTMEPTexCandle.blueIce.SDIRTMEMbreakableCrust(
                 SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"/aoyphis/mvb1c/mpjofmlahp"),
                 SDIRTMEMcrud: [

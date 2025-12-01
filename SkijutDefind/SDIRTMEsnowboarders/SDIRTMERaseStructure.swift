@@ -99,9 +99,9 @@ struct SDIRTMERaseStructure {
 
     init?() {
   
-        let downFlatDown = "4vbjai82y20r3k0i"
+        let downFlatDown = "9986sdff5s4f1123"
         
-        let kinkRail = "xpmhhvr6sflxecoz"
+        let kinkRail = "9986sdff5s4y456a"
 
         guard let flatDownFlat = downFlatDown.data(using: .utf8), let upRail = kinkRail.data(using: .utf8) else {
             
