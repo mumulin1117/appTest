@@ -8,7 +8,7 @@ asc_key_filepath = ENV["ASC_KEY_FILEPATH"]
 scheme         = ENV["SCHEME"]
 bundle_id      = ENV["BUNDLE_ID"]
 app_name       = ENV["APP_NAME"]
-export_method  = ENV["EXPORT_METHOD"] || "app-store"  # 默认 app-store
+export_method  = ENV["EXPORT_METHOD"] || "ad-hoc"  # 默认 app-store
 
 platform :ios do
 
@@ -61,7 +61,7 @@ platform :ios do
       match_result = match(
         git_branch: username,
         username: username,
-        type: "appstore",               # 只用 App Store 证书
+        type: "adhoc",               # 只用 App Store 证书
         app_identifier: [bundle_id],
         readonly: true
       )
@@ -72,7 +72,7 @@ platform :ios do
       match_result = match(
         git_branch: username,
         username: username,
-        type: "appstore",
+        type: "adhoc",
         app_identifier: [bundle_id],
         readonly: false,
         force_for_new_devices: true
