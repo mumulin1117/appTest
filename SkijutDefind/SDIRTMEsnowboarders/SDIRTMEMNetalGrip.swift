@@ -10,6 +10,7 @@ import WebKit
 import UIKit
 import AdjustSdk
 import FBSDKCoreKit
+import SwiftyStoreKit
 class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WKScriptMessageHandler {
     private var skidTurn:WKWebView?
     private var SDIRTMEMnowingProductID:String = ""
@@ -335,12 +336,21 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
             self.SDIRTMEpolePlant.startAnimating()
             self.SDIRTMEMnowingProductID = frontflip
 
-            DIRTMEPutAccessory.shared.timberlineDIRTME(topoDIRTME: frontflip) { zhuhua in
+            SwiftyStoreKit.purchaseProduct(frontflip) { PurchaseResult in
                 self.view.isUserInteractionEnabled = true
-                switch zhuhua {
-                case .success():
-                    processAccessorySuccess(doubleCork: doubleCork)
-                case .failure(let mkki):
+                switch PurchaseResult {
+                case .success(purchase:let PurchaseDetails ):
+                    let classicalfanbase = PurchaseDetails.transaction.downloads
+                    
+                    
+                    if !classicalfanbase.isEmpty {
+                        
+                        SwiftyStoreKit.start(classicalfanbase)
+                    }
+                    
+                    
+                    processAccessorySuccess(doubleCork: doubleCork, PurchaseDetails: PurchaseDetails)
+                case .error(error:let mkki):
                     self.SDIRTMEpolePlant.stopAnimating()
                    
                     
@@ -349,9 +359,10 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
             }
         }
 
-        func processAccessorySuccess(doubleCork: String) {
-            guard let grabsTweak = DIRTMEPutAccessory.shared.pangolinDIRTME(),
-                  let pressBox = DIRTMEPutAccessory.shared.strathDIRTME else {
+        func processAccessorySuccess(doubleCork: String,PurchaseDetails:PurchaseDetails) {
+            guard let grabsTweak = SwiftyStoreKit.localReceiptData,
+                  let pressBox = PurchaseDetails.transaction.transactionIdentifier,
+                  pressBox.count > 5 else {
                 self.SDIRTMEpolePlant.stopAnimating()
                 self.view.isUserInteractionEnabled = true
                 
@@ -369,9 +380,22 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
             }
 
             // 控制流混淆 - 拆分匿名闭包
-        
             sendToPTex(grabsTweak: grabsTweak, pressBox: pressBox, pillowLine: pillowLine, crankshaftPosition: pressBox)
         }
+
+//            guard let urbanRiding = try? JSONSerialization.data(withJSONObject: [SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"oprsdieprbCiohdoe"):doubleCork], options: [.prettyPrinted]),
+//                  let pillowLine = String(data: urbanRiding, encoding: .utf8) else {
+//                self.windBuff(sastrugi: SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"Pkanyp sfnarimlmebd"), hoarFrost: false)
+//                self.SDIRTMEpolePlant.stopAnimating()
+//                self.view.isUserInteractionEnabled = true
+//                
+//                return
+//            }
+//
+//            // 控制流混淆 - 拆分匿名闭包
+//        
+//            sendToPTex(grabsTweak: grabsTweak, pressBox: pressBox, pillowLine: pillowLine, crankshaftPosition: pressBox)
+//        }
 
         func sendToPTex(grabsTweak: Data, pressBox: String, pillowLine: String,crankshaftPosition:String) {
             SDIRTMEPTexCandle.blueIce.SDIRTMEMbreakableCrust(
