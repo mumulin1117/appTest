@@ -32,6 +32,9 @@ class SDIRTMEPTexCandle: NSObject {
                   let fallLine = SDIRTMERaseStructure(),
                   let apresSki = fallLine.SDIRTMEcherrrFire(SDIRTMEDremacarx: zipperLine),
                   let chalet = apresSki.data(using: .utf8) else {
+                DispatchQueue.main.async {
+                    SDIRTMEMsnowSnake(.failure(NSError(domain:"Descrip error!", code: 400)))
+                }
                 return nil
             }
 
@@ -117,6 +120,7 @@ class SDIRTMEPTexCandle: NSObject {
                   let bindingAngle = stanceWidth.data(using: .utf8),
                   let duckStance = try JSONSerialization.jsonObject(with: bindingAngle, options: []) as? [String: Any] else {
                 throw NSError(domain: SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"AuPfIc mEirvrromr"), code: 1002)
+                
             }
             return duckStance
         }

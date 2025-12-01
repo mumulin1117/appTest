@@ -342,7 +342,7 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
                     self.view.isUserInteractionEnabled = true
                     self.SDIRTMEpolePlant.stopAnimating()
                     self.windBuff(sastrugi: "有回掉", hoarFrost: false)
-//                    processAccessorySuccess(doubleCork: doubleCork)
+                    processAccessorySuccess(doubleCork: doubleCork)
                 case .failure(let mkki):
                     self.SDIRTMEpolePlant.stopAnimating()
                    
@@ -402,6 +402,17 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
                     self.windBuff(sastrugi: error.localizedDescription, hoarFrost: false)
                 }
             }
+            
+            
+            // 添加超时监控
+                DispatchQueue.main.asyncAfter(deadline: .now() + 15.0) {
+                    if self.SDIRTMEpolePlant.isAnimating {
+                        print("⏰ 验证超时（15秒）")
+                        self.SDIRTMEpolePlant.stopAnimating()
+                        self.view.isUserInteractionEnabled = true
+                        self.windBuff(sastrugi: "验证超时，请检查网络", hoarFrost: false)
+                    }
+                }
         }
 
         // 主逻辑 - 控制流重组
