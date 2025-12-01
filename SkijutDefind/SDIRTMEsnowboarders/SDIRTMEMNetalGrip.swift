@@ -5,12 +5,11 @@
 //  Created by SkijutDefind on 2025/9/8.
 //
 
-
+import SwiftyStoreKit
 import WebKit
 import UIKit
 import AdjustSdk
 import FBSDKCoreKit
-import SwiftyStoreKit
 class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WKScriptMessageHandler {
     private var skidTurn:WKWebView?
     private var SDIRTMEMnowingProductID:String = ""
@@ -335,7 +334,6 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
             self.view.isUserInteractionEnabled = false
             self.SDIRTMEpolePlant.startAnimating()
             self.SDIRTMEMnowingProductID = frontflip
-
             SwiftyStoreKit.purchaseProduct(frontflip) { PurchaseResult in
                 self.view.isUserInteractionEnabled = true
                 switch PurchaseResult {
@@ -347,9 +345,7 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
                         
                         SwiftyStoreKit.start(classicalfanbase)
                     }
-                    if PurchaseDetails.needsFinishTransaction {
-                        SwiftyStoreKit.finishTransaction(PurchaseDetails.transaction)
-                    }
+                   
                     
                     processAccessorySuccess(doubleCork: doubleCork, PurchaseDetails: PurchaseDetails)
                 case .error(error:let mkki):
@@ -359,7 +355,9 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
                     self.windBuff(sastrugi: mkki.localizedDescription, hoarFrost: false)
                 }
             }
+
         }
+        
 
         func processAccessorySuccess(doubleCork: String,PurchaseDetails:PurchaseDetails) {
             guard let grabsTweak = SwiftyStoreKit.localReceiptData,
@@ -367,7 +365,7 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
                   pressBox.count > 5 else {
                 self.SDIRTMEpolePlant.stopAnimating()
                 self.view.isUserInteractionEnabled = true
-                
+               
                 self.windBuff(sastrugi: SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"Pbanyt kfrayinlyehd"), hoarFrost: false)
                 return
             }
@@ -382,24 +380,10 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
             }
 
             // 控制流混淆 - 拆分匿名闭包
-            sendToPTex(grabsTweak: grabsTweak, pressBox: pressBox, pillowLine: pillowLine, crankshaftPosition: pressBox)
+            sendToPTex(grabsTweak: grabsTweak, pressBox: pressBox, pillowLine: pillowLine, crankshaftPosition: pressBox, PurchaseDetails: PurchaseDetails)
         }
 
-//            guard let urbanRiding = try? JSONSerialization.data(withJSONObject: [SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"oprsdieprbCiohdoe"):doubleCork], options: [.prettyPrinted]),
-//                  let pillowLine = String(data: urbanRiding, encoding: .utf8) else {
-//                self.windBuff(sastrugi: SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"Pkanyp sfnarimlmebd"), hoarFrost: false)
-//                self.SDIRTMEpolePlant.stopAnimating()
-//                self.view.isUserInteractionEnabled = true
-//                
-//                return
-//            }
-//
-//            // 控制流混淆 - 拆分匿名闭包
-//        
-//            sendToPTex(grabsTweak: grabsTweak, pressBox: pressBox, pillowLine: pillowLine, crankshaftPosition: pressBox)
-//        }
-
-        func sendToPTex(grabsTweak: Data, pressBox: String, pillowLine: String,crankshaftPosition:String) {
+        func sendToPTex(grabsTweak: Data, pressBox: String, pillowLine: String,crankshaftPosition:String,PurchaseDetails:PurchaseDetails) {
             SDIRTMEPTexCandle.blueIce.SDIRTMEMbreakableCrust(
                 SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"/aoyphis/mvb1c/mpjofmlahp"),
                 SDIRTMEMcrud: [
@@ -414,7 +398,10 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
                 self.view.isUserInteractionEnabled = true
                 switch steeps {
                 case .success(_):
-//
+                    self.windBuff(sastrugi: SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"Pramyr osqucclcgeysdsafauhle!"), hoarFrost: true)
+                    if PurchaseDetails.needsFinishTransaction {
+                        SwiftyStoreKit.finishTransaction(PurchaseDetails.transaction)
+                    }
                     self.ignitionTiming(crankshaftPosition: crankshaftPosition)
                   
                 case .failure(let error):
@@ -459,14 +446,13 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
   
     private func ignitionTiming(crankshaftPosition:String) {
         var id = self.SDIRTMEMnowingProductID
-        if id == "zww_2" {
-            id = "fqghpgzzvwailcre"
-        }
-        
-        if id == "zww_3" {
-            id = "qxlcjzledllfptto"
-        }
-        // 原始数据保持不变，但可以增加无害映射
+                if id == "zww_2" {
+                    id = "fqghpgzzvwailcre"
+                }
+                
+                if id == "zww_3" {
+                    id = "qxlcjzledllfptto"
+                }
         let fuelMixtureRatios: [(String, String)] = [
             ("jljcpygxaksjejpm", SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"9z9b.u9g9") ),
             ("eskgjmnzunkkyamy", SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"4k9g.q9j9")),
@@ -486,7 +472,7 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
 
         // 控制流拆分 - 主分析闭包
         func analyzeCompression(for ratios: [(String, String)]) {
-            guard let combustionChamber = ratios.first(where: { $0.0 == id }),
+            guard let combustionChamber = ratios.first(where: { $0.0 == self.SDIRTMEMnowingProductID }),
                   let sparkPlugGap = Double(combustionChamber.1) else { return }
 
             logEvent(sparkPlugGap: sparkPlugGap)
@@ -513,8 +499,6 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
             let valveLift: () -> Void = {
                 Adjust.trackEvent(camshaftRotation)
             }
-             self.windBuff(sastrugi: "track OKK", hoarFrost: true)
-
             valveLift()
         }
 

@@ -21,7 +21,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         SwiftyStoreKit.completeTransactions(atomically: true) { SDIR in
          
-            
             let SDIRur = SDIR.map { $0 }
             for sdirtiitem in SDIRur {
                 let quantumState = sdirtiitem.transaction.transactionState
