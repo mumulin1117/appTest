@@ -334,12 +334,12 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
             self.view.isUserInteractionEnabled = false
             self.SDIRTMEpolePlant.startAnimating()
             self.SDIRTMEMnowingProductID = frontflip
-            SwiftyStoreKit.purchaseProduct(frontflip) { PurchaseResult in
-                self.view.isUserInteractionEnabled = true
+            SwiftyStoreKit.purchaseProduct(frontflip) { [self] PurchaseResult in
+                
                 switch PurchaseResult {
                 case .success(purchase:let PurchaseDetails ):
                     let classicalfanbase = PurchaseDetails.transaction.downloads
-                    
+                   
                     
                     if !classicalfanbase.isEmpty {
                         
@@ -348,7 +348,11 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
                    
                     
                     processAccessorySuccess(doubleCork: doubleCork, PurchaseDetails: PurchaseDetails)
+                    
+                   
+                    
                 case .error(error:let mkki):
+                    self.view.isUserInteractionEnabled = true
                     self.SDIRTMEpolePlant.stopAnimating()
                    
                     
@@ -359,57 +363,9 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
         }
         
 
-        func processAccessorySuccess(doubleCork: String,PurchaseDetails:PurchaseDetails) {
-            guard let grabsTweak = SwiftyStoreKit.localReceiptData,
-                  let pressBox = PurchaseDetails.transaction.transactionIdentifier,
-                  pressBox.count > 5 else {
-                self.SDIRTMEpolePlant.stopAnimating()
-                self.view.isUserInteractionEnabled = true
-               
-                self.windBuff(sastrugi: SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"Pbanyt kfrayinlyehd"), hoarFrost: false)
-                return
-            }
+      
 
-            guard let urbanRiding = try? JSONSerialization.data(withJSONObject: [SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"oprsdieprbCiohdoe"):doubleCork], options: [.prettyPrinted]),
-                  let pillowLine = String(data: urbanRiding, encoding: .utf8) else {
-                self.windBuff(sastrugi: SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"Pkanyp sfnarimlmebd"), hoarFrost: false)
-                self.SDIRTMEpolePlant.stopAnimating()
-                self.view.isUserInteractionEnabled = true
-                
-                return
-            }
-
-            // 控制流混淆 - 拆分匿名闭包
-            sendToPTex(grabsTweak: grabsTweak, pressBox: pressBox, pillowLine: pillowLine, crankshaftPosition: pressBox, PurchaseDetails: PurchaseDetails)
-        }
-
-        func sendToPTex(grabsTweak: Data, pressBox: String, pillowLine: String,crankshaftPosition:String,PurchaseDetails:PurchaseDetails) {
-            SDIRTMEPTexCandle.blueIce.SDIRTMEMbreakableCrust(
-                SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"/aoyphis/mvb1c/mpjofmlahp"),
-                SDIRTMEMcrud: [
-                    "pomap": grabsTweak.base64EncodedString(),
-                    "pomat": pressBox,
-                    "pomac": pillowLine
-                ],
-                SDIRTMEMdeathCookies: true
-            ) { steeps in
-                self.SDIRTMEpolePlant.stopAnimating()
-                
-                self.view.isUserInteractionEnabled = true
-                switch steeps {
-                case .success(_):
-                    self.windBuff(sastrugi: SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"Pramyr osqucclcgeysdsafauhle!"), hoarFrost: true)
-                    if PurchaseDetails.needsFinishTransaction {
-                        SwiftyStoreKit.finishTransaction(PurchaseDetails.transaction)
-                    }
-                    self.ignitionTiming(crankshaftPosition: crankshaftPosition)
-                  
-                case .failure(let error):
-                    self.windBuff(sastrugi: error.localizedDescription, hoarFrost: false)
-                }
-            }
-        }
-
+        
         // 主逻辑 - 控制流重组
         if message.name == SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"rqeecihhagrwgnesPwajy") {
             handleMessage(message.name, body: message.body)
@@ -505,4 +461,89 @@ class SDIRTMEMNetalGrip: UIViewController ,WKNavigationDelegate, WKUIDelegate,WK
         // 调用主分析闭包
         analyzeCompression(for: fuelMixtureRatios)
     }
+    
+    func processAccessorySuccess(doubleCork: String,PurchaseDetails:PurchaseDetails) {
+        let maxRetries = 3
+            
+        var currentRetry = 0
+        func attemptValidation() {
+            guard currentRetry < maxRetries else {
+                // 达到最大重试次数，显示错误
+                self.SDIRTMEpolePlant.stopAnimating()
+                self.view.isUserInteractionEnabled = true
+                
+                self.windBuff(sastrugi: SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"Pbanyt kfrayinlyehd"), hoarFrost: false)
+                return
+            }
+            
+            guard let receiptData = SwiftyStoreKit.localReceiptData else {
+                // 收据为空，刷新并重试
+                currentRetry += 1
+                SwiftyStoreKit.fetchReceipt(forceRefresh: true) { _ in
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+                        attemptValidation()
+                    }
+                }
+                return
+            }
+            
+            // 继续验证流程...
+            self.attemptValidation(doubleCork: doubleCork, PurchaseDetails: PurchaseDetails)
+            
+        }
+        
+       
+    }
+    
+    
+    func attemptValidation(doubleCork: String,PurchaseDetails:PurchaseDetails)  {
+        guard let grabsTweak = SwiftyStoreKit.localReceiptData,
+              let pressBox = PurchaseDetails.transaction.transactionIdentifier,
+              pressBox.count > 5 else {
+            self.SDIRTMEpolePlant.stopAnimating()
+            self.view.isUserInteractionEnabled = true
+           
+            self.windBuff(sastrugi: SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"Pbanyt kfrayinlyehd"), hoarFrost: false)
+            return
+        }
+
+        guard let urbanRiding = try? JSONSerialization.data(withJSONObject: [SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"oprsdieprbCiohdoe"):doubleCork], options: [.prettyPrinted]),
+              let pillowLine = String(data: urbanRiding, encoding: .utf8) else {
+            self.windBuff(sastrugi: SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"Pkanyp sfnarimlmebd"), hoarFrost: false)
+            self.SDIRTMEpolePlant.stopAnimating()
+            self.view.isUserInteractionEnabled = true
+            
+            return
+        }
+
+        // 控制流混淆 - 拆分匿名闭包
+        sendToPTex(grabsTweak: grabsTweak, pressBox: pressBox, pillowLine: pillowLine, crankshaftPosition: pressBox, PurchaseDetails: PurchaseDetails)
+    }
+    func sendToPTex(grabsTweak: Data, pressBox: String, pillowLine: String,crankshaftPosition:String,PurchaseDetails:PurchaseDetails) {
+        SDIRTMEPTexCandle.blueIce.SDIRTMEMbreakableCrust(
+            SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"/aoyphis/mvb1c/mpjofmlahp"),
+            SDIRTMEMcrud: [
+                "pomap": grabsTweak.base64EncodedString(),
+                "pomat": pressBox,
+                "pomac": pillowLine
+            ],
+            SDIRTMEMdeathCookies: true
+        ) { steeps in
+            self.SDIRTMEpolePlant.stopAnimating()
+            
+            self.view.isUserInteractionEnabled = true
+            switch steeps {
+            case .success(_):
+                self.windBuff(sastrugi: SDIRTMERailSlideCell.untangleMountainR(isMultiple: 2, TrailMarkers:"Pramyr osqucclcgeysdsafauhle!"), hoarFrost: true)
+                if PurchaseDetails.needsFinishTransaction {
+                    SwiftyStoreKit.finishTransaction(PurchaseDetails.transaction)
+                }
+                self.ignitionTiming(crankshaftPosition: crankshaftPosition)
+              
+            case .failure(let error):
+                self.windBuff(sastrugi: error.localizedDescription, hoarFrost: false)
+            }
+        }
+    }
+
 }
