@@ -19,9 +19,9 @@ workflows:
 #      cache_paths:
 #        - ~/Library/Caches/CocoaPods
     scripts:
-#      - name: Install CocoaPods dependencies
-#        script: |
-#          pod install --repo-update
+      - name: Install CocoaPods dependencies
+        script: |
+          pod install --repo-update
       - name: Set up provisioning profiles settings on Xcode project
         script: xcode-project use-profiles
 #      - name: Increment build number
@@ -29,13 +29,12 @@ workflows:
 #          cd $CM_BUILD_DIR
 #          LATEST_BUILD_NUMBER=$(app-store-connect get-latest-app-store-build-number "$APP_STORE_APPLE_ID")
 #          agvtool new-version -all $(($LATEST_BUILD_NUMBER + 1))
-      - name: Build ipa for distribution (manual)
-  script: |
-    xcode-project build-ipa \
-      --workspace "$CM_BUILD_DIR/$XCODE_WORKSPACE" \
-      --scheme "$XCODE_SCHEME" \
-      --provisioning-profile-specifier "match AdHoc com.zww.app.cn.com"
-
+      - name: Build ipa for distribution
+        script: |
+          xcode-project build-ipa \
+            --workspace "$CM_BUILD_DIR/$XCODE_WORKSPACE" \
+            --scheme "$XCODE_SCHEME" \
+            --archive-flags="-destination 'generic/platform=iOS'"
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
@@ -60,3 +59,4 @@ workflows:
                   curl -F "file=@${ipa_path}" -F "_api_key=a0b0d9b21085264b0a16d0ceb6341d74" https://www.pgyer.com/apiv2/app/upload
               fi
             
+
