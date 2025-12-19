@@ -8,7 +8,7 @@ target 'Klobazy' do
   # Pods for Klobazy
 
 
-pod 'Adjust'
+pod 'Adjust', '~> 5.1.1'
 pod "SwiftyStoreKit"
 pod 'FBSDKCoreKit'
 
