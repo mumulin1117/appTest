@@ -1,68 +1,65 @@
 version: 2.1
 
 jobs:
-  build_ipa:
+  build ipa:
     macos:
-      # ✅ 稳定版本，避免 Xcode 16 + fastlane / Pods 各种坑
-      xcode: "15.4.0"
+      xcode: "16.4.0"
 
     environment:
       BUNDLE_PATH: vendor/bundle
       FL_OUTPUT_DIR: build
       LC_ALL: en_US.UTF-8
       LANG: en_US.UTF-8
-      # ✅ 避免 fastlane / tty / terminfo 问题
-      TERM: xterm-256color
 
     steps:
       - checkout
 
       - run:
-          name: Basic environment check
+          name: Setup environment
           command: |
             mkdir -p "$FL_OUTPUT_DIR"
             xcodebuild -version
-            ruby -v
-            gem -v
             git config --global user.email "ci@example.com"
             git config --global user.name "CI Bot"
+            git config --list | grep user.
 
-      # ------------------------
-      # Bundler cache
-      # ------------------------
       - restore_cache:
           keys:
             - v1-bundle-{{ checksum "Gemfile.lock" }}
             - v1-bundle-
 
       - run:
+          name: Install Ruby 3.3.6 via rbenv
+          command: |
+            brew install rbenv ruby-build
+            eval "$(rbenv init -)"
+            rbenv install 3.3.6 --skip-existing
+            rbenv global 3.3.6
+            ruby -v
+
+      - run:
           name: Install Bundler & Gems
           command: |
-            gem install bundler -N
-            bundle config set path vendor/bundle
-            bundle install --jobs=4 --retry=3
+            gem install bundler
+            bundle install --path vendor/bundle
 
       - save_cache:
           paths:
             - vendor/bundle
           key: v1-bundle-{{ checksum "Gemfile.lock" }}
 
-      # ------------------------
-      # Build IPA
-      # ------------------------
       - run:
-          name: Build IPA with fastlane
-          command: |
-            bundle exec fastlane release
+          name: Build IPA only
+          command: bundle exec fastlane release
 
       - store_artifacts:
           path: build
 
 workflows:
   version: 2
-  ios_ipa:
+  ios ipa:
     jobs:
-      - build_ipa:
+      - build ipa:
           filters:
             branches:
               only:
