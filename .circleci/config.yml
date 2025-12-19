@@ -3,6 +3,7 @@ version: 2.1
 jobs:
   build_ipa:
     macos:
+      # ✅ 稳定版本，避免 Xcode 16 + fastlane / Pods 各种坑
       xcode: "15.4.0"
 
     environment:
@@ -10,19 +11,25 @@ jobs:
       FL_OUTPUT_DIR: build
       LC_ALL: en_US.UTF-8
       LANG: en_US.UTF-8
+      # ✅ 避免 fastlane / tty / terminfo 问题
+      TERM: xterm-256color
 
     steps:
       - checkout
 
       - run:
-          name: Setup environment
+          name: Basic environment check
           command: |
             mkdir -p "$FL_OUTPUT_DIR"
             xcodebuild -version
             ruby -v
+            gem -v
             git config --global user.email "ci@example.com"
             git config --global user.name "CI Bot"
 
+      # ------------------------
+      # Bundler cache
+      # ------------------------
       - restore_cache:
           keys:
             - v1-bundle-{{ checksum "Gemfile.lock" }}
@@ -40,9 +47,13 @@ jobs:
             - vendor/bundle
           key: v1-bundle-{{ checksum "Gemfile.lock" }}
 
+      # ------------------------
+      # Build IPA
+      # ------------------------
       - run:
-          name: Build IPA
-          command: bundle exec fastlane release
+          name: Build IPA with fastlane
+          command: |
+            bundle exec fastlane release
 
       - store_artifacts:
           path: build
