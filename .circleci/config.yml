@@ -1,9 +1,9 @@
 version: 2.1
 
 jobs:
-  build ipa:
+  build_ipa:
     macos:
-      xcode: "16.4.0"
+      xcode: "15.4.0"
 
     environment:
       BUNDLE_PATH: vendor/bundle
@@ -19,9 +19,9 @@ jobs:
           command: |
             mkdir -p "$FL_OUTPUT_DIR"
             xcodebuild -version
+            ruby -v
             git config --global user.email "ci@example.com"
             git config --global user.name "CI Bot"
-            git config --list | grep user.
 
       - restore_cache:
           keys:
@@ -29,21 +29,11 @@ jobs:
             - v1-bundle-
 
       - run:
-          name: Install Ruby 3.3.6 via rbenv
-          command: |
-            brew install rbenv ruby-build
-            eval "$(rbenv init -)"
-            rbenv install 3.3.6 --skip-existing
-            rbenv global 3.3.6
-            ruby -v
-
-      - run:
           name: Install Bundler & Gems
           command: |
-            gem install bundler
+            gem install bundler -N
             bundle config set path vendor/bundle
-            bundle install
-      
+            bundle install --jobs=4 --retry=3
 
       - save_cache:
           paths:
@@ -51,7 +41,7 @@ jobs:
           key: v1-bundle-{{ checksum "Gemfile.lock" }}
 
       - run:
-          name: Build IPA only
+          name: Build IPA
           command: bundle exec fastlane release
 
       - store_artifacts:
@@ -59,9 +49,9 @@ jobs:
 
 workflows:
   version: 2
-  ios ipa:
+  ios_ipa:
     jobs:
-      - build ipa:
+      - build_ipa:
           filters:
             branches:
               only:
