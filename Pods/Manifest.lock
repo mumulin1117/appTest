@@ -4,16 +4,18 @@ PODS:
   - Adjust/Adjust (5.1.1):
     - AdjustSignature (= 3.35.2)
   - AdjustSignature (3.35.2)
-  - FBAEMKit (18.0.1):
-    - FBSDKCoreKit_Basics (= 18.0.1)
-  - FBSDKCoreKit (18.0.1):
-    - FBAEMKit (= 18.0.1)
-    - FBSDKCoreKit_Basics (= 18.0.1)
-  - FBSDKCoreKit_Basics (18.0.1)
+  - FBAEMKit (18.0.0):
+    - FBSDKCoreKit_Basics (= 18.0.0)
+  - FBSDKCoreKit (18.0.0):
+    - FBAEMKit (= 18.0.0)
+    - FBSDKCoreKit_Basics (= 18.0.0)
+  - FBSDKCoreKit_Basics (18.0.0)
+  - SwiftyStoreKit (0.16.1)
 
 DEPENDENCIES:
   - Adjust (~> 5.1.1)
   - FBSDKCoreKit
+  - SwiftyStoreKit
 
 SPEC REPOS:
   trunk:
@@ -22,14 +24,16 @@ SPEC REPOS:
     - FBAEMKit
     - FBSDKCoreKit
     - FBSDKCoreKit_Basics
+    - SwiftyStoreKit
 
 SPEC CHECKSUMS:
   Adjust: 5f5e998cf1446d44d93f91ec8b7b7dd40eaa922d
   AdjustSignature: 23b9e5d4adcadffc303bb6b410fde617dd88504f
-  FBAEMKit: b2ed182002dbcb65d5a60059c9693d322186cd00
-  FBSDKCoreKit: 7f96852f2539bdb88ba8d47e5ab4ae70a6f8d691
-  FBSDKCoreKit_Basics: 22d4c1a509ded4e45116f3bb167a14907550f62e
+  FBAEMKit: e34530df538b8eb8aeb53c35867715ba6c63ef0c
+  FBSDKCoreKit: d3f479a69127acebb1c6aad91c1a33907bcf6c2f
+  FBSDKCoreKit_Basics: 017b6dc2a1862024815a8229e75661e627ac1e29
+  SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
 
-PODFILE CHECKSUM: 472a8622c1e0d4c63e1fddd00b97108dab2d2eb6
+PODFILE CHECKSUM: 283c7761a4c8f3b03a5de5fb023a28a2d5fddd63
 
 COCOAPODS: 1.16.2

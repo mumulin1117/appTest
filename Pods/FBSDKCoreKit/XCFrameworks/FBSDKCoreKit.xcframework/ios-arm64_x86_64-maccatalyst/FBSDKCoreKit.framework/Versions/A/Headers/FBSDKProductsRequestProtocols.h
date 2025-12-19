@@ -8,9 +8,6 @@
 
 @protocol SKProductsRequestDelegate;
 
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wdeprecated-declarations"
-
 NS_ASSUME_NONNULL_BEGIN
 
 /**
@@ -47,5 +44,3 @@ NS_SWIFT_NAME(_ProductsRequestCreating)
 @end
 
 NS_ASSUME_NONNULL_END
-
-#pragma clang diagnostic pop

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FMberRECMaLoaiController" customModule="Klobazy" customModuleProvider="target">
+            <connections>
+                <outlet property="FMberRECgarmentUpgrade" destination="m9o-hp-BC7" id="ke5-ww-WQG"/>
+                <outlet property="FMberREChandDyedTextiles" destination="CBe-Oh-X2I" id="elB-kz-Rz7"/>
+                <outlet property="FMberRECnow" destination="w1X-Dd-tUL" id="hqO-SE-teC"/>
+                <outlet property="FMberRECnowcontinue" destination="A0a-dz-Q3G" id="8jg-jG-hDk"/>
+                <outlet property="FMberRECreclaimedFabric" destination="VNB-5Q-BZc" id="UjH-mJ-rrf"/>
+                <outlet property="FMberRECrefashionedStyle" destination="EFB-Cw-OOh" id="fMI-Ni-7uv"/>
+                <outlet property="FMberRECtuell" destination="PKN-he-enH" id="asM-Vf-98o"/>
+                <outlet property="smaillFMberREC" destination="fhD-Xw-g1W" id="IwB-sP-S6W"/>
+                <outlet property="view" destination="Byg-By-Wvp" id="im2-Wh-84o"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Byg-By-Wvp">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FMberRECpatternDrafting" translatesAutoresizingMaskIntoConstraints="NO" id="6pK-La-eRT">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VNB-5Q-BZc">
+                    <rect key="frame" x="55" y="789" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                    <color key="textColor" red="1" green="0.83921568629999999" blue="0.49019607840000001" alpha="0.97988281249999998" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0a-dz-Q3G">
+                    <rect key="frame" x="52" y="789" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" systemColor="underPageBackgroundColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CBe-Oh-X2I">
+                    <rect key="frame" x="22" y="278" width="349" height="54"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.19974888390000001" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="3B3-Gd-2bf"/>
+                    </constraints>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FMberRECembroideryDesign" translatesAutoresizingMaskIntoConstraints="NO" id="ADW-g3-7oM">
+                    <rect key="frame" x="22" y="69" width="101" height="43"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="101" id="MbJ-Kb-vla"/>
+                        <constraint firstAttribute="height" constant="43" id="Ooc-xV-cu5"/>
+                    </constraints>
+                </imageView>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter email adderss" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EFB-Cw-OOh">
+                    <rect key="frame" x="22" y="180" width="349" height="54"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.19974888390000001" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="c5d-1U-Zvw"/>
+                    </constraints>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fhD-Xw-g1W">
+                    <rect key="frame" x="196.66666666666666" y="350" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" systemColor="underPageBackgroundColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PKN-he-enH">
+                    <rect key="frame" x="22" y="778" width="22" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="Co4-24-LfH"/>
+                        <constraint firstAttribute="width" constant="22" id="g15-yZ-sUi"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="FMberRECgarmentAlteration"/>
+                    <state key="selected" image="FMberRECgdxbb"/>
+                    <connections>
+                        <action selector="FMberRECartisticPatching:" destination="-1" eventType="touchUpInside" id="b42-5U-Dkg"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FMberRECttextileArt" translatesAutoresizingMaskIntoConstraints="NO" id="qXJ-Ve-uA3">
+                    <rect key="frame" x="287" y="69" width="73" height="72"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="73" id="WIZ-q7-Dpv"/>
+                        <constraint firstAttribute="height" constant="72" id="m46-3z-Xna"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9o-hp-BC7">
+                    <rect key="frame" x="196.66666666666666" y="792" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                    <color key="textColor" red="1" green="0.83921568629999999" blue="0.49019607840000001" alpha="0.97988281249999998" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1X-Dd-tUL">
+                    <rect key="frame" x="16" y="409" width="361" height="52"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="52" id="pUV-AV-jSi"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="FMberRECupcycling"/>
+                    <connections>
+                        <action selector="FMberRECupcycledDenim:" destination="-1" eventType="touchUpInside" id="rW8-3p-rmX"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="auP-oq-D4U"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="auP-oq-D4U" firstAttribute="trailing" secondItem="EFB-Cw-OOh" secondAttribute="trailing" constant="22" id="4pU-gG-u4f"/>
+                <constraint firstItem="A0a-dz-Q3G" firstAttribute="centerY" secondItem="PKN-he-enH" secondAttribute="centerY" id="51t-SI-0c7"/>
+                <constraint firstItem="auP-oq-D4U" firstAttribute="trailing" secondItem="w1X-Dd-tUL" secondAttribute="trailing" constant="16" id="9dC-0b-Kai"/>
+                <constraint firstItem="CBe-Oh-X2I" firstAttribute="trailing" secondItem="EFB-Cw-OOh" secondAttribute="trailing" id="A33-Sw-G7Q"/>
+                <constraint firstItem="fhD-Xw-g1W" firstAttribute="centerX" secondItem="Byg-By-Wvp" secondAttribute="centerX" id="BVP-2q-cZh"/>
+                <constraint firstItem="ADW-g3-7oM" firstAttribute="leading" secondItem="auP-oq-D4U" secondAttribute="leading" constant="22" id="Fcr-2b-GVY"/>
+                <constraint firstItem="m9o-hp-BC7" firstAttribute="top" secondItem="VNB-5Q-BZc" secondAttribute="bottom" constant="3" id="Fth-oz-7jj"/>
+                <constraint firstItem="EFB-Cw-OOh" firstAttribute="top" secondItem="ADW-g3-7oM" secondAttribute="bottom" constant="68" id="FxH-RH-6jW"/>
+                <constraint firstItem="PKN-he-enH" firstAttribute="leading" secondItem="auP-oq-D4U" secondAttribute="leading" constant="22" id="H8i-wI-KEo"/>
+                <constraint firstItem="qXJ-Ve-uA3" firstAttribute="top" secondItem="ADW-g3-7oM" secondAttribute="top" id="H8i-wn-CZV"/>
+                <constraint firstItem="w1X-Dd-tUL" firstAttribute="leading" secondItem="auP-oq-D4U" secondAttribute="leading" constant="16" id="J9o-4U-tuI"/>
+                <constraint firstItem="VNB-5Q-BZc" firstAttribute="leading" secondItem="A0a-dz-Q3G" secondAttribute="trailing" constant="3" id="Jfb-km-Tk4"/>
+                <constraint firstItem="auP-oq-D4U" firstAttribute="bottom" secondItem="PKN-he-enH" secondAttribute="bottom" constant="18" id="JlL-E3-g4o"/>
+                <constraint firstAttribute="bottom" secondItem="6pK-La-eRT" secondAttribute="bottom" id="NTl-MC-Wfp"/>
+                <constraint firstItem="EFB-Cw-OOh" firstAttribute="leading" secondItem="auP-oq-D4U" secondAttribute="leading" constant="22" id="NgO-p0-X1A"/>
+                <constraint firstAttribute="trailing" secondItem="6pK-La-eRT" secondAttribute="trailing" id="Uh7-mY-OFq"/>
+                <constraint firstItem="A0a-dz-Q3G" firstAttribute="leading" secondItem="PKN-he-enH" secondAttribute="trailing" constant="8" symbolic="YES" id="V1K-3H-taf"/>
+                <constraint firstItem="w1X-Dd-tUL" firstAttribute="top" secondItem="fhD-Xw-g1W" secondAttribute="bottom" constant="59" id="WZd-i6-Aa7"/>
+                <constraint firstItem="auP-oq-D4U" firstAttribute="trailing" secondItem="qXJ-Ve-uA3" secondAttribute="trailing" constant="33" id="X6s-hh-E4u"/>
+                <constraint firstItem="CBe-Oh-X2I" firstAttribute="leading" secondItem="EFB-Cw-OOh" secondAttribute="leading" id="dbf-Tj-cMr"/>
+                <constraint firstItem="CBe-Oh-X2I" firstAttribute="top" secondItem="EFB-Cw-OOh" secondAttribute="bottom" constant="44" id="e0S-j9-PiR"/>
+                <constraint firstItem="fhD-Xw-g1W" firstAttribute="top" secondItem="CBe-Oh-X2I" secondAttribute="bottom" constant="18" id="gSf-TA-8tP"/>
+                <constraint firstItem="6pK-La-eRT" firstAttribute="top" secondItem="Byg-By-Wvp" secondAttribute="top" id="n1O-tE-SfK"/>
+                <constraint firstItem="ADW-g3-7oM" firstAttribute="top" secondItem="auP-oq-D4U" secondAttribute="top" constant="10" id="n2t-Mh-oNc"/>
+                <constraint firstItem="VNB-5Q-BZc" firstAttribute="centerY" secondItem="A0a-dz-Q3G" secondAttribute="centerY" id="qgm-2m-B2w"/>
+                <constraint firstItem="6pK-La-eRT" firstAttribute="leading" secondItem="Byg-By-Wvp" secondAttribute="leading" id="rNM-C3-rFe"/>
+                <constraint firstItem="m9o-hp-BC7" firstAttribute="centerX" secondItem="Byg-By-Wvp" secondAttribute="centerX" id="w0E-NT-H7j"/>
+            </constraints>
+            <point key="canvasLocation" x="135.19999999999999" y="20.239880059970016"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="FMberRECembroideryDesign" width="103.66666412353516" height="48"/>
+        <image name="FMberRECgarmentAlteration" width="22" height="22"/>
+        <image name="FMberRECgdxbb" width="22" height="22"/>
+        <image name="FMberRECpatternDrafting" width="375" height="812"/>
+        <image name="FMberRECttextileArt" width="100" height="100"/>
+        <image name="FMberRECupcycling" width="332" height="52"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="underPageBackgroundColor">
+            <color red="0.70980392156862748" green="0.71764705882352942" blue="0.74117647058823533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -702,7 +702,7 @@
 		</data>
 		<key>Headers/FBSDKCoreKit-Swift.h</key>
 		<data>
-		Hs/0M2H0ijCRDbE2rOVbzCWU+ys=
+		7600QDNflQgHY+mG/cwStJOsec8=
 		</data>
 		<key>Headers/FBSDKCoreKit.h</key>
 		<data>
@@ -710,7 +710,7 @@
 		</data>
 		<key>Headers/FBSDKCoreKitVersions.h</key>
 		<data>
-		G1J5JHoq0NOrIm1gmYWw1UWxF0c=
+		/eqaMAzP93B16wXvakv2GDTKX0k=
 		</data>
 		<key>Headers/FBSDKCrashObserver.h</key>
 		<data>
@@ -1050,11 +1050,11 @@
 		</data>
 		<key>Headers/FBSDKPaymentProductRequestor.h</key>
 		<data>
-		SNbZhxJrkRzC09p4BgSkBnne/4I=
+		ZQ6Btyy0z7ZiD/M9eX+7+KDRiLE=
 		</data>
 		<key>Headers/FBSDKPaymentProductRequestorCreating.h</key>
 		<data>
-		oY5wRjfHI1kVIcFX6Mn8vyIye8A=
+		kofChLuS6UMw2biE8Lcu2yhsmt0=
 		</data>
 		<key>Headers/FBSDKProductAvailability.h</key>
 		<data>
@@ -1070,7 +1070,7 @@
 		</data>
 		<key>Headers/FBSDKProductsRequestProtocols.h</key>
 		<data>
-		rhYxY49t++GjX1yBkQhe7BxQHfw=
+		quFgypTeZ+2XNvJr6deEaYceClo=
 		</data>
 		<key>Headers/FBSDKProfileBlock.h</key>
 		<data>
@@ -1282,23 +1282,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sIooFRiklr4mtYORo+V4v84jTJI=
+		ioQQll/iBFQ7MfZ5k8S1w05OKS0=
 		</data>
 		<key>Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		cBEm5y9wGgkgSCfvmSKXmY7A9nA=
+		OkoPZtcS5lu+Hk/2Cmm3NkUC1LA=
 		</data>
 		<key>Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		ThCky+BHqWa6bRF4i4lCTTUOCh8=
+		o8MMQ2RxBsTwTAF4vAwFP1JbYWY=
 		</data>
 		<key>Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Tkf+JhnN0toUuTmMc+Yv6QuncVA=
+		CSmfnAungUw15mQMizDDGTV7ElY=
 		</data>
 		<key>Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		ThCky+BHqWa6bRF4i4lCTTUOCh8=
+		o8MMQ2RxBsTwTAF4vAwFP1JbYWY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -2236,7 +2236,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cX9KyVHimvAq4sMVKMRhl72QYY9tN8PnPjqVQdsQsZE=
+			J+PneAPNIzsM6TXXiXj/wEQDSINuc31/znTjvXu7le4=
 			</data>
 		</dict>
 		<key>Headers/FBSDKCoreKit.h</key>
@@ -2250,7 +2250,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YBpGJaKE8vDVxP1R1g+NJK5JsUt8kd6vj1AovWpV6Rk=
+			Vfex5H/RRx7zB2DpAjP6NiIB1F+xRX28EDuU7fmVphY=
 			</data>
 		</dict>
 		<key>Headers/FBSDKCrashObserver.h</key>
@@ -2845,14 +2845,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hHGSUMu4KkHb+UCO99X5lnn5TYA/fq0Vn0Czx+Eo3xM=
+			S2CSCz82/VNHbyry4LOyJvanQu9UC+br3C0NUFHHqe8=
 			</data>
 		</dict>
 		<key>Headers/FBSDKPaymentProductRequestorCreating.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b+ixLnsDcoO7vkTmEteznor7tvOJgzmeQ/k7Vex/q0U=
+			fGzWAJQkZyRBklHMViipfo4KyA1fMAOzlOiH4HhweQk=
 			</data>
 		</dict>
 		<key>Headers/FBSDKProductAvailability.h</key>
@@ -2880,7 +2880,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8l2Qq5v1Gy+TX2PtsfcsuDiBt+7iNef8UX9m/3n9pC4=
+			a7mWH2GsxBZ9X9N8Z/19nO+toxG/0r99YGYxK28kY0o=
 			</data>
 		</dict>
 		<key>Headers/FBSDKProfileBlock.h</key>
@@ -3251,28 +3251,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qhJdzb/jeSSEJUvybvTbzupxNASlwZ1msz7rxmui25w=
+			3vDnj3mq4rNEgbA2If/m00wW5JaGeu+mVlK7rYEf/2s=
 			</data>
 		</dict>
 		<key>Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PdT4L4Mi/iFwVsmdgxEh3l0onb8k4TEMd8+2mvOEA/4=
+			TMNNZtPUGIU/qs2kUvQPGEC2iIKt5ImZ4RhTyr/LjT0=
 			</data>
 		</dict>
 		<key>Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Ol5o6vuONZnq6wcRC49jd3aL7z2xqya5Cza5+4Qh80=
+			wrCl6/+Xg6AwkRtGiqR/QaRYQhFdO6LBw7yKXixdOEM=
 			</data>
 		</dict>
 		<key>Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PdT4L4Mi/iFwVsmdgxEh3l0onb8k4TEMd8+2mvOEA/4=
+			TMNNZtPUGIU/qs2kUvQPGEC2iIKt5ImZ4RhTyr/LjT0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

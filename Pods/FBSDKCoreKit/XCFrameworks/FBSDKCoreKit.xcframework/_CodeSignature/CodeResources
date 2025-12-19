@@ -10,7 +10,7 @@
 		</data>
 		<key>ios-arm64/FBSDKCoreKit.framework/FBSDKCoreKit</key>
 		<data>
-		IvBNDTPxetw2tEDHFf3EIQVd2Gc=
+		SEBBIHt3XpCO9+wPbihgY/+8+Q8=
 		</data>
 		<key>ios-arm64/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/af.lproj/FacebookSDK.strings</key>
 		<dict>
@@ -710,7 +710,7 @@
 		</data>
 		<key>ios-arm64/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-Swift.h</key>
 		<data>
-		Hs/0M2H0ijCRDbE2rOVbzCWU+ys=
+		7600QDNflQgHY+mG/cwStJOsec8=
 		</data>
 		<key>ios-arm64/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h</key>
 		<data>
@@ -718,7 +718,7 @@
 		</data>
 		<key>ios-arm64/FBSDKCoreKit.framework/Headers/FBSDKCoreKitVersions.h</key>
 		<data>
-		G1J5JHoq0NOrIm1gmYWw1UWxF0c=
+		/eqaMAzP93B16wXvakv2GDTKX0k=
 		</data>
 		<key>ios-arm64/FBSDKCoreKit.framework/Headers/FBSDKCrashObserver.h</key>
 		<data>
@@ -1058,11 +1058,11 @@
 		</data>
 		<key>ios-arm64/FBSDKCoreKit.framework/Headers/FBSDKPaymentProductRequestor.h</key>
 		<data>
-		SNbZhxJrkRzC09p4BgSkBnne/4I=
+		ZQ6Btyy0z7ZiD/M9eX+7+KDRiLE=
 		</data>
 		<key>ios-arm64/FBSDKCoreKit.framework/Headers/FBSDKPaymentProductRequestorCreating.h</key>
 		<data>
-		oY5wRjfHI1kVIcFX6Mn8vyIye8A=
+		kofChLuS6UMw2biE8Lcu2yhsmt0=
 		</data>
 		<key>ios-arm64/FBSDKCoreKit.framework/Headers/FBSDKProductAvailability.h</key>
 		<data>
@@ -1078,7 +1078,7 @@
 		</data>
 		<key>ios-arm64/FBSDKCoreKit.framework/Headers/FBSDKProductsRequestProtocols.h</key>
 		<data>
-		rhYxY49t++GjX1yBkQhe7BxQHfw=
+		quFgypTeZ+2XNvJr6deEaYceClo=
 		</data>
 		<key>ios-arm64/FBSDKCoreKit.framework/Headers/FBSDKProfileBlock.h</key>
 		<data>
@@ -1290,23 +1290,23 @@
 		</data>
 		<key>ios-arm64/FBSDKCoreKit.framework/Info.plist</key>
 		<data>
-		sIooFRiklr4mtYORo+V4v84jTJI=
+		ioQQll/iBFQ7MfZ5k8S1w05OKS0=
 		</data>
 		<key>ios-arm64/FBSDKCoreKit.framework/Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		cBEm5y9wGgkgSCfvmSKXmY7A9nA=
+		OkoPZtcS5lu+Hk/2Cmm3NkUC1LA=
 		</data>
 		<key>ios-arm64/FBSDKCoreKit.framework/Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		ThCky+BHqWa6bRF4i4lCTTUOCh8=
+		o8MMQ2RxBsTwTAF4vAwFP1JbYWY=
 		</data>
 		<key>ios-arm64/FBSDKCoreKit.framework/Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Tkf+JhnN0toUuTmMc+Yv6QuncVA=
+		CSmfnAungUw15mQMizDDGTV7ElY=
 		</data>
 		<key>ios-arm64/FBSDKCoreKit.framework/Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		ThCky+BHqWa6bRF4i4lCTTUOCh8=
+		o8MMQ2RxBsTwTAF4vAwFP1JbYWY=
 		</data>
 		<key>ios-arm64/FBSDKCoreKit.framework/Modules/module.modulemap</key>
 		<data>
@@ -1318,23 +1318,23 @@
 		</data>
 		<key>ios-arm64/FBSDKCoreKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		IKfLht0ECLhyT/7jL9GstRQDdig=
+		oBbmbiKeJYLes+olDksn9+D2F5s=
 		</data>
 		<key>ios-arm64/dSYMs/FBSDKCoreKit.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		e1oC/uPa4OZfDF2c3zSwtemTqlM=
+		qG6Ty6t/qhX430RoQk8cuQ7fGXw=
 		</data>
 		<key>ios-arm64/dSYMs/FBSDKCoreKit.framework.dSYM/Contents/Resources/DWARF/FBSDKCoreKit</key>
 		<data>
-		FeLnciADIiAbM9vclC8wqGfaaT8=
+		1ICJ/z1AWgvnW7vov0Zaozwtp/k=
 		</data>
 		<key>ios-arm64/dSYMs/FBSDKCoreKit.framework.dSYM/Contents/Resources/Relocations/aarch64/FBSDKCoreKit.yml</key>
 		<data>
-		YG138xt8AoCrXOurVIw/zXNYEUI=
+		inyN4V/w2oSJWzLsD1cUfuJBsxI=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/FBSDKCoreKit</key>
 		<data>
-		lB3BJpDCXNsvROGoYyw1oIRF/7U=
+		A1M7Ma5ErpZr+BkSYlLpHK41HY0=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Headers/FBSDKAEMManager.h</key>
 		<data>
@@ -1638,7 +1638,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Headers/FBSDKCoreKit-Swift.h</key>
 		<data>
-		Xd7ZbJqQtHaNSNo8OxB4zNbUbe8=
+		6Q0IXgo7gt89R9ybn7xJCG359Lo=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Headers/FBSDKCoreKit.h</key>
 		<data>
@@ -1646,7 +1646,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Headers/FBSDKCoreKitVersions.h</key>
 		<data>
-		G1J5JHoq0NOrIm1gmYWw1UWxF0c=
+		/eqaMAzP93B16wXvakv2GDTKX0k=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Headers/FBSDKCrashObserver.h</key>
 		<data>
@@ -1986,11 +1986,11 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Headers/FBSDKPaymentProductRequestor.h</key>
 		<data>
-		SNbZhxJrkRzC09p4BgSkBnne/4I=
+		ZQ6Btyy0z7ZiD/M9eX+7+KDRiLE=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Headers/FBSDKPaymentProductRequestorCreating.h</key>
 		<data>
-		oY5wRjfHI1kVIcFX6Mn8vyIye8A=
+		kofChLuS6UMw2biE8Lcu2yhsmt0=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Headers/FBSDKProductAvailability.h</key>
 		<data>
@@ -2006,7 +2006,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Headers/FBSDKProductsRequestProtocols.h</key>
 		<data>
-		rhYxY49t++GjX1yBkQhe7BxQHfw=
+		quFgypTeZ+2XNvJr6deEaYceClo=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Headers/FBSDKProfileBlock.h</key>
 		<data>
@@ -2218,35 +2218,35 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios-macabi.abi.json</key>
 		<data>
-		wqfozIuBvOEFVrk4MWdziPsPuLc=
+		mnFamF7Gc38H2o21RWTTfDURTgE=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<data>
-		jDfPX1tEVZWGaawO6agNUzL61I8=
+		FeQzanpLn8r0q90XPcUQUGrbvpM=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
 		<data>
-		T9UyT2yHeruYM2+R8pxgRHnI8d4=
+		Mj7ipDJanXwEXSMXDQw3r60NqAU=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<data>
-		jDfPX1tEVZWGaawO6agNUzL61I8=
+		FeQzanpLn8r0q90XPcUQUGrbvpM=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Modules/FBSDKCoreKit.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<data>
-		wqfozIuBvOEFVrk4MWdziPsPuLc=
+		mnFamF7Gc38H2o21RWTTfDURTgE=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Modules/FBSDKCoreKit.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<data>
-		UPKjZu2Rsy8KmGrZcOhr7IkCD9g=
+		C8aofSExOxn2EKBH+rg+owyDMlg=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Modules/FBSDKCoreKit.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<data>
-		OxLx5U1Cc1oE6xRgkRu8tbSNPTk=
+		fsC9PZtjJRoRqtbec7KVYWkmuKc=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Modules/FBSDKCoreKit.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<data>
-		UPKjZu2Rsy8KmGrZcOhr7IkCD9g=
+		C8aofSExOxn2EKBH+rg+owyDMlg=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Modules/module.modulemap</key>
 		<data>
@@ -2650,7 +2650,7 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		iBpKS6+5DoEND9WebcdQ8Hj2zYA=
+		e7MqrXgFKVo5L1GdLOdUWvBVRww=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Resources/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -2658,27 +2658,27 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/_CodeSignature/CodeResources</key>
 		<data>
-		/LtnH0E9GkZN76+XCe08319spJw=
+		lcGBgfUmKFsDuJqiAxchfu5Z+iI=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/dSYMs/FBSDKCoreKit.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		e1oC/uPa4OZfDF2c3zSwtemTqlM=
+		qG6Ty6t/qhX430RoQk8cuQ7fGXw=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/dSYMs/FBSDKCoreKit.framework.dSYM/Contents/Resources/DWARF/FBSDKCoreKit</key>
 		<data>
-		lgk8btclYG1um7bKGFQ74RB226Q=
+		jSjzXhDRRa+ZRGqc/+eA5hrDffI=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/dSYMs/FBSDKCoreKit.framework.dSYM/Contents/Resources/Relocations/aarch64/FBSDKCoreKit.yml</key>
 		<data>
-		Jz5SOyMu3npgghpda+12T0UQKXo=
+		zOwvdTFbbHiLf3xZGdvSA5POLuY=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/dSYMs/FBSDKCoreKit.framework.dSYM/Contents/Resources/Relocations/x86_64/FBSDKCoreKit.yml</key>
 		<data>
-		W/WSvzzLTDGvH8udoVGrDIyjbyQ=
+		N+aQGPhjXF6J1hSKVDHQD6E7CGc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/FBSDKCoreKit</key>
 		<data>
-		Ngm+wuN8Ua7qSL3DDuhYcxSRhFc=
+		sK+DJRxMV2ggHW4FmnJhpKKEdfY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/af.lproj/FacebookSDK.strings</key>
 		<dict>
@@ -3378,7 +3378,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-Swift.h</key>
 		<data>
-		Xd7ZbJqQtHaNSNo8OxB4zNbUbe8=
+		6Q0IXgo7gt89R9ybn7xJCG359Lo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h</key>
 		<data>
@@ -3386,7 +3386,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKitVersions.h</key>
 		<data>
-		G1J5JHoq0NOrIm1gmYWw1UWxF0c=
+		/eqaMAzP93B16wXvakv2GDTKX0k=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Headers/FBSDKCrashObserver.h</key>
 		<data>
@@ -3726,11 +3726,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Headers/FBSDKPaymentProductRequestor.h</key>
 		<data>
-		SNbZhxJrkRzC09p4BgSkBnne/4I=
+		ZQ6Btyy0z7ZiD/M9eX+7+KDRiLE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Headers/FBSDKPaymentProductRequestorCreating.h</key>
 		<data>
-		oY5wRjfHI1kVIcFX6Mn8vyIye8A=
+		kofChLuS6UMw2biE8Lcu2yhsmt0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Headers/FBSDKProductAvailability.h</key>
 		<data>
@@ -3746,7 +3746,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Headers/FBSDKProductsRequestProtocols.h</key>
 		<data>
-		rhYxY49t++GjX1yBkQhe7BxQHfw=
+		quFgypTeZ+2XNvJr6deEaYceClo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Headers/FBSDKProfileBlock.h</key>
 		<data>
@@ -3958,39 +3958,39 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Info.plist</key>
 		<data>
-		dHLJesGNt1d4ICKOE6baJ+YqRSo=
+		QUelzWz7dqMd+QoK8TNxFAkreF8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		cBEm5y9wGgkgSCfvmSKXmY7A9nA=
+		OkoPZtcS5lu+Hk/2Cmm3NkUC1LA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		J3a+tk3Y0D2nmXhQiwst4P0LSpQ=
+		VOcf6Ms+U2Dy9LSAiruhQJI4zX0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		zzerGoUSXzWLzBBn4s5aG//FJvg=
+		sGE3AP/1KVSnPWfojA5wQ3t0qB0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		J3a+tk3Y0D2nmXhQiwst4P0LSpQ=
+		VOcf6Ms+U2Dy9LSAiruhQJI4zX0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Modules/FBSDKCoreKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		cBEm5y9wGgkgSCfvmSKXmY7A9nA=
+		OkoPZtcS5lu+Hk/2Cmm3NkUC1LA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Modules/FBSDKCoreKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		rMThgTa58K/9eisumqDsx38fm2s=
+		q9X/As+m8XdKb41fIQdGV52eO7Y=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Modules/FBSDKCoreKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		3fhNJY1J+2q2A6gwJypwIfKm8b8=
+		NvjKwhBscIDrP7g81PSeDrj+svw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Modules/FBSDKCoreKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		rMThgTa58K/9eisumqDsx38fm2s=
+		q9X/As+m8XdKb41fIQdGV52eO7Y=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Modules/module.modulemap</key>
 		<data>
@@ -4002,23 +4002,23 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		RWo+PQLnUPsUalv6/+F4oaERSjY=
+		GZ71Ja+PkhoMnlUakDMQn3MThQ0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/FBSDKCoreKit.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		e1oC/uPa4OZfDF2c3zSwtemTqlM=
+		qG6Ty6t/qhX430RoQk8cuQ7fGXw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/FBSDKCoreKit.framework.dSYM/Contents/Resources/DWARF/FBSDKCoreKit</key>
 		<data>
-		9bvu4IR2s/U+hnw2/08lZ4hBHmU=
+		wCSnuzPKIzQqOHyFxHGQOr2mbw8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/FBSDKCoreKit.framework.dSYM/Contents/Resources/Relocations/aarch64/FBSDKCoreKit.yml</key>
 		<data>
-		AGkh6xDmRV0j0Y/7DXWFWoWMClI=
+		awyy358znRrie4VIrALKpm6yD+U=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/FBSDKCoreKit.framework.dSYM/Contents/Resources/Relocations/x86_64/FBSDKCoreKit.yml</key>
 		<data>
-		rzsmLGN72OT0WHO8nuofOqcNUo4=
+		PiCM7UxuklwFMb2/bGt1cC3trl0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -4038,11 +4038,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IvBNDTPxetw2tEDHFf3EIQVd2Gc=
+			SEBBIHt3XpCO9+wPbihgY/+8+Q8=
 			</data>
 			<key>hash2</key>
 			<data>
-			LYPJ6NKFoDX+zKr65kxecEFHUjLodsthuLtek9Dzn2k=
+			Zg7T0LnhxWzoDKysCFTcAO48jJKZe5h4XVoH4TCBdXg=
 			</data>
 		</dict>
 		<key>ios-arm64/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/af.lproj/FacebookSDK.strings</key>
@@ -5446,11 +5446,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Hs/0M2H0ijCRDbE2rOVbzCWU+ys=
+			7600QDNflQgHY+mG/cwStJOsec8=
 			</data>
 			<key>hash2</key>
 			<data>
-			cX9KyVHimvAq4sMVKMRhl72QYY9tN8PnPjqVQdsQsZE=
+			J+PneAPNIzsM6TXXiXj/wEQDSINuc31/znTjvXu7le4=
 			</data>
 		</dict>
 		<key>ios-arm64/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h</key>
@@ -5468,11 +5468,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			G1J5JHoq0NOrIm1gmYWw1UWxF0c=
+			/eqaMAzP93B16wXvakv2GDTKX0k=
 			</data>
 			<key>hash2</key>
 			<data>
-			YBpGJaKE8vDVxP1R1g+NJK5JsUt8kd6vj1AovWpV6Rk=
+			Vfex5H/RRx7zB2DpAjP6NiIB1F+xRX28EDuU7fmVphY=
 			</data>
 		</dict>
 		<key>ios-arm64/FBSDKCoreKit.framework/Headers/FBSDKCrashObserver.h</key>
@@ -6403,22 +6403,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SNbZhxJrkRzC09p4BgSkBnne/4I=
+			ZQ6Btyy0z7ZiD/M9eX+7+KDRiLE=
 			</data>
 			<key>hash2</key>
 			<data>
-			hHGSUMu4KkHb+UCO99X5lnn5TYA/fq0Vn0Czx+Eo3xM=
+			S2CSCz82/VNHbyry4LOyJvanQu9UC+br3C0NUFHHqe8=
 			</data>
 		</dict>
 		<key>ios-arm64/FBSDKCoreKit.framework/Headers/FBSDKPaymentProductRequestorCreating.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oY5wRjfHI1kVIcFX6Mn8vyIye8A=
+			kofChLuS6UMw2biE8Lcu2yhsmt0=
 			</data>
 			<key>hash2</key>
 			<data>
-			b+ixLnsDcoO7vkTmEteznor7tvOJgzmeQ/k7Vex/q0U=
+			fGzWAJQkZyRBklHMViipfo4KyA1fMAOzlOiH4HhweQk=
 			</data>
 		</dict>
 		<key>ios-arm64/FBSDKCoreKit.framework/Headers/FBSDKProductAvailability.h</key>
@@ -6458,11 +6458,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rhYxY49t++GjX1yBkQhe7BxQHfw=
+			quFgypTeZ+2XNvJr6deEaYceClo=
 			</data>
 			<key>hash2</key>
 			<data>
-			8l2Qq5v1Gy+TX2PtsfcsuDiBt+7iNef8UX9m/3n9pC4=
+			a7mWH2GsxBZ9X9N8Z/19nO+toxG/0r99YGYxK28kY0o=
 			</data>
 		</dict>
 		<key>ios-arm64/FBSDKCoreKit.framework/Headers/FBSDKProfileBlock.h</key>
@@ -7041,55 +7041,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sIooFRiklr4mtYORo+V4v84jTJI=
+			ioQQll/iBFQ7MfZ5k8S1w05OKS0=
 			</data>
 			<key>hash2</key>
 			<data>
-			l09+ojPfZzgmyNjvvwyjzsZTwQPbUlAfg3GCAyPBWHw=
+			Parz8q2MtbyaJr4fjZd9jAEUDMxUNeTBT/pRqo4c45U=
 			</data>
 		</dict>
 		<key>ios-arm64/FBSDKCoreKit.framework/Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cBEm5y9wGgkgSCfvmSKXmY7A9nA=
+			OkoPZtcS5lu+Hk/2Cmm3NkUC1LA=
 			</data>
 			<key>hash2</key>
 			<data>
-			qhJdzb/jeSSEJUvybvTbzupxNASlwZ1msz7rxmui25w=
+			3vDnj3mq4rNEgbA2If/m00wW5JaGeu+mVlK7rYEf/2s=
 			</data>
 		</dict>
 		<key>ios-arm64/FBSDKCoreKit.framework/Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ThCky+BHqWa6bRF4i4lCTTUOCh8=
+			o8MMQ2RxBsTwTAF4vAwFP1JbYWY=
 			</data>
 			<key>hash2</key>
 			<data>
-			PdT4L4Mi/iFwVsmdgxEh3l0onb8k4TEMd8+2mvOEA/4=
+			TMNNZtPUGIU/qs2kUvQPGEC2iIKt5ImZ4RhTyr/LjT0=
 			</data>
 		</dict>
 		<key>ios-arm64/FBSDKCoreKit.framework/Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Tkf+JhnN0toUuTmMc+Yv6QuncVA=
+			CSmfnAungUw15mQMizDDGTV7ElY=
 			</data>
 			<key>hash2</key>
 			<data>
-			6Ol5o6vuONZnq6wcRC49jd3aL7z2xqya5Cza5+4Qh80=
+			wrCl6/+Xg6AwkRtGiqR/QaRYQhFdO6LBw7yKXixdOEM=
 			</data>
 		</dict>
 		<key>ios-arm64/FBSDKCoreKit.framework/Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ThCky+BHqWa6bRF4i4lCTTUOCh8=
+			o8MMQ2RxBsTwTAF4vAwFP1JbYWY=
 			</data>
 			<key>hash2</key>
 			<data>
-			PdT4L4Mi/iFwVsmdgxEh3l0onb8k4TEMd8+2mvOEA/4=
+			TMNNZtPUGIU/qs2kUvQPGEC2iIKt5ImZ4RhTyr/LjT0=
 			</data>
 		</dict>
 		<key>ios-arm64/FBSDKCoreKit.framework/Modules/module.modulemap</key>
@@ -7118,44 +7118,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IKfLht0ECLhyT/7jL9GstRQDdig=
+			oBbmbiKeJYLes+olDksn9+D2F5s=
 			</data>
 			<key>hash2</key>
 			<data>
-			UvZjNHuedeVhdyqbbAgWX926dD268QJ5pbOztRGnaWY=
+			AVLzLc38nhwPK873gha1zQYQiuxDHMbRT1/SkB1rANg=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/FBSDKCoreKit.framework.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			e1oC/uPa4OZfDF2c3zSwtemTqlM=
+			qG6Ty6t/qhX430RoQk8cuQ7fGXw=
 			</data>
 			<key>hash2</key>
 			<data>
-			7+XpZdYsOHq2eLUKvpmyfWmHNsXgP+oPOVeepKQVj/M=
+			rB6rIBwUCwLIwjj0MHS+vm+oRCTLb8bnr7hT9agltoY=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/FBSDKCoreKit.framework.dSYM/Contents/Resources/DWARF/FBSDKCoreKit</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FeLnciADIiAbM9vclC8wqGfaaT8=
+			1ICJ/z1AWgvnW7vov0Zaozwtp/k=
 			</data>
 			<key>hash2</key>
 			<data>
-			aJcPzTVKcVtgFdrVtyXu0LnXBPy3YOX0BKvvRyTqqGQ=
+			QNi4I6HrS/iiyA4rN9VAorikb+VgA1LJDWTw+yvMNJo=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/FBSDKCoreKit.framework.dSYM/Contents/Resources/Relocations/aarch64/FBSDKCoreKit.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YG138xt8AoCrXOurVIw/zXNYEUI=
+			inyN4V/w2oSJWzLsD1cUfuJBsxI=
 			</data>
 			<key>hash2</key>
 			<data>
-			7cA59FDvAJo8y/cZzPvBhZtfPr+N0WFsB6dk7qp18Vg=
+			AhSYA6BYE2e6pbLdYooaiHyKR4g0F6yBJo7AJbAYMUI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/FBSDKCoreKit</key>
@@ -7182,11 +7182,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lB3BJpDCXNsvROGoYyw1oIRF/7U=
+			A1M7Ma5ErpZr+BkSYlLpHK41HY0=
 			</data>
 			<key>hash2</key>
 			<data>
-			z5XfQqdAH9x3Q3Zc9uh7YAu3RM26TMUrcizuifjIioE=
+			LIJitSrl08R/FprsxffavfQgdBT1CDhdZQDTLZQubek=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Headers/FBSDKAEMManager.h</key>
@@ -8018,11 +8018,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Xd7ZbJqQtHaNSNo8OxB4zNbUbe8=
+			6Q0IXgo7gt89R9ybn7xJCG359Lo=
 			</data>
 			<key>hash2</key>
 			<data>
-			u4k9pyMGklHV8hDyUOJwB8FydaQuGMZwYPdIw9LrmY0=
+			g7XEQkenFT0vcIVYTUXN6AZV0llkCsNWEqTD4XZWjys=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Headers/FBSDKCoreKit.h</key>
@@ -8040,11 +8040,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			G1J5JHoq0NOrIm1gmYWw1UWxF0c=
+			/eqaMAzP93B16wXvakv2GDTKX0k=
 			</data>
 			<key>hash2</key>
 			<data>
-			YBpGJaKE8vDVxP1R1g+NJK5JsUt8kd6vj1AovWpV6Rk=
+			Vfex5H/RRx7zB2DpAjP6NiIB1F+xRX28EDuU7fmVphY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Headers/FBSDKCrashObserver.h</key>
@@ -8975,22 +8975,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SNbZhxJrkRzC09p4BgSkBnne/4I=
+			ZQ6Btyy0z7ZiD/M9eX+7+KDRiLE=
 			</data>
 			<key>hash2</key>
 			<data>
-			hHGSUMu4KkHb+UCO99X5lnn5TYA/fq0Vn0Czx+Eo3xM=
+			S2CSCz82/VNHbyry4LOyJvanQu9UC+br3C0NUFHHqe8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Headers/FBSDKPaymentProductRequestorCreating.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oY5wRjfHI1kVIcFX6Mn8vyIye8A=
+			kofChLuS6UMw2biE8Lcu2yhsmt0=
 			</data>
 			<key>hash2</key>
 			<data>
-			b+ixLnsDcoO7vkTmEteznor7tvOJgzmeQ/k7Vex/q0U=
+			fGzWAJQkZyRBklHMViipfo4KyA1fMAOzlOiH4HhweQk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Headers/FBSDKProductAvailability.h</key>
@@ -9030,11 +9030,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rhYxY49t++GjX1yBkQhe7BxQHfw=
+			quFgypTeZ+2XNvJr6deEaYceClo=
 			</data>
 			<key>hash2</key>
 			<data>
-			8l2Qq5v1Gy+TX2PtsfcsuDiBt+7iNef8UX9m/3n9pC4=
+			a7mWH2GsxBZ9X9N8Z/19nO+toxG/0r99YGYxK28kY0o=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Headers/FBSDKProfileBlock.h</key>
@@ -9613,88 +9613,88 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wqfozIuBvOEFVrk4MWdziPsPuLc=
+			mnFamF7Gc38H2o21RWTTfDURTgE=
 			</data>
 			<key>hash2</key>
 			<data>
-			FJxVmiT8+mqCV1vNRcCYqI9/J8NpmOEv1NNIo0q4XWs=
+			LLjPiY/OCkprLw8wapFjBaET7cMNKbOtVipQPYHElfg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jDfPX1tEVZWGaawO6agNUzL61I8=
+			FeQzanpLn8r0q90XPcUQUGrbvpM=
 			</data>
 			<key>hash2</key>
 			<data>
-			w68TLwwLf3BHrVZrSVSE+cH8xXpve7GBsiyBtxDpaIs=
+			9vqiFoTW/zYeS6mZ80D6PlnQpuMgrIjcU/+646FQOZc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			T9UyT2yHeruYM2+R8pxgRHnI8d4=
+			Mj7ipDJanXwEXSMXDQw3r60NqAU=
 			</data>
 			<key>hash2</key>
 			<data>
-			cNGOXM0beaYq/tgN0+Hum5/T4ou1QYlEgaTqwLTVBUQ=
+			DQLbZaJFnhnaV5DNWVoUAtskGyHw/CC5zVNBAm3jyuo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jDfPX1tEVZWGaawO6agNUzL61I8=
+			FeQzanpLn8r0q90XPcUQUGrbvpM=
 			</data>
 			<key>hash2</key>
 			<data>
-			w68TLwwLf3BHrVZrSVSE+cH8xXpve7GBsiyBtxDpaIs=
+			9vqiFoTW/zYeS6mZ80D6PlnQpuMgrIjcU/+646FQOZc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Modules/FBSDKCoreKit.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wqfozIuBvOEFVrk4MWdziPsPuLc=
+			mnFamF7Gc38H2o21RWTTfDURTgE=
 			</data>
 			<key>hash2</key>
 			<data>
-			FJxVmiT8+mqCV1vNRcCYqI9/J8NpmOEv1NNIo0q4XWs=
+			LLjPiY/OCkprLw8wapFjBaET7cMNKbOtVipQPYHElfg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Modules/FBSDKCoreKit.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UPKjZu2Rsy8KmGrZcOhr7IkCD9g=
+			C8aofSExOxn2EKBH+rg+owyDMlg=
 			</data>
 			<key>hash2</key>
 			<data>
-			weBNXns2RAesHpcxpdUj9XQssQM34mVguNT6Vl/J1V8=
+			kNS2UvbYCcdm7tSxK/+/hS0M8iwsjKI2THYlE7m5EtA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Modules/FBSDKCoreKit.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OxLx5U1Cc1oE6xRgkRu8tbSNPTk=
+			fsC9PZtjJRoRqtbec7KVYWkmuKc=
 			</data>
 			<key>hash2</key>
 			<data>
-			cJyh68eKr90A2t6Kp8gALhpP18Dj0tdUuZLHTQcNExg=
+			6u3B4M2JgDUgiBTy1C4xTfFiSfGMEjMDK7+iRcoaZvc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Modules/FBSDKCoreKit.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UPKjZu2Rsy8KmGrZcOhr7IkCD9g=
+			C8aofSExOxn2EKBH+rg+owyDMlg=
 			</data>
 			<key>hash2</key>
 			<data>
-			weBNXns2RAesHpcxpdUj9XQssQM34mVguNT6Vl/J1V8=
+			kNS2UvbYCcdm7tSxK/+/hS0M8iwsjKI2THYlE7m5EtA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Modules/module.modulemap</key>
@@ -10284,11 +10284,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iBpKS6+5DoEND9WebcdQ8Hj2zYA=
+			e7MqrXgFKVo5L1GdLOdUWvBVRww=
 			</data>
 			<key>hash2</key>
 			<data>
-			RO+Eq3rJ5Fz8JM8bxvxt4Cgqtac4Sx9H78oQ5y/BcZA=
+			B7Hmpw5YJQkyyBpI1tSrMykio4/TnudqUfVhYiWhHLU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/A/Resources/PrivacyInfo.xcprivacy</key>
@@ -10306,11 +10306,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/LtnH0E9GkZN76+XCe08319spJw=
+			lcGBgfUmKFsDuJqiAxchfu5Z+iI=
 			</data>
 			<key>hash2</key>
 			<data>
-			AWAT8gg+AgSWLufNuwMeIjSp7G1lFGLKG0kZU4Y76oY=
+			ZdQQ04XXOoCPMSgcHnuxUGQRVXiS8FMO/cTx3G+fZj4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FBSDKCoreKit.framework/Versions/Current</key>
@@ -10322,55 +10322,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			e1oC/uPa4OZfDF2c3zSwtemTqlM=
+			qG6Ty6t/qhX430RoQk8cuQ7fGXw=
 			</data>
 			<key>hash2</key>
 			<data>
-			7+XpZdYsOHq2eLUKvpmyfWmHNsXgP+oPOVeepKQVj/M=
+			rB6rIBwUCwLIwjj0MHS+vm+oRCTLb8bnr7hT9agltoY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/dSYMs/FBSDKCoreKit.framework.dSYM/Contents/Resources/DWARF/FBSDKCoreKit</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lgk8btclYG1um7bKGFQ74RB226Q=
+			jSjzXhDRRa+ZRGqc/+eA5hrDffI=
 			</data>
 			<key>hash2</key>
 			<data>
-			XcU+sPirq6y6JMDCAglwdSV9RFqfmQAJRFR5SEZgBvQ=
+			ryCeRvbwThMBu7qGW5YYCRdiV+YeQruePn2VEqDfBs4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/dSYMs/FBSDKCoreKit.framework.dSYM/Contents/Resources/Relocations/aarch64/FBSDKCoreKit.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Jz5SOyMu3npgghpda+12T0UQKXo=
+			zOwvdTFbbHiLf3xZGdvSA5POLuY=
 			</data>
 			<key>hash2</key>
 			<data>
-			by397TBguT2MXkNPnMunc9FJXGq086HryHG8sQ3fspI=
+			4Mk19ELznA38uvAdOAGyU03RLBSSob0NACPuVihlteQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/dSYMs/FBSDKCoreKit.framework.dSYM/Contents/Resources/Relocations/x86_64/FBSDKCoreKit.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			W/WSvzzLTDGvH8udoVGrDIyjbyQ=
+			N+aQGPhjXF6J1hSKVDHQD6E7CGc=
 			</data>
 			<key>hash2</key>
 			<data>
-			EVCFrUCpqetZihyjviMIGwjORKIES8qeh1MtVl0YJeE=
+			qOJy+l14Gy+DYMrvwXEmJ1IXv+tX8d20y+t/Fewae1E=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/FBSDKCoreKit</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ngm+wuN8Ua7qSL3DDuhYcxSRhFc=
+			sK+DJRxMV2ggHW4FmnJhpKKEdfY=
 			</data>
 			<key>hash2</key>
 			<data>
-			6QaTiSPSKUnVzd1VQRekaqWXsopIjEsPBpDmDPVcR5Y=
+			+OuH6OduF9nVGC0m0ooZocsr7fJjGKyaZ8xCVsAMvEc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/af.lproj/FacebookSDK.strings</key>
@@ -11774,11 +11774,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Xd7ZbJqQtHaNSNo8OxB4zNbUbe8=
+			6Q0IXgo7gt89R9ybn7xJCG359Lo=
 			</data>
 			<key>hash2</key>
 			<data>
-			u4k9pyMGklHV8hDyUOJwB8FydaQuGMZwYPdIw9LrmY0=
+			g7XEQkenFT0vcIVYTUXN6AZV0llkCsNWEqTD4XZWjys=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h</key>
@@ -11796,11 +11796,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			G1J5JHoq0NOrIm1gmYWw1UWxF0c=
+			/eqaMAzP93B16wXvakv2GDTKX0k=
 			</data>
 			<key>hash2</key>
 			<data>
-			YBpGJaKE8vDVxP1R1g+NJK5JsUt8kd6vj1AovWpV6Rk=
+			Vfex5H/RRx7zB2DpAjP6NiIB1F+xRX28EDuU7fmVphY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Headers/FBSDKCrashObserver.h</key>
@@ -12731,22 +12731,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SNbZhxJrkRzC09p4BgSkBnne/4I=
+			ZQ6Btyy0z7ZiD/M9eX+7+KDRiLE=
 			</data>
 			<key>hash2</key>
 			<data>
-			hHGSUMu4KkHb+UCO99X5lnn5TYA/fq0Vn0Czx+Eo3xM=
+			S2CSCz82/VNHbyry4LOyJvanQu9UC+br3C0NUFHHqe8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Headers/FBSDKPaymentProductRequestorCreating.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oY5wRjfHI1kVIcFX6Mn8vyIye8A=
+			kofChLuS6UMw2biE8Lcu2yhsmt0=
 			</data>
 			<key>hash2</key>
 			<data>
-			b+ixLnsDcoO7vkTmEteznor7tvOJgzmeQ/k7Vex/q0U=
+			fGzWAJQkZyRBklHMViipfo4KyA1fMAOzlOiH4HhweQk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Headers/FBSDKProductAvailability.h</key>
@@ -12786,11 +12786,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rhYxY49t++GjX1yBkQhe7BxQHfw=
+			quFgypTeZ+2XNvJr6deEaYceClo=
 			</data>
 			<key>hash2</key>
 			<data>
-			8l2Qq5v1Gy+TX2PtsfcsuDiBt+7iNef8UX9m/3n9pC4=
+			a7mWH2GsxBZ9X9N8Z/19nO+toxG/0r99YGYxK28kY0o=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Headers/FBSDKProfileBlock.h</key>
@@ -13369,99 +13369,99 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dHLJesGNt1d4ICKOE6baJ+YqRSo=
+			QUelzWz7dqMd+QoK8TNxFAkreF8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Cl0lUXRN2uVbPWJoGKfaFivFfsAfuscIVjA1kZHBw7s=
+			eKSONIqTiShuXTS2QlW/weQy7Gd3R7ZjXLkZJ0jsl0k=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cBEm5y9wGgkgSCfvmSKXmY7A9nA=
+			OkoPZtcS5lu+Hk/2Cmm3NkUC1LA=
 			</data>
 			<key>hash2</key>
 			<data>
-			qhJdzb/jeSSEJUvybvTbzupxNASlwZ1msz7rxmui25w=
+			3vDnj3mq4rNEgbA2If/m00wW5JaGeu+mVlK7rYEf/2s=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			J3a+tk3Y0D2nmXhQiwst4P0LSpQ=
+			VOcf6Ms+U2Dy9LSAiruhQJI4zX0=
 			</data>
 			<key>hash2</key>
 			<data>
-			OMqfaRAoEIt9hTYnUHWst2QmorSWGco0nVVBA7PuKts=
+			PPFeUREBfk8vXpfZkFFbWQ2xm1YUESXW5eAGzS+fe8o=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zzerGoUSXzWLzBBn4s5aG//FJvg=
+			sGE3AP/1KVSnPWfojA5wQ3t0qB0=
 			</data>
 			<key>hash2</key>
 			<data>
-			chk8kZK5PPjeKZMhkU+ScSXuiYJXE4Yq1HYDHJTQjmA=
+			ZUrJpspFW0S6/mzSAWKsb62UEZ9KovyG9OUkwoQx4V8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			J3a+tk3Y0D2nmXhQiwst4P0LSpQ=
+			VOcf6Ms+U2Dy9LSAiruhQJI4zX0=
 			</data>
 			<key>hash2</key>
 			<data>
-			OMqfaRAoEIt9hTYnUHWst2QmorSWGco0nVVBA7PuKts=
+			PPFeUREBfk8vXpfZkFFbWQ2xm1YUESXW5eAGzS+fe8o=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Modules/FBSDKCoreKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cBEm5y9wGgkgSCfvmSKXmY7A9nA=
+			OkoPZtcS5lu+Hk/2Cmm3NkUC1LA=
 			</data>
 			<key>hash2</key>
 			<data>
-			qhJdzb/jeSSEJUvybvTbzupxNASlwZ1msz7rxmui25w=
+			3vDnj3mq4rNEgbA2If/m00wW5JaGeu+mVlK7rYEf/2s=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Modules/FBSDKCoreKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rMThgTa58K/9eisumqDsx38fm2s=
+			q9X/As+m8XdKb41fIQdGV52eO7Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			vGUvnBqfZ657FBGw893t5EJLVOViYyzRu00J/bSX1FU=
+			baPGSbiReVVht2QP9q+EdhhzDIJm4diylxrtIZMeMrI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Modules/FBSDKCoreKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3fhNJY1J+2q2A6gwJypwIfKm8b8=
+			NvjKwhBscIDrP7g81PSeDrj+svw=
 			</data>
 			<key>hash2</key>
 			<data>
-			tbFnxFdEHft2CkEs02RImdGcyuB79H/YKSGq6ic+QVM=
+			n/t5fcXhn9YOQUl5nY5xFZSTcBj57/uzkeDh7wRbkwM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Modules/FBSDKCoreKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rMThgTa58K/9eisumqDsx38fm2s=
+			q9X/As+m8XdKb41fIQdGV52eO7Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			vGUvnBqfZ657FBGw893t5EJLVOViYyzRu00J/bSX1FU=
+			baPGSbiReVVht2QP9q+EdhhzDIJm4diylxrtIZMeMrI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FBSDKCoreKit.framework/Modules/module.modulemap</key>
@@ -13490,55 +13490,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RWo+PQLnUPsUalv6/+F4oaERSjY=
+			GZ71Ja+PkhoMnlUakDMQn3MThQ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			IwdMbTuFFJoREMh5BjT++fexLSd5hgA5mjv26d+5HS8=
+			T1Nb8lwwUNZy+jOAojp0ebTZPRdrPExb6iSPZwc7oew=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/FBSDKCoreKit.framework.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			e1oC/uPa4OZfDF2c3zSwtemTqlM=
+			qG6Ty6t/qhX430RoQk8cuQ7fGXw=
 			</data>
 			<key>hash2</key>
 			<data>
-			7+XpZdYsOHq2eLUKvpmyfWmHNsXgP+oPOVeepKQVj/M=
+			rB6rIBwUCwLIwjj0MHS+vm+oRCTLb8bnr7hT9agltoY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/FBSDKCoreKit.framework.dSYM/Contents/Resources/DWARF/FBSDKCoreKit</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9bvu4IR2s/U+hnw2/08lZ4hBHmU=
+			wCSnuzPKIzQqOHyFxHGQOr2mbw8=
 			</data>
 			<key>hash2</key>
 			<data>
-			CvFKPKQl6ZZiPNFDOvSH/gAAuV5xYzHV4eM9OqVMVeM=
+			IAG1/aXEoYqwyNwt/E/PHtNl+lhTe12LBb0R1BROivw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/FBSDKCoreKit.framework.dSYM/Contents/Resources/Relocations/aarch64/FBSDKCoreKit.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AGkh6xDmRV0j0Y/7DXWFWoWMClI=
+			awyy358znRrie4VIrALKpm6yD+U=
 			</data>
 			<key>hash2</key>
 			<data>
-			UVUR/KJPhUU0TNUj2LXh16Y4nfosdlMYfVxIEsLxFZA=
+			fhznsFX5bUvcgOkpMJgFZbHSbB9voso7KrHNWgB3cJk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/FBSDKCoreKit.framework.dSYM/Contents/Resources/Relocations/x86_64/FBSDKCoreKit.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rzsmLGN72OT0WHO8nuofOqcNUo4=
+			PiCM7UxuklwFMb2/bGt1cC3trl0=
 			</data>
 			<key>hash2</key>
 			<data>
-			mUTPihLqCzUhHui75Are6Bc9RXtQTWB7ACwPM94RHBM=
+			udfuIL2vBfPWA3sgDLKj0u3UGKpV3Zv+WXiLKaUB4kA=
 			</data>
 		</dict>
 	</dict>
