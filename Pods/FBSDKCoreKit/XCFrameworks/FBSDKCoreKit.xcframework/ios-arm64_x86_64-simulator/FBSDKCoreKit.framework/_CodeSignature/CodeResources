@@ -702,7 +702,7 @@
 		</data>
 		<key>Headers/FBSDKCoreKit-Swift.h</key>
 		<data>
-		6Q0IXgo7gt89R9ybn7xJCG359Lo=
+		IrVuCwUg5SrF/uK8R5QgsCHEBTY=
 		</data>
 		<key>Headers/FBSDKCoreKit.h</key>
 		<data>
@@ -710,7 +710,7 @@
 		</data>
 		<key>Headers/FBSDKCoreKitVersions.h</key>
 		<data>
-		/eqaMAzP93B16wXvakv2GDTKX0k=
+		u0vlekEj4cdeWh33rCnIf6H7F0I=
 		</data>
 		<key>Headers/FBSDKCrashObserver.h</key>
 		<data>
@@ -1050,11 +1050,11 @@
 		</data>
 		<key>Headers/FBSDKPaymentProductRequestor.h</key>
 		<data>
-		ZQ6Btyy0z7ZiD/M9eX+7+KDRiLE=
+		SNbZhxJrkRzC09p4BgSkBnne/4I=
 		</data>
 		<key>Headers/FBSDKPaymentProductRequestorCreating.h</key>
 		<data>
-		kofChLuS6UMw2biE8Lcu2yhsmt0=
+		oY5wRjfHI1kVIcFX6Mn8vyIye8A=
 		</data>
 		<key>Headers/FBSDKProductAvailability.h</key>
 		<data>
@@ -1070,7 +1070,7 @@
 		</data>
 		<key>Headers/FBSDKProductsRequestProtocols.h</key>
 		<data>
-		quFgypTeZ+2XNvJr6deEaYceClo=
+		rhYxY49t++GjX1yBkQhe7BxQHfw=
 		</data>
 		<key>Headers/FBSDKProfileBlock.h</key>
 		<data>
@@ -1178,7 +1178,7 @@
 		</data>
 		<key>Headers/FBSDKURLScheme.h</key>
 		<data>
-		36HfFNYLwWfRajDYFDJeNZe/evc=
+		qSw6F7Uez7jiGKGJSCVsKKxdSUw=
 		</data>
 		<key>Headers/FBSDKURLSessionProxyFactory.h</key>
 		<data>
@@ -1282,39 +1282,39 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		QUelzWz7dqMd+QoK8TNxFAkreF8=
+		UGcoJ42KtGud+fTW/akHg3yakmU=
 		</data>
 		<key>Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		OkoPZtcS5lu+Hk/2Cmm3NkUC1LA=
+		GbHsBpLNSp3VCGKrWyrgDKkFa2k=
 		</data>
 		<key>Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		VOcf6Ms+U2Dy9LSAiruhQJI4zX0=
+		EFbbWKfHLAw2ZCUwLgjNUX8LoLI=
 		</data>
 		<key>Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		sGE3AP/1KVSnPWfojA5wQ3t0qB0=
+		YPUtob1v5TWb1XndYOP75BkpAvk=
 		</data>
 		<key>Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		VOcf6Ms+U2Dy9LSAiruhQJI4zX0=
+		EFbbWKfHLAw2ZCUwLgjNUX8LoLI=
 		</data>
 		<key>Modules/FBSDKCoreKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		OkoPZtcS5lu+Hk/2Cmm3NkUC1LA=
+		GbHsBpLNSp3VCGKrWyrgDKkFa2k=
 		</data>
 		<key>Modules/FBSDKCoreKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		q9X/As+m8XdKb41fIQdGV52eO7Y=
+		qimUeRkiSpWoOb9PwEYwCoOXpI0=
 		</data>
 		<key>Modules/FBSDKCoreKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		NvjKwhBscIDrP7g81PSeDrj+svw=
+		w1nUsfnD04/AEkz7J08LShfy52I=
 		</data>
 		<key>Modules/FBSDKCoreKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		q9X/As+m8XdKb41fIQdGV52eO7Y=
+		qimUeRkiSpWoOb9PwEYwCoOXpI0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -2252,7 +2252,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g7XEQkenFT0vcIVYTUXN6AZV0llkCsNWEqTD4XZWjys=
+			N5L7CO7XGo2K/iSuTUByCXmk9UR2W1UX8FUxkuHfIg4=
 			</data>
 		</dict>
 		<key>Headers/FBSDKCoreKit.h</key>
@@ -2266,7 +2266,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vfex5H/RRx7zB2DpAjP6NiIB1F+xRX28EDuU7fmVphY=
+			1Zql0gO5TECHJqBx73YY0PUPm6EK2X1mu5XY9XKVHhA=
 			</data>
 		</dict>
 		<key>Headers/FBSDKCrashObserver.h</key>
@@ -2861,14 +2861,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S2CSCz82/VNHbyry4LOyJvanQu9UC+br3C0NUFHHqe8=
+			hHGSUMu4KkHb+UCO99X5lnn5TYA/fq0Vn0Czx+Eo3xM=
 			</data>
 		</dict>
 		<key>Headers/FBSDKPaymentProductRequestorCreating.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fGzWAJQkZyRBklHMViipfo4KyA1fMAOzlOiH4HhweQk=
+			b+ixLnsDcoO7vkTmEteznor7tvOJgzmeQ/k7Vex/q0U=
 			</data>
 		</dict>
 		<key>Headers/FBSDKProductAvailability.h</key>
@@ -2896,7 +2896,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a7mWH2GsxBZ9X9N8Z/19nO+toxG/0r99YGYxK28kY0o=
+			8l2Qq5v1Gy+TX2PtsfcsuDiBt+7iNef8UX9m/3n9pC4=
 			</data>
 		</dict>
 		<key>Headers/FBSDKProfileBlock.h</key>
@@ -3085,7 +3085,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BdpEnJgCwk4m/BX4jdUcFWtch+dOASiPi4b4XuShRow=
+			TMlnLBZR/E1YFA6zRaxB6GEFkDy6cuiJyewlTmUFPEY=
 			</data>
 		</dict>
 		<key>Headers/FBSDKURLSessionProxyFactory.h</key>
@@ -3267,56 +3267,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3vDnj3mq4rNEgbA2If/m00wW5JaGeu+mVlK7rYEf/2s=
+			Kax3cGJidKR2+tqM56GCt/9P3Fw7XgqkTVjpfNecu1E=
 			</data>
 		</dict>
 		<key>Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PPFeUREBfk8vXpfZkFFbWQ2xm1YUESXW5eAGzS+fe8o=
+			RgOghozYchFp2UPoQqYeaJMtc+ijhaMNIPFYeAf1dNE=
 			</data>
 		</dict>
 		<key>Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZUrJpspFW0S6/mzSAWKsb62UEZ9KovyG9OUkwoQx4V8=
+			wYNvfiOheqaakcDX3ERODLsLQnEB/1dIu16cmiejuwE=
 			</data>
 		</dict>
 		<key>Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PPFeUREBfk8vXpfZkFFbWQ2xm1YUESXW5eAGzS+fe8o=
+			RgOghozYchFp2UPoQqYeaJMtc+ijhaMNIPFYeAf1dNE=
 			</data>
 		</dict>
 		<key>Modules/FBSDKCoreKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3vDnj3mq4rNEgbA2If/m00wW5JaGeu+mVlK7rYEf/2s=
+			Kax3cGJidKR2+tqM56GCt/9P3Fw7XgqkTVjpfNecu1E=
 			</data>
 		</dict>
 		<key>Modules/FBSDKCoreKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			baPGSbiReVVht2QP9q+EdhhzDIJm4diylxrtIZMeMrI=
+			Z6JDAnlQ7Uit3g+rKEzcnkwqVs2iATv6witkfEcGFSI=
 			</data>
 		</dict>
 		<key>Modules/FBSDKCoreKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n/t5fcXhn9YOQUl5nY5xFZSTcBj57/uzkeDh7wRbkwM=
+			EJCElt1yFz5PCmjm94L3bbCjH+40BnwmLcTNRhHJX+E=
 			</data>
 		</dict>
 		<key>Modules/FBSDKCoreKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			baPGSbiReVVht2QP9q+EdhhzDIJm4diylxrtIZMeMrI=
+			Z6JDAnlQ7Uit3g+rKEzcnkwqVs2iATv6witkfEcGFSI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

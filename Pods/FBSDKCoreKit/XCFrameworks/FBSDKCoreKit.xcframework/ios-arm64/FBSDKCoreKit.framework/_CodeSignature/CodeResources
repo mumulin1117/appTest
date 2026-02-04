@@ -702,7 +702,7 @@
 		</data>
 		<key>Headers/FBSDKCoreKit-Swift.h</key>
 		<data>
-		7600QDNflQgHY+mG/cwStJOsec8=
+		UPuX+lh/RRU40xgegUdgeFimVtw=
 		</data>
 		<key>Headers/FBSDKCoreKit.h</key>
 		<data>
@@ -710,7 +710,7 @@
 		</data>
 		<key>Headers/FBSDKCoreKitVersions.h</key>
 		<data>
-		/eqaMAzP93B16wXvakv2GDTKX0k=
+		u0vlekEj4cdeWh33rCnIf6H7F0I=
 		</data>
 		<key>Headers/FBSDKCrashObserver.h</key>
 		<data>
@@ -1050,11 +1050,11 @@
 		</data>
 		<key>Headers/FBSDKPaymentProductRequestor.h</key>
 		<data>
-		ZQ6Btyy0z7ZiD/M9eX+7+KDRiLE=
+		SNbZhxJrkRzC09p4BgSkBnne/4I=
 		</data>
 		<key>Headers/FBSDKPaymentProductRequestorCreating.h</key>
 		<data>
-		kofChLuS6UMw2biE8Lcu2yhsmt0=
+		oY5wRjfHI1kVIcFX6Mn8vyIye8A=
 		</data>
 		<key>Headers/FBSDKProductAvailability.h</key>
 		<data>
@@ -1070,7 +1070,7 @@
 		</data>
 		<key>Headers/FBSDKProductsRequestProtocols.h</key>
 		<data>
-		quFgypTeZ+2XNvJr6deEaYceClo=
+		rhYxY49t++GjX1yBkQhe7BxQHfw=
 		</data>
 		<key>Headers/FBSDKProfileBlock.h</key>
 		<data>
@@ -1178,7 +1178,7 @@
 		</data>
 		<key>Headers/FBSDKURLScheme.h</key>
 		<data>
-		36HfFNYLwWfRajDYFDJeNZe/evc=
+		qSw6F7Uez7jiGKGJSCVsKKxdSUw=
 		</data>
 		<key>Headers/FBSDKURLSessionProxyFactory.h</key>
 		<data>
@@ -1282,23 +1282,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ioQQll/iBFQ7MfZ5k8S1w05OKS0=
+		kX3MYFd/6xSoIEZXltYOG49qE8c=
 		</data>
 		<key>Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		OkoPZtcS5lu+Hk/2Cmm3NkUC1LA=
+		GbHsBpLNSp3VCGKrWyrgDKkFa2k=
 		</data>
 		<key>Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		o8MMQ2RxBsTwTAF4vAwFP1JbYWY=
+		N5g/URPSEj04CWPpFLJ3ITBv/IQ=
 		</data>
 		<key>Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		CSmfnAungUw15mQMizDDGTV7ElY=
+		3Bn8j6Axv3Js72jt5+7mn+V36rY=
 		</data>
 		<key>Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		o8MMQ2RxBsTwTAF4vAwFP1JbYWY=
+		N5g/URPSEj04CWPpFLJ3ITBv/IQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -2236,7 +2236,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J+PneAPNIzsM6TXXiXj/wEQDSINuc31/znTjvXu7le4=
+			Fi+1fXluXVOQg4iLkOpIe7l1gMgla4pAOC69Dde9ecI=
 			</data>
 		</dict>
 		<key>Headers/FBSDKCoreKit.h</key>
@@ -2250,7 +2250,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vfex5H/RRx7zB2DpAjP6NiIB1F+xRX28EDuU7fmVphY=
+			1Zql0gO5TECHJqBx73YY0PUPm6EK2X1mu5XY9XKVHhA=
 			</data>
 		</dict>
 		<key>Headers/FBSDKCrashObserver.h</key>
@@ -2845,14 +2845,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S2CSCz82/VNHbyry4LOyJvanQu9UC+br3C0NUFHHqe8=
+			hHGSUMu4KkHb+UCO99X5lnn5TYA/fq0Vn0Czx+Eo3xM=
 			</data>
 		</dict>
 		<key>Headers/FBSDKPaymentProductRequestorCreating.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fGzWAJQkZyRBklHMViipfo4KyA1fMAOzlOiH4HhweQk=
+			b+ixLnsDcoO7vkTmEteznor7tvOJgzmeQ/k7Vex/q0U=
 			</data>
 		</dict>
 		<key>Headers/FBSDKProductAvailability.h</key>
@@ -2880,7 +2880,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a7mWH2GsxBZ9X9N8Z/19nO+toxG/0r99YGYxK28kY0o=
+			8l2Qq5v1Gy+TX2PtsfcsuDiBt+7iNef8UX9m/3n9pC4=
 			</data>
 		</dict>
 		<key>Headers/FBSDKProfileBlock.h</key>
@@ -3069,7 +3069,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BdpEnJgCwk4m/BX4jdUcFWtch+dOASiPi4b4XuShRow=
+			TMlnLBZR/E1YFA6zRaxB6GEFkDy6cuiJyewlTmUFPEY=
 			</data>
 		</dict>
 		<key>Headers/FBSDKURLSessionProxyFactory.h</key>
@@ -3251,28 +3251,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3vDnj3mq4rNEgbA2If/m00wW5JaGeu+mVlK7rYEf/2s=
+			Kax3cGJidKR2+tqM56GCt/9P3Fw7XgqkTVjpfNecu1E=
 			</data>
 		</dict>
 		<key>Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TMNNZtPUGIU/qs2kUvQPGEC2iIKt5ImZ4RhTyr/LjT0=
+			CI6Etpt3C32Z9gkAFuU8m2WMbv8oNJ7iWRWNnv32yrw=
 			</data>
 		</dict>
 		<key>Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wrCl6/+Xg6AwkRtGiqR/QaRYQhFdO6LBw7yKXixdOEM=
+			34vmsz1+5ozRqryDrbSIut1rHJbmywM3YeroIK39xNo=
 			</data>
 		</dict>
 		<key>Modules/FBSDKCoreKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TMNNZtPUGIU/qs2kUvQPGEC2iIKt5ImZ4RhTyr/LjT0=
+			CI6Etpt3C32Z9gkAFuU8m2WMbv8oNJ7iWRWNnv32yrw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

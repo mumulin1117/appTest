@@ -4,17 +4,19 @@ PODS:
   - Adjust/Adjust (5.1.1):
     - AdjustSignature (= 3.35.2)
   - AdjustSignature (3.35.2)
-  - FBAEMKit (18.0.0):
-    - FBSDKCoreKit_Basics (= 18.0.0)
-  - FBSDKCoreKit (18.0.0):
-    - FBAEMKit (= 18.0.0)
-    - FBSDKCoreKit_Basics (= 18.0.0)
-  - FBSDKCoreKit_Basics (18.0.0)
+  - FBAEMKit (18.0.2):
+    - FBSDKCoreKit_Basics (= 18.0.2)
+  - FBSDKCoreKit (18.0.2):
+    - FBAEMKit (= 18.0.2)
+    - FBSDKCoreKit_Basics (= 18.0.2)
+  - FBSDKCoreKit_Basics (18.0.2)
+  - IQKeyboardManager (6.5.19)
   - SwiftyStoreKit (0.16.1)
 
 DEPENDENCIES:
   - Adjust (~> 5.1.1)
   - FBSDKCoreKit
+  - IQKeyboardManager
   - SwiftyStoreKit
 
 SPEC REPOS:
@@ -24,16 +26,18 @@ SPEC REPOS:
     - FBAEMKit
     - FBSDKCoreKit
     - FBSDKCoreKit_Basics
+    - IQKeyboardManager
     - SwiftyStoreKit
 
 SPEC CHECKSUMS:
   Adjust: 5f5e998cf1446d44d93f91ec8b7b7dd40eaa922d
   AdjustSignature: 23b9e5d4adcadffc303bb6b410fde617dd88504f
-  FBAEMKit: e34530df538b8eb8aeb53c35867715ba6c63ef0c
-  FBSDKCoreKit: d3f479a69127acebb1c6aad91c1a33907bcf6c2f
-  FBSDKCoreKit_Basics: 017b6dc2a1862024815a8229e75661e627ac1e29
+  FBAEMKit: 56a4f5a9607957b547b6458b17a98c5bb2736367
+  FBSDKCoreKit: 54f1240567e16862ab71c53c33dc347db5c524c5
+  FBSDKCoreKit_Basics: eb530cd6a79030dbb11df460aafb2767bcad9028
+  IQKeyboardManager: c8665b3396bd0b79402b4c573eac345a31c7d485
   SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
 
-PODFILE CHECKSUM: 174486acb68bdb156a486aaeb24bef4c922b5d4a
+PODFILE CHECKSUM: 2a0fd98cc916db0d7f30272401b6a83f5b5c7eea
 
 COCOAPODS: 1.16.2
