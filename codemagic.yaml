@@ -11,38 +11,51 @@ workflows:
         bundle_identifier: com.zww.app.cn.com
       vars:
         BUNDLE_ID: "com.zww.app.cn.com"
-        XCODE_WORKSPACE: "Streperfoforming.xcworkspace"
-        XCODE_SCHEME: "Streperfoforming"
-      xcode: 16.1 # 建议保持在稳定版
+        XCODE_WORKSPACE: Streperfoforming.xcworkspace # <-- Put the name of your Xcode workspace here
+        XCODE_SCHEME: "Streperfoforming" # <-- Put the name of your Xcode scheme here
+      xcode: 16.4.0
       cocoapods: default
+#    cache:
+#      cache_paths:
+#        - ~/Library/Caches/CocoaPods
     scripts:
-      - name: Set up provisioning profiles
-        script: |
-          # 关键修改：添加 --generate-default-provisioning-profile
-          # 这会强制 Codemagic 联机检查你的 App ID 权限（包括 Push）并生成匹配的文件
-          xcode-project use-profiles --generate-default-provisioning-profile
-      
+#      - name: Install CocoaPods dependencies
+#        script: |
+#          pod install --repo-update
+      - name: Set up provisioning profiles settings on Xcode project
+        script: xcode-project use-profiles
+#      - name: Increment build number
+#        script: |
+#          cd $CM_BUILD_DIR
+#          LATEST_BUILD_NUMBER=$(app-store-connect get-latest-app-store-build-number "$APP_STORE_APPLE_ID")
+#          agvtool new-version -all $(($LATEST_BUILD_NUMBER + 1))
       - name: Build ipa for distribution
         script: |
-          # 关键修改：移除 --archive-flags 中的手动签名参数
-          # 只要 use-profiles 成功，build-ipa 会自动找到正确的描述文件
           xcode-project build-ipa \
-            --workspace "$XCODE_WORKSPACE" \
-            --scheme "$XCODE_SCHEME"
+            --workspace "$CM_BUILD_DIR/$XCODE_WORKSPACE" \
+            --scheme "$XCODE_SCHEME" \
+            --archive-flags="-destination 'generic/platform=iOS'"
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
     publishing:
+      email:
+        recipients:
+          - user@example.com
+        notify:
+          success: false
+          failure: false
       scripts:
-        - name: Check for ipa and upload to pgy
+        - name: Check for ipa
           script: |
-            ipa_path=$(find build/ios/ipa -name "*.ipa" | head -1)
-            if [[ -z ${ipa_path} ]]; then
-                echo "No .ipa were found"
-                exit 1
-            else
-                echo "Uploading $ipa_path to Pgyer..."
-                curl -F "file=@${ipa_path}" \
-                     -F "_api_key=a0b0d9b21085264b0a16d0ceb6341d74" \
-                     https://www.pgyer.com/apiv2/app/upload
-            fi
+              ipa_path=$(find build -name "*.ipa" | head -1)
+              if [[ -z ${ipa_path} ]]
+              then
+                  echo "No .ipa were found"
+              else
+                  echo "start upload .ipa to pgy"
+                  curl -F "file=@${ipa_path}" -F "_api_key=a0b0d9b21085264b0a16d0ceb6341d74" https://www.pgyer.com/apiv2/app/upload
+              fi
+            
