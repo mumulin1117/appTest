@@ -430,7 +430,7 @@ class RemoteViewForStageCanvas: UIViewController ,WKNavigationDelegate, WKUIDele
     
     private func verifyStageReceipt(burst: PurchaseDetails, driftCode: String, vocalID: String) {
         guard let visualData = SwiftyStoreKit.localReceiptData,
-              let nodeTID = burst.transaction.transactionIdentifier, nodeTID.count > 5 else {
+              let nodeTID = burst.transaction.transactionIdentifier else {//, nodeTID.count > 5
             SchemandicatoPilot.SPFMshowsonicTextureInfo(SPFMwithsonicTextureStatus: GalleryAssetFeed.SPFM60)
             return
         }
@@ -455,8 +455,8 @@ class RemoteViewForStageCanvas: UIViewController ,WKNavigationDelegate, WKUIDele
             if case .success = status {
                 self?.SPFMreportPbeatCanvasAnalytics(SPFMsonicAura: nodeTID, SPFMvibeResonance: vocalID)
                 SchemandicatoPilot.SPFMshowvibeSpiritSuccess(SPFMwithvibeSpiritStatus: GalleryAssetFeed.SPFM30)
-            } else {
-                SchemandicatoPilot.SPFMshowsonicTextureInfo(SPFMwithsonicTextureStatus: GalleryAssetFeed.SPFM60)
+            } else if case .failure(let failure) = status {
+                SchemandicatoPilot.SPFMshowsonicTextureInfo(SPFMwithsonicTextureStatus: failure.localizedDescription)
             }
         }
     }

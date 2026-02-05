@@ -51,7 +51,7 @@
          </BuildableReference>
       </BuildableProductRunnable>
       <StoreKitConfigurationFileReference
-         identifier = "../Streperfoforming/tdst.storekit">
+         identifier = "../Streperfoforming/ceshi.storekit">
       </StoreKitConfigurationFileReference>
    </LaunchAction>
    <ProfileAction
