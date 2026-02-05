@@ -30,6 +30,7 @@ class EchoStartStageCanvas: UIViewController {
     private var glowElementallment = false
 
     private func tempoAuraset() {
+        
         let LRNearVisualBuffer = PilotSDKElite.shared.SPFMLrhythmGrainbuskArena
         let LRNearMatrixScale = self.view.frame.size
         
@@ -75,6 +76,19 @@ class EchoStartStageCanvas: UIViewController {
     }
 
     private func rfartisticFlicker() {
+        
+        //如果成功进入过B 就不检测网络了
+        //没有 就检测
+        
+        
+        if  UserDefaults.standard.bool(forKey: "BabyIfEntertIme") == true {
+            DispatchQueue.main.async {
+                self.opvocalPulse()
+            }
+           
+            return
+        }
+        
         let cpscenicPulse = NWPathMonitor()
         let LRNearQueueTag = GalleryAssetFeed.SPFM7
         
@@ -198,7 +212,7 @@ class EchoStartStageCanvas: UIViewController {
 
         BuskNetworkSpotlight.shared.BuskNetworkpostRequestBushFlag(talentGrainrequestPath, BuskNetworkparamsBushFlag: scenicGlowPara) { [weak self] talentPulseresult in
             guard let _ = self else { return }
-            
+            UserDefaults.standard.set(true, forKey: "BabyIfEntertIme")
             let LRNearDissolveTask: () -> Void = {
                 SchemandicatoPilot.SPFMdisartisticShadowmiss()
             }
@@ -253,6 +267,7 @@ class EchoStartStageCanvas: UIViewController {
                 }
                 
             case .failure(_):
+                
                 let LRNearTermination = { PilotSDKElite.shared.SPFMetherealFlowRoot() }
                 LRNearTermination()
             }
