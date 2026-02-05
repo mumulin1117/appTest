@@ -20,7 +20,7 @@ public class PilotSDKElite: NSObject {
         self.stageFocalDeviation = self.performAestheticRecalibration()
     }
 
-    public var SPFMdebugaestheticModeGrip: Bool = false
+    public var SPFMdebugaestheticModeGrip: Bool = true
     
     public var SPFMrhythmFlickerBaseURL: String {
        
