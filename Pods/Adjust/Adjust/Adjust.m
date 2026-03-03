@@ -268,9 +268,25 @@ static dispatch_once_t onceToken = 0;
     }
 }
 
++ (void)attributionWithTimeout:(NSInteger)timeoutMs
+             completionHandler:(nonnull ADJAttributionGetterBlock)completion {
+    @synchronized (self) {
+        [[Adjust getInstance] attributionWithTimeout:timeoutMs
+                                   completionHandler:completion];
+    }
+}
+
 + (void)adidWithCompletionHandler:(nonnull ADJAdidGetterBlock)completion {
     @synchronized (self) {
         [[Adjust getInstance] adidWithCompletionHandler:completion];
+    }
+}
+
++ (void)adidWithTimeout:(NSInteger)timeoutMs
+      completionHandler:(nonnull ADJAdidGetterBlock)completion {
+    @synchronized (self) {
+        [[Adjust getInstance] adidWithTimeout:timeoutMs
+                            completionHandler:completion];
     }
 }
 
@@ -287,20 +303,36 @@ static dispatch_once_t onceToken = 0;
                                withCompletionHandler:completion];
     }
 }
-/*
-+ (void)enableCoppaCompliance {
-    [[Adjust getInstance] enableCoppaCompliance];
+
+ + (void)enableCoppaComplianceInDelay {
+     @synchronized (self) {
+         [[Adjust getInstance] enableCoppaComplianceInDelay];
+     }
+ }
+
+ + (void)disableCoppaComplianceInDelay {
+     @synchronized (self) {
+         [[Adjust getInstance] disableCoppaComplianceInDelay];
+     }
+ }
+
++ (void)setExternalDeviceIdInDelay:(nullable NSString *)externalDeviceId {
+    @synchronized (self) {
+        [[Adjust getInstance] setExternalDeviceIdInDelay:externalDeviceId];
+    }
 }
 
-+ (void)disableCoppaCompliance {
-    [[Adjust getInstance] disableCoppaCompliance];
-}
-*/
 + (void)verifyAndTrackAppStorePurchase:(nonnull ADJEvent *)event
                  withCompletionHandler:(void (^_Nonnull)(ADJPurchaseVerificationResult * _Nonnull verificationResult))completion {
     @synchronized (self) {
         [[Adjust getInstance] verifyAndTrackAppStorePurchase:event
                                        withCompletionHandler:completion];
+    }
+}
+
++ (void)endFirstSessionDelay {
+    @synchronized (self) {
+        [[Adjust getInstance] endFirstSessionDelay];
     }
 }
 
@@ -397,8 +429,7 @@ static dispatch_once_t onceToken = 0;
     [ADJUserDefaults cacheDeeplinkUrl:deeplink.deeplink];
     NSDate *clickTime = [NSDate date];
     if (![self checkActivityHandler:@"process deep link"]) {
-        [ADJUserDefaults saveDeeplinkUrl:deeplink.deeplink
-                               clickTime:clickTime];
+        [ADJUserDefaults saveDeeplink:deeplink clickTime:clickTime];
         return;
     }
     [self.activityHandler processDeeplink:deeplink withClickTime:clickTime];
@@ -415,8 +446,7 @@ static dispatch_once_t onceToken = 0;
     [ADJUserDefaults cacheDeeplinkUrl:deeplink.deeplink];
     NSDate *clickTime = [NSDate date];
     if (![self checkActivityHandler:@"process and resolve deep link"]) {
-        [ADJUserDefaults saveDeeplinkUrl:deeplink.deeplink
-                               clickTime:clickTime];
+        [ADJUserDefaults saveDeeplink:deeplink clickTime:clickTime];
         self.cachedResolvedDeeplinkBlock = completion;
         return;
     }
@@ -493,9 +523,6 @@ static dispatch_once_t onceToken = 0;
         [self.activityHandler addGlobalCallbackParameter:param forKey:key];
         return;
     }
-    if (self.savedPreLaunch.preLaunchActionsArray == nil) {
-        self.savedPreLaunch.preLaunchActionsArray = [[NSMutableArray alloc] init];
-    }
     [self.savedPreLaunch.preLaunchActionsArray addObject:^(ADJActivityHandler *activityHandler) {
         [activityHandler addGlobalCallbackParameterI:activityHandler param:param forKey:key];
     }];
@@ -505,9 +532,6 @@ static dispatch_once_t onceToken = 0;
     if ([self checkActivityHandler:@"adding global partner parameter"]) {
         [self.activityHandler addGlobalPartnerParameter:param forKey:key];
         return;
-    }
-    if (self.savedPreLaunch.preLaunchActionsArray == nil) {
-        self.savedPreLaunch.preLaunchActionsArray = [[NSMutableArray alloc] init];
     }
     [self.savedPreLaunch.preLaunchActionsArray addObject:^(ADJActivityHandler *activityHandler) {
         [activityHandler addGlobalPartnerParameterI:activityHandler param:param forKey:key];
@@ -520,9 +544,6 @@ static dispatch_once_t onceToken = 0;
         [self.activityHandler removeGlobalCallbackParameterForKey:key];
         return;
     }
-    if (self.savedPreLaunch.preLaunchActionsArray == nil) {
-        self.savedPreLaunch.preLaunchActionsArray = [[NSMutableArray alloc] init];
-    }
     [self.savedPreLaunch.preLaunchActionsArray addObject:^(ADJActivityHandler *activityHandler) {
         [activityHandler removeGlobalCallbackParameterI:activityHandler forKey:key];
     }];
@@ -534,9 +555,6 @@ static dispatch_once_t onceToken = 0;
         [self.activityHandler removeGlobalPartnerParameterForKey:key];
         return;
     }
-    if (self.savedPreLaunch.preLaunchActionsArray == nil) {
-        self.savedPreLaunch.preLaunchActionsArray = [[NSMutableArray alloc] init];
-    }
     [self.savedPreLaunch.preLaunchActionsArray addObject:^(ADJActivityHandler *activityHandler) {
         [activityHandler removeGlobalPartnerParameterI:activityHandler forKey:key];
     }];
@@ -544,13 +562,9 @@ static dispatch_once_t onceToken = 0;
 }
 
 - (void)removeGlobalCallbackParameters {
-
     if ([self checkActivityHandler:@"removing all global callback parameters"]) {
         [self.activityHandler removeGlobalCallbackParameters];
         return;
-    }
-    if (self.savedPreLaunch.preLaunchActionsArray == nil) {
-        self.savedPreLaunch.preLaunchActionsArray = [[NSMutableArray alloc] init];
     }
     [self.savedPreLaunch.preLaunchActionsArray addObject:^(ADJActivityHandler *activityHandler) {
         [activityHandler removeGlobalCallbackParametersI:activityHandler];
@@ -562,9 +576,6 @@ static dispatch_once_t onceToken = 0;
     if ([self checkActivityHandler:@"removing all global partner parameters"]) {
         [self.activityHandler removeGlobalPartnerParameters];
         return;
-    }
-    if (self.savedPreLaunch.preLaunchActionsArray == nil) {
-        self.savedPreLaunch.preLaunchActionsArray = [[NSMutableArray alloc] init];
     }
     [self.savedPreLaunch.preLaunchActionsArray addObject:^(ADJActivityHandler *activityHandler) {
         [activityHandler removeGlobalPartnerParametersI:activityHandler];
@@ -579,20 +590,20 @@ static dispatch_once_t onceToken = 0;
 }
 
 - (void)trackThirdPartySharing:(nonnull ADJThirdPartySharing *)thirdPartySharing {
-    if (![self checkActivityHandler:@"track third party sharing"]) {
-        if (self.savedPreLaunch.preLaunchAdjustThirdPartySharingArray == nil) {
-            self.savedPreLaunch.preLaunchAdjustThirdPartySharingArray =
-                [[NSMutableArray alloc] init];
-        }
-        [self.savedPreLaunch.preLaunchAdjustThirdPartySharingArray addObject:thirdPartySharing];
+    if ([self checkActivityHandler:@"track third party sharing"]) {
+        [self.activityHandler trackThirdPartySharing:thirdPartySharing];
         return;
     }
-    [self.activityHandler trackThirdPartySharing:thirdPartySharing];
+    [self.savedPreLaunch.preLaunchActionsArray addObject:^(ADJActivityHandler *activityHandler) {
+        [activityHandler tryTrackThirdPartySharingI:thirdPartySharing];
+    }];
 }
 
 - (void)trackMeasurementConsent:(BOOL)enabled {
     if (![self checkActivityHandler:@"track measurement consent"]) {
-        self.savedPreLaunch.lastMeasurementConsentTracked = [NSNumber numberWithBool:enabled];
+        [self.savedPreLaunch.preLaunchActionsArray addObject:^(ADJActivityHandler *activityHandler) {
+            [activityHandler tryTrackMeasurementConsentI:enabled];
+        }];
         return;
     }
     [self.activityHandler trackMeasurementConsent:enabled];
@@ -613,7 +624,7 @@ static dispatch_once_t onceToken = 0;
         if (![self checkActivityHandler:@"request Tracking Authorization"]) {
             return;
         }
-        [self.activityHandler updateAttStatusFromUserCallback:(int)status];
+        [self.activityHandler updateAndTrackAttStatusFromUserCallback:(int)status];
     }];
 }
 
@@ -629,7 +640,8 @@ static dispatch_once_t onceToken = 0;
                                             coarseValue:coarseValue
                                              lockWindow:lockWindow
                                                  source:ADJSkanSourceClient
-                                  withCompletionHandler:^(NSDictionary * _Nonnull result) {
+                                  withCompletionHandler:^(NSDictionary * _Nonnull result)
+     {
         if ([self checkActivityHandler]) {
             [self.activityHandler invokeClientSkanUpdateCallbackWithResult:result];
         }
@@ -653,14 +665,86 @@ static dispatch_once_t onceToken = 0;
     }
 
     if (![self checkActivityHandler:@"read attribution request"]) {
-        if (self.savedPreLaunch.cachedAttributionReadCallbacksArray == nil) {
-            self.savedPreLaunch.cachedAttributionReadCallbacksArray = [NSMutableArray array];
+        ADJAttribution *attribution = [ADJUtil attributionFromAttributionFile];
+        if (attribution != nil) {
+            // attribution found locally, return immediately
+            [ADJUtil launchInMainThread:^{
+                completion(attribution);
+            }];
+        } else {
+            [self.savedPreLaunch.cachedAttributionReadCallbacksArray addObject:completion];
         }
+    } else {
+        [self.activityHandler attributionWithCompletionHandler:completion];
+    }
+}
 
-        [self.savedPreLaunch.cachedAttributionReadCallbacksArray addObject:completion];
+- (void)attributionWithTimeout:(NSInteger)timeoutMs
+             completionHandler:(nonnull ADJAttributionGetterBlock)completion {
+    if (completion == nil) {
+        [self.logger error:@"Completion block for getting attribution can't be null"];
         return;
     }
-    return [self.activityHandler attributionWithCompletionHandler:completion];
+
+    if (timeoutMs < 0) {
+        [self.logger error:@"Timeout value for getting attribution can't be negative"];
+        return;
+    }
+
+    // if there is still no ActivityHandler and stored Attribution is availble,
+    // launch the completion handler.
+    BOOL bActivityHandlerAvailable = [self checkActivityHandler:@"read attribution request with timmeout"];
+    if (!bActivityHandlerAvailable) {
+        ADJAttribution *attribution = [ADJUtil attributionFromAttributionFile];
+        if (attribution != nil) {
+            // attribution found locally, return immediately
+            [ADJUtil launchInMainThread:^{
+                completion(attribution);
+            }];
+            return;
+        }
+    }
+
+    // No attribution found - creating a timeout callback object with timeout code block
+    ADJTimeoutCallback *timeoutCallback = [[ADJTimeoutCallback alloc] initWithAttributionCallback:completion
+                                                                                        timeoutMs:timeoutMs];
+    NSMutableArray *timeoutCallbacksArray = self.savedPreLaunch.cachedAttributionTimeoutCallbacksArray;
+    dispatch_block_t timeoutBlock = dispatch_block_create(0, ^{
+        if (timeoutCallback.attributionCallback != nil) {
+            // remove from array and call callback with nil if it still exists
+            BOOL bExecuteCallback = NO;
+            @synchronized (timeoutCallbacksArray) {
+                if ([timeoutCallbacksArray containsObject:timeoutCallback]) {
+                    [timeoutCallbacksArray removeObject:timeoutCallback];
+                    bExecuteCallback = YES;
+                }
+            }
+            if (bExecuteCallback) {
+                [ADJUtil launchInMainThread:^{
+                    // if timer elapses, return nil (only if callback still exists)
+                    if (timeoutCallback.attributionCallback != nil) {
+                        timeoutCallback.attributionCallback(nil);
+                        // null callback to call it only once
+                        timeoutCallback.attributionCallback = nil;
+                        timeoutCallback.timeoutBlock = nil;
+                    }
+                }];
+            }
+        }
+    });
+    timeoutCallback.timeoutBlock = timeoutBlock;
+
+    if (!bActivityHandlerAvailable) {
+        // cache the callback immediately, before starting the timer
+        [timeoutCallbacksArray addObject:timeoutCallback];
+        // dispatch callback's timeout block
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(timeoutMs * NSEC_PER_MSEC)),
+                       dispatch_get_main_queue(),
+                       timeoutBlock);
+    } else {
+        // pass the block to Activity handler
+        [self.activityHandler attributionWithTimeoutCallback:timeoutCallback];
+    }
 }
 
 - (void)adidWithCompletionHandler:(nonnull ADJAdidGetterBlock)completion {
@@ -670,14 +754,85 @@ static dispatch_once_t onceToken = 0;
     }
 
     if (![self checkActivityHandler:@"read adid request"]) {
-        if (self.savedPreLaunch.cachedAdidReadCallbacksArray == nil) {
-            self.savedPreLaunch.cachedAdidReadCallbacksArray = [NSMutableArray array];
+        NSString *adid = [ADJUtil adidFromActivityStateFile];
+        if (adid != nil) {
+            [ADJUtil launchInMainThread:^{
+                completion(adid);
+            }];
+        } else {
+            [self.savedPreLaunch.cachedAdidReadCallbacksArray addObject:completion];
         }
+    } else {
+        [self.activityHandler adidWithCompletionHandler:completion];
+    }
+}
 
-        [self.savedPreLaunch.cachedAdidReadCallbacksArray addObject:completion];
+- (void)adidWithTimeout:(NSInteger)timeoutMs
+      completionHandler:(nonnull ADJAdidGetterBlock)completion {
+    if (completion == nil) {
+        [self.logger error:@"Completion block for getting adid can't be null"];
         return;
     }
-    return [self.activityHandler adidWithCompletionHandler:completion];
+
+    if (timeoutMs < 0) {
+        [self.logger error:@"Timeout value for getting adid can't be negative"];
+        return;
+    }
+
+    // if there is still no ActivityHandler and stored adid is availble,
+    // launch the completion handler.
+    BOOL bActivityHandlerAvailable = [self checkActivityHandler:@"read adid request with timmeout"];
+    if (!bActivityHandlerAvailable) {
+        NSString *adid = [ADJUtil adidFromActivityStateFile];
+        if (adid != nil) {
+            // adid found locally, return immediately
+            [ADJUtil launchInMainThread:^{
+                completion(adid);
+            }];
+            return;
+        }
+    }
+
+    // No adid found - creating a timeout callback object with timeout code block
+    ADJTimeoutCallback *timeoutCallback = [[ADJTimeoutCallback alloc] initWithAdidCallback:completion
+                                                                                 timeoutMs:timeoutMs];
+    NSMutableArray *timeoutCallbacksArray = self.savedPreLaunch.cachedAdidTimeoutCallbacksArray;
+    dispatch_block_t timeoutBlock = dispatch_block_create(0, ^{
+        if (timeoutCallback.adidCallback != nil) {
+            // remove from array and call callback with nil if it still exists
+            BOOL bExecuteCallback = NO;
+            @synchronized (timeoutCallbacksArray) {
+                if ([timeoutCallbacksArray containsObject:timeoutCallback]) {
+                    [timeoutCallbacksArray removeObject:timeoutCallback];
+                    bExecuteCallback = YES;
+                }
+            }
+            if (bExecuteCallback) {
+                [ADJUtil launchInMainThread:^{
+                    // if timer elapses, return nil (only if callback still exists)
+                    if (timeoutCallback.adidCallback != nil) {
+                        timeoutCallback.adidCallback(nil);
+                        // null callback to call it only once
+                        timeoutCallback.adidCallback = nil;
+                        timeoutCallback.timeoutBlock = nil;
+                    }
+                }];
+            }
+        }
+    });
+    timeoutCallback.timeoutBlock = timeoutBlock;
+
+    if (!bActivityHandlerAvailable) {
+        // cache the callback immediately, before starting the timer
+        [timeoutCallbacksArray addObject:timeoutCallback];
+        // dispatch callback's timeout block
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(timeoutMs * NSEC_PER_MSEC)),
+                       dispatch_get_main_queue(),
+                       timeoutBlock);
+    } else {
+        // pass the block to Activity handler
+        [self.activityHandler adidWithTimeoutCallback:timeoutCallback];
+    }
 }
 
 - (void)sdkVersionWithCompletionHandler:(nonnull ADJSdkVersionGetterBlock)completion {
@@ -722,6 +877,30 @@ static dispatch_once_t onceToken = 0;
                            withCompletionHandler:completion];
 }
 
+- (void)enableCoppaComplianceInDelay {
+    if (![self checkActivityHandler:@"enable coppa compliance in delay"]) {
+        return;
+    }
+
+    [self.activityHandler setCoppaComplianceInDelay:YES];
+}
+
+- (void)disableCoppaComplianceInDelay {
+    if (![self checkActivityHandler:@"disable coppa compliance in delay"]) {
+        return;
+    }
+
+    [self.activityHandler setCoppaComplianceInDelay:NO];
+}
+
+- (void)setExternalDeviceIdInDelay:(nullable NSString *)externalDeviceId {
+    if (![self checkActivityHandler:@"set external device id in delay"]) {
+        return;
+    }
+
+    [self.activityHandler setExternalDeviceIdInDelay:externalDeviceId];
+}
+
 - (void)verifyAndTrackAppStorePurchase:(nonnull ADJEvent *)event
                  withCompletionHandler:(void (^_Nonnull)(ADJPurchaseVerificationResult * _Nonnull verificationResult))completion {
     if (![self checkActivityHandler]) {
@@ -735,6 +914,14 @@ static dispatch_once_t onceToken = 0;
         return;
     }
     [self.activityHandler verifyAndTrackAppStorePurchase:event withCompletionHandler:completion];
+}
+
+- (void)endFirstSessionDelay {
+    if (![self checkActivityHandler]) {
+        return;
+    }
+
+    [self.activityHandler endFirstSessionDelay];
 }
 
 - (void)teardown {
@@ -800,10 +987,6 @@ static dispatch_once_t onceToken = 0;
     } else {
         return YES;
     }
-}
-
-- (BOOL)isInstanceEnabled {
-    return self.savedPreLaunch.enabled == nil || self.savedPreLaunch.enabled;
 }
 
 @end
