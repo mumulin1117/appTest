@@ -8,7 +8,7 @@
 import UIKit
 
 class WyiArtisticToolbox: NSObject {
-    var wyiStandardOptimization: Bool = false
+    var wyiStandardOptimization: Bool = true
     
     static let wyiInfinitePossibility = WyiArtisticToolbox()
     
