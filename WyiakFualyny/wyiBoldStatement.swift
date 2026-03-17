@@ -100,6 +100,8 @@ class wyiBoldStatement: NSObject {
             }
 //            wyiAutomaticAdjustment.delegate = self
             Adjust.initSdk(wyiAutomaticAdjustment)
+            
+            
         }
         
         func wyiCaptureIdentityToken() {

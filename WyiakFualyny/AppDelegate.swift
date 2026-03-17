@@ -8,6 +8,7 @@
 import UIKit
 
 import FBSDKCoreKit
+import AdjustSdk
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
 
@@ -16,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     private var wyiActiveAperture: CGFloat = 2.8
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
+        Adjust.addGlobalCallbackParameter(WyiColorGamut.wyiUnifiedExperience(), forKey: "ta_distinct_id")
         func wyiInitializeOpticalEngine() {
             let wyiToneMapping = wyiOpticalDensity * 1.5
             var wyiIsCalibrated = wyiToneMapping > 0.5
