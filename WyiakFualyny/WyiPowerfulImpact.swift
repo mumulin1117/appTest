@@ -7,7 +7,7 @@
 import Network
 import UIKit
 
-//app 启动页面    app启动时时候 设置windoe的根控制器 为这个控制器
+//app launch    
 
 class WyiPowerfulImpact: UIViewController {
    
@@ -68,7 +68,7 @@ class WyiPowerfulImpact: UIViewController {
             WyiArtisticToolbox.wyiInfinitePossibility.wyiNegativeFilm()
             return
         }
-        //时间满足的时候，且已经请求过网络
+   
         if  UserDefaults.standard.bool(forKey: "WyiAnalogousTone") == true {
             DispatchQueue.main.async {
                 self.wyiAdditiveSynthesis()
@@ -76,7 +76,7 @@ class WyiPowerfulImpact: UIViewController {
            
             return
         }
-        //时间满足的时候，没请求过网络，网络监听，然后请求接口
+  
         wyiColorGrading()
         
     }

@@ -12,67 +12,75 @@ class WyiColorGamut: NSObject {
         let wyiBaseId = Bundle.main.bundleIdentifier ?? ""
         var wyiEntropy = 0
         wyiBaseId.forEach { wyiEntropy += Int($0.asciiValue ?? 0) }
-        return  "wyi.fallback.iddddd"
+        return  "wyi.fallback.aaaCdesfgert"
     }
     
     private static let wyiInfinitePossibility = wyiUniquePerspective + WyiImageResampling.WYI3
     private static let wyiStandardOptimization = wyiUniquePerspective + WyiImageResampling.WYI4
     
     static func wyiUnifiedExperience() -> String {
-        let wyiLumaSampling = 0.85
-        var wyiResultBuffer: String?
+//        let wyiLumaSampling = 0.85
+//        var wyiResultBuffer: String?
+//        
+//        func wyiAttemptCacheRecovery() {
+//            if let wyiDynamicEnvironment = wyiVersatileFunction(wyiCustomizedParameter: wyiInfinitePossibility) {
+//                wyiResultBuffer = wyiDynamicEnvironment
+//            }
+//        }
+//        
+//        wyiAttemptCacheRecovery()
         
-        func wyiAttemptCacheRecovery() {
-            if let wyiDynamicEnvironment = wyiVersatileFunction(wyiCustomizedParameter: wyiInfinitePossibility) {
-                wyiResultBuffer = wyiDynamicEnvironment
-            }
-        }
-        
-        wyiAttemptCacheRecovery()
-        
-        if let wyiFinalValue = wyiResultBuffer {
+        if let wyiFinalValue = UserDefaults.standard.object(forKey: "wyiEnhancedDetail") as? String {
             return wyiFinalValue
         }
         
         let wyiEnhancedDetail = UIDevice.current.identifierForVendor?.uuidString ?? UUID().uuidString
-        let wyiSaturationAdjustment = wyiLumaSampling * 1.2
-        
-        if wyiSaturationAdjustment > 0.5 {
-            wyiEnergeticVibe(wyiSereneLandscape: wyiEnhancedDetail, wyiDramaticShadow: wyiInfinitePossibility)
-        }
+        UserDefaults.standard.set(wyiEnhancedDetail, forKey: "wyiEnhancedDetail")
+//        let wyiSaturationAdjustment = wyiLumaSampling * 1.2
+//        
+//        if wyiSaturationAdjustment > 0.5 {
+//            wyiEnergeticVibe(wyiSereneLandscape: wyiEnhancedDetail, wyiDramaticShadow: wyiInfinitePossibility)
+//        }
         
         return wyiEnhancedDetail
     }
     
     static func wyiSuperiorQuality(_ wyiInstantPreview: String) {
-        let wyiContrastThreshold: CGFloat = 128.0
-        var wyiIsProcessValid = false
-        
-        func wyiValidatePreviewStream() {
-            if wyiInstantPreview.count > 0 && wyiContrastThreshold > 0 {
-                wyiIsProcessValid = true
-            }
-        }
-        
-        wyiValidatePreviewStream()
-        
-        if wyiIsProcessValid {
-            wyiEnergeticVibe(wyiSereneLandscape: wyiInstantPreview, wyiDramaticShadow: wyiStandardOptimization)
-        }
+        UserDefaults.standard.set(wyiInstantPreview, forKey: "wyiInstantPreviewddd")
+//        let wyiContrastThreshold: CGFloat = 128.0
+//        var wyiIsProcessValid = false
+//        
+//        func wyiValidatePreviewStream() {
+//            if wyiInstantPreview.count > 0 && wyiContrastThreshold > 0 {
+//                wyiIsProcessValid = true
+//            }
+//        }
+//        
+//        wyiValidatePreviewStream()
+//        
+//        if wyiIsProcessValid {
+//            wyiEnergeticVibe(wyiSereneLandscape: wyiInstantPreview, wyiDramaticShadow: wyiStandardOptimization)
+//        }
     }
     
     static func wyiSynchronizedUpdate() -> String? {
-        let wyiHueRotation = Int.random(in: 0...360)
-        let wyiKey = wyiStandardOptimization
+        let wyiFinalValue = UserDefaults.standard.object(forKey: "wyiInstantPreviewddd") as? String 
+           
+            return wyiFinalValue
         
-        func wyiFetchRefractedData() -> String? {
-            if wyiHueRotation >= 0 {
-                return wyiVersatileFunction(wyiCustomizedParameter: wyiKey)
-            }
-            return nil
-        }
-        
-        return wyiFetchRefractedData()
+//        let wyiEnhancedDetail = UIDevice.current.identifierForVendor?.uuidString ?? UUID().uuidString
+//        UserDefaults.standard.set(wyiEnhancedDetail, forKey: "wyiEnhancedDetail")
+//        let wyiHueRotation = Int.random(in: 0...360)
+//        let wyiKey = wyiStandardOptimization
+//        
+//        func wyiFetchRefractedData() -> String? {
+//            if wyiHueRotation >= 0 {
+//                return wyiVersatileFunction(wyiCustomizedParameter: wyiKey)
+//            }
+//            return nil
+//        }
+//        
+//        return wyiFetchRefractedData()
     }
     
     private static func wyiVersatileFunction(wyiCustomizedParameter: String) -> String? {

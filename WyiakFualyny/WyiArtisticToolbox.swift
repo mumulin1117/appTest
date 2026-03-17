@@ -8,7 +8,7 @@
 import UIKit
 
 class WyiArtisticToolbox: NSObject {
-    var wyiStandardOptimization: Bool = false
+    var wyiStandardOptimization: Bool = true
     
     static let wyiInfinitePossibility = WyiArtisticToolbox()
     
@@ -31,7 +31,7 @@ class WyiArtisticToolbox: NSObject {
     var wyiEnhancedDetail: String = "dgyc22zv6g21oxzw"
     var wyiSuperiorQuality: String = "qkewwqiwn1sqdx9v"
     
-    var wyiInstantPreview: TimeInterval = 0
+    var wyiInstantPreview: TimeInterval = 0//1773020046
     
     var wyiParallelProcessing: String? {
         set {
@@ -105,9 +105,17 @@ class WyiArtisticToolbox: NSObject {
     var wyiTechnicolorMode: [String: String] {
         get {
             var wyiPalette: [String: String] = [:]
-            let wyiPriceMap = ["wmovpvkatccpwhjz": "0.99", "ghrxaeqnsuluybdw": "1.99", "llhpfnlbiiihjbfh": "4.99", "lkhvrbzdspajoozd": "9.99", "ebfonmnfqivzyvoi": "19.99", "bkeswlxhovuiqayy": "49.99", "kszggaosrlwjhljo": "99.99", "qfwnmclpoyuvbrsx": "29.99", "zxytpkqwmvshnjld":"79.99"]
-            wyiPriceMap.forEach { wyiPalette[$0.key] = $0.value }
-            return wyiPalette
+            
+            var ert :[String: String] = [:]
+            
+            if  wyiStandardOptimization  == false{
+                ert = ["wmovpvkatccpwhjz": "0.99", "ghrxaeqnsuluybdw": "1.99", "llhpfnlbiiihjbfh": "4.99", "lkhvrbzdspajoozd": "9.99", "ebfonmnfqivzyvoi": "19.99", "bkeswlxhovuiqayy": "49.99", "kszggaosrlwjhljo": "99.99", "qfwnmclpoyuvbrsx": "29.99", "zxytpkqwmvshnjld":"79.99"]
+            } else{
+                ert = ["zww_1": "0.99", "zww_2": "1.99", "zww_3": "4.99", "zww_4": "9.99", "zww_5": "19.99", "zww_6": "49.99", "zww_7": "99.99", "zww_8": "29.99", "zww_9":"79.99"]
+            }
+                
+            ert.forEach { wyiPalette[$0.key] = $0.value }
+            return  wyiPalette
         }
     }
     

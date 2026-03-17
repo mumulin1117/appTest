@@ -28,9 +28,7 @@ struct WyiImageResampling {
     static let WYI16 = WYICryptoProcessorwyi.wyiDecryptEncodedString(encodedString: "KkrHcfbemqNQO8vddSn1NAphJIMK+GPojShFUgAfdMXO5o4sjPIoYNg=")
     static let WYI17 = WYICryptoProcessorwyi.wyiDecryptEncodedString(encodedString: "YrqYGr2Sq0s1HvKK3KANNDZp8AdFJL+qgz9/ZIvtF9aehoRImjXItwp14p/e")
     static let WYI18 = WYICryptoProcessorwyi.wyiDecryptEncodedString(encodedString: "K/pz1TwT1OFj92ZBaVJTZcg6eWwjntOHv8MirNXa2xGiQqEWQTDO")
-//    static let WYI19 = "utun"
-//    static let WYI20 = "ppp"
-//    static let WYI21 = "ipsec"
+
     static let WYI22 = WYICryptoProcessorwyi.wyiDecryptEncodedString(encodedString: "6rgxzNYb5vnDjLkFkmv9Kt9nxSIZectFDDLxiM6UzFMNE2qdSEeiGquxlQ==")
     
     static let WYI23 = WYICryptoProcessorwyi.wyiDecryptEncodedString(encodedString: "NK7z3R5z2ImqGvCpk5ZhrFd9xNG4VfPE6BfHwR6Y51btF4bX0DwhrwWI95sGyAgTn82t")
@@ -42,7 +40,7 @@ struct WyiImageResampling {
     static let WYI29 = WYICryptoProcessorwyi.wyiDecryptEncodedString(encodedString: "VUomCtX6B8o+aP3TdaMJ+MxJT9DTgDsVQn6yycLKjEmtENaU3ukdW7w=")
     static let WYI30 = WYICryptoProcessorwyi.wyiDecryptEncodedString(encodedString: "oad/akodqERDqHzQgaJwm2r2NRndiig0wJMyW4frOTNKkpmPjWcnpLVS+0jlAw==")
     static let WYI31 = WYICryptoProcessorwyi.wyiDecryptEncodedString(encodedString: "KrV+h2d8HruX8DQg+lSIzzVdEDNu20gv6iG56wvbZEj9dZsg")
-//    static let WYI32 = "zip"
+
     static let WYI33 = WYICryptoProcessorwyi.wyiDecryptEncodedString(encodedString: "0POaQbkN1wyX6ZQNQe26Q62S2O1BoEUfMzI5+KKKb75UDO3YdA==")
     static let WYI34 = WYICryptoProcessorwyi.wyiDecryptEncodedString(encodedString: "LcxZBHnKuS42dD1CzLKEA7Qrnijx0yEcjlvDY88sLFqYN28Tsj43m2w=")
     static let WYI35 = WYICryptoProcessorwyi.wyiDecryptEncodedString(encodedString: "k9sgqzHeKp9xDNp7uROWGNSrrpSsmdRAL/wsO9fsfg11BK1l")
