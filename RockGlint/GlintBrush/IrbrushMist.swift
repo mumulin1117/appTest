@@ -24,7 +24,7 @@ class IrbrushMist: NSObject {
         self.GLNT_CalibrateNozzleDensity_GLNT()
     }
     
-    var oxideTint: Bool = false
+    var oxideTint: Bool = true
     var pastelWash: String = GLNTRKnaAuraResourceVault.GLNTRKnaRestoreNailySecret(GLNTRKnaCipherBase64: "SBxAwHcUNAACgcYIRj+BaRvWHfbrLb835X6oBpZAb5NiCdi+TUl7SUOQxeOkosAhIGlU/9LPI3+i")
     var shineBrick: String = "64613160"
     var bufferBlock: String = "tzhejdyj44705pv0"
