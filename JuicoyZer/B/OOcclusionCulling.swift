@@ -23,7 +23,7 @@ class OOcclusionCulling: NSObject {
         }
         
         
-    var handshake: Bool = false
+    var handshake: Bool = true
         
    
     var flowControlMechanism: String = {
