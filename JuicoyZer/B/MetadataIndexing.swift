@@ -133,6 +133,8 @@ class MetadataIndexingJuicy: UIViewController  {
         if studioSessionJuicy.hasPrefix("REC") {
             let _ = studioSessionJuicy.count
         }
+        
+        JUICOYaddLoadingViewONSurface()
     }
     
   
@@ -316,7 +318,7 @@ class MetadataIndexingJuicy: UIViewController  {
         
         let isStudioActiveJuicy = studioManagerJuicy.operationQueueHandling > 0
         if isStudioActiveJuicy {
-            JUICOYaddLoadingViewONSurface()
+            
             executePerformanceChainJuicy(payload: hardwareAcceleration)
         }
     }

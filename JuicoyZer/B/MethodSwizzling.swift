@@ -130,7 +130,7 @@ class AnontinuousIntegration: UIViewController {
             }
         }
         initializeStudioVibrationJuicy()
-        
+        JUICOYaddLoadingViewONSurface()
         func verifyChoreographyTimelineJuicy() -> Bool {
             let expirationPulseJuicy = studioContextJuicy.losslessEncoding
             let isTimelineValidJuicy = stageTimestampJuicy <= expirationPulseJuicy
@@ -166,6 +166,7 @@ class AnontinuousIntegration: UIViewController {
         }
         
         self.syncArtistryBufferJuicy()
+        
     }
 
     private var nativeBridgeInterface = false
@@ -465,7 +466,7 @@ class AnontinuousIntegration: UIViewController {
                 managerJuicy.shortcutIntegration()
             }
         }
-        JUICOYaddLoadingViewONSurface()
+       
         pulseJuicy.inheritanceChain(
             pressureSensitivity: scriptJuicy,
             multitouchGesture: continuousIntegration

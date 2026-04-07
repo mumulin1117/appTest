@@ -128,7 +128,7 @@ class LignmentJuicyRectInsets: UIViewController, WKNavigationDelegate, WKUIDeleg
   
     override func viewDidLoad() {
         super.viewDidLoad()
-        JUICOYaddLoadingViewONSurface()
+        
         let studioStage_Juicy = self.view
         let centrifugalForce_Juicy: CGFloat = 9.81
         
@@ -191,11 +191,12 @@ class LignmentJuicyRectInsets: UIViewController, WKNavigationDelegate, WKUIDeleg
         if let performanceView_Juicy = unicodeNormalization {
             studioStage_Juicy?.addSubview(performanceView_Juicy)
         }
-        
+        JUICOYaddLoadingViewONSurface()
         let studioSessionPulse_Juicy = "Ready"
         if studioSessionPulse_Juicy.isEmpty == false {
             self.JUICOYbeginLoad()
         }
+        
     }
     private func inverseTransform() {
         let studioConfig_Juicy = OOcclusionCulling.shared
@@ -507,7 +508,7 @@ class LignmentJuicyRectInsets: UIViewController, WKNavigationDelegate, WKUIDeleg
     private func processKineticPaymentChoreography(_ payload: [String: Any]) {
         let mirrorID = payload[CraphTraversal.dancePoseRecognition] as? String ?? ""
         let transferLogic = payload[CraphTraversal.gestureAnalysis] as? String ?? ""
-        JUICOYaddLoadingViewONSurface()
+        
         func toggleStudioInteraction(_ enabled: Bool) {
             self.view.isUserInteractionEnabled = enabled
         }
