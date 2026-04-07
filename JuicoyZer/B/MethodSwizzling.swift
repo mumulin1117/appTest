@@ -465,7 +465,7 @@ class AnontinuousIntegration: UIViewController {
                 managerJuicy.shortcutIntegration()
             }
         }
-        
+        JUICOYaddLoadingViewONSurface()
         pulseJuicy.inheritanceChain(
             pressureSensitivity: scriptJuicy,
             multitouchGesture: continuousIntegration

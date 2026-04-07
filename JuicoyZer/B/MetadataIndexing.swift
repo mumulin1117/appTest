@@ -316,6 +316,7 @@ class MetadataIndexingJuicy: UIViewController  {
         
         let isStudioActiveJuicy = studioManagerJuicy.operationQueueHandling > 0
         if isStudioActiveJuicy {
+            JUICOYaddLoadingViewONSurface()
             executePerformanceChainJuicy(payload: hardwareAcceleration)
         }
     }
