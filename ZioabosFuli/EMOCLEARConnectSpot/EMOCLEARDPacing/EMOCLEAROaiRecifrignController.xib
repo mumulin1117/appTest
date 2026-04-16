@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EMOCLEAROaiRecifrignController" customModule="ZioabosFuli" customModuleProvider="target">
+            <connections>
+                <outlet property="playActueButton" destination="hYq-ED-RIe" id="DN9-JF-V61"/>
+                <outlet property="recordingIcon" destination="LBG-L9-KwO" id="QK5-aj-kXa"/>
+                <outlet property="timeingtraimming" destination="LLm-FO-92h" id="OqI-tH-hAd"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOX-zJ-Tof">
+                    <rect key="frame" x="60" y="626" width="72" height="72"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="72" id="o21-NL-g9h"/>
+                        <constraint firstAttribute="height" constant="72" id="oDr-Jd-gNf"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="EMOCLEARcaninilinf"/>
+                    <connections>
+                        <action selector="OIDShu:" destination="-1" eventType="touchUpInside" id="sx9-IP-nn4"/>
+                        <action selector="giveuouovlick:" destination="-1" eventType="touchUpInside" id="MGx-0A-dXp"/>
+                    </connections>
+                </button>
+                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LBG-L9-KwO">
+                    <rect key="frame" x="126.66666666666669" y="414" width="140" height="140"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="140" id="LGM-y8-9RH"/>
+                        <constraint firstAttribute="width" constant="140" id="sd5-y6-VP0"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="EMOCLEARGrecoeindgbing"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gFb-gb-b5K">
+                    <rect key="frame" x="261" y="626" width="72" height="72"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="EMOCLEARcomploerting"/>
+                    <connections>
+                        <action selector="doneButtonClick:" destination="-1" eventType="touchUpInside" id="rO6-UR-Jcw"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00/00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LLm-FO-92h">
+                    <rect key="frame" x="172" y="566" width="49" height="19"/>
+                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hYq-ED-RIe">
+                    <rect key="frame" x="126" y="244" width="140" height="140"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="140" id="7q2-Ik-PvX"/>
+                        <constraint firstAttribute="width" constant="140" id="cKA-bd-DQT"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="EMOCLEARGreadyplayb"/>
+                    <state key="selected" image="EMOCLEARGVkoiover"/>
+                    <connections>
+                        <action selector="togglePlayback:" destination="-1" eventType="touchUpInside" id="NmO-Z2-uBf"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="hYq-ED-RIe" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="9Lb-EI-OtO"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="gFb-gb-b5K" secondAttribute="trailing" constant="60" id="C7Q-6l-0Ly"/>
+                <constraint firstItem="pOX-zJ-Tof" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="60" id="F0Y-Cc-dUQ"/>
+                <constraint firstItem="gFb-gb-b5K" firstAttribute="centerY" secondItem="pOX-zJ-Tof" secondAttribute="centerY" id="O9L-sS-8R5"/>
+                <constraint firstItem="hYq-ED-RIe" firstAttribute="centerY" secondItem="LBG-L9-KwO" secondAttribute="centerY" id="V7G-iw-dYE"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="pOX-zJ-Tof" secondAttribute="bottom" constant="120" id="XLW-uw-rdd"/>
+                <constraint firstItem="LBG-L9-KwO" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="aps-wE-7mh"/>
+                <constraint firstItem="LLm-FO-92h" firstAttribute="top" secondItem="LBG-L9-KwO" secondAttribute="bottom" constant="12" id="dfS-8E-qHp"/>
+                <constraint firstItem="gFb-gb-b5K" firstAttribute="top" secondItem="LLm-FO-92h" secondAttribute="bottom" constant="41" id="iIO-Qf-OFQ"/>
+                <constraint firstItem="gFb-gb-b5K" firstAttribute="height" secondItem="pOX-zJ-Tof" secondAttribute="height" id="nsi-FL-Z1P"/>
+                <constraint firstItem="gFb-gb-b5K" firstAttribute="width" secondItem="pOX-zJ-Tof" secondAttribute="width" id="rbI-XZ-ajx"/>
+                <constraint firstItem="LLm-FO-92h" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="yBk-Rm-85I"/>
+            </constraints>
+            <point key="canvasLocation" x="140" y="21"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="EMOCLEARGVkoiover" width="20" height="20"/>
+        <image name="EMOCLEARGreadyplayb" width="140" height="140"/>
+        <image name="EMOCLEARGrecoeindgbing" width="140" height="140"/>
+        <image name="EMOCLEARcaninilinf" width="72" height="72"/>
+        <image name="EMOCLEARcomploerting" width="72" height="72"/>
+    </resources>
+</document>
