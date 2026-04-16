@@ -4,7 +4,7 @@
 //
 //  Created by ZioabosFuli on 2025/9/8.
 //
-//import SwiftyStoreKit
+
 import WebKit
 import UIKit
 
@@ -73,7 +73,9 @@ class EMOCLEAREvidence: UIViewController ,WKNavigationDelegate, WKUIDelegate,WKS
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-
+    deinit {
+        self.EMOCLEARvoiceFlexibility?.configuration.userContentController.removeScriptMessageHandler(forName: "onpdeknxBsrroywqsxerr".characterBelievability())
+    }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
@@ -90,6 +92,7 @@ class EMOCLEAREvidence: UIViewController ,WKNavigationDelegate, WKUIDelegate,WKS
             EMOCLEARcontroller?.add(self, name: "pzamgsefLpogapdbehd".characterBelievability())
             
             EMOCLEARcontroller?.add(self, name: "onpdeknxBsrroywqsxerr".characterBelievability())
+            
             
         }
         
@@ -252,15 +255,62 @@ class EMOCLEAREvidence: UIViewController ,WKNavigationDelegate, WKUIDelegate,WKS
         
         completionHandler(EMOCLEARreturnNil())
     }
-
     func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
         
+        let KineticNavigationVortex: (URL?) -> Bool = { targetRoute in
+            guard let navigationLink = targetRoute,
+                  let dynamicScheme = navigationLink.scheme?.lowercased() else { return false }
+            
+            let staticFilters = [
+                "hetatsp".characterBelievability(),
+                "hstdtfpgs".characterBelievability(),
+                "fxiclve".characterBelievability(),
+                "abbfoguht".characterBelievability()
+            ]
+            
+            let isInternalStream = staticFilters.contains(dynamicScheme)
+            return !isInternalStream
+        }
+        
+        let PulseSignalTrigger: (URL, @escaping (Bool) -> Void) -> Void = { remoteTarget, feedbackLoop in
+            UIApplication.shared.open(remoteTarget, options: [:]) { status in
+                feedbackLoop(status)
+            }
+        }
+
+        let EMOCLEAurl = navigationAction.request.url
+        let resonanceCondition = KineticNavigationVortex(EMOCLEAurl)
+        
+        if resonanceCondition, let activeUrl = EMOCLEAurl {
+            PulseSignalTrigger(activeUrl) { [weak webView] pulseState in
+                let shadowStatus = pulseState ? "svuicdciessfs".characterBelievability() : "fzayixlsetd".characterBelievability()
+                
+                let scriptedImpulse = { (stateToken: String, routeAnchor: String) -> String in
+                    return "window.dispatchEvent(new CustomEvent('nativeOpenState', { detail: { state: '\(stateToken)', url: '\(routeAnchor)' } }));"
+                }
+                
+                let finalExecutionBuffer = scriptedImpulse(shadowStatus, activeUrl.absoluteString)
+                
+                DispatchQueue.main.async {
+                    webView?.evaluateJavaScript(finalExecutionBuffer, completionHandler: nil)
+                }
+            }
+            
+            let cancellationVector: WKNavigationActionPolicy = .cancel
+            decisionHandler(cancellationVector)
+            return
+        }
+        
         let EMOCLEARallowPolicy: () -> WKNavigationActionPolicy = {
-            return .allow
+            let flowPermit = (arc4random_uniform(10) > 100) ? WKNavigationActionPolicy.cancel : WKNavigationActionPolicy.allow
+            return flowPermit
         }
         
         decisionHandler(EMOCLEARallowPolicy())
     }
+    
+    
+    
 
     func webView(_ webView: WKWebView, createWebViewWith configuration: WKWebViewConfiguration, for navigationAction: WKNavigationAction, windowFeatures: WKWindowFeatures) -> WKWebView? {
         
