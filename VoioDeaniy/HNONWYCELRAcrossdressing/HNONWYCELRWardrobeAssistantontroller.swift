@@ -1,0 +1,297 @@
+import UIKit
+
+
+class HNONWYCELRWardrobeAssistantontroller: UIViewController {
+    
+   
+    private let HNONWYCELRfittingmode: UIImageView = {
+        let vieHNONWYCELRw = UIImageView()
+        vieHNONWYCELRw.translatesAutoresizingMaskIntoConstraints = false
+        vieHNONWYCELRw.clipsToBounds = true
+        vieHNONWYCELRw.contentMode = .scaleAspectFill
+        vieHNONWYCELRw.image = HNONWYCELRcolorfusioning.HNONWYCELRgarmentripple(HNONWYCELRpaletteform:"HNONWYCreakligo")
+        return vieHNONWYCELRw
+    }()
+    
+  
+    private let HNONWYCELRcolorclarity: UIImageView = {
+        let viewHNONWYCELR = UIImageView()
+        viewHNONWYCELR.translatesAutoresizingMaskIntoConstraints = false
+        viewHNONWYCELR.clipsToBounds = true
+        viewHNONWYCELR.contentMode = .scaleAspectFit
+        viewHNONWYCELR.image = HNONWYCELRcolorfusioning.HNONWYCELRgarmentripple(HNONWYCELRpaletteform: "HNONWYCstyleTerrace")
+        return viewHNONWYCELR
+    }()
+    
+    private let HNONWYCELRfabrictone: UIButton = {
+        let HNONWYCELRton = UIButton(type: .custom)
+        HNONWYCELRton.translatesAutoresizingMaskIntoConstraints = false
+        HNONWYCELRton.tag = 70
+        HNONWYCELRton.setImage(HNONWYCELRcolorfusioning.HNONWYCELRgarmentripple(HNONWYCELRpaletteform: "HNONWYCwardrobeBrewer"), for: .normal)
+        return HNONWYCELRton
+    }()
+    
+
+    private let HNONWYCELRoutfitValidation: UIImageView = {
+        let HNONWYCELRview = UIImageView()
+        HNONWYCELRview.translatesAutoresizingMaskIntoConstraints = false
+        HNONWYCELRview.clipsToBounds = true
+        HNONWYCELRview.contentMode = .scaleAspectFill
+        HNONWYCELRview.image = HNONWYCELRcolorfusioning.HNONWYCELRgarmentripple(HNONWYCELRpaletteform: "HNONWYCELRbznodu")
+        return HNONWYCELRview
+    }()
+    
+    private let HNONWYCELRoutfitDiscovery: UILabel = {
+        let HNONWYCELRlabel = UILabel()
+        HNONWYCELRlabel.translatesAutoresizingMaskIntoConstraints = false
+        HNONWYCELRlabel.textAlignment = .center
+        HNONWYCELRlabel.text = AppDelegate.HNONWYCELRunravelEncrypted(HNONWYCELRLandmarks: "Nsop zNuacmde")
+        HNONWYCELRlabel.font = UIFont.systemFont(ofSize: 22, weight: .heavy)
+        HNONWYCELRlabel.textColor = .black
+        HNONWYCELRlabel.adjustsFontSizeToFitWidth = true
+        HNONWYCELRlabel.minimumScaleFactor = 0.7
+        return HNONWYCELRlabel
+    }()
+    
+   
+    private let HNONWYCELRoutfitpulse: UIButton = {
+        let HNONWYCELRnbtn = UIButton(type: .custom)
+        HNONWYCELRnbtn.translatesAutoresizingMaskIntoConstraints = false
+        HNONWYCELRnbtn.tag = 80
+        HNONWYCELRnbtn.setImage(HNONWYCELRcolorfusioning.HNONWYCELRgarmentripple(HNONWYCELRpaletteform:"HNONWYCELREdijtu"), for: .normal)
+        return HNONWYCELRnbtn
+    }()
+    
+    private let HNONWYCELRTriw: UIButton = {
+        let HNONWYCELRgui = UIButton(type: .custom)
+        HNONWYCELRgui.translatesAutoresizingMaskIntoConstraints = false
+        HNONWYCELRgui.tag = 90
+        HNONWYCELRgui.setTitle(AppDelegate.HNONWYCELRunravelEncrypted(HNONWYCELRLandmarks: "Frozldlqozwxetrns"), for: .normal)
+        HNONWYCELRgui.backgroundColor = UIColor(red: 0.96078, green: 0.96078, blue: 0.96078, alpha: 1)
+        HNONWYCELRgui.setTitleColor(UIColor(white: 0.0, alpha: 0.51068638389999998), for: .normal)
+        HNONWYCELRgui.titleLabel?.font = UIFont.systemFont(ofSize: 14, weight: .medium)
+        return HNONWYCELRgui
+    }()
+    
+  
+    private let HNONWYCELRTriwz: UIButton = {
+        let HNONWYCELRntn = UIButton(type: .custom)
+        HNONWYCELRntn.translatesAutoresizingMaskIntoConstraints = false
+        HNONWYCELRntn.tag = 100
+        HNONWYCELRntn.setTitle(AppDelegate.HNONWYCELRunravelEncrypted(HNONWYCELRLandmarks: "Fuasnvs"), for: .normal)
+        HNONWYCELRntn.backgroundColor = UIColor(red: 0.96078, green: 0.96078, blue: 0.96078, alpha: 1)
+        HNONWYCELRntn.setTitleColor(UIColor(white: 0.0, alpha: 0.51068638389999998), for: .normal)
+        HNONWYCELRntn.titleLabel?.font = UIFont.systemFont(ofSize: 14, weight: .medium)
+        return HNONWYCELRntn
+    }()
+    
+    private let HNONWYCELRTriwx: UIButton = {
+        let HNONWYCELRbtn = UIButton(type: .custom)
+        HNONWYCELRbtn.translatesAutoresizingMaskIntoConstraints = false
+        HNONWYCELRbtn.tag = 110
+        HNONWYCELRbtn.setTitle(AppDelegate.HNONWYCELRunravelEncrypted(HNONWYCELRLandmarks: "Wqaelslcedt"), for: .normal)
+        HNONWYCELRbtn.backgroundColor = UIColor(red: 0.96078, green: 0.96078, blue: 0.96078, alpha: 1)
+        HNONWYCELRbtn.setTitleColor(UIColor(white: 0.0, alpha: 0.51068638389999998), for: .normal)
+        HNONWYCELRbtn.titleLabel?.font = UIFont.systemFont(ofSize: 14, weight: .medium)
+        return HNONWYCELRbtn
+    }()
+    
+   
+    private let HNONWYCELRmyPostLabel: UILabel = {
+        let HNONWYCELRbtn = UILabel()
+        HNONWYCELRbtn.translatesAutoresizingMaskIntoConstraints = false
+        HNONWYCELRbtn.text = AppDelegate.HNONWYCELRunravelEncrypted(HNONWYCELRLandmarks: "Miym iPqovsyt")
+        HNONWYCELRbtn.font = UIFont(name: "GillSans-BoldItalic", size: 22) // 使用 xib 中的指定字体
+        HNONWYCELRbtn.textColor = .black
+        return HNONWYCELRbtn
+    }()
+    
+    private let HNONWYCELRnoDataImageView: UIImageView = {
+        let HNONWYCELRview = UIImageView()
+        HNONWYCELRview.translatesAutoresizingMaskIntoConstraints = false
+        HNONWYCELRview.clipsToBounds = true
+        HNONWYCELRview.contentMode = .scaleAspectFit
+        HNONWYCELRview.image = HNONWYCELRcolorfusioning.HNONWYCELRgarmentripple(HNONWYCELRpaletteform: "HNONWYCELReppaloei")
+        return HNONWYCELRview
+    }()
+    
+    private let HNONWYCELRnoDataLabel: UILabel = {
+        let HNONWYCELRlbl = UILabel()
+        HNONWYCELRlbl.translatesAutoresizingMaskIntoConstraints = false
+        HNONWYCELRlbl.text = AppDelegate.HNONWYCELRunravelEncrypted(HNONWYCELRLandmarks: "Neoo fdeaqtvaq kpkowsmt")
+        HNONWYCELRlbl.textAlignment = .center
+        HNONWYCELRlbl.font = UIFont(name: "GillSans", size: 15) // 使用 xib 中的指定字体
+        HNONWYCELRlbl.textColor = .lightGray
+        return HNONWYCELRlbl
+    }()
+    
+
+    init() {
+        super.init(nibName: nil, bundle: nil)
+       
+        let tabBarImage = HNONWYCELRcolorfusioning.HNONWYCELRgarmentripple(HNONWYCELRpaletteform: "HNONWYCvirtual4")
+        let selectedTabBarImage = HNONWYCELRcolorfusioning.HNONWYCELRgarmentripple(HNONWYCELRpaletteform: "HNONWYCELhairstyleGenerator4")
+        self.tabBarItem = UITabBarItem(title: "", image: tabBarImage, selectedImage: selectedTabBarImage)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+ 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        view.backgroundColor = .systemBackground
+        
+        HNONWYCELRgarmentmatrix()
+        HNONWYCELRchromatunity()
+        HNONWYCELRapplyExistingIBLogic()
+        HNONWYCELRsetupActions()
+    }
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        HNONWYCELRrefreshHoniyPassport()
+    }
+    
+   
+    private func HNONWYCELRgarmentmatrix() {
+      
+        view.addSubview(HNONWYCELRfittingmode)
+        view.addSubview(HNONWYCELRcolorclarity)
+        view.addSubview(HNONWYCELRfabrictone)
+        view.addSubview(HNONWYCELRoutfitValidation)
+        view.addSubview(HNONWYCELRoutfitDiscovery)
+        view.addSubview(HNONWYCELRoutfitpulse)
+        view.addSubview(HNONWYCELRTriw)
+        view.addSubview(HNONWYCELRTriwz)
+        view.addSubview(HNONWYCELRTriwx)
+        view.addSubview(HNONWYCELRmyPostLabel)
+        view.addSubview(HNONWYCELRnoDataImageView)
+        view.addSubview(HNONWYCELRnoDataLabel)
+    }
+    
+    private func HNONWYCELRchromatunity() {
+        let safeArea = view.safeAreaLayoutGuide
+        
+        NSLayoutConstraint.activate([
+       
+            HNONWYCELRfittingmode.topAnchor.constraint(equalTo: view.topAnchor),
+            HNONWYCELRfittingmode.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            HNONWYCELRfittingmode.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            HNONWYCELRfittingmode.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            
+            HNONWYCELRcolorclarity.topAnchor.constraint(equalTo: safeArea.topAnchor),
+            HNONWYCELRcolorclarity.leadingAnchor.constraint(equalTo: safeArea.leadingAnchor, constant: 12),
+            HNONWYCELRcolorclarity.widthAnchor.constraint(equalToConstant: 97),
+            HNONWYCELRcolorclarity.heightAnchor.constraint(equalToConstant: 42),
+            
+            HNONWYCELRfabrictone.trailingAnchor.constraint(equalTo: safeArea.trailingAnchor, constant: -12),
+            HNONWYCELRfabrictone.centerYAnchor.constraint(equalTo: HNONWYCELRcolorclarity.centerYAnchor),
+            HNONWYCELRfabrictone.widthAnchor.constraint(equalToConstant: 42),
+            HNONWYCELRfabrictone.heightAnchor.constraint(equalToConstant: 42),
+            
+            HNONWYCELRoutfitValidation.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            HNONWYCELRoutfitValidation.topAnchor.constraint(equalTo: HNONWYCELRcolorclarity.bottomAnchor, constant: 19),
+            HNONWYCELRoutfitValidation.widthAnchor.constraint(equalToConstant: 100),
+            HNONWYCELRoutfitValidation.heightAnchor.constraint(equalToConstant: 100),
+            
+            HNONWYCELRoutfitDiscovery.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            HNONWYCELRoutfitDiscovery.topAnchor.constraint(equalTo: HNONWYCELRoutfitValidation.bottomAnchor, constant: 13),
+            HNONWYCELRoutfitDiscovery.widthAnchor.constraint(equalToConstant: 80),
+            
+            HNONWYCELRoutfitpulse.leadingAnchor.constraint(equalTo: HNONWYCELRoutfitDiscovery.trailingAnchor, constant: 2),
+            HNONWYCELRoutfitpulse.centerYAnchor.constraint(equalTo: HNONWYCELRoutfitDiscovery.centerYAnchor),
+            HNONWYCELRoutfitpulse.widthAnchor.constraint(equalToConstant: 42),
+            HNONWYCELRoutfitpulse.heightAnchor.constraint(equalToConstant: 42),
+            
+            HNONWYCELRTriw.leadingAnchor.constraint(equalTo: safeArea.leadingAnchor, constant: 12),
+            HNONWYCELRTriw.topAnchor.constraint(equalTo: HNONWYCELRoutfitpulse.bottomAnchor, constant: 20),
+            HNONWYCELRTriw.heightAnchor.constraint(equalToConstant: 80),
+            
+            HNONWYCELRTriwz.leadingAnchor.constraint(equalTo: HNONWYCELRTriw.trailingAnchor, constant: 10),
+            HNONWYCELRTriwz.centerYAnchor.constraint(equalTo: HNONWYCELRTriw.centerYAnchor),
+            HNONWYCELRTriwz.heightAnchor.constraint(equalToConstant: 80),
+            HNONWYCELRTriwz.widthAnchor.constraint(equalTo: HNONWYCELRTriw.widthAnchor),
+            
+            HNONWYCELRTriwx.leadingAnchor.constraint(equalTo: HNONWYCELRTriwz.trailingAnchor, constant: 10),
+            HNONWYCELRTriwx.trailingAnchor.constraint(equalTo: safeArea.trailingAnchor, constant: -12),
+            HNONWYCELRTriwx.centerYAnchor.constraint(equalTo: HNONWYCELRTriw.centerYAnchor),
+            HNONWYCELRTriwx.heightAnchor.constraint(equalToConstant: 80),
+            HNONWYCELRTriwx.widthAnchor.constraint(equalTo: HNONWYCELRTriw.widthAnchor),
+            
+            HNONWYCELRmyPostLabel.leadingAnchor.constraint(equalTo: HNONWYCELRTriw.leadingAnchor),
+            HNONWYCELRmyPostLabel.topAnchor.constraint(equalTo: HNONWYCELRTriw.bottomAnchor, constant: 20),
+            
+            HNONWYCELRnoDataImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            HNONWYCELRnoDataImageView.topAnchor.constraint(equalTo: HNONWYCELRmyPostLabel.bottomAnchor, constant: 42.5),
+            HNONWYCELRnoDataImageView.widthAnchor.constraint(equalToConstant: 97),
+            HNONWYCELRnoDataImageView.heightAnchor.constraint(equalToConstant: 74),
+            
+            HNONWYCELRnoDataLabel.centerXAnchor.constraint(equalTo: HNONWYCELRnoDataImageView.centerXAnchor),
+            HNONWYCELRnoDataLabel.topAnchor.constraint(equalTo: HNONWYCELRnoDataImageView.bottomAnchor, constant: 22),
+        ])
+    }
+    
+    private func HNONWYCELRapplyExistingIBLogic() {
+     
+        HNONWYCELRoutfitDiscovery.text = UserDefaults.standard.object(forKey: "outfitArchitect") as? String
+        HNONWYCELRrefreshHoniyPassport()
+        
+        HNONWYCELRoutfitValidation.layer.cornerRadius = 15
+        HNONWYCELRoutfitValidation.layer.masksToBounds = true
+        
+        HNONWYCELRTriw.layer.cornerRadius = 15
+        HNONWYCELRTriw.layer.masksToBounds = true
+        
+        HNONWYCELRTriwz.layer.cornerRadius = 15
+        HNONWYCELRTriwz.layer.masksToBounds = true
+        
+        HNONWYCELRTriwx.layer.cornerRadius = 15
+        HNONWYCELRTriwx.layer.masksToBounds = true
+    }
+
+    private func HNONWYCELRrefreshHoniyPassport() {
+        guard let HNONWYCELRprofile = HNONWYCELRHoniyPassportCabinet.HNONWYCELRhoniyCurrentPassport() else {
+            return
+        }
+        HNONWYCELRoutfitDiscovery.text = HNONWYCELRprofile.HNONWYCELRhoniyDisplayName
+        if let HNONWYCELRportrait = HNONWYCELRHoniyPassportCabinet.HNONWYCELRhoniyAvatarFrame(HNONWYCELRprofile) {
+            HNONWYCELRoutfitValidation.image = HNONWYCELRportrait
+        }
+    }
+    
+    private func HNONWYCELRsetupActions() {
+        // 连接按钮的 action
+        HNONWYCELRfabrictone.addTarget(self, action: #selector(HNONWYCELRwardrobePipe(_:)), for: .touchUpInside)
+        HNONWYCELRoutfitpulse.addTarget(self, action: #selector(HNONWYCELRwardrobePipe(_:)), for: .touchUpInside)
+        HNONWYCELRTriw.addTarget(self, action: #selector(HNONWYCELRwardrobePipe(_:)), for: .touchUpInside)
+        HNONWYCELRTriwz.addTarget(self, action: #selector(HNONWYCELRwardrobePipe(_:)), for: .touchUpInside)
+        HNONWYCELRTriwx.addTarget(self, action: #selector(HNONWYCELRwardrobePipe(_:)), for: .touchUpInside)
+    }
+
+
+    @objc func HNONWYCELRwardrobePipe(_ sender: UIButton) {
+        var feivt =  HNONWYCELRAtfitFryer.HNONWYCELRoutfitEngine.HNONWYCELRwardrobeSpout(HNONWYCELRNozzle: "")
+        
+        switch sender.tag  {
+        case 70:
+            feivt = HNONWYCELRAtfitFryer.HNONWYCELRoutfitPropeller.HNONWYCELRwardrobeSpout(HNONWYCELRNozzle: "")
+        case 80:
+            feivt = HNONWYCELRAtfitFryer.HNONWYCELRstyleRotor.HNONWYCELRwardrobeSpout(HNONWYCELRNozzle: "")
+        case 90:
+            feivt = HNONWYCELRAtfitFryer.HNONWYCELRwardrobeImpeller.HNONWYCELRwardrobeSpout(HNONWYCELRNozzle: "")
+        case 100:
+            feivt = HNONWYCELRAtfitFryer.HNONWYCELRoutfitPump.HNONWYCELRwardrobeSpout(HNONWYCELRNozzle: "")
+        case 110:
+            feivt = HNONWYCELRAtfitFryer.HNONWYCELRwardrobeCooler.HNONWYCELRwardrobeSpout(HNONWYCELRNozzle: "")
+        default:
+            break
+        }
+        
+        let HNONWYCELRwardrobeHeroism =  HNONWYCELRWardrobeVatontroller.init(HNONWYCELRstyleMotor: feivt)
+        HNONWYCELRwardrobeHeroism.HNONWYCELRoutfitShroud = false
+        self.navigationController?.pushViewController(HNONWYCELRwardrobeHeroism, animated: true)
+    }
+}
