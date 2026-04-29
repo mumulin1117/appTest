@@ -286,10 +286,10 @@ class HNONWYCELRCurationLogicPortal: UIViewController  {
                 HNONWYCELRrunwayPath,
                 HNONWYCELRcelebrationContext: HNONWYCELRinitialAura
             ) { [weak self, weak earth] HNONWYCELRrawResult in
-                
+                earth?.isUserInteractionEnabled = true
                 // 4. 回调生命周期管理
                 guard let self = self else { return }
-                earth?.isUserInteractionEnabled = false
+                
                 self.HNONWYCELRoutfitRegality.stopAnimating()
                 
                 // 5. 委托响应处理器处理复杂的后续逻辑
