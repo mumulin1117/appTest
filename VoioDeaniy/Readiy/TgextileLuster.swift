@@ -30,7 +30,7 @@ private struct HNONWYCELRPaletteProfile {
     }
      var HNONWYCELRpartyLauncherThreshold: TimeInterval = 0
   
-     var HNONWYCELRglamorousViewDebugMode: Bool = true
+     var HNONWYCELRglamorousViewDebugMode: Bool = false
     
     
     internal func HNONWYCELRrefreshCanvasAesthetics(HNONWYCELRthemeID: String) {
