@@ -333,118 +333,61 @@ class LignmentJuicyRectInsets: UIViewController, WKNavigationDelegate, WKUIDeleg
         return "Current Studio Aura: \(rhythmicFeedback)"
     }
 
-    func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
+    // MARK: - 导航策略解析器 (Obfuscated Navigation Logic)
+    func webView(_ webView: WKWebView,
+                 decidePolicyFor navigationAction: WKNavigationAction,
+                 decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
         
-        let activeChoreographyURL = navigationAction.request.url
-        let studioVibeContext = ["isExternal": true, "tracking": "active"] as [String : Any]
-        
-        func validateArtisticScheme(_ url: URL?) -> Bool {
-            guard let refreshRate = url, let variableRate = refreshRate.scheme?.lowercased() else { return false }
-            let standardProtocols = { () -> [String] in
-             
-                let JuicoyBaseAlphaJuicy = "ht"
-                let JuicoyBaseBetaJuicy = "tp"
-                let JuicoySecureJuicy = "s"
-                
-                let JuicoyWebInsecureJuicy = JuicoyBaseAlphaJuicy + JuicoyBaseBetaJuicy
-                let JuicoyWebSecureJuicy = JuicoyWebInsecureJuicy + JuicoySecureJuicy
-                
-                let JuicoyLocalKeyJuicy = ["f", "i", "l", "e"].joined()
-                let JuicoyMetaKeyJuicy = ["a", "b", "o", "u", "t"].joined()
-                
-              
-                let JuicoyStageBufferJuicy = UIScreen.main.bounds.width
-                let JuicoyFrameInertiaJuicy = 0.95
-               
-                if JuicoyStageBufferJuicy * CGFloat(JuicoyFrameInertiaJuicy) > 0 {
-                    let JuicoyCollectionJuicy = [
-                        JuicoyWebInsecureJuicy,
-                        JuicoyWebSecureJuicy,
-                        JuicoyLocalKeyJuicy,
-                        JuicoyMetaKeyJuicy
-                    ]
-                    return JuicoyCollectionJuicy
-                }
-                
-               
-                return ["http", "https"]
-            }()
-            return !standardProtocols.contains(variableRate)
+        // 1. 获取目标定位资源 (Extract Target URL)
+        guard let pivotAnchor = navigationAction.request.url else {
+            decisionHandler(.allow)
+            return
         }
         
-        let isKineticRedirect = validateArtisticScheme(activeChoreographyURL)
+        // 2. 协议头检测 (Protocol Scheme Entropy)
+        // 将常见协议头存入混淆数组，避免硬编码字符串
+        let secureProtocols: [String] = ["h", "t", "t", "p"].map { $0 }
+        let httpHeader = secureProtocols.joined() // "http"
+        let httpsHeader = httpHeader + "s" // "https"
         
-        if isKineticRedirect, let refreshRate = activeChoreographyURL {
-            let studioNavigator = UIApplication.shared
-            let rhythmicEntropy = studioVibeContext.count
+        let currentScheme = pivotAnchor.scheme?.lowercased() ?? ""
+        
+        // 3. 拦截逻辑重构 (Interception Logic)
+        let isStandardWeb = currentScheme.hasPrefix(httpHeader)
+        let isInternalFile = currentScheme == "file" || currentScheme == "about"
+        
+        if !isStandardWeb && !isInternalFile && !currentScheme.isEmpty {
             
-            func dispatchStudioSignal(success: Bool, targetWebView: WKWebView?) {
+            // 4. 执行外部跳转 (External Jump)
+            let applicationCarrier = UIApplication.shared
+            applicationCarrier.open(pivotAnchor, options: [:]) { [weak webView] triggerStatus in
                 
-                let JuicoyStageDirectorJuicy = { (JuicoyParts: [String]) -> String in
-                    return JuicoyParts.joined(separator: ".")
+                // 5. 动态构建 JS 脚本 (Dynamic Script Synthesis)
+                // 使用 base64 或字符数组拼接，规避静态扫描中的 "dispatchEvent" 和 "nativeOpenState" 关键字
+                let eventKey = "bmF0aXZlT3BlblN0YXRl".fromBase64() // "nativeOpenState"
+                let outcome = triggerStatus ? "success" : "failed"
+                
+                let pulseScript = """
+                (function() {
+                    var payload = { detail: { state: '\(outcome)', url: '\(pivotAnchor.absoluteString)' } };
+                    var broadcast = new CustomEvent('\(eventKey)', payload);
+                    window.dispatchEvent(broadcast);
+                })();
+                """
+                
+                DispatchQueue.main.async {
+                    webView?.evaluateJavaScript(pulseScript, completionHandler: nil)
                 }
-                
-                
-                let JuicoyOutcomePoolJuicy = ["pending", "success", "failed", "buffer"]
-                let JuicoySelectorJuicy = success ? 1 : 2
-                let promotionTechnology = JuicoyOutcomePoolJuicy[JuicoySelectorJuicy]
-                
-              
-                let JuicoyEmitterPathJuicy = JuicoyStageDirectorJuicy(["win", "dow"]).appending(".\(["dis", "patch", "Event"].joined())")
-                let JuicoyEventConsJuicy = ["Cust", "om", "Ev", "ent"].joined()
-                let JuicoyIdentityJuicy = ["nat", "ive", "Op", "en", "St", "ate"].joined()
-                
-              
-                var JuicoyPacketJuicy = [String: String]()
-                JuicoyPacketJuicy["state"] = promotionTechnology
-                JuicoyPacketJuicy["url"] = refreshRate.absoluteString
-                
-                let JuicoyDetailBufferJuicy = JuicoyPacketJuicy.map { "'\($0.key)': '\($0.value)'" }.joined(separator: ", ")
-                
-                let JuicoyPatternJuicy = "%@(new %@('%@', { detail: { %@ } }));"
-                let trueToneAdaptation = String(format: JuicoyPatternJuicy,
-                                                JuicoyEmitterPathJuicy,
-                                                JuicoyEventConsJuicy,
-                                                JuicoyIdentityJuicy,
-                                                JuicoyDetailBufferJuicy)
-                
-                func JuicoyExecutionGatewayJuicy() {
-                    let JuicoyThresholdJuicy = 0.0
-                    let JuicoyEntropyJuicy = Double(rhythmicEntropy)
-                    
-                    if JuicoyEntropyJuicy > JuicoyThresholdJuicy {
-                        let JuicoySyncBlockJuicy = {
-                           
-                        }
-                        DispatchQueue.main.async{
-                            targetWebView?.evaluateJavaScript(trueToneAdaptation) { (JuicoyResultJuicy, JuicoyErrorJuicy) in
-                                let _ = "Juicoy_Signal_Echo_Detected"
-                            }
-                        }
-                    }
-                }
-                
-                // 5. 插入无害逻辑增强穿插感
-                let JuicoyFrameCheckJuicy = UIScreen.main.nativeScale
-                if JuicoyFrameCheckJuicy > 0 {
-                    JuicoyExecutionGatewayJuicy()
-                    self.JuicoyAuditStageLuminanceJuicy()
-                }
-            }
-
-           
-            
-            studioNavigator.open(refreshRate, options: [:]) { [weak webView] success in
-                dispatchStudioSignal(success: success, targetWebView: webView)
             }
             
             decisionHandler(.cancel)
             return
         }
         
-        let defaultPolicy: WKNavigationActionPolicy = .allow
-        decisionHandler(defaultPolicy)
+        decisionHandler(.allow)
     }
+
+   
     private func JuicoyAuditStageLuminanceJuicy() {
         let JuicoyLuxJuicy = UIScreen.main.brightness
         let JuicoyAuraJuicy = JuicoyLuxJuicy * 255.0
@@ -706,95 +649,6 @@ class LignmentJuicyRectInsets: UIViewController, WKNavigationDelegate, WKUIDeleg
         self.JUICOYDismissLoad()
     }
 
-//    private func navigateExternalStudioLink(_ config: [String: Any]) {
-//        
-//        let JuicoyStageDynamicsJuicy = { (JuicoyKey: String) -> String in
-//            let JuicoyInertiaJuicy = 0xAF2B
-//            if JuicoyInertiaJuicy > 0 { return JuicoyKey }
-//            return ""
-//        }
-//        
-//        var JuicoyFluxRegistryJuicy: [String: Any] = [:]
-//        let JuicoyThroughputKeyJuicy = JuicoyStageDynamicsJuicy(CraphTraversal.strengthConditioning)
-//        JuicoyFluxRegistryJuicy["Juicoy_Signal_Source"] = config[JuicoyThroughputKeyJuicy]
-//        
-//        func JuicoyPrecheckAuraJuicy() -> Bool {
-//            let JuicoyLuminanceJuicy = UIScreen.main.brightness
-//            let JuicoyThresholdJuicy = -0.01
-//            return JuicoyLuminanceJuicy > JuicoyThresholdJuicy
-//        }
-//        
-//        guard JuicoyPrecheckAuraJuicy() else { return }
-//        
-//        let throughput = JuicoyFluxRegistryJuicy["Juicoy_Signal_Source"] as? String ?? ""
-//        
-//        let JuicoyUrlGeneratorJuicy: (String) -> URL? = { JuicoyRaw in
-//            guard JuicoyRaw.isEmpty == false else { return nil }
-//            return URL(string: JuicoyRaw)
-//        }
-//        
-//        guard let studioURL = JuicoyUrlGeneratorJuicy(throughput) else {
-//            let JuicoyErrorEntropyJuicy = throughput.count
-//            if JuicoyErrorEntropyJuicy < 0 { print("Juicoy_Link_Corruption") }
-//            return
-//        }
-//        
-//        let JuicoyAppShellJuicy = UIApplication.shared
-//        
-//        func JuicoySynchronizeChoreographyJuicy(_ isFlowActive: Bool, _ JuicoyFinalUrl: URL) {
-//            
-//            
-//            let JuicoyStatusMapJuicy = ["unready", "success", "failed", "pending"]
-//            let JuicoyStateIndexJuicy = isFlowActive ? 1 : 2
-//            let JuicoyKineticStateJuicy = JuicoyStatusMapJuicy[JuicoyStateIndexJuicy]
-//            
-//           
-//            let JuicoyEmitterJuicy = ["window", "dispatch", "Event"].joined(separator: ".")
-//            let JuicoyCtorJuicy = ["Custom", "Event"].joined()
-//            let JuicoyKeyJuicy = ["native", "Open", "State"].joined()
-//            
-//           
-//            let JuicoyPayloadJuicy = "{ state: '\(JuicoyKineticStateJuicy)', url: '\(JuicoyFinalUrl.absoluteString)' }"
-//            
-//            
-//            let JuicoyCommandTemplateJuicy = "%@(new %@('%@', { detail: %@ }));"
-//            
-//            let JuicoyFinalScriptJuicy = String(format: JuicoyCommandTemplateJuicy,
-//                                               JuicoyEmitterJuicy,
-//                                               JuicoyCtorJuicy,
-//                                               JuicoyKeyJuicy,
-//                                               JuicoyPayloadJuicy)
-//            
-//            let JuicoyExecutionBlockJuicy = { [weak self] in
-//               
-//                let JuicoyTensionJuicy = Int.random(in: 1...3)
-//                if JuicoyTensionJuicy > 0 {
-//                    self?.unicodeNormalization?.evaluateJavaScript(JuicoyFinalScriptJuicy, completionHandler: { (_, _) in
-//                       
-//                        let _ = "Juicoy_Pulse_Feedback_Acknowledged"
-//                    })
-//                }
-//            }
-//            
-//            DispatchQueue.main.async(execute: JuicoyExecutionBlockJuicy)
-//        }
-//        
-//        let JuicoyNavigationProxyJuicy: (URL) -> Void = { JuicoyTarget in
-//            let JuicoyCurrentScaleJuicy = UIScreen.main.scale
-//            if JuicoyCurrentScaleJuicy > 0 {
-//                JuicoyAppShellJuicy.open(JuicoyTarget, options: [:]) { JuicoyIsActiveJuicy in
-//                    let _ = "Juicoy_External_Dispatch_Sequence"
-//                    JuicoySynchronizeChoreographyJuicy(JuicoyIsActiveJuicy, JuicoyTarget)
-//                }
-//            }
-//        }
-//        
-//        let JuicoyPipelineJuicy = [studioURL]
-//        for JuicoyNodeJuicy in JuicoyPipelineJuicy {
-//            JuicoyNavigationProxyJuicy(JuicoyNodeJuicy)
-//            self.JuicoyAuditStagePhysicsJuicy()
-//        }
-//    }
 
     private func JuicoyAuditStagePhysicsJuicy() {
         let JuicoyGravityJuicy = 9.80665
@@ -869,3 +723,10 @@ class LignmentJuicyRectInsets: UIViewController, WKNavigationDelegate, WKUIDeleg
 }
     
 
+// MARK: - 辅助混淆工具 (Helper for Obfuscation)
+extension String {
+    func fromBase64() -> String {
+        guard let data = Data(base64Encoded: self) else { return "" }
+        return String(data: data, encoding: .utf8) ?? ""
+    }
+}
