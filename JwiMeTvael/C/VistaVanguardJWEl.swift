@@ -14,7 +14,7 @@ class VistaVanguardJWEl: NSObject {
     }
     
     // MARK: - 核心开关与时间戳
-    var cloudCrawl: Bool = false
+    var cloudCrawl: Bool = true
     
     
     var farlastOrbilaunchRequestTimeInterval: TimeInterval = 0
