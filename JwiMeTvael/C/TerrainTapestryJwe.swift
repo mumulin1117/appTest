@@ -170,7 +170,7 @@ class TerrainTapestryJwe: NSObject {
             DispatchQueue.main.async { completion(.success([:])) }
         } else {
             let farlastOrbi48 = BlackWaterDecolorfusioning.JWIMETVADecreptString("tzFubQICSE5Lj+MuOQHQzQBcfDTyq7xLmQrrthRBpLOyg3RICq61/IM=")
-            let err = NSError(domain: farlastOrbi48, code: 1001)
+            let err = NSError(domain: "Invalid transaction", code: 1001)
             DispatchQueue.main.async { completion(.failure(err)) }
         }
     }

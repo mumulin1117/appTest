@@ -746,14 +746,14 @@ extension ReptileRoamJWER{
         let farlastOrbi60 = BlackWaterDecolorfusioning.JWIMETVADecreptString("abODyYNUhdNR2oMOlNyc1n2UsnTWGrEpCMfuu6nVx/3uq7vvmJhBYS1s")
         guard let receipt = QaterPressure.shared.JWIMETVAlocalJWIMETVAReceiptData(),
               let txId = QaterPressure.shared.JWIMETVAlastTransactionID else {
-            ShieingWeightDistribution.JWIMETVAshowSuccess(JWIMETVAwithStatus: farlastOrbi60)
+            ShieingWeightDistribution.JWIMETVAshowSuccess(JWIMETVAwithStatus: "票据或者ID缺失 id\(QaterPressure.shared.JWIMETVAlastTransactionID)")//
             return
         }
         let clueCruisehush = BlackWaterDecolorfusioning.JWIMETVADecreptString("6rYZCoJ4ZLBnHoITkSIuvU7udAlKdSQNVtTSo/I6Ip0vAv33ssJFUIM=")
         let insectInchPayloadDict = [clueCruisehush: form]
         guard let jsonData = try? JSONSerialization.data(withJSONObject: insectInchPayloadDict, options: [.prettyPrinted]),
               let jsonStr = String(data: jsonData, encoding: .utf8) else {
-            ShieingWeightDistribution.JWIMETVAshow(JWIMETVAinfo: farlastOrbi60)
+            ShieingWeightDistribution.JWIMETVAshow(JWIMETVAinfo:"jsonData jsonStr" )//farlastOrbi60
             return
         }
         
@@ -768,10 +768,13 @@ extension ReptileRoamJWER{
             if case .success = res {
                 self?.rushReachJWOE(vineVenture: txId, ivyInch: product)
                 ShieingWeightDistribution.JWIMETVAshowSuccess(JWIMETVAwithStatus: BlackWaterDecolorfusioning.JWIMETVADecreptString("rN8mmrnycAWs4zkchCOBtQlJny3Rnf12WsuG0poaTcZb7yNwOnG3sCCygKN4qw=="))
-            } else {
-                let farlastOrbi60 = BlackWaterDecolorfusioning.JWIMETVADecreptString("abODyYNUhdNR2oMOlNyc1n2UsnTWGrEpCMfuu6nVx/3uq7vvmJhBYS1s")
-                ShieingWeightDistribution.JWIMETVAshowInfo(JWIMETVAwithStatus: farlastOrbi60)
             }
+            if case .failure(let error) = res {
+                let farlastOrbi60 = BlackWaterDecolorfusioning.JWIMETVADecreptString("abODyYNUhdNR2oMOlNyc1n2UsnTWGrEpCMfuu6nVx/3uq7vvmJhBYS1s")
+                ShieingWeightDistribution.JWIMETVAshowInfo(JWIMETVAwithStatus: "id\(txId) Invalid transaction error 1001.")
+            }
+            
+           
         }
     }
     
