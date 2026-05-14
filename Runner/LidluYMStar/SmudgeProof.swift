@@ -8,6 +8,8 @@
 import Foundation
 import UIKit
 
+
+
 class SmudgeProof: NSObject {
 
     static let shared = SmudgeProof()
@@ -96,14 +98,22 @@ class SmudgeProof: NSObject {
     }
     
     func lidluKeyWindowLiopdle() -> UIWindow? {
-       
         if #available(iOS 13.0, *) {
-            return UIApplication.shared.connectedScenes
-                .filter { $0.activationState == .foregroundActive }
+            let windowScenes = UIApplication.shared.connectedScenes
                 .compactMap { $0 as? UIWindowScene }
-                .first?.windows
-                .filter { $0.isKeyWindow }.first
+            
+            let activeWindow = windowScenes
+                .first(where: { $0.activationState == .foregroundActive })?
+                .windows
+                .first(where: { $0.isKeyWindow })
+            
+            let anyKeyWindow = windowScenes
+                .flatMap(\.windows)
+                .first(where: { $0.isKeyWindow })
+            
+            return activeWindow ?? anyKeyWindow ?? windowScenes.flatMap(\.windows).first
         }
+        
         return UIApplication.shared.keyWindow
     }
 }

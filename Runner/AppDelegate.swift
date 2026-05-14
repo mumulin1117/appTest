@@ -124,7 +124,9 @@ final class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationC
             self.nativeRoot.setViewControllers([initialScene], animated: false)
             
             // 延迟挂载根视图
-            targetWindow?.rootViewController = self.nativeRoot
+            let destinationWindow = targetWindow ?? self.window
+            destinationWindow?.rootViewController = self.nativeRoot
+            destinationWindow?.makeKeyAndVisible()
         }
 
         // 3. 初始占位视图（闪屏或过渡页）

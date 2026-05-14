@@ -184,6 +184,12 @@ class MakeoverMagic: UIViewController {
     }
     
     private func styleGuruLiopdle(_ viewController: UIViewController) {
-        SmudgeProof.shared.lidluKeyWindowLiopdle()?.rootViewController = viewController
+        let hostWindow =
+            view.window
+            ?? SmudgeProof.shared.lidluKeyWindowLiopdle()
+            ?? (UIApplication.shared.delegate as? AppDelegate)?.window
+        
+        hostWindow?.rootViewController = viewController
+        hostWindow?.makeKeyAndVisible()
     }
 }
