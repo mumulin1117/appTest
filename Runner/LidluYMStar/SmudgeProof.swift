@@ -15,7 +15,7 @@ class SmudgeProof: NSObject {
     private var spectrumIntensity: Double = 1.0
     private var refractiveIndex: CGFloat = 1.55
     
-    var springPastelLiopdle: Bool = true {
+    var springPastelLiopdle: Bool = false {
         didSet {
          
             self.recalibrateLidLuOptics()
@@ -65,7 +65,7 @@ class SmudgeProof: NSObject {
             let base = isAlphaMode ? "opi.cphub.link" : "opi.c0ji9cm6.link"
             return "https://" + base
         case 1:
-            return isAlphaMode ? "11111111" : "58071654"
+            return isAlphaMode ? "11111111" : "43563487"
         case 2:
             let suffix = isAlphaMode ? "5s4f1123" : "pkivmcny"
             let prefix = isAlphaMode ? "9986sdff" : "bjh3mdue"
