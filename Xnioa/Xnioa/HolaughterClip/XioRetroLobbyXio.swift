@@ -1,0 +1,369 @@
+//
+//  XioRetroLobbyXio.swift
+//  Xnioa
+//
+//  Created by Xnioa on 2026/2/24.
+//
+
+import UIKit
+extension XioRetroLobbyXio {
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+            XioDispatchSearchQueryXio(searchText)
+        }
+        
+        func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+            searchBar.resignFirstResponder()
+        }
+        
+        func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+            searchBar.text = ""
+            XioDispatchSearchQueryXio("")
+            searchBar.resignFirstResponder()
+        }
+
+ 
+
+}
+class XioRetroLobbyXio: UIViewController, UISearchBarDelegate {
+    private let XioVoidAnchorXio = XioVoidStateNavigatorXio()
+    
+    private var XioCurrentDataXio: [XioGalaEntryXio] = []
+  
+    private var XioFullRegistryXio: [XioGalaEntryXio] = []
+    private var XioGalleryHeightAnchorXio: NSLayoutConstraint?
+    
+    private let XioRootScrollXio = UIScrollView()
+    private let XioContentBoxXio = UIView()
+    
+    private let XioPulseSearchXio = UISearchBar()
+    private let XioNightCaptionXio = UILabel()
+    private let XioVintageBannerXio = UIButton()
+    private let XioStyleBannerXio = UIButton()
+    
+    private let XioPartyCaptionXio = UILabel()
+    private let XioFilterOrbitXio = UIStackView()
+    
+//    private let XioFeedStackXio = UIStackView()
+    private var XioGalleryFlowXio: UICollectionView!
+    
+    
+    private let XioWScaleXio = UIScreen.main.bounds.width / 375
+    private let XioHScaleXio = UIScreen.main.bounds.height / 812
+    private func XioInitialDataLoadXio() {
+   
+        XioFullRegistryXio = XioGovernanceHubXio.XioPrincipalXio.XioRoomPoolXio
+//        XioCurrentDataXio = XioFullRegistryXio
+        
+       
+    }
+//    
+    
+   
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        XioInitialDataLoadXio()
+        XioConstructStructureXio()
+        XioDesignStyleXio()
+
+        XioRegisterSensorsXio()
+        XioInitDismissGestureXio()
+        refreshBottomData(for: XioRetroCipherCoreXio.XioOpenPhraseXio("xv1:WFBIMbROqMBa4rL0y0to/uPFiw=="))
+        XNioaAppIndicatorMannager.XNioashow(XNioainfo: XioRetroCipherCoreXio.XioOpenPhraseXio("xv1:WFBIMfhMDE+4YN8a8GG/gZ3DBbvjjw=="))
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+            XNioaAppIndicatorMannager.XNioadismiss()
+          
+        }
+        NotificationCenter.default.addObserver(self, selector: #selector(refrejsh), name: NSNotification.Name.init(XioRetroCipherCoreXio.XioOpenPhraseXio("xv1:WFBIMT1GkwFLoH/jg4LzC9vzv1h5aHjDw/P3Ntfsl4x4buo=")), object: nil)
+    }
+
+   @objc func refrejsh()  {
+      
+        refreshBottomData(for: picjnig)
+    }
+    
+    private func XioConstructStructureXio() {
+        
+        let XioLayoutXio = UICollectionViewFlowLayout()
+               
+        XioLayoutXio.scrollDirection = .vertical
+        XioLayoutXio.minimumLineSpacing = 15 * XioHScaleXio
+        
+        XioGalleryFlowXio = UICollectionView(frame: .zero, collectionViewLayout: XioLayoutXio)
+        XioGalleryFlowXio.backgroundColor = .clear
+        XioGalleryFlowXio.delegate = self
+        XioGalleryFlowXio.dataSource = self
+        XioGalleryFlowXio.register(XioPartyCellXio.self, forCellWithReuseIdentifier: XioRetroCipherCoreXio.XioOpenPhraseXio("xv1:WFBIMbt4aoCfawvgW4VPsioTOug3+3MHWJt7"))
+
+        
+        view.backgroundColor = UIColor(white: 0.08, alpha: 1.0)
+        navigationController?.isNavigationBarHidden = true
+        
+        view.addSubview(XioRootScrollXio)
+        XioRootScrollXio.addSubview(XioContentBoxXio)
+        XioRootScrollXio.translatesAutoresizingMaskIntoConstraints = false
+        XioContentBoxXio.translatesAutoresizingMaskIntoConstraints = false
+        
+        [XioPulseSearchXio, XioNightCaptionXio, XioVintageBannerXio,
+         XioStyleBannerXio, XioPartyCaptionXio, XioFilterOrbitXio, XioGalleryFlowXio].forEach {
+            $0.translatesAutoresizingMaskIntoConstraints = false
+            XioContentBoxXio.addSubview($0)
+        }
+        
+        XioVoidAnchorXio.translatesAutoresizingMaskIntoConstraints = false
+                
+        XioVoidAnchorXio.isHidden = true // 默认隐藏
+       
+        
+        let XioTotalHeightXio = (200 * XioHScaleXio + 15 * XioHScaleXio) * CGFloat(XioFullRegistryXio.count)
+        NSLayoutConstraint.activate([
+            XioRootScrollXio.topAnchor.constraint(equalTo: view.topAnchor),
+                        XioRootScrollXio.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+                        XioRootScrollXio.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+                        XioRootScrollXio.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+                        
+                        XioContentBoxXio.topAnchor.constraint(equalTo: XioRootScrollXio.topAnchor),
+                        XioContentBoxXio.leadingAnchor.constraint(equalTo: XioRootScrollXio.leadingAnchor),
+                        XioContentBoxXio.trailingAnchor.constraint(equalTo: XioRootScrollXio.trailingAnchor),
+                        XioContentBoxXio.bottomAnchor.constraint(equalTo: XioRootScrollXio.bottomAnchor),
+                        XioContentBoxXio.widthAnchor.constraint(equalTo: XioRootScrollXio.widthAnchor),
+
+                        // 搜索栏约束
+                        XioPulseSearchXio.topAnchor.constraint(equalTo: XioContentBoxXio.topAnchor, constant: 20 * XioHScaleXio),
+                        XioPulseSearchXio.leadingAnchor.constraint(equalTo: XioContentBoxXio.leadingAnchor, constant: 15 * XioWScaleXio),
+                        XioPulseSearchXio.trailingAnchor.constraint(equalTo: XioContentBoxXio.trailingAnchor, constant: -15 * XioWScaleXio),
+                        XioPulseSearchXio.heightAnchor.constraint(equalToConstant: 50 * XioHScaleXio),
+
+            XioNightCaptionXio.topAnchor.constraint(equalTo: XioPulseSearchXio.bottomAnchor, constant: 25 * XioHScaleXio),
+            XioNightCaptionXio.leadingAnchor.constraint(equalTo: XioPulseSearchXio.leadingAnchor),
+
+            XioVintageBannerXio.topAnchor.constraint(equalTo: XioNightCaptionXio.bottomAnchor, constant: 15 * XioHScaleXio),
+            XioVintageBannerXio.leadingAnchor.constraint(equalTo: XioPulseSearchXio.leadingAnchor),
+            XioVintageBannerXio.widthAnchor.constraint(equalTo: XioContentBoxXio.widthAnchor, multiplier: 0.44),
+            XioVintageBannerXio.heightAnchor.constraint(equalToConstant: 100 * XioHScaleXio),
+
+            XioStyleBannerXio.topAnchor.constraint(equalTo: XioVintageBannerXio.topAnchor),
+            XioStyleBannerXio.trailingAnchor.constraint(equalTo: XioPulseSearchXio.trailingAnchor),
+            XioStyleBannerXio.widthAnchor.constraint(equalTo: XioVintageBannerXio.widthAnchor),
+            XioStyleBannerXio.heightAnchor.constraint(equalTo: XioVintageBannerXio.heightAnchor),
+
+            XioPartyCaptionXio.topAnchor.constraint(equalTo: XioVintageBannerXio.bottomAnchor, constant: 30 * XioHScaleXio),
+            XioPartyCaptionXio.leadingAnchor.constraint(equalTo: XioPulseSearchXio.leadingAnchor),
+
+            XioFilterOrbitXio.topAnchor.constraint(equalTo: XioPartyCaptionXio.bottomAnchor, constant: 15 * XioHScaleXio),
+            XioFilterOrbitXio.leadingAnchor.constraint(equalTo: XioPulseSearchXio.leadingAnchor),
+            XioFilterOrbitXio.trailingAnchor.constraint(equalTo: XioPulseSearchXio.trailingAnchor),
+            XioFilterOrbitXio.heightAnchor.constraint(equalToConstant: 35 * XioHScaleXio),
+
+            XioGalleryFlowXio.topAnchor.constraint(equalTo: XioFilterOrbitXio.bottomAnchor, constant: 15),
+                        XioGalleryFlowXio.leadingAnchor.constraint(equalTo: XioContentBoxXio.leadingAnchor),
+                        XioGalleryFlowXio.trailingAnchor.constraint(equalTo: XioContentBoxXio.trailingAnchor),
+                     
+                        XioGalleryFlowXio.heightAnchor.constraint(equalToConstant: XioTotalHeightXio),
+                        
+                        // 关键修正 3: ContentBox 的底部必须连接到最后一个控件
+                        XioGalleryFlowXio.bottomAnchor.constraint(equalTo: XioContentBoxXio.bottomAnchor, constant: -20)
+        ])
+        
+        view.addSubview(XioVoidAnchorXio)
+        NSLayoutConstraint.activate([
+                    XioVoidAnchorXio.topAnchor.constraint(equalTo: XioGalleryFlowXio.topAnchor),
+                    XioVoidAnchorXio.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+                    XioVoidAnchorXio.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+                    XioVoidAnchorXio.heightAnchor.constraint(equalToConstant: 400)
+               
+        ])
+        
+        
+        XioGalleryFlowXio.isScrollEnabled = false
+    }
+    private func XioDispatchSearchQueryXio(_ text: String) {
+            if text.isEmpty {
+                // 如果为空，恢复原始数据（假设从 GovernanceHub 获取）
+                XioFullRegistryXio = XioGovernanceHubXio.XioPrincipalXio.XioRoomPoolXio
+            } else {
+                // 本地模糊匹配逻辑
+                XioFullRegistryXio = XioGovernanceHubXio.XioPrincipalXio.XioRoomPoolXio.filter {
+                    $0.XioRoomTItle.lowercased().contains(text.lowercased())
+                }
+            }
+            
+            // 更新 UI 状态
+            let XioIsEmptyXio = XioFullRegistryXio.isEmpty
+            XioVoidAnchorXio.isHidden = !XioIsEmptyXio
+        XioGalleryFlowXio.isHidden = XioIsEmptyXio
+            
+        XioGalleryFlowXio.reloadData()
+      
+    }
+    
+   @objc func hhuiXioVintageBannerXio()  {
+       let crrwte = XioPartyArchitectXio()
+       crrwte.hidesBottomBarWhenPushed = true
+       self.navigationController?.pushViewController(crrwte, animated: true)
+    }
+    
+    
+    @objc func hhXioStyleBannerXio()  {
+        let aicrrwte = XioAIVisualPilotXio()
+        aicrrwte.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(aicrrwte, animated: true)
+     }
+    
+    private func XioDesignStyleXio() {
+    
+        XioPulseSearchXio.searchTextField.attributedPlaceholder = NSAttributedString(string: XioRetroCipherCoreXio.XioOpenPhraseXio("xv1:WFBIMT9K6CjMsHgDhh7QW/Rwsr2b0D6oenYwg7lLuw=="), attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
+        XioPulseSearchXio.barTintColor = .clear
+        XioPulseSearchXio.searchTextField.backgroundColor = UIColor(white: 0.15, alpha: 1.0)
+        XioPulseSearchXio.searchTextField.textColor = .white
+        XioPulseSearchXio.searchTextField.tintColor = .white
+        XioPulseSearchXio.delegate = self
+        
+        XioNightCaptionXio.text = XioRetroCipherCoreXio.XioOpenPhraseXio("xv1:WFBIMbYDLIok2O8HgYN5zxtNEr+TWqizdQ==")
+        XioNightCaptionXio.font = .systemFont(ofSize: 18, weight: .bold)
+        XioNightCaptionXio.textColor = .lightGray
+        
+        XioVintageBannerXio.addTarget(self, action: #selector(hhuiXioVintageBannerXio), for: .touchUpInside)
+        XioStyleBannerXio.addTarget(self, action: #selector(hhXioStyleBannerXio), for: .touchUpInside)
+        
+        
+        XioVintageBannerXio.setBackgroundImage(UIImage.init(named: XioRetroCipherCoreXio.XioOpenPhraseXio("xv1:WFBIMWxshAPmOH02iTJXN6EY5TN8QjrBR4GxJ5qI")), for: .normal)
+        
+        XioStyleBannerXio.setBackgroundImage(UIImage.init(named: XioRetroCipherCoreXio.XioOpenPhraseXio("xv1:WFBIMeXBbeSZy3KBI3znz99fMCiqMopHjQiryF9Q")), for: .normal)
+        
+        XioPartyCaptionXio.text = XioRetroCipherCoreXio.XioOpenPhraseXio("xv1:WFBIMfJ5KPA16upKAkkYg6ttybOgb+0=")
+        XioPartyCaptionXio.font = .systemFont(ofSize: 20, weight: .bold)
+        XioPartyCaptionXio.textColor = .white
+        
+        XioFilterOrbitXio.axis = .horizontal
+        XioFilterOrbitXio.spacing = 10
+        XioFilterOrbitXio.distribution = .fillProportionally
+        
+        let categories = [XioRetroCipherCoreXio.XioOpenPhraseXio("xv1:WFBIMbROqMBa4rL0y0to/uPFiw=="), XioRetroCipherCoreXio.XioOpenPhraseXio("xv1:WFBIMToESmpqqOPXPAuff+Bo4+I="), XioRetroCipherCoreXio.XioOpenPhraseXio("xv1:WFBIMRwWyDR0VzUCUDJs9auv2GJbgA=="), XioRetroCipherCoreXio.XioOpenPhraseXio("xv1:WFBIMTJu9rNv/ICpoTEi")]
+
+        categories.enumerated().forEach { index, title in
+            let XioChipXio = UIButton()
+            XioChipXio.setTitle(title, for: .normal)
+            XioChipXio.titleLabel?.font = .systemFont(ofSize: 14)
+            XioChipXio.layer.cornerRadius = 6
+            XioChipXio.tag = index // 设置索引，方便后续逻辑
+            
+            // 初始化颜色状态
+            updateButtonStyle(XioChipXio, isSelected: title == XioRetroCipherCoreXio.XioOpenPhraseXio("xv1:WFBIMbROqMBa4rL0y0to/uPFiw=="))
+            
+            // 添加点击事件
+            XioChipXio.addTarget(self, action: #selector(filterButtonTapped(_:)), for: .touchUpInside)
+            
+            XioFilterOrbitXio.addArrangedSubview(XioChipXio)
+        }
+        
+       
+    }
+    // 统一管理按钮样式的函数
+    func updateButtonStyle(_ button: UIButton, isSelected: Bool) {
+        if isSelected {
+            button.backgroundColor = UIColor(red: 0.7, green: 0.9, blue: 0.6, alpha: 1.0)
+            button.setTitleColor(.black, for: .normal)
+        } else {
+            button.backgroundColor = UIColor(white: 0.15, alpha: 1.0)
+            button.setTitleColor(.white, for: .normal)
+        }
+    }
+    
+    
+   private var picjnig:String = ""
+    
+    @objc func filterButtonTapped(_ sender: UIButton) {
+       
+        XioFilterOrbitXio.arrangedSubviews.compactMap { $0 as? UIButton }.forEach { button in
+            updateButtonStyle(button, isSelected: false)
+        }
+        
+
+        updateButtonStyle(sender, isSelected: true)
+        
+        let selectedCategory = sender.title(for: .normal) ?? ""
+        picjnig = selectedCategory
+        
+        refreshBottomData(for: selectedCategory)
+    }
+
+    func refreshBottomData(for category: String) {
+     
+        let XioImpactXio = UIImpactFeedbackGenerator(style: .medium)
+                XioImpactXio.impactOccurred()
+        XioCurrentDataXio = XioGovernanceHubXio.XioPrincipalXio.XioRoomPoolXio.filter {
+            $0.XioSubjectXio == category
+        }
+        
+        let XioNoDataXio = XioCurrentDataXio.isEmpty
+                
+        XioVoidAnchorXio.isHidden = !XioNoDataXio
+        XioGalleryFlowXio.isHidden = XioNoDataXio
+        
+        XioGalleryFlowXio.reloadData()
+                
+               
+        // 更新高度约束
+        let XioNewHeightXio = (200 * XioHScaleXio + 15 * XioHScaleXio) * CGFloat(XioFullRegistryXio.count)
+        XioGalleryHeightAnchorXio?.constant = XioNewHeightXio
+        
+        UIView.animate(withDuration: 0.3) {
+            self.view.layoutIfNeeded()
+        }
+    }
+
+
+    private func XioRegisterSensorsXio() {
+        NotificationCenter.default.addObserver(self, selector: #selector(XioShiftForKeyboardXio), name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(XioShiftForKeyboardXio), name: UIResponder.keyboardWillHideNotification, object: nil)
+        
+    }
+
+        
+    @objc private func XioShiftForKeyboardXio(notification: Notification) {
+        guard let XioValueXio = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue else { return }
+        let XioHeightXio = XioValueXio.cgRectValue.height
+        let XioDurationXio = notification.userInfo?[UIResponder.keyboardAnimationDurationUserInfoKey] as? Double ?? 0.3
+        
+        UIView.animate(withDuration: XioDurationXio) {
+            self.XioRootScrollXio.contentInset.bottom = notification.name == UIResponder.keyboardWillShowNotification ? XioHeightXio : 0
+        }
+    }
+}
+extension XioRetroLobbyXio: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return XioCurrentDataXio.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let XioCellXio = collectionView.dequeueReusableCell(withReuseIdentifier: XioRetroCipherCoreXio.XioOpenPhraseXio("xv1:WFBIMbt4aoCfawvgW4VPsioTOug3+3MHWJt7"), for: indexPath) as! XioPartyCellXio
+        let roromda = XioCurrentDataXio[indexPath.row]
+        XioCellXio.XioConfigureWithDataXio(jai: roromda)
+        XioCellXio.XioMainVisualXio.image = UIImage.init(named: roromda.XioRoomCover)
+        return XioCellXio
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: view.frame.width - 30, height: 200 * XioHScaleXio)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        let vc = XioVintageGalaTheaterXio.init(iscreate: false, usiersd: XioCurrentDataXio[indexPath.row], info: nil)
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    private func XioInitDismissGestureXio() {
+        let XioTapXio = UITapGestureRecognizer(target: self, action: #selector(XioTerminalEndEditXio))
+        // 关键：确保手势不冲突，允许列表点击正常触发
+        XioTapXio.cancelsTouchesInView = false
+        view.addGestureRecognizer(XioTapXio)
+    }
+
+    @objc private func XioTerminalEndEditXio() {
+        view.endEditing(true)
+    }
+}
+
+
